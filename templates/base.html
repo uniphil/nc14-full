@@ -32,9 +32,17 @@
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    %% block preheader
+    %% endblock
+
     %% block header
       <header>
-
+        <a href="{{ url_for('home', lang=lang) }}">{{ _('Home') }}</a>
+        <a href="{{ url_for('about', lang=lang) }}">{{ _('About') }}</a>
+        <a href="{{ url_for('logistics', lang=lang) }}">{{ _('Logistics') }}</a>
+        <a href="{{ url_for('agenda', lang=lang) }}">{{ _('Agenda') }}</a>
+        <a href="{{ url_for('register', lang=lang) }}">{{ _('Register') }}</a>
       </header>
     %% endblock
 
