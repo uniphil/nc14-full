@@ -31,3 +31,6 @@ October 1
 
 October 3
  * LIFT OFF, let's have beers.
+
+##Notes from emails
+ * Anna re the agenda section: "I see it as a single page with different 'views', i.e. view by keynotes / sessions list or view by time schedule."
