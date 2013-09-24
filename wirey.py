@@ -9,7 +9,7 @@
     write templates and they'll work at their urls. url_for('template')
 """
 
-from flask import Flask, url_for, render_template
+from flask import Flask, url_for, render_template, Markup
 from werkzeug.routing import BuildError
 
 app = Flask(__name__)
@@ -22,7 +22,7 @@ def monkey_url_for(endpoint, **kwargs):
         return url_for('page', page=endpoint, **kwargs)
 
 
-fake_gettext = lambda message: message
+fake_gettext = lambda message: Markup(message)  # haxx me bro
 
 
 @app.route('/')
