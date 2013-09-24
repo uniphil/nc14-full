@@ -22,14 +22,17 @@ def monkey_url_for(endpoint, **kwargs):
         return url_for('page', page=endpoint, **kwargs)
 
 
+fake_gettext = lambda message: message
+
+
 @app.route('/')
 def home():
-    return render_template('home.html', url_for=monkey_url_for)
+    return render_template('home.html', url_for=monkey_url_for, _=fake_gettext)
 
 
 @app.route('/<page>')
 def page(page):
-    return render_template('{}.html'.format(page), url_for=monkey_url_for)
+    return render_template('{}.html'.format(page), url_for=monkey_url_for, _=fake_gettext)
 
 
 if __name__ == '__main__':
