@@ -1,40 +1,29 @@
-@import compass
-@import "compass/reset/"
-@import "compass/layout/"
+@import main
 
-$gr: 1.61803398875
-@import typography
+body, html
+  height: auto
 
-html
-  width: 100%
-//  color: #f8f8f8
-//  background-image: url('../../img/sponsor-bg.jpg')
-//  background-position: top center
-//  background-size: cover
-body
+.overlay
+  text-align: center
+
+.sponsor-page
   width: 100% - (100% / $gr / $gr)
-  margin-top: 100% / $gr / $gr / $gr / $gr / $gr / $gr
-  margin-left: 100% / $gr / $gr / $gr / $gr / $gr
-h1
-  font-size: 18px * 2.5
-  line-height: 1.3em
-  margin-bottom: 0.5em
-  font-weight: bold
-p, li
-  font-size: 18px
-  line-height: 1.5em
-  margin-bottom: 1em
-li
-  list-style: disc
-  margin-left: 1em
-a
-  color: #0088dd
-  text-decoration: none
-  border-bottom: 1px dashed #22a0ff
-strong
-  font-weight: bold
+  margin: 48px auto
+  p, li
+    font-size: 18px * 1.2
+    line-height: 1.5em
+    margin-bottom: 1em
+  li
+    list-style: disc
+    margin-left: 1.5em
+  a
+    color: #0088dd
+    text-decoration: none
+    border-bottom: 1px dashed #22a0ff
+  strong
+    font-weight: bold
 
 @media only screen and (max-width:480px)
-  body
+  .sponsor-page
     width: 95%
-    margin: 0 2.5%
+    margin: 36px 2.5%

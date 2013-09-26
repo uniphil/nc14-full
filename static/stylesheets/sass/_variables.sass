@@ -14,6 +14,8 @@ $cpartner: #f58345
 //////////////////
 $sponsors: sprite-map("sponsors/*.png")
 
+// Demo comment
+
 ////////////////
 // Extentions //
 ////////////////
@@ -32,17 +34,32 @@ $sponsors: sprite-map("sponsors/*.png")
 @function strip-unit($val)
   @return $val / ($val * 0 + 1)
 
-=retina-sprites($spritesheet)
+=retina-sprites($spritesheet, $ie8: true, $ie-folder: 'foo')
   @each $sprite in sprite_names($spritesheet)
-    &.#{$sprite}
-      $positions: ''
-      @each $j in sprite-position($spritesheet, $sprite)
-        $positions: append(unquote($positions), $j / 2, space)
-      height: image-height(sprite-file($spritesheet, $sprite)) / 2
-      width: image-width(sprite-file($spritesheet, $sprite)) / 2
-      background-position: $positions
-  background-image: $spritesheet
-  background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
+    @if $ie8
+      // use modernizr to add backgroundsize class
+      &.#{$sprite}
+        height: image-height(sprite-file($spritesheet, $sprite)) / 2
+        width: image-width(sprite-file($spritesheet, $sprite)) / 2
+        background-image: url('../../img/#{$ie-folder}-ie/#{$sprite}-ie.png')
+        .backgroundsize &
+          $positions: ''
+          @each $j in sprite-position($spritesheet, $sprite)
+            $positions: append(unquote($positions), $j / 2, space)
+          background-position: $positions
+      .backgroundsize &
+        background-image: $spritesheet
+        background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
+    @else
+      &.#{$sprite}
+        height: image-height(sprite-file($spritesheet, $sprite)) / 2
+        width: image-width(sprite-file($spritesheet, $sprite)) / 2
+        $positions: ''
+        @each $j in sprite-position($spritesheet, $sprite)
+          $positions: append(unquote($positions), $j / 2, space)
+        background-position: $positions
+      background-image: $spritesheet
+      background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
 
 /////////////////////////////////////////////
 // Helper classes, adapted from H5BPv4.3.0 //
