@@ -1,12 +1,16 @@
-header, .maininner, .conference-points, .sponsors
-  width: 84%
-  min-width: 800px
-  max-width: 1000px
-  margin: auto
-.conference-points
-  max-width: 1340px
+html
+  background: #f0f0f0 url(../../img/gray-jean.png)
 
-header
+body
+  width: 920px
+  margin: 0 auto
+  box-shadow: 0 0 60px #ccc
+  background-color: white
+
+.preheader, .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors
+  padding: 0 2.5%
+
+.preheader
   font-size: 0
   h2
     font-weight: bold
@@ -19,7 +23,8 @@ header
     height: 36px
     line-height: 36px
     width: 100%
-    margin: 18px 0
+    margin-bottom: 18px
+    padding: 18px 0
     img
       float: left
       height: 100%
@@ -34,7 +39,7 @@ header
 
   .buddies, .info
     display: inline-block
-    width: 45%
+    width: 42.5%
     vertical-align: bottom
     img
       width: 100%
@@ -47,12 +52,31 @@ header
     margin: 36px 5% 18px 0
     color: #727273
 
+header
+  position: relative
+  width: 1000px
+  margin-left: -40px
+  background-color: $cpartner
+
+  &:before, &:after
+    content: ''
+    position: absolute
+    top: -20px
+    height: 0
+    width: 0
+    border-bottom: 20px solid $cpartner - #222
+  &:before
+    left: 0
+    border-left: 40px solid transparent
+  &:after
+    right: 0
+    border-right: 40px solid transparent
+
 .overlay
-  width: 100%
-  min-width: 800px
   height: 360px
   padding-top: 36px
   color: white
+  text-align: center
   text-shadow: 0 0 6px black
   .backgroundsize &
     background-size: 150% auto
@@ -61,7 +85,7 @@ header
   @for $i from 1 through 1
     &:nth-child(#{$i})
       .backgroundsize &
-        background-image: url('../../img/underlay-#{$i+1}.png')
+        background-image: url('../../img/underlay-#{$i+1}a.png')
   p
     &:first-child
       +adjust-font-size-to($base-font-size * $gr)
@@ -71,23 +95,20 @@ header
     font-size: 48px
     font-weight: 300
     text-transform: lowercase
-  .button
-    position: absolute
-    left: 50%
-    margin-left: -90px
 
 .button, input[type="submit"]
-  width: 180px
-  padding: 12px 0
-  border: none
+  padding: 12px 0 4px
+  border: 0
+  border-bottom: 1px dashed #bbb
+  border-bottom-color: rgba(255,255,255,.5)
   text-decoration: none
   text-shadow: none
   text-align: center
   font: 36px bold 'franchise', sans-serif
   color: white
-  background-color: $centrepreneur - #222
-  &:hover
-    background-color: $centrepreneur - #282828
+  //background-color: $centrepreneur - #222
+  //&:hover
+  //  background-color: $centrepreneur - #282828
 
 .conference-points
   margin: 48px auto
@@ -108,10 +129,58 @@ header
     font-weight: bold
     +adjust-leading-to(1.5)
 
+.pullquote
+  quotes: "“" "”" "‘" "’"
+  position: relative
+  display: block
+  padding-top: 24px
+  padding-bottom: 14px
+  box-shadow: inset 0 6px 20px -4px #ccc, inset 0 -6px 20px -4px #ccc
+  background-color: #f8f8f8
+  p
+    margin: 24px 72px 0
+    position: relative
+    font-size: 48px
+    text-align: center
+    line-height: 1.2em
+    color: #333
+  footer
+    text-align: right
+    margin-right: 72px
+    &:before
+      content: '– '
+.bigquotes
+  +stretch(0)
+  &:before, &:after
+    z-index: 0
+    position: absolute
+    font-family: franchise, serif
+    font-size: 240px
+    color: #ccc
+  &:before
+    content: open-quote
+    top: 100px
+    left: 48px
+  &:after
+    content: close-quote
+    bottom: 20px
+    right: 48px
+
+.labs
+
+  .leader, .entrepreneur, .partner
+    float: left
+    width: 33.3333333333333333%
+  .leader
+  .entrepreneur
+  .partner
+
+
 #signup
   width: 100%
   min-width: 800px
-  padding: 2rem 0
+  padding-top: 2rem
+  padding-bottom: 2rem
   color: white
   background-color: $cpartner
   p:first-child
@@ -163,7 +232,7 @@ header
   a
     color: $cleader
 
-footer
+body > footer
   height: 36px
   line-height: 36px
   width: 100%

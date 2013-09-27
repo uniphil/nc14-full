@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* compass & preferences */
 /* line 17, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -74,19 +75,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-clip: padding-box;
 }
 
-/* line 10, ../sass/main.sass */
-html, body {
-  height: 100%;
-}
-
-/* line 67, ../sass/_variables.sass */
+/* line 69, ../sass/_variables.sass */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
   *text-indent: -9999px;
 }
-/* line 73, ../sass/_variables.sass */
+/* line 75, ../sass/_variables.sass */
 .ir:before {
   content: "";
   display: block;
@@ -94,24 +90,24 @@ html, body {
   height: 150%;
 }
 
-/* line 80, ../sass/_variables.sass */
+/* line 82, ../sass/_variables.sass */
 .fulljust {
   text-align: justify;
 }
-/* line 82, ../sass/_variables.sass */
+/* line 84, ../sass/_variables.sass */
 .fulljust:after {
   content: "";
   display: inline-block;
   width: 100%;
 }
 
-/* line 88, ../sass/_variables.sass */
+/* line 90, ../sass/_variables.sass */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 93, ../sass/_variables.sass */
+/* line 95, ../sass/_variables.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -123,7 +119,7 @@ html, body {
   width: 1px;
 }
 
-/* line 106, ../sass/_variables.sass */
+/* line 108, ../sass/_variables.sass */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -133,26 +129,26 @@ html, body {
   width: auto;
 }
 
-/* line 115, ../sass/_variables.sass */
+/* line 117, ../sass/_variables.sass */
 .invisible {
   visibility: hidden;
 }
 
-/* line 119, ../sass/_variables.sass */
+/* line 121, ../sass/_variables.sass */
 .clearfix {
   *zoom: 1;
 }
-/* line 122, ../sass/_variables.sass */
+/* line 124, ../sass/_variables.sass */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 126, ../sass/_variables.sass */
+/* line 128, ../sass/_variables.sass */
 .clearfix:after {
   clear: both;
 }
 
-/* line 130, ../sass/_variables.sass */
+/* line 132, ../sass/_variables.sass */
 .browsehappy {
   margin: 0.2em 0;
   background: #cccccc;
@@ -173,6 +169,38 @@ html {
 }
 
 @font-face {
+  font-family: "asap";
+  src: url("../../font/asap-bold-webfont.eot");
+  src: url("../../font/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-bold-webfont.woff") format("woff"), url("../../font/asap-bold-webfont.ttf") format("truetype"), url("../../font/asap-bold-webfont.svg#asapbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-bolditalic-webfont.eot");
+  src: url("../../font/asap-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-bolditalic-webfont.woff") format("woff"), url("../../font/asap-bolditalic-webfont.ttf") format("truetype"), url("../../font/asap-bolditalic-webfont.svg#asapbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-italic-webfont.eot");
+  src: url("../../font/asap-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-italic-webfont.woff") format("woff"), url("../../font/asap-italic-webfont.ttf") format("truetype"), url("../../font/asap-italic-webfont.svg#asapitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-regular-webfont.eot");
+  src: url("../../font/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-regular-webfont.woff") format("woff"), url("../../font/asap-regular-webfont.ttf") format("truetype"), url("../../font/asap-regular-webfont.svg#asapregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "franchise";
   src: url("../../font/franchise-bold-webfont.eot");
   src: url("../../font/franchise-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/franchise-bold-webfont.woff") format("woff"), url("../../font/franchise-bold-webfont.ttf") format("truetype"), url("../../font/franchise-bold-webfont.svg#franchiseregular") format("svg");
@@ -181,24 +209,29 @@ html {
 }
 
 /* line 1, ../sass/_global.sass */
-header, .maininner, .conference-points, .sponsors {
-  width: 84%;
-  min-width: 800px;
-  max-width: 1000px;
-  margin: auto;
+html {
+  background: #f0f0f0 url(../../img/gray-jean.png);
 }
 
-/* line 6, ../sass/_global.sass */
-.conference-points {
-  max-width: 1340px;
+/* line 4, ../sass/_global.sass */
+body {
+  width: 920px;
+  margin: 0 auto;
+  box-shadow: 0 0 60px #cccccc;
+  background-color: white;
 }
 
-/* line 9, ../sass/_global.sass */
-header {
+/* line 10, ../sass/_global.sass */
+.preheader, .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors {
+  padding: 0 2.5%;
+}
+
+/* line 13, ../sass/_global.sass */
+.preheader {
   font-size: 0;
 }
-/* line 11, ../sass/_global.sass */
-header h2 {
+/* line 15, ../sass/_global.sass */
+.preheader h2 {
   font-weight: bold;
   font-family: asap;
   font-size: 20px;
@@ -208,85 +241,112 @@ header h2 {
   line-height: 14px;
   line-height: 0.75rem;
 }
-/* line 16, ../sass/_global.sass */
-header p {
+/* line 20, ../sass/_global.sass */
+.preheader p {
   font-size: 18px;
   font-size: 1rem;
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 18, ../sass/_global.sass */
-header .top {
+/* line 22, ../sass/_global.sass */
+.preheader .top {
   height: 36px;
   line-height: 36px;
   width: 100%;
-  margin: 18px 0;
+  margin-bottom: 18px;
+  padding: 18px 0;
 }
-/* line 23, ../sass/_global.sass */
-header .top img {
+/* line 28, ../sass/_global.sass */
+.preheader .top img {
   float: left;
   height: 100%;
   width: auto;
   margin-right: 18px;
 }
-/* line 28, ../sass/_global.sass */
-header .top a {
+/* line 33, ../sass/_global.sass */
+.preheader .top a {
   float: right;
   color: #727273;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 35, ../sass/_global.sass */
-header .buddies, header .info {
+/* line 40, ../sass/_global.sass */
+.preheader .buddies, .preheader .info {
   display: inline-block;
-  width: 45%;
+  width: 42.5%;
   vertical-align: bottom;
 }
-/* line 39, ../sass/_global.sass */
-header .buddies img, header .info img {
+/* line 44, ../sass/_global.sass */
+.preheader .buddies img, .preheader .info img {
   width: 100%;
   height: auto;
 }
-/* line 42, ../sass/_global.sass */
-header .buddies {
+/* line 47, ../sass/_global.sass */
+.preheader .buddies {
   margin: 36px 0 0 5%;
 }
-/* line 44, ../sass/_global.sass */
-header .buddies img {
+/* line 49, ../sass/_global.sass */
+.preheader .buddies img {
   vertical-align: bottom;
 }
-/* line 46, ../sass/_global.sass */
-header .info {
+/* line 51, ../sass/_global.sass */
+.preheader .info {
   margin: 36px 5% 18px 0;
   color: #727273;
 }
 
-/* line 50, ../sass/_global.sass */
+/* line 55, ../sass/_global.sass */
+header {
+  position: relative;
+  width: 1000px;
+  margin-left: -40px;
+  background-color: #f58345;
+}
+/* line 61, ../sass/_global.sass */
+header:before, header:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  height: 0;
+  width: 0;
+  border-bottom: 20px solid #d36123;
+}
+/* line 68, ../sass/_global.sass */
+header:before {
+  left: 0;
+  border-left: 40px solid transparent;
+}
+/* line 71, ../sass/_global.sass */
+header:after {
+  right: 0;
+  border-right: 40px solid transparent;
+}
+
+/* line 75, ../sass/_global.sass */
 .overlay {
-  width: 100%;
-  min-width: 800px;
   height: 360px;
   padding-top: 36px;
   color: white;
+  text-align: center;
   text-shadow: 0 0 6px black;
   background-position: bottom right;
   background-color: #8766ad;
 }
-/* line 57, ../sass/_global.sass */
+/* line 81, ../sass/_global.sass */
 .backgroundsize .overlay {
   background-size: 150% auto;
 }
-/* line 63, ../sass/_global.sass */
+/* line 87, ../sass/_global.sass */
 .backgroundsize .overlay:nth-child(1) {
-  background-image: url("../../img/underlay-2.png");
+  background-image: url("../../img/underlay-2a.png");
 }
-/* line 65, ../sass/_global.sass */
+/* line 89, ../sass/_global.sass */
 .overlay p {
   margin-bottom: 27px;
   margin-bottom: 1.5rem;
 }
-/* line 66, ../sass/_global.sass */
+/* line 90, ../sass/_global.sass */
 .overlay p:first-child {
   font-size: 29px;
   font-size: 1.61803rem;
@@ -295,52 +355,42 @@ header .info {
   line-height: 32px;
   line-height: 1.8rem;
 }
-/* line 70, ../sass/_global.sass */
+/* line 94, ../sass/_global.sass */
 .overlay strong {
   font-size: 48px;
   font-weight: 300;
   text-transform: lowercase;
 }
-/* line 74, ../sass/_global.sass */
-.overlay .button {
-  position: absolute;
-  left: 50%;
-  margin-left: -90px;
-}
 
-/* line 79, ../sass/_global.sass */
+/* line 99, ../sass/_global.sass */
 .button, input[type="submit"] {
-  width: 180px;
-  padding: 12px 0;
-  border: none;
+  padding: 12px 0 4px;
+  border: 0;
+  border-bottom: 1px dashed #bbbbbb;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
   text-shadow: none;
   text-align: center;
   font: 36px bold "franchise", sans-serif;
   color: white;
-  background-color: #92b213;
-}
-/* line 89, ../sass/_global.sass */
-.button:hover, input[type="submit"]:hover {
-  background-color: #8cac0d;
 }
 
-/* line 92, ../sass/_global.sass */
+/* line 113, ../sass/_global.sass */
 .conference-points {
   margin: 48px auto;
   font-size: 0;
 }
-/* line 95, ../sass/_global.sass */
+/* line 116, ../sass/_global.sass */
 .conference-points img {
   height: 96px;
   width: auto;
   margin-bottom: 9px;
 }
-/* line 99, ../sass/_global.sass */
+/* line 120, ../sass/_global.sass */
 .conference-points ul {
   text-align: center;
 }
-/* line 101, ../sass/_global.sass */
+/* line 122, ../sass/_global.sass */
 .conference-points li {
   display: inline-block;
   width: 19%;
@@ -351,22 +401,87 @@ header .info {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 107, ../sass/_global.sass */
+/* line 128, ../sass/_global.sass */
 .conference-points h3 {
   font-weight: bold;
   line-height: 41px;
   line-height: 2.25rem;
 }
 
-/* line 111, ../sass/_global.sass */
+/* line 132, ../sass/_global.sass */
+.pullquote {
+  quotes: "“" "”" "‘" "’";
+  position: relative;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 14px;
+  box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
+  background-color: #f8f8f8;
+}
+/* line 140, ../sass/_global.sass */
+.pullquote p {
+  margin: 24px 72px 0;
+  position: relative;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #333333;
+}
+/* line 147, ../sass/_global.sass */
+.pullquote footer {
+  text-align: right;
+  margin-right: 72px;
+}
+/* line 150, ../sass/_global.sass */
+.pullquote footer:before {
+  content: "– ";
+}
+
+/* line 152, ../sass/_global.sass */
+.bigquotes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 154, ../sass/_global.sass */
+.bigquotes:before, .bigquotes:after {
+  z-index: 0;
+  position: absolute;
+  font-family: franchise, serif;
+  font-size: 240px;
+  color: #cccccc;
+}
+/* line 160, ../sass/_global.sass */
+.bigquotes:before {
+  content: open-quote;
+  top: 100px;
+  left: 48px;
+}
+/* line 164, ../sass/_global.sass */
+.bigquotes:after {
+  content: close-quote;
+  bottom: 20px;
+  right: 48px;
+}
+
+/* line 171, ../sass/_global.sass */
+.labs .leader, .labs .entrepreneur, .labs .partner {
+  float: left;
+  width: 33.33333%;
+}
+
+/* line 179, ../sass/_global.sass */
 #signup {
   width: 100%;
   min-width: 800px;
-  padding: 2rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: white;
   background-color: #f58345;
 }
-/* line 117, ../sass/_global.sass */
+/* line 186, ../sass/_global.sass */
 #signup p:first-child {
   font-size: 29px;
   font-size: 1.61803rem;
@@ -376,29 +491,29 @@ header .info {
   margin-bottom: 14px;
   margin-bottom: 0.75rem;
 }
-/* line 121, ../sass/_global.sass */
+/* line 190, ../sass/_global.sass */
 #signup strong {
   font-weight: bold;
 }
-/* line 123, ../sass/_global.sass */
+/* line 192, ../sass/_global.sass */
 #signup ul {
   list-style-type: disc;
 }
-/* line 125, ../sass/_global.sass */
+/* line 194, ../sass/_global.sass */
 #signup li {
   margin-left: 1em;
 }
-/* line 128, ../sass/_global.sass */
+/* line 197, ../sass/_global.sass */
 #signup .info {
   width: 60%;
   float: left;
 }
-/* line 131, ../sass/_global.sass */
+/* line 200, ../sass/_global.sass */
 #signup form {
   width: 35%;
   float: right;
 }
-/* line 134, ../sass/_global.sass */
+/* line 203, ../sass/_global.sass */
 #signup form label {
   text-transform: uppercase;
   font-size: 14px;
@@ -406,7 +521,7 @@ header .info {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 137, ../sass/_global.sass */
+/* line 206, ../sass/_global.sass */
 #signup form input[type="text"] {
   width: 100%;
   height: 48px;
@@ -418,74 +533,74 @@ header .info {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 144, ../sass/_global.sass */
+/* line 213, ../sass/_global.sass */
 #signup form input[type="submit"] {
   background-color: #accc2d;
   margin-top: 14px;
   margin-top: 0.75rem;
   float: right;
 }
-/* line 146, ../sass/_global.sass */
+/* line 215, ../sass/_global.sass */
 #signup form input[type="submit"]:hover {
   background-color: #a3c324;
 }
 
-/* line 151, ../sass/_global.sass */
+/* line 220, ../sass/_global.sass */
 .sponsors {
   margin: 36px auto;
   text-align: center;
 }
-/* line 154, ../sass/_global.sass */
+/* line 223, ../sass/_global.sass */
 .sponsors ul {
   width: 80%;
   margin: 36px auto 0;
 }
-/* line 157, ../sass/_global.sass */
+/* line 226, ../sass/_global.sass */
 .sponsors li {
   display: inline-block;
   margin: 0 36px;
 }
-/* line 39, ../sass/_variables.sass */
+/* line 41, ../sass/_variables.sass */
 .sponsors li.hatch {
   height: 96px;
   width: 168px;
   background-image: url("../../img/sponsors-ie/hatch-ie.png");
 }
-/* line 43, ../sass/_variables.sass */
+/* line 45, ../sass/_variables.sass */
 .backgroundsize .sponsors li.hatch {
   background-position:  0 0;
 }
-/* line 48, ../sass/_variables.sass */
+/* line 50, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
   background-image: url('/static/img/sponsors-s82ae35dcd2.png');
   background-size: 168px 192px;
 }
-/* line 39, ../sass/_variables.sass */
+/* line 41, ../sass/_variables.sass */
 .sponsors li.transcanada {
   height: 96px;
   width: 168px;
   background-image: url("../../img/sponsors-ie/transcanada-ie.png");
 }
-/* line 43, ../sass/_variables.sass */
+/* line 45, ../sass/_variables.sass */
 .backgroundsize .sponsors li.transcanada {
   background-position:  0 -96px;
 }
-/* line 48, ../sass/_variables.sass */
+/* line 50, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
   background-image: url('/static/img/sponsors-s82ae35dcd2.png');
   background-size: 168px 192px;
 }
-/* line 161, ../sass/_global.sass */
+/* line 230, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
 }
-/* line 163, ../sass/_global.sass */
+/* line 232, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 166, ../sass/_global.sass */
-footer {
+/* line 235, ../sass/_global.sass */
+body > footer {
   height: 36px;
   line-height: 36px;
   width: 100%;
@@ -495,16 +610,16 @@ footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 175, ../sass/_global.sass */
-footer p {
+/* line 244, ../sass/_global.sass */
+body > footer p {
   float: left;
 }
-/* line 177, ../sass/_global.sass */
-footer small {
+/* line 246, ../sass/_global.sass */
+body > footer small {
   float: right;
 }
-/* line 179, ../sass/_global.sass */
-footer a {
+/* line 248, ../sass/_global.sass */
+body > footer a {
   color: white;
 }
 

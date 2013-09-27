@@ -1,19 +1,119 @@
 %% extends "base.html"
 
 %% block preheader
-<p>preheader: ewb, french, localization, text and img branding.</p>
+  <div class='preheader'>
+    <div class="top">
+      <img src="{{ url_for('static', filename='img/logo-ewb-top.png') }}" alt="{{ _('Engineers Without Borders Canada') }}" />
+      <img src="{{ url_for('static', filename='img/logo-hatch-top.png') }}" alt="{{ _('Hatch') }}" />
+      <a href="{{ url_for('splash', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
+    </div>
+
+    <div class="info">
+      <img src="{{ url_for('static', filename='img/logo-rethink-top-' + lang + '.png') }}" alt="{{ _('Rethink') }}" />
+      <h2 class='fulljust'>{{ _("January 9th to 12th<span class='divider'> | </span>Toronto, Ontario") }}</h2>
+      <p>{{ _("Leadership, Entrepreneurship, and Partnership for Global Development") }}</p>
+    </div>
+
+    <div class="buddies">
+      <img src="{{ url_for('static', filename='img/logo-buddies-top.png') }}" alt="{{ _('National Conference 2014 Logo') }}" />
+    </div>
+  </div>
 %% endblock
 
 %% block main
 
-<main>
-  <p>Overlay, with <a href="{{ url_for('register', lang=lang) }}">signup button</a></p>
-  <p>Quick points about why the conference is great</p>
-  <p>Pull quote</p>
-  <p>Speaker / event section with a toggle button (<a href="{{ url_for('agenda', lang=lang) }}">{{ _('See More') }}</a>)</p>
-  <p>Labs info (content recieved)</p>
-  <p>Register section with <a href="{{ url_for('register', lang=lang) }}">{{ _('button') }}</a></p>
-  <p>Sponsor logo list with <a href="{{ url_for('sponsors', lang=lang) }}">{{ _('donor link') }}</a></p>
-</main>
+  <main>
+    <div class="overlay">
+      <div class="maininner">
+        <p>{{ _("<strong>RETHINK 2014</strong> is a space curated by EWB, but created in real time by a diverse, cross-sector, and international delegation.") }}</p>
+        <p>{{ _("Join individuals and organizations who are passionate about accelerating global development in developing leadership, fostering and innovating entrepreneurship, and building strategic partnerships.") }}</p>
+        <a class="button" href="#signup">{{ _("Sign up now") }}</a>
+      </div>
+    </div>
+
+    <div class="conference-points">
+      <ul>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-learn-lead.png') }}" alt="{{ _('Learn and lead') }}" />
+          <h3>{{ _('Learn and lead') }}</h3>
+          <p>{{ _("As both delegate and presenter, explore new theories and strategies.") }}</p>
+        </li>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-connect.png') }}" alt="{{ _('Connect') }}" />
+          <h3>{{ _('Connect') }}</h3>
+          <p>{{ _("To experts, investors, and coalition efforts within and beyond your field.") }}</p>
+        </li>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-develop.png') }}" alt="{{ _('Develop') }}" />
+          <h3>{{ _('Develop') }}</h3>
+          <p>{{ _("Practical skills and innovative processes to work in global development.") }}</p>
+        </li>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-share.png') }}" alt="{{ _('Share') }}" />
+          <h3>{{ _('Share') }}</h3>
+          <p>{{ _("Whether yourself or your organization, promote or test your current ideas.") }}</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pullquote">
+      <div class="bigquotes"></div>
+      <blockquote>
+        <p>I had a really fun time at the conference!</p>
+        <footer>Phil's Mom</footer>
+      </blockquote>
+    </div>
+
+    <div class="speakers">
+
+    </div>
+
+    <div class="labs">
+      <p>{{ _("A term from the Social Innovation space, Design or Change Labs provide an exploratory, experimental, and creative space designed to encourage the co-creation of meaningful and innovative solutions to complex problems.") }}</p>
+      <p>{{ _("Developing leaders, investing in entrepreneurs, and forging partnerships are three fundamental approaches to tackling these problems, and EWB has been working with them for twelve years. This experience positions us to host spaces to dive in, explore, and explode our understanding of each approach -- and their points of intersection -- which we believe is best achieved through this style of session.") }}</p>
+      <div class="leader">
+        <h3>{{ _("Leadership Labs") }}</h3>
+        <p>{{ _("How do you develop yourself and others with the understanding and skills needed to tackle complex global problems?") }}</p>
+      </div>
+      <div class="partner">
+        <h3>{{ _("Entrepreneurship Labs") }}</h3>
+        <p>{{ _("What spaces, resources, and understandings are required for entrepreneurs to thrive as agents of global change?") }}</p>
+      </div>
+      <div class="entrepreneur">
+        <h3>{{ _("Partnership Labs") }}</h3>
+        <p>{{ _("What do we need to know about partnerships to truly harness the value of coalition and collaboration for global development?") }}</p>
+      </div>
+
+    </div>
+
+    <div id="signup" class="clearfix">
+      <div class="maininner">
+        <div class="info">
+          <p>{{ _("<strong>Sign up to the RETHINK 2014 newsletter</strong> to recieve more information about the conference as it becomes available.") }}</p>
+          <p>{{ _("You'll be the first to know about:") }}</p>
+          <ul>
+            <li>{{ _("Conference keynotes, sessions, and networking spaces") }}</li>
+            <li>{{ _("Pricing and registration deadlines") }}</li>
+            <li>{{ _("Sneak peeks of special events and featured presenters") }}</li>
+          </ul>
+        </div>
+        <form action="/newsletter-signup.php" method="post">
+          <label for="email">Email</label>
+          <input name="email" id="email" type="text" required="required" placeholder="enter email here">
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="sponsors">
+      <h1>{{ _('This conference has been made possible by:') }}</h1>
+      <ul class="fulljust">
+        <li class='hatch ir'>{{ _('Hatch Ltd') }}</li>
+        <li class='transcanada ir'>{{ _('TransCanada Corporation') }}</li>
+      </ul>
+      <p>{{ _('Engineers Without Borders is looking for more partners.') }} <a href="{{ url_for('sponsors', lang=lang) }}">{{ _('Interested?') }}</a></p>
+    </div>
+
+  </main>
 
 %% endblock
