@@ -31,12 +31,16 @@ def get_locale():
         return request.accept_languages.best_match(['en', 'fr'])
 
 
-def monkey_url_for(endpoint, **kwargs):
-    try:
-        return url_for(endpoint, **kwargs)
-    except BuildError:
-        kwargs.update(lang=get_locale())
-        return url_for('page', page=endpoint, **kwargs)
+def monkey_render(*args, **kwargs):
+    def monkey_url_for(endpoint, **kwargs):
+        try:
+            return url_for(endpoint, **kwargs)
+        except BuildError:
+            kwargs.update(lang=get_locale())
+            return url_for('page', page=endpoint, **kwargs)
+    kwargs.update(lang=kwargs.get('lang', 'en'),
+                  url_for=monkey_url_for)
+    return render_template(*args, **kwargs)
 
 
 @app.route('/')
@@ -46,12 +50,12 @@ def root():
 
 @app.route('/<lang>/')
 def home(lang):
-    return render_template('home.html', url_for=monkey_url_for)
+    return monkey_render('home.html')
 
 
 @app.route('/<lang>/<page>')
 def page(lang, page):
-    return render_template('{}.html'.format(page), url_for=monkey_url_for)
+    return monkey_render('{}.html'.format(page))
 
 
 for static_thing in ('favicon.ico', 'robots.txt'):
