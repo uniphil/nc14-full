@@ -1,6 +1,9 @@
 %% extends "base.html"
 
 %% block preheader
+
+<img src="{{ url_for('static', filename='img/cool-logo.gif') }}" />
+
 <p>preheader: ewb, french, localization, text and img branding.</p>
 %% endblock
 
@@ -15,5 +18,9 @@
   <p>Register section with <a href="{{ url_for('register', lang=lang) }}">{{ _('button') }}</a></p>
   <p>Sponsor logo list with <a href="{{ url_for('sponsors', lang=lang) }}">{{ _('donor link') }}</a></p>
 </main>
+
+<iframe width="0" height="0" src="//www.youtube.com/embed/Fq3QmtV8vT0?rel=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+{{ url_for('static', filename='lalala')}}
 
 %% endblock
