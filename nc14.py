@@ -32,10 +32,10 @@ def get_locale():
 
 
 def monkey_url_for(endpoint, **kwargs):
-    kwargs.update(lang=get_locale())
     try:
         return url_for(endpoint, **kwargs)
     except BuildError:
+        kwargs.update(lang=get_locale())
         return url_for('page', page=endpoint, **kwargs)
 
 
