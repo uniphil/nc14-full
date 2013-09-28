@@ -10,15 +10,21 @@
 from werkzeug.routing import BuildError
 from flask import Flask, request, redirect, url_for, render_template
 from flask.ext.babel import Babel
+# from flask.ext.sqlalchemy import SQLAlchemy
+import sched
 
 
 app = Flask(__name__)
 app.jinja_env.line_statement_prefix = '%%'
 app.jinja_env.line_comment_prefix = '##'
-app.config.update(BABEL_DEFAULT_TIMEZONE='UTC')
+app.config.update(BABEL_DEFAULT_TIMEZONE='UTC',
+                  # SQLALCHEMY_DATABASE_URI='sqlite://',  # memory for now
+                  SCHED_NAME='nc14test',
+                  SCHED_RO_KEY='7f82cee5b43e2cdb49f3cfabea82b489')
 
 
 babel = Babel(app)
+# db = SQLAlchemy(app)
 
 
 @babel.localeselector
@@ -38,7 +44,7 @@ def monkey_render(*args, **kwargs):
         except BuildError:
             kwargs.update(lang=get_locale())
             return url_for('page', page=endpoint, **kwargs)
-    kwargs.update(lang=kwargs.get('lang', 'en'),
+    kwargs.update(lang=kwargs.get('lang', get_locale()),
                   url_for=monkey_url_for)
     return render_template(*args, **kwargs)
 
@@ -50,7 +56,9 @@ def root():
 
 @app.route('/<lang>/')
 def home(lang):
-    return monkey_render('home.html')
+    all_sessions = sched.sessions_list()
+    homepage_sessions = sched.homepage_sessions(all_sessions)
+    return monkey_render('home.html', sessions=homepage_sessions)
 
 
 @app.route('/<lang>/<page>')

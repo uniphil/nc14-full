@@ -6,7 +6,7 @@
     <div class="top">
       <img src="{{ url_for('static', filename='img/logo-ewb-top.png') }}" alt="{{ _('Engineers Without Borders Canada') }}" />
       <img src="{{ url_for('static', filename='img/logo-hatch-top.png') }}" alt="{{ _('Hatch') }}" />
-      <a href="{{ url_for('splash', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
+      <a href="{{ url_for('home', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
     </div>
 
     <div class="info">
@@ -27,8 +27,8 @@
   <main>
     <div class="overlay">
       <div class="maininner">
-        <p>{{ _("<strong>RETHINK 2014</strong> is a space curated by EWB, but created in real time by a diverse, cross-sector, and international delegation.") }}</p>
-        <p>{{ _("Join individuals and organizations who are passionate about accelerating global development in developing leadership, fostering and innovating entrepreneurship, and building strategic partnerships.") }}</p>
+        <p>{{ _(" A student, CEO, and NGO founder walk into a room;<br/><strong>what happens next</strong> is up to you") }}</p>
+        <p>{{ _("Come together with 800 innovators to unlock new potential in Canadas largest entrepreneurship and development conference.") }}</p>
         <a class="button" href="#signup">{{ _("Sign up now") }}</a>
       </div>
     </div>
@@ -67,7 +67,23 @@
     </div>
 
     <div class="speakers">
-
+      <br/> ## Hi Riley :) :)
+      <h2>Key Sessions</h2>
+      <br/>
+      <ul>
+        %% for session in sessions
+          <li>
+            <h3>{{ session.name }} <small>{{ session.speakers }}</small></h3>
+            <p>{{ session.description|safe }}</p>
+            <br/>
+          </li>
+        %% else
+          <li>
+            <h3>Sched sched sched what where is sched</h3>
+          </li>
+        %% endfor
+      </ul>
+      <br/><br/>
     </div>
 
     <div class="labs">
