@@ -11,7 +11,6 @@ from werkzeug.routing import BuildError
 from flask import Flask, request, redirect, url_for, render_template
 from flask.ext.babel import Babel
 # from flask.ext.sqlalchemy import SQLAlchemy
-import sched
 
 
 app = Flask(__name__)
@@ -21,6 +20,9 @@ app.config.update(BABEL_DEFAULT_TIMEZONE='UTC',
                   # SQLALCHEMY_DATABASE_URI='sqlite://',  # memory for now
                   SCHED_NAME='nc14test',
                   SCHED_RO_KEY='7f82cee5b43e2cdb49f3cfabea82b489')
+
+
+import sched
 
 
 babel = Babel(app)
