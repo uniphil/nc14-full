@@ -45,10 +45,12 @@
       </header>
     %% endblock
 
-    %% block main
-      <p>Oops! Looks like we made a mistake. We're not sure how this happened, but maybe we can fix it if you go <a href="{{ url_for('home') }}">home</a>.</p>
-      <p>Seen this page before? <a href="mailto:alexbrovkin@ewb.ca">Drop us a line</a> and we'll get right to it.</p>
-    %% endblock
+    <main>
+      %% block main
+        <p>Oops! Looks like we made a mistake. We're not sure how this happened, but maybe we can fix it if you go <a href="{{ url_for('home') }}">home</a>.</p>
+        <p>Seen this page before? <a href="mailto:alexbrovkin@ewb.ca">Drop us a line</a> and we'll get right to it.</p>
+      %% endblock
+    </main>
 
     %% block footer
       <footer>
