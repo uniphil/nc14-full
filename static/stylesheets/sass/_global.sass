@@ -64,6 +64,7 @@ header
   width: 1000px
   margin-left: -40px
   background-color: $cpartner
+  +transition(width .5s, margin-left .5s)
 
   &:before, &:after
     content: ''
@@ -78,6 +79,28 @@ header
   &:after
     right: 0
     border-right: 40px solid transparent
+  nav
+    height: 60px
+    line-height: 60px
+    padding-right: 40px
+    text-align: right
+
+    a
+      padding: 5px 10px
+      border-bottom: 3px solid $cpartner - #111
+      color: white
+      text-decoration: none
+      &.selected, &:hover
+        border-color: $cpartner + #ffe2c4
+
+.hlock
+  position: fixed
+  top: 0
+  margin-left: 0
+  width: 920px
+
+.mlock
+  margin-top: 60px
 
 .overlay
   height: 360px

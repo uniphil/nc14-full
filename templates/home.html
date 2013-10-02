@@ -118,5 +118,14 @@
       <p>{{ _('Engineers Without Borders is looking for more partners.') }} <a href="{{ url_for('sponsors') }}">{{ _('Interested?') }}</a></p>
     </div>
 
+%% endblock
 
+%% block tail_scripts
+  <script>
+    $('#navheader').removeClass('hlock');
+    var $lockBar = $('#navheader'), $main = $('main'), lockPoint = $lockBar.offset().top + 60;
+    $(window).scroll(function() {
+      checkScroll();
+    });
+  </script>
 %% endblock
