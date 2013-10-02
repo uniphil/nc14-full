@@ -577,8 +577,8 @@ header:after {
 }
 /* line 41, ../sass/_variables.sass */
 .sponsors li.hatch {
-  height: 96px;
-  width: 168px;
+  height: 60px;
+  width: 384px;
   background-image: url("../../img/sponsors-ie/hatch-ie.png");
 }
 /* line 45, ../sass/_variables.sass */
@@ -587,23 +587,38 @@ header:after {
 }
 /* line 50, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s82ae35dcd2.png');
-  background-size: 168px 192px;
+  background-image: url('/static/img/sponsors-s3c895a3ff8.png');
+  background-size: 384px 181px;
+}
+/* line 41, ../sass/_variables.sass */
+.sponsors li.sherritt {
+  height: 48px;
+  width: 147px;
+  background-image: url("../../img/sponsors-ie/sherritt-ie.png");
+}
+/* line 45, ../sass/_variables.sass */
+.backgroundsize .sponsors li.sherritt {
+  background-position:  0 -60.5px;
+}
+/* line 50, ../sass/_variables.sass */
+.backgroundsize .sponsors li {
+  background-image: url('/static/img/sponsors-s3c895a3ff8.png');
+  background-size: 384px 181px;
 }
 /* line 41, ../sass/_variables.sass */
 .sponsors li.transcanada {
-  height: 96px;
-  width: 168px;
+  height: 72px;
+  width: 325.5px;
   background-image: url("../../img/sponsors-ie/transcanada-ie.png");
 }
 /* line 45, ../sass/_variables.sass */
 .backgroundsize .sponsors li.transcanada {
-  background-position:  0 -96px;
+  background-position:  0 -109px;
 }
 /* line 50, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s82ae35dcd2.png');
-  background-size: 168px 192px;
+  background-image: url('/static/img/sponsors-s3c895a3ff8.png');
+  background-size: 384px 181px;
 }
 /* line 237, ../sass/_global.sass */
 .sponsors p {
