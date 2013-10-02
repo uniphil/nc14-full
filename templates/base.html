@@ -34,12 +34,14 @@
 
     %% block header
       <header>
-        <p>This is the header, and contains links for</p>
-        <a href="{{ url_for('home', lang=lang) }}">{{ _('Home') }}</a>
-        <a href="{{ url_for('about', lang=lang) }}">{{ _('About') }}</a>
-        <a href="{{ url_for('logistics', lang=lang) }}">{{ _('Logistics') }}</a>
-        <a href="{{ url_for('agenda', lang=lang) }}">{{ _('Agenda') }}</a>
-        <a href="{{ url_for('register', lang=lang) }}">{{ _('Register') }}</a>
+        <nav>
+          <a href="{{ url_for('home') }}">{{ _('Home') }}</a>
+          <a href="{{ url_for('about') }}">{{ _('About') }}</a>
+          <a href="{{ url_for('schedule') }}">{{ _('Schedule') }}</a>
+          <a href="{{ url_for('logistics') }}">{{ _('Logistics') }}</a>
+          <a href="{{ url_for('partner') }}">{{ _('Partner') }}</a>
+          <a href="{{ url_for('register') }}">{{ _('Register') }}</a>
+        </nav>
       </header>
     %% endblock
 
@@ -51,6 +53,7 @@
     %% block footer
       <footer>
         <p>I'm a cute little footer! Yippee!</p>
+        <small>All Rights Reserved, 2013</small>
       </footer>
     %% endblock
 

@@ -27,53 +27,52 @@
   <main>
     <div class="overlay">
       <div class="maininner">
-        <p>{{ _(" A student, CEO, and NGO founder walk into a room;<br/><strong>what happens next</strong> is up to you") }}</p>
-        <p>{{ _("Come together with 800 innovators to unlock new potential in Canadas largest entrepreneurship and development conference.") }}</p>
-        <a class="button" href="#signup">{{ _("Sign up now") }}</a>
+        <p>{{ _(" a <strong>professional coach</strong>, <strong>seed funder</strong>, and <strong>coalition leader</strong><br /> walk into a rethought conference space.") }}</p>
+        <p>{{ _('what happens next  is up to <b class="l">y</b><b class="e">o</b><b class="p">u</b>') }}</p>
+        <a class="button" href="#signup">{{ _("Walk In") }}</a>
       </div>
     </div>
+
+    <div class="leader-para">
+      <p>{{ _("Poverty and inequality are not new, but more than ever, we see the levels of complexity and interconnections of these global challenges. With new abilities to understand how problems connect, we are called to share and collaborate in our work, to create solutions larger than single organizations.") }}</p>
+      <p>{{ _('Engineers Without Borders (EWB) Canada works to <b class="l">develop leaders</b>, <b class="e">invest in entrepreneurs</b>, and <b class="p">partner with individuals and organizations</b> to tackle these global challenges. Using our work and experience in these three approaches as the foundation of this conference, <strong>we are hosting the opportunity to learn and connect <em>together</em></strong>, with the goal of improving our collective efforts for global development.') }}</p>
 
     <div class="conference-points">
       <ul>
         <li>
           <img src="{{ url_for('static', filename='img/icon-learn-lead.png') }}" alt="{{ _('Learn and lead') }}" />
-          <h3>{{ _('Learn and lead') }}</h3>
-          <p>{{ _("As both delegate and presenter, explore new theories and strategies.") }}</p>
+          <h3>{{ _('Learn') }}</h3>
+          <p>{{ _("Dive in to emerging theories & new strategies as both a delegate and a presenter. Participate in relevant, participant-driven explorations.") }}</p>
         </li>
         <li>
           <img src="{{ url_for('static', filename='img/icon-connect.png') }}" alt="{{ _('Connect') }}" />
-          <h3>{{ _('Connect') }}</h3>
-          <p>{{ _("To experts, investors, and coalition efforts within and beyond your field.") }}</p>
+          <h3>{{ _('Innovate') }}</h3>
+          <p>{{ _("Bring your ideas, or build on context and conversations to pitch a new one. Promote them, receive feedback, or find resources.") }}</p>
         </li>
         <li>
           <img src="{{ url_for('static', filename='img/icon-develop.png') }}" alt="{{ _('Develop') }}" />
-          <h3>{{ _('Develop') }}</h3>
-          <p>{{ _("Practical skills and innovative processes to work in global development.") }}</p>
-        </li>
-        <li>
-          <img src="{{ url_for('static', filename='img/icon-share.png') }}" alt="{{ _('Share') }}" />
-          <h3>{{ _('Share') }}</h3>
-          <p>{{ _("Whether yourself or your organization, promote or test your current ideas.") }}</p>
+          <h3>{{ _('Connect') }}</h3>
+          <p>{{ _("Meet experts and up-and-comers, find clients and investors, foster new partnerships or explore existing coalition efforts.") }}</p>
         </li>
       </ul>
     </div>
 
-    <div class="pullquote">
+    <!-- <div class="pullquote">
       <div class="bigquotes"></div>
       <blockquote>
         <p>I had a really fun time at the conference!</p>
         <footer>Phil's Mom</footer>
       </blockquote>
-    </div>
+    </div> -->
 
-    <div class="speakers">
+    <!-- <div class="speakers">
       <br/> ## Hi Riley :) :)
       <h2>Key Sessions</h2>
       <br/>
       <ul>
         %% for session in sessions
           <li>
-            <h3>{{ session.name }} <small>{{ session.speakers }}</small></h3>
+            <h3>{{ session.name }} <small>by {{ session.speakers }}</small></h3>
             <p>{{ session.description|safe }}</p>
             <br/>
           </li>
@@ -84,9 +83,9 @@
         %% endfor
       </ul>
       <br/><br/>
-    </div>
+    </div> -->
 
-    <div class="labs">
+    <!-- <div class="labs">
       <p>{{ _("A term from the Social Innovation space, Design or Change Labs provide an exploratory, experimental, and creative space designed to encourage the co-creation of meaningful and innovative solutions to complex problems.") }}</p>
       <p>{{ _("Developing leaders, investing in entrepreneurs, and forging partnerships are three fundamental approaches to tackling these problems, and EWB has been working with them for twelve years. This experience positions us to host spaces to dive in, explore, and explode our understanding of each approach -- and their points of intersection -- which we believe is best achieved through this style of session.") }}</p>
       <div class="leader">
@@ -102,29 +101,15 @@
         <p>{{ _("What do we need to know about partnerships to truly harness the value of coalition and collaboration for global development?") }}</p>
       </div>
 
-    </div>
+    </div> -->
 
     <div id="signup" class="clearfix">
-      <div class="maininner">
-        <div class="info">
-          <p>{{ _("<strong>Sign up to the RETHINK 2014 newsletter</strong> to recieve more information about the conference as it becomes available.") }}</p>
-          <p>{{ _("You'll be the first to know about:") }}</p>
-          <ul>
-            <li>{{ _("Conference keynotes, sessions, and networking spaces") }}</li>
-            <li>{{ _("Pricing and registration deadlines") }}</li>
-            <li>{{ _("Sneak peeks of special events and featured presenters") }}</li>
-          </ul>
-        </div>
-        <form action="/newsletter-signup.php" method="post">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="text" required="required" placeholder="enter email here">
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
+      <a href="{{ url_for('register') }}" class="button">{{ _("Join Us") }}</a>
+      <a href="{{ url_for('about') }}" class="button">{{ _("Find out More") }}</a>
     </div>
 
     <div class="sponsors">
-      <h1>{{ _('This conference has been made possible by:') }}</h1>
+      <h1>{{ _('<b class="rethink">RETHINK 2014</b> is made possible by the generosity of:') }}</h1>
       <ul class="fulljust">
         <li class='hatch ir'>{{ _('Hatch Ltd') }}</li>
         <li class='transcanada ir'>{{ _('TransCanada Corporation') }}</li>
