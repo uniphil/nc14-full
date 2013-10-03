@@ -4,16 +4,23 @@ html
 body
   width: 920px
   margin: 0 auto
-  box-shadow: 0 0 60px #ccc
+  color: #343433
   background-color: white
+  box-shadow: 0 0 60px #ccc
+  +open-sans-stack()
+
+p
+  line-height: 1.5em
+  margin-bottom: 1.5em
 
 h2
-  font-weight: bold
-  font-family: asap
-  font-size: $gr * 1em
-  line-height: $gr * 1em
-  margin: (1em / $gr) 0
-
+  line-height: 2em
+  margin-bottom: .5em
+  border-bottom: 1px dotted #ccc
+  font-weight: 100
+  font-size: 24px
+  letter-spacing: 2px
+  +open-sans-stack()
 
 .l
   color: $cleader
@@ -26,17 +33,22 @@ h2
 .preheader,
 main > div
   padding: 0 2.5%
+main > div:nth-child(1), .overlay + div
+  padding-top: 1.5em
 
 .preheader
   position: relative
   font-size: 0
   h2
+    line-height: 14px
+    margin-top: 12px
+    border-bottom: 0
+    font-size: 20px
     font-weight: bold
-    font-family: asap
-    +adjust-font-size-to($base-font-size + 2)
-    +adjust-leading-to(.5)
+    letter-spacing: 0
+    +asap-stack()
   p
-    +adjust-font-size-to($base-font-size)
+    font-size: 18px
   .top
     height: 36px
     line-height: 36px
@@ -136,7 +148,6 @@ header
 
 .overlay
   height: 360px
-  padding-top: 36px
   color: white
   text-align: center
   text-shadow: 0 0 6px black
@@ -171,6 +182,14 @@ header
   //background-color: $centrepreneur - #222
   //&:hover
   //  background-color: $centrepreneur - #282828
+
+.leader-para
+  margin: 0 3em
+
+.about-ewb, .about-rethink
+  width: 50%
+  float: left
+  padding-top: 1.5em
 
 .conference-points
   margin: 48px auto
@@ -300,6 +319,7 @@ body > footer
   font-size: 12px
   p
     float: left
+    line-height: inherit
   small
     float: right
   a

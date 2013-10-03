@@ -1,25 +1,14 @@
 %% extends "base.html"
 
-%% block preheader
-%% endblock
-
-%% block header
-%% endblock
-
 %% block main
 
-<p>This page is already included on the splash page. The only differance is that it will have a <a href="{{ url_for('home') }}">{{ _('back') }}</a> button, and hopefully we can get a french translation of the copy / PDF.</p>
-<p>(links to a PDF)</p>
-
-<main>
-  <div class="overlay">
-    <div class="maininner">
-      <p>{{ _('<strong>Sponsor Entrepreneurs & Leaders for Social Innovation</strong>') }}</p>
-      <p>{{ _("Engineers Without Borders is looking for partners to tackle extreme poverty through systemic innovation.") }}</p>
-      <p>{{ _("Is your organization interested in <strong>sponsoring 750-1,000 entrepreneurs</strong> and leaders committed to systemic innovation?") }}</p>
-    </div>
+<div class="overlay">
+  <div class="maininner">
+    <p>{{ _('<strong>Sponsor Entrepreneurs & Leaders for Social Innovation</strong>') }}</p>
+    <p>{{ _("Engineers Without Borders is looking for partners to tackle extreme poverty through systemic innovation.") }}</p>
+    <p>{{ _("Is your organization interested in <strong>sponsoring 750-1,000 entrepreneurs</strong> and leaders committed to systemic innovation?") }}</p>
   </div>
-</main>
+</div>
 
 <div class="sponsor-page">
   <p>{{ _('The National Conference provides an opportunity for our partners to:') }}</p>
