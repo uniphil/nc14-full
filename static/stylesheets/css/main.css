@@ -991,16 +991,17 @@ body > footer {
 body > footer p {
   float: left;
   line-height: inherit;
+  margin-bottom: 0;
 }
-/* line 489, ../sass/_global.sass */
+/* line 490, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 491, ../sass/_global.sass */
+/* line 492, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
-/* line 493, ../sass/_global.sass */
+/* line 494, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
 }
