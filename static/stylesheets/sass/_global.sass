@@ -136,11 +136,19 @@ header
 
     a
       padding: 5px 10px
-      border-bottom: 3px solid $cpartner - #111
+      padding-bottom: 15px
+      border-bottom: 3px solid transparent
       color: white
       text-decoration: none
+      +transition(padding .5s, border .5s, color .5s)
       &.selected, &:hover
+        padding-bottom: 5px
+      &:hover
+        border-color: $cpartner - #111
+      &.selected
         border-color: $cpartner + #ffe2c4
+        &:hover
+          border-color: $cpartner + #ffe2c4
 
 .hlock
   position: fixed
@@ -182,19 +190,6 @@ header
     text-shadow: none
     +open-sans-stack()
 
-.button, input[type="submit"]
-  padding: 12px 0 4px
-  border: 0
-  border-bottom: 1px dashed #bbb
-  border-bottom-color: rgba(255,255,255,.5)
-  text-decoration: none
-  text-shadow: none
-  text-align: center
-  font: 36px bold 'franchise', sans-serif
-  color: white
-  //background-color: $centrepreneur - #222
-  //&:hover
-  //  background-color: $centrepreneur - #282828
 
 .leader-para, .sponsor-page
   margin: 0 3em
@@ -216,8 +211,6 @@ header
     margin: 0 0 .5em 2em
     list-style: circle
 
-
-
 .about-ewb, .about-rethink
   width: 50%
   float: left
@@ -227,14 +220,14 @@ header
   margin: 48px auto
   font-size: 0
   img
-    height: 96px
+    height: 36px
     width: auto
     margin-bottom: 9px
   ul
     text-align: center
   li
     display: inline-block
-    width: 19%
+    width: 24%
     margin: 0 3%
     vertical-align: top
     +adjust-font-size-to($base-font-size)
@@ -279,51 +272,39 @@ header
     bottom: 20px
     right: 48px
 
+.signup
+  padding: 0 168px
 
-#signup
-  width: 100%
-  min-width: 800px
-  padding-top: 2rem
-  padding-bottom: 2rem
+.button
+  display: inline-block
+  width: 204px
+  margin: auto
+  padding: 1em
+  border: 0
+  font-weight: bold
+  text-decoration: none
+  text-align: center
   color: white
-  background-color: $cpartner
-  p:first-child
-    +adjust-font-size-to($base-font-size * $gr)
-    line-height: 2rem
-    +trailer(.5)
-  strong
-    font-weight: bold
-  ul
-    list-style-type: disc
-  li
-    margin-left: 1em
+  background-color: #009999
+  &:before
+    content: '['
+  &:after
+    content: ']'
+  &:before, &:after
+    opacity: 0
+    +transition(opacity 0.5s, padding 1s)
+  &:hover
+    &:before, &:after
+      opacity: 1
+      padding: .5em
 
-  .info
-    width: 60%
-    float: left
-  form
-    width: 35%
-    float: right
-    label
-      text-transform: uppercase
-      +adjust-font-size-to(14px)
-    input[type="text"]
-      width: 100%
-      height: 48px
-      padding-left: 0.7em
-      border: 1px solid #b8b8b8
-      color: #333334
-      +adjust-font-size-to(1rem)
-    input[type="submit"]
-      background-color: $centrepreneur - #080808
-      &:hover
-        background-color: $centrepreneur - #111
-      +leader(.5)
-      float: right
 
 .sponsors
-  margin: 36px auto
+  margin: 36px auto 0
+  padding: 36px 0 12px
   text-align: center
+  background-color: #e0e0e0
+  box-shadow: 0 85px 20px -80px #aaa inset
   ul
     width: 80%
     margin: 36px auto 0
@@ -431,4 +412,6 @@ body > footer
     float: right
   a
     color: white
+    &:hover
+      color: #66ccff
 
