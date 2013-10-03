@@ -83,41 +83,39 @@ function scrollableElement(els) {
   var Switcher = function(lep_box) {
     var width = lep_box.width();
     var tab_height = 198;  //$(".about-lep-tabs").height()
-    var padding_cheat = 26;
+    var padding_cheat = 19;
     var boxes = $("#learn, #innovate, #connect", lep_box);
     boxes.wrap('<div>').each(function() {
       $this = $(this);
       $this.parent().attr("id", $this.attr("id") + "-wrap");
     });
-    $(".about-lep-tabs a", lep_box).click(function() {
+    $("a[href=#learn], a[href=#innovate], a[href=#connect]", lep_box).click(function() {
       $(".about-lep-tabs a", lep_box).removeClass("selected");
-      $(this).addClass("selected");
+      $(".about-lep-tabs a[href=" + $(this).attr('href') + "]", lep_box).addClass("selected");
+      $("#connect-wrap").css({width: width});
       switch($(this).attr("href")) {
         case "#learn":
+          boxes.css({height: 'auto'}).height($("#learn").height());
           $("#learn-wrap").css({width: width});
           $("#innovate-wrap").css({width: width});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
           break;
         case "#innovate":
+          boxes.css({height: 'auto'}).height($("#innovate").height());
           $("#learn-wrap").css({width: 0});
           $("#innovate-wrap").css({width: width});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
           break;
         case "#connect":
+          boxes.css({height: 'auto'}).height($("#connect").height());
           $("#learn-wrap").css({width: 0});
           $("#innovate-wrap").css({width: 0});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
           break;
       }
       return false;
     });
-    var max_height = 0;
-    boxes.each(function() {
-      var test_h = $(this).height();
-      if (test_h > max_height){
-        max_height = test_h;
-      }
-    });
-    max_height += padding_cheat * 2;
-    $('.about-lep-tabs', lep_box).css({'margin-bottom': max_height - padding_cheat - 1});
-    boxes.height(max_height);
+    boxes.parent().css({width: 0});
   };
 
   var switcher_el = $('.about-lep');

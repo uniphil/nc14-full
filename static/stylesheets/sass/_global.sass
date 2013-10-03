@@ -343,7 +343,7 @@ header
   p
     margin: 1em / $gr 0
   .about-lep-tabs
-    margin-top: 2rem
+    margin: 2rem 0 150px
     text-align: justify
     font-size: 0
     a
@@ -357,6 +357,7 @@ header
       text-decoration: none
       color: white
       text-shadow: 0 0 0.333em black
+      border: none
       &:not(.selected):not(:hover)
         opacity: 0.5
       &.selected,
@@ -369,6 +370,18 @@ header
       background: url('../../img/buddy-entrepreneur.png') 50% top no-repeat
     .p
       background: url('../../img/buddy-partner.png') 50% top no-repeat
+
+  .about-lep-hint
+    +box-sizing(border-box)
+    background: #eee
+    position: absolute
+    top: 198px
+    width: 920px
+    height: 177px
+    font-style: italic
+    text-align: center
+    padding-top: 54px
+    margin: 0
 
   #learn-wrap,
   #innovate-wrap,
