@@ -7,6 +7,14 @@ body
   box-shadow: 0 0 60px #ccc
   background-color: white
 
+h2
+  font-weight: bold
+  font-family: asap
+  font-size: $gr * 1em
+  line-height: $gr * 1em
+  margin: (1em / $gr) 0
+
+
 .l
   color: $cleader
 .e
@@ -14,7 +22,9 @@ body
 .p
   color: $cpartner
 
-.preheader, .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors
+// all the old ones (feel free to revert, I was just lazy):  .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors,
+.preheader,
+main > div
   padding: 0 2.5%
 
 .preheader
@@ -217,15 +227,6 @@ header
     content: close-quote
     bottom: 20px
     right: 48px
-
-.labs
-
-  .leader, .entrepreneur, .partner
-    float: left
-    width: 33.3333333333333333%
-  .leader
-  .entrepreneur
-  .partner
 
 
 #signup
