@@ -48,7 +48,6 @@ def monkey_render(*args, **kwargs):
             if 'lang' not in kwargs:
                 kwargs.update(lang=get_locale())
             return url_for('page', page=endpoint, **kwargs)
-    print(kwargs)
     kwargs.update(lang=kwargs.get('lang', get_locale()),
                   url_for=monkey_url_for)
     return render_template(*args, **kwargs)
