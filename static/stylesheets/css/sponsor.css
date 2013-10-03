@@ -731,9 +731,8 @@ header nav a.selected, header nav a:hover {
   margin-top: 2rem;
   text-align: justify;
   font-size: 0;
-  margin-bottom: -81px;
 }
-/* line 335, ../sass/_global.sass */
+/* line 334, ../sass/_global.sass */
 .about-lep .about-lep-tabs a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -747,30 +746,29 @@ header nav a.selected, header nav a:hover {
   text-decoration: none;
   color: white;
   text-shadow: 0 0 0.333em black;
-  margin-bottom: 1000px;
   transition: opacity 0.1s linear;
 }
-/* line 347, ../sass/_global.sass */
+/* line 345, ../sass/_global.sass */
 .about-lep .about-lep-tabs a:not(.selected):not(:hover) {
   opacity: 0.5;
 }
-/* line 349, ../sass/_global.sass */
+/* line 347, ../sass/_global.sass */
 .about-lep .about-lep-tabs a.selected, .about-lep .about-lep-tabs a:hover {
   text-shadow: none;
 }
-/* line 353, ../sass/_global.sass */
+/* line 351, ../sass/_global.sass */
 .about-lep .about-lep-tabs .l {
   background: url("../../img/buddy-lead.png") 50% top no-repeat;
 }
-/* line 355, ../sass/_global.sass */
+/* line 353, ../sass/_global.sass */
 .about-lep .about-lep-tabs .e {
   background: url("../../img/buddy-entrepreneur.png") 50% top no-repeat;
 }
-/* line 357, ../sass/_global.sass */
+/* line 355, ../sass/_global.sass */
 .about-lep .about-lep-tabs .p {
   background: url("../../img/buddy-partner.png") 50% top no-repeat;
 }
-/* line 360, ../sass/_global.sass */
+/* line 358, ../sass/_global.sass */
 .about-lep #learn-wrap,
 .about-lep #innovate-wrap,
 .about-lep #connect-wrap {
@@ -780,19 +778,19 @@ header nav a.selected, header nav a:hover {
   width: 920px;
   transition: width 0.2s linear;
 }
-/* line 368, ../sass/_global.sass */
+/* line 366, ../sass/_global.sass */
 .about-lep #learn-wrap {
   z-index: 3;
 }
-/* line 370, ../sass/_global.sass */
+/* line 368, ../sass/_global.sass */
 .about-lep #innovate-wrap {
   z-index: 2;
 }
-/* line 372, ../sass/_global.sass */
+/* line 370, ../sass/_global.sass */
 .about-lep #connect-wrap {
   z-index: 1;
 }
-/* line 374, ../sass/_global.sass */
+/* line 372, ../sass/_global.sass */
 .about-lep #learn,
 .about-lep #innovate,
 .about-lep #connect {
@@ -800,13 +798,13 @@ header nav a.selected, header nav a:hover {
   padding: 23px;
   color: white;
 }
-/* line 380, ../sass/_global.sass */
+/* line 378, ../sass/_global.sass */
 .about-lep #learn h2,
 .about-lep #innovate h2,
 .about-lep #connect h2 {
   display: none;
 }
-/* line 382, ../sass/_global.sass */
+/* line 380, ../sass/_global.sass */
 .about-lep #learn h3,
 .about-lep #innovate h3,
 .about-lep #connect h3 {
@@ -814,38 +812,38 @@ header nav a.selected, header nav a:hover {
   margin: 0.61803em 0;
   line-height: 1em;
 }
-/* line 386, ../sass/_global.sass */
+/* line 384, ../sass/_global.sass */
 .about-lep #learn h3:nth-child(2),
 .about-lep #innovate h3:nth-child(2),
 .about-lep #connect h3:nth-child(2) {
   font-style: italic;
 }
-/* line 388, ../sass/_global.sass */
+/* line 386, ../sass/_global.sass */
 .about-lep #learn h4,
 .about-lep #innovate h4,
 .about-lep #connect h4 {
   font-weight: bold;
 }
-/* line 390, ../sass/_global.sass */
+/* line 388, ../sass/_global.sass */
 .about-lep #learn h5,
 .about-lep #innovate h5,
 .about-lep #connect h5 {
   text-transform: uppercase;
 }
-/* line 392, ../sass/_global.sass */
+/* line 390, ../sass/_global.sass */
 .about-lep #learn {
   background: #8766ad;
 }
-/* line 394, ../sass/_global.sass */
+/* line 392, ../sass/_global.sass */
 .about-lep #innovate {
   background: #b4d435;
 }
-/* line 396, ../sass/_global.sass */
+/* line 394, ../sass/_global.sass */
 .about-lep #connect {
   background: #f58345;
 }
 
-/* line 400, ../sass/_global.sass */
+/* line 398, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -856,16 +854,16 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 409, ../sass/_global.sass */
+/* line 407, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
 }
-/* line 412, ../sass/_global.sass */
+/* line 410, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 414, ../sass/_global.sass */
+/* line 412, ../sass/_global.sass */
 body > footer a {
   color: white;
 }

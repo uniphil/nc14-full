@@ -78,8 +78,11 @@ function scrollableElement(els) {
 ////////////////////
 (function() {
   var Switcher = function(lep_box) {
-    var width = lep_box.width()
-    $("#learn, #innovate, #connect", lep_box).wrap('<div>').each(function() {
+    var width = lep_box.width();
+    var tab_height = 198;  //$(".about-lep-tabs").height()
+    var padding_cheat = 26;
+    var boxes = $("#learn, #innovate, #connect", lep_box);
+    boxes.wrap('<div>').each(function() {
       $this = $(this);
       $this.parent().attr("id", $this.attr("id") + "-wrap");
     });
@@ -101,6 +104,16 @@ function scrollableElement(els) {
           break;
       }
     });
+    var max_height = 0;
+    boxes.each(function() {
+      var test_h = $(this).height();
+      if (test_h > max_height){
+        max_height = test_h;
+      }
+    });
+    max_height += padding_cheat * 2;
+    $('.about-lep-tabs', lep_box).css({'margin-bottom': max_height - padding_cheat - 1});
+    boxes.height(max_height);
   };
 
   var switcher_el = $('.about-lep');
