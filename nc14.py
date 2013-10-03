@@ -22,7 +22,7 @@ app.config.update(BABEL_DEFAULT_TIMEZONE='UTC',
                   SCHED_RO_KEY='7f82cee5b43e2cdb49f3cfabea82b489')
 
 
-import sched
+# import sched
 
 
 babel = Babel(app)
@@ -44,7 +44,8 @@ def monkey_render(*args, **kwargs):
         try:
             return url_for(endpoint, **kwargs)
         except BuildError:
-            kwargs.update(lang=get_locale())
+            if 'lang' not in kwargs:
+                kwargs.update(lang=get_locale())
             return url_for('page', page=endpoint, **kwargs)
     kwargs.update(lang=kwargs.get('lang', get_locale()),
                   url_for=monkey_url_for)
@@ -58,14 +59,15 @@ def root():
 
 @app.route('/<lang>/')
 def home(lang):
-    all_sessions = sched.sessions_list()
-    homepage_sessions = sched.homepage_sessions(all_sessions)
-    return monkey_render('home.html', sessions=homepage_sessions)
+    # all_sessions = sched.sessions_list()
+    # homepage_sessions = sched.homepage_sessions(all_sessions)
+    # return monkey_render('home.html', sessions=homepage_sessions)
+    return monkey_render('home.html')
 
 
 @app.route('/<lang>/<page>')
 def page(lang, page):
-    return monkey_render('{}.html'.format(page))
+    return monkey_render('{}.html'.format(page), page=page)
 
 
 for static_thing in ('favicon.ico', 'robots.txt'):
