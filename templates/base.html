@@ -50,7 +50,7 @@
         <div class="top">
           <img src="{{ url_for('static', filename='img/logo-ewb-top.png') }}" alt="{{ _('Engineers Without Borders Canada') }}" />
           <img src="{{ url_for('static', filename='img/logo-hatch-top.png') }}" alt="{{ _('Hatch') }}" />
-          <a href="{{ url_for('home', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
+          <a href="{{ url_for(page or 'home', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
         </div>
         <div class="info">
           <img src="{{ url_for('static', filename='img/logo-rethink-top-' + lang + '.png') }}" alt="{{ _('Rethink') }}" />
