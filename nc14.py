@@ -63,7 +63,7 @@ def home(lang):
     # all_sessions = sched.sessions_list()
     # homepage_sessions = sched.homepage_sessions(all_sessions)
     # return monkey_render('home.html', sessions=homepage_sessions)
-    return monkey_render('home.html', choice=choice)
+    return monkey_render('home.html', choice=choice, page='home')
 
 
 @app.route('/<lang>/<page>')
