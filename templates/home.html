@@ -26,19 +26,19 @@
 #}
     <div class="conference-points">
       <ul>
-        <li class="l">
-          <img src="{{ url_for('static', filename='img/icon-learn-lead.png') }}" alt="{{ _('Learn and lead') }}" />
-          <h3>{{ _('Learn') }}</h3>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-gear.png') }}" alt="{{ _('Gear') }}" />
+          <h3 class="l">{{ _('Learn') }}</h3>
           <p>{{ _("Dive in to emerging theories & new strategies as both a delegate and a presenter. Participate in relevant, participant-driven explorations.") }}</p>
         </li>
-        <li class="e">
-          <img src="{{ url_for('static', filename='img/icon-connect.png') }}" alt="{{ _('Connect') }}" />
-          <h3>{{ _('Innovate') }}</h3>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-bulb.png') }}" alt="{{ _('Lightbulb') }}" />
+          <h3 class="e">{{ _('Innovate') }}</h3>
           <p>{{ _("Bring your ideas, or build on context and conversations to pitch a new one. Promote them, receive feedback, or find resources.") }}</p>
         </li>
-        <li class="p">
-          <img src="{{ url_for('static', filename='img/icon-develop.png') }}" alt="{{ _('Develop') }}" />
-          <h3>{{ _('Connect') }}</h3>
+        <li>
+          <img src="{{ url_for('static', filename='img/icon-shake.png') }}" alt="{{ _('Handshake') }}" />
+          <h3 class="p">{{ _('Connect') }}</h3>
           <p>{{ _("Meet experts and up-and-comers, find clients and investors, foster new partnerships or explore existing coalition efforts.") }}</p>
         </li>
       </ul>
@@ -83,7 +83,7 @@
     </div>
 #}
 
-    <div id="signup" class="clearfix">
+    <div class="signup fulljust">
       <a href="{{ url_for('register') }}" class="button">{{ _("Join Us") }}</a>
       <a href="{{ url_for('about') }}" class="button">{{ _("Find out More") }}</a>
     </div>
@@ -96,7 +96,7 @@
       <ul class="gold">
         <li class='transcanada ir'>{{ _('TransCanada Corporation') }}</li>
       </ul>
-      <ul class="other fulljust">
+      <ul class="bronze fulljust">
         <li class="sherritt ir">{{ _('Sherritt International') }}</li>
         <li class="sherritt ir">{{ _('Sherritt International') }}</li>
         <li class="sherritt ir">{{ _('Sherritt International') }}</li>
