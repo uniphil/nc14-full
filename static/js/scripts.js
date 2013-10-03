@@ -14,3 +14,9 @@ function checkScroll(event){
     $main.removeClass('mlock');
   }
 }
+
+$('#navheader').removeClass('hlock');
+var $lockBar = $('#navheader'), $main = $('main'), lockPoint = $lockBar.offset().top + 60;
+$(window).scroll(function() {
+  checkScroll();
+});
