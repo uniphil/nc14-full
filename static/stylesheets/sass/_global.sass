@@ -22,7 +22,6 @@ h2
 .p
   color: $cpartner
 
-// all the old ones (feel free to revert, I was just lazy):  .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors,
 .preheader,
 main > div
   padding: 0 $pagepadding
@@ -292,7 +291,8 @@ header
 
 .about-lep
   padding: 0
-  // margin-top: -200px
+  p
+    margin: 1em / $gr 0
   .about-lep-tabs
     margin-top: 2rem
     text-align: justify
@@ -332,6 +332,16 @@ header
     z-index: 1
     h2
       display: none
+    h3
+      font-size: 1.4rem
+      margin: 1em / $gr 0
+      line-height: 1em
+      &:nth-child(2)
+        font-style: italic
+    h4
+      font-weight: bold
+    h5
+      text-transform: uppercase
   #learn
     background: $cleader
   #innovate
