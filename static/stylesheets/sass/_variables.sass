@@ -35,8 +35,8 @@ $sponsors: sprite-map("sponsors/*.png", $spacing: 1px)
   @return $val / ($val * 0 + 1)
 
 =retina-sprites($spritesheet, $ie8: true, $ie-folder: 'foo')
-  @each $sprite in sprite_names($spritesheet)
-    @if $ie8
+  @if $ie8
+    @each $sprite in sprite_names($spritesheet)
       // use modernizr to add backgroundsize class
       &.#{$sprite}
         height: image-height(sprite-file($spritesheet, $sprite)) / 2
@@ -47,10 +47,11 @@ $sponsors: sprite-map("sponsors/*.png", $spacing: 1px)
           @each $j in sprite-position($spritesheet, $sprite)
             $positions: append(unquote($positions), $j / 2, space)
           background-position: $positions
-      .backgroundsize &
-        background-image: $spritesheet
-        background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
-    @else
+    .backgroundsize &
+      background-image: $spritesheet
+      background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
+  @else
+    @each $sprite in sprite_names($spritesheet)
       &.#{$sprite}
         height: image-height(sprite-file($spritesheet, $sprite)) / 2
         width: image-width(sprite-file($spritesheet, $sprite)) / 2
@@ -58,8 +59,8 @@ $sponsors: sprite-map("sponsors/*.png", $spacing: 1px)
         @each $j in sprite-position($spritesheet, $sprite)
           $positions: append(unquote($positions), $j / 2, space)
         background-position: $positions
-      background-image: $spritesheet
-      background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
+    background-image: $spritesheet
+    background-size: image-width(sprite-path($spritesheet))/2 image-height(sprite-path($spritesheet))/2
 
 /////////////////////////////////////////////
 // Helper classes, adapted from H5BPv4.3.0 //

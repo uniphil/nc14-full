@@ -14,7 +14,7 @@
       <p>{{ _("Poverty and inequality are not new, but more than ever, we see the levels of complexity and interconnections of these global challenges. With new abilities to understand how problems connect, we are called to share and collaborate in our work, to create solutions larger than single organizations.") }}</p>
       <p>{{ _('Engineers Without Borders (EWB) Canada works to <b class="l">develop leaders</b>, <b class="e">invest in entrepreneurs</b>, and <b class="p">partner with individuals and organizations</b> to tackle these global challenges. Using our work and experience in these three approaches as the foundation of this conference, <strong>we are hosting the opportunity to learn and connect <em>together</em></strong>, with the goal of improving our collective efforts for global development.') }}</p>
     </div>
-
+{#
     <div class="pullquote">
       <div class="bigquotes"></div>
       <blockquote>
@@ -22,7 +22,7 @@
         <footer>Phil's Mom</footer>
       </blockquote>
     </div>
-
+#}
     <div class="conference-points">
       <ul>
         <li class="l">
@@ -43,8 +43,8 @@
       </ul>
     </div>
 
-    <!-- <div class="speakers">
-      <br/> ## Hi Riley :) :)
+{#  <div class="speakers">
+      <br/>
       <h2>Key Sessions</h2>
       <br/>
       <ul>
@@ -61,9 +61,9 @@
         %% endfor
       </ul>
       <br/><br/>
-    </div> -->
+    </div>
 
-    <!-- <div class="labs">
+    <div class="labs">
       <p>{{ _("A term from the Social Innovation space, Design or Change Labs provide an exploratory, experimental, and creative space designed to encourage the co-creation of meaningful and innovative solutions to complex problems.") }}</p>
       <p>{{ _("Developing leaders, investing in entrepreneurs, and forging partnerships are three fundamental approaches to tackling these problems, and EWB has been working with them for twelve years. This experience positions us to host spaces to dive in, explore, and explode our understanding of each approach -- and their points of intersection -- which we believe is best achieved through this style of session.") }}</p>
       <div class="leader">
@@ -79,7 +79,8 @@
         <p>{{ _("What do we need to know about partnerships to truly harness the value of coalition and collaboration for global development?") }}</p>
       </div>
 
-    </div> -->
+    </div>
+#}
 
     <div id="signup" class="clearfix">
       <a href="{{ url_for('register') }}" class="button">{{ _("Join Us") }}</a>
@@ -88,9 +89,15 @@
 
     <div class="sponsors">
       <h1>{{ _('<b class="rethink">RETHINK 2014</b> is made possible by the generosity of:') }}</h1>
-      <ul class="fulljust">
+      <ul class="lead">
         <li class='hatch ir'>{{ _('Hatch Ltd') }}</li>
+      </ul>
+      <ul class="gold">
         <li class='transcanada ir'>{{ _('TransCanada Corporation') }}</li>
+      </ul>
+      <ul class="other fulljust">
+        <li class="sherritt ir">{{ _('Sherritt International') }}</li>
+        <li class="sherritt ir">{{ _('Sherritt International') }}</li>
         <li class="sherritt ir">{{ _('Sherritt International') }}</li>
       </ul>
       <p>{{ _('Engineers Without Borders is looking for more partners.') }} <a href="{{ url_for('sponsors') }}">{{ _('Interested?') }}</a></p>
