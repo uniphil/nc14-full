@@ -2,14 +2,133 @@
 
 %% block main
 
-<p>Engineers Without Borders presents the ___th annual National Conference</p>
-<p>When? (date)</p>
-<p>Where? (event location + hotel location)</p>
-<p>How much? (price)</p>
-<p>Not bad, why don't you <a href="{{ url_for('register') }}">{{ _('buy a ticket?') }}</a></p>
-<p>Other information (transportation, dress code, etc.)</p>
-<p>Refer them to the <a href="{{ url_for('agenda') }}">{{ _('schedule / agenda') }}</a> for more info on logistics</p>
-<p>link to delegate package PDF</p>
-<p>embedded, themed, full-width google map</p>
+<div class="w5">
+  <h2>{{ _('When?') }}</h2>
+  <p>{{ _('<strong>Friday, January 10th</strong> to <strong>Sunday, January 12th, 2014</strong>.') }}</p>
+  <h2>{{ _('Where?') }}</h2>
+  <div class="col2">
+    <h3>{{ _('Venue') }}</h3>
+    <a href="#map-canvas" class="centre">{{ _('Toronto Congress Centre North Building') }}</a>
+    <h3>{{ _('Accommodations') }}</h3>
+    <a href="#map-canvas" class="hotel">{{ _('The Travelodge Hotel') }}</a>
+  </div>
+  <div id="map-canvas"></div>
+  <div class="col2">
+    <p>{{ _('A room block is reserved for conference delegates, and can be purchased at the time of registration. A <strong>free shuttle</strong> will run between this hotel and the venue through the day -- and it’s approximately a <strong>five minute</strong> ride.') }}</p>
+    <p>{{ _('Note that there are <strong>numerous alternative accommodations</strong> available in the immediate area, but that transportation will be the delegate’s responsibility in this case. Delegates staying in downtown Toronto will have access to a shuttle each morning and evening, which can be purchased at a cost-recovery rate at the time of registration.') }}</p>
+  </div>
+  <div class="food">
+    <h2>{{ _('Food') }}</h2>
+    <p>{{ _('Registration includes <strong>breakfast, lunch and dinner</strong> for all three days of Rethink, with the exception of dinner on Saturday night. At this time, delegates will be provided with transportation downtown for the opportunity to participate in a variety of events, including networking dinners with some special guests.') }}</p>
+    <p>{{ _('We are proud to be serving <strong>locally-sourced</strong> and <strong>fair trade</strong> products where available throughout the event.') }}</p>
+  </div>
 
+  <p>{{ _('<strong>Please see our <a href="{{ url_for(\'register\') }}">registration page</a> for pricing structure information.</strong>') }}</p>
+</div>
+
+%% endblock
+
+%% block tail_scripts
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false">// TODO add &language=fr for french localization</script>
+
+<script>
+  var centre = new google.maps.LatLng(43.691063, -79.578133);
+  var hotel = new google.maps.LatLng(43.686472, -79.595680);
+  var map, centreMarker, hotelMarker, centreInfoWindow, hotelInfoWindow;
+  var MY_MAPTYPE_ID = 'custom_style';
+
+  function initialize() {
+    var centreInfo = '<div class="address">'+
+        '<a href="#centrejdjdjd">Toronto Congress Centre</a>'+
+        '<p>North Building</p>'+
+        '<p>650 Dixon Rd</p>'+
+        '<p>Toronto, ON M9W 1J1</p>'+
+        '</div>';
+    var hotelInfo = '<div class="address">'+
+      '<a href="#centrejdjdjd">The Travelodge Hotel</a>'+
+      '<p>295 Dixon Rd</p>'+
+      '<p>Toronto, ON M9W 1J8</p>'+
+      '</div>';
+
+    var featureOpts = [
+      {
+        stylers: [
+          { visibility: 'simplified' },
+          //{ gamma: .5 },
+          //{ saturation: -100 },
+          { weight: 0.5 }
+        ]
+      },
+      {
+        elementType: 'labels',
+        stylers: [
+          { visibility: 'yes' }
+        ]
+      },
+      {
+        featureType: 'water',
+        stylers: [
+          { color: '#727273' }
+        ]
+      }
+    ];
+    var mapOptions = { zoom: 13, center: centre, disableDefaultUI: true, zoomControl: true, mapTypeId: MY_MAPTYPE_ID};
+
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    var styledMapOptions = {
+      name: 'Custom Style'
+    };
+
+    var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+    centreMarker = new google.maps.Marker({
+      position: centre,
+      map: map,
+      animation: google.maps.Animation.DROP,
+      title: 'Toronto Congress Centre North Building'
+    });
+
+    centreInfoWindow = new google.maps.InfoWindow({
+      content: centreInfo
+    });
+    hotelInfoWindow = new google.maps.InfoWindow({
+      content: hotelInfo
+    });
+
+    hotelMarker = new google.maps.Marker({
+      position: hotel,
+      map: map,
+      animation: google.maps.Animation.DROP,
+      title: 'The Travelodge Hotel'
+    });
+
+    google.maps.event.addListener(centreMarker, 'click', function() {
+      centreInfoWindow.open(map,centreMarker);
+    });
+    google.maps.event.addListener(hotelMarker, 'click', function() {
+      hotelInfoWindow.open(map,hotelMarker);
+    });
+
+    map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+  }
+
+  function markerBounce(marker) {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+    setTimeout(function() {
+      marker.setAnimation(null);
+    }, 2840);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+  $('a.centre').click(function() {
+    markerBounce(centreMarker);
+    centreInfoWindow.open(map,centreMarker);
+  });
+  $('a.hotel').click(function() {
+    markerBounce(hotelMarker);
+    hotelInfoWindow.open(map,hotelMarker);
+  });
+</script>
 %% endblock
