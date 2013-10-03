@@ -67,12 +67,17 @@
     %% block header
       <header id="navheader">
         <nav>
-          <a href="{{ url_for('home') }}">{{ _('Home') }}</a>
-          <a href="{{ url_for('about') }}">{{ _('About') }}</a>
-          <a href="{{ url_for('schedule') }}">{{ _('Schedule') }}</a>
-          <a href="{{ url_for('logistics') }}">{{ _('Logistics') }}</a>
-          <a href="{{ url_for('partner') }}">{{ _('Partner') }}</a>
-          <a href="{{ url_for('register') }}">{{ _('Register') }}</a>
+          {% set nav_stuff = (
+            ('home', _('Home')),
+            ('about', _('About')),
+            ('schedule', _('Schedule')),
+            ('logistics', _('Logistics')),
+            ('partner', _('Partner')),
+            ('register', _('Register')),
+          ) %}
+          %% for link, name in nav_stuff
+            <a href="{{ url_for(link) }}"{% if link == page %} class="selected"{% endif %}>{{ name }}</a>
+          %% endfor
         </nav>
       </header>
     %% endblock
