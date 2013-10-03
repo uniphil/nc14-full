@@ -5,9 +5,13 @@ body
   width: 920px
   margin: 0 auto
   color: #343433
+  font-weight: 100
   background-color: white
   box-shadow: 0 0 60px #000
   +open-sans-stack()
+
+header, .overlay, .sponsors
+  font-weight: 400
 
 p
   line-height: 1.5em
@@ -17,7 +21,6 @@ h2
   line-height: 2em
   margin-bottom: .5em
   border-bottom: 1px dotted #ccc
-  font-weight: 100
   font-size: 24px
   letter-spacing: 2px
   +open-sans-stack()
@@ -49,6 +52,7 @@ main > div:nth-child(1), .overlay + div
     +asap-stack()
   p
     font-size: 18px
+    font-weight: 400
   .top
     height: 36px
     line-height: 36px
@@ -192,11 +196,27 @@ header
   //&:hover
   //  background-color: $centrepreneur - #282828
 
-.leader-para
+.leader-para, .sponsor-page
   margin: 0 3em
   font-size: 24px
   font-weight: 100
   color: #555
+
+.sponsor-page
+  padding-bottom: 1.5em
+  p
+    margin-bottom: 1em
+  a
+    padding: 0.2em
+    font-weight: 400
+    color: white
+    background-color: $cpartner
+    text-decoration: none
+  li
+    margin: 0 0 .5em 2em
+    list-style: circle
+
+
 
 .about-ewb, .about-rethink
   width: 50%
