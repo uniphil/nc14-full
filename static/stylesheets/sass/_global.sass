@@ -1,19 +1,26 @@
 html
-  background: #f0f0f0 url(../../img/gray-jean.png)
+  background: #181818 url(../../img/black_denim.png)
 
 body
   width: 920px
   margin: 0 auto
-  box-shadow: 0 0 60px #ccc
+  color: #343433
   background-color: white
+  box-shadow: 0 0 60px #000
+  +open-sans-stack()
+
+p
+  line-height: 1.5em
+  margin-bottom: 1.5em
 
 h2
-  font-weight: bold
-  font-family: asap
-  font-size: $gr * 1em
-  line-height: $gr * 1em
-  margin: (1em / $gr) 0
-
+  line-height: 2em
+  margin-bottom: .5em
+  border-bottom: 1px dotted #ccc
+  font-weight: 100
+  font-size: 24px
+  letter-spacing: 2px
+  +open-sans-stack()
 
 .l
   color: $cleader
@@ -26,16 +33,22 @@ h2
 main > div
   padding: 0 $pagepadding
 
+main > div:nth-child(1), .overlay + div
+  padding-top: 1.5em
+
 .preheader
   position: relative
   font-size: 0
   h2
+    line-height: 14px
+    margin-top: 12px
+    border-bottom: 0
+    font-size: 20px
     font-weight: bold
-    font-family: asap
-    +adjust-font-size-to($base-font-size + 2)
-    +adjust-leading-to(.5)
+    letter-spacing: 0
+    +asap-stack()
   p
-    +adjust-font-size-to($base-font-size)
+    font-size: 18px
   .top
     height: 36px
     line-height: 36px
@@ -66,7 +79,7 @@ main > div
     img
       vertical-align: bottom
   .info
-    margin: 36px 5% 18px 0
+    margin: 36px 5% 0 0
     color: #727273
 
 .blockers
@@ -95,6 +108,7 @@ header
   margin-left: -40px
   padding-right: 40px
   background-color: $cpartner
+  background-color: rgba($cpartner, .95)
   box-shadow: 0 2px 2px rgba(0,0,0,.2)
   +transition(width .3s .3s, margin-left .3s .3s, padding-right .3s)
 
@@ -136,7 +150,6 @@ header
 
 .overlay
   height: 360px
-  padding-top: 36px
   color: white
   text-align: center
   text-shadow: 0 0 6px black
@@ -150,13 +163,20 @@ header
         background-image: url('../../img/underlay-#{$i+1}a.png')
   p
     &:first-child
-      +adjust-font-size-to($base-font-size * $gr)
-      +adjust-leading-to(1.2)
-    +trailer(1)
+      font-size: 30px
+      line-height: 68px
+      margin-bottom: 0
+      strong
+        font-size: 48px
+        font-weight: 100
   strong
-    font-size: 48px
-    font-weight: 300
+    padding: 0 .2em
+    font-size: 24px
+    color: #bbb
     text-transform: lowercase
+    background-color: white
+    text-shadow: none
+    +open-sans-stack()
 
 .button, input[type="submit"]
   padding: 12px 0 4px
@@ -171,6 +191,17 @@ header
   //background-color: $centrepreneur - #222
   //&:hover
   //  background-color: $centrepreneur - #282828
+
+.leader-para
+  margin: 0 3em
+  font-size: 24px
+  font-weight: 100
+  color: #555
+
+.about-ewb, .about-rethink
+  width: 50%
+  float: left
+  padding-top: 1.5em
 
 .conference-points
   margin: 48px auto
@@ -291,6 +322,7 @@ header
 
 
 .about-lep
+  clear: both
   padding: 0
   position: relative
   p
@@ -376,6 +408,7 @@ body > footer
   font-size: 12px
   p
     float: left
+    line-height: inherit
   small
     float: right
   a
