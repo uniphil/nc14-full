@@ -32,10 +32,10 @@ h2
 .p
   color: $cpartner
 
-// all the old ones (feel free to revert, I was just lazy):  .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors,
 .preheader,
 main > div
-  padding: 0 2.5%
+  padding: 0 $pagepadding
+
 main > div:nth-child(1), .overlay + div
   padding-top: 1.5em
 
@@ -107,6 +107,7 @@ main > div:nth-child(1), .overlay + div
 
 header
   position: relative
+  z-index: 3
   width: 1000px
   margin-left: -40px
   padding-right: 40px
@@ -338,6 +339,83 @@ header
     font-size: 12px
   a
     color: $cleader
+
+
+.about-lep
+  clear: both
+  padding: 0
+  position: relative
+  p
+    margin: 1em / $gr 0
+  .about-lep-tabs
+    margin-top: 2rem
+    text-align: justify
+    font-size: 0
+    margin-bottom: -81px
+    a
+      +box-sizing(border-box)
+      display: inline-block
+      font-size: 2rem
+      height: 198px
+      width: 305px
+      padding-top: 150px
+      text-align: center
+      text-decoration: none
+      color: white
+      text-shadow: 0 0 0.333em black
+      margin-bottom: 1000px
+      &:not(.selected):not(:hover)
+        opacity: 0.5
+      &.selected,
+      &:hover
+        text-shadow: none
+      transition: opacity 0.1s linear
+    .l
+      background: url('../../img/buddy-lead.png') 50% top no-repeat
+    .e
+      background: url('../../img/buddy-entrepreneur.png') 50% top no-repeat
+    .p
+      background: url('../../img/buddy-partner.png') 50% top no-repeat
+
+  #learn-wrap,
+  #innovate-wrap,
+  #connect-wrap
+    overflow: hidden
+    position: absolute
+    top: 198px
+    width: 920px
+    transition: width 0.2s linear
+  #learn-wrap
+    z-index: 3
+  #innovate-wrap
+    z-index: 2
+  #connect-wrap
+    z-index: 1
+  #learn,
+  #innovate,
+  #connect
+    width: 920px
+    padding: $pagepadding
+    color: #fff
+    h2
+      display: none
+    h3
+      font-size: 1.4rem
+      margin: 1em / $gr 0
+      line-height: 1em
+      &:nth-child(2)
+        font-style: italic
+    h4
+      font-weight: bold
+    h5
+      text-transform: uppercase
+  #learn
+    background: $cleader
+  #innovate
+    background: $centrepreneur
+  #connect
+    background: $cpartner
+
 
 body > footer
   height: 36px

@@ -5,7 +5,7 @@ $(function() {
 });
 
 function checkScroll(event){
-  console.log($(window).scrollTop(), lockPoint)
+  // console.log($(window).scrollTop(), lockPoint)
   if($(window).scrollTop() >= lockPoint){
     $lockBar.addClass("hlock");
     $main.addClass("mlock");
