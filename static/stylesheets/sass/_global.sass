@@ -25,7 +25,7 @@ h2
 // all the old ones (feel free to revert, I was just lazy):  .overlay, .conference-points, .pullquote, .speakers, .labs, #signup, .sponsors,
 .preheader,
 main > div
-  padding: 0 2.5%
+  padding: 0 $pagepadding
 
 .preheader
   position: relative
@@ -288,6 +288,57 @@ header
     font-size: 12px
   a
     color: $cleader
+
+
+.about-lep
+  padding: 0
+  // margin-top: -200px
+  .about-lep-tabs
+    margin-top: 2rem
+    text-align: justify
+    font-size: 0
+    margin-bottom: -81px
+    &> li
+      font-size: 1rem
+      height: 248px
+      width: 300px
+      display: inline-block
+      position: relative
+      a
+        text-align: center
+        font-size: 2rem
+        font-weight: bold
+        text-decoration: none
+        color: white
+        position: absolute
+        width: 100%
+        bottom: 54px
+        text-shadow: 0 0 0.333em black
+    .l
+      background: url('../../img/buddy-lead.png') 50% bottom no-repeat
+    .e
+      background: url('../../img/buddy-entrepreneur.png') 50% bottom no-repeat
+      opacity: 0.5
+    .p
+      background: url('../../img/buddy-partner.png') 50% bottom no-repeat
+      opacity: 0.5
+
+  #learn,
+  #innovate,
+  #connect
+    padding: $pagepadding
+    color: #fff
+    position: relative
+    z-index: 1
+    h2
+      display: none
+  #learn
+    background: $cleader
+  #innovate
+    background: $centrepreneur
+  #connect
+    background: $cpartner
+
 
 body > footer
   height: 36px

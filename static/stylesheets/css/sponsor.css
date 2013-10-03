@@ -75,14 +75,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-clip: padding-box;
 }
 
-/* line 70, ../sass/_variables.sass */
+/* line 74, ../sass/_variables.sass */
 .ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
   *text-indent: -9999px;
 }
-/* line 76, ../sass/_variables.sass */
+/* line 80, ../sass/_variables.sass */
 .ir:before {
   content: "";
   display: block;
@@ -90,24 +90,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 150%;
 }
 
-/* line 83, ../sass/_variables.sass */
+/* line 87, ../sass/_variables.sass */
 .fulljust {
   text-align: justify;
 }
-/* line 85, ../sass/_variables.sass */
+/* line 89, ../sass/_variables.sass */
 .fulljust:after {
   content: "";
   display: inline-block;
   width: 100%;
 }
 
-/* line 91, ../sass/_variables.sass */
+/* line 95, ../sass/_variables.sass */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 96, ../sass/_variables.sass */
+/* line 100, ../sass/_variables.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -119,7 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 1px;
 }
 
-/* line 109, ../sass/_variables.sass */
+/* line 113, ../sass/_variables.sass */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -129,26 +129,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: auto;
 }
 
-/* line 118, ../sass/_variables.sass */
+/* line 122, ../sass/_variables.sass */
 .invisible {
   visibility: hidden;
 }
 
-/* line 122, ../sass/_variables.sass */
+/* line 126, ../sass/_variables.sass */
 .clearfix {
   *zoom: 1;
 }
-/* line 125, ../sass/_variables.sass */
+/* line 129, ../sass/_variables.sass */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 129, ../sass/_variables.sass */
+/* line 133, ../sass/_variables.sass */
 .clearfix:after {
   clear: both;
 }
 
-/* line 133, ../sass/_variables.sass */
+/* line 137, ../sass/_variables.sass */
 .browsehappy {
   margin: 0.2em 0;
   background: #cccccc;
@@ -640,37 +640,37 @@ header nav a.selected, header nav a:hover {
   width: 80%;
   margin: 36px auto 0;
 }
-/* line 41, ../sass/_variables.sass */
+/* line 45, ../sass/_variables.sass */
 .sponsors li.hatch {
   height: 60px;
   width: 384px;
   background-image: url("../../img/sponsors-ie/hatch-ie.png");
 }
-/* line 45, ../sass/_variables.sass */
+/* line 49, ../sass/_variables.sass */
 .backgroundsize .sponsors li.hatch {
   background-position:  0 0;
 }
-/* line 41, ../sass/_variables.sass */
+/* line 45, ../sass/_variables.sass */
 .sponsors li.sherritt {
   height: 48px;
   width: 147px;
   background-image: url("../../img/sponsors-ie/sherritt-ie.png");
 }
-/* line 45, ../sass/_variables.sass */
+/* line 49, ../sass/_variables.sass */
 .backgroundsize .sponsors li.sherritt {
   background-position:  0 -60.5px;
 }
-/* line 41, ../sass/_variables.sass */
+/* line 45, ../sass/_variables.sass */
 .sponsors li.transcanada {
   height: 72px;
   width: 325.5px;
   background-image: url("../../img/sponsors-ie/transcanada-ie.png");
 }
-/* line 45, ../sass/_variables.sass */
+/* line 49, ../sass/_variables.sass */
 .backgroundsize .sponsors li.transcanada {
   background-position:  0 -109px;
 }
-/* line 50, ../sass/_variables.sass */
+/* line 54, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
   background-image: url('/static/img/sponsors-s3c895a3ff8.png');
   background-size: 384px 181px;
@@ -694,7 +694,80 @@ header nav a.selected, header nav a:hover {
   color: #8766ad;
 }
 
-/* line 292, ../sass/_global.sass */
+/* line 293, ../sass/_global.sass */
+.about-lep {
+  padding: 0;
+}
+/* line 296, ../sass/_global.sass */
+.about-lep .about-lep-tabs {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 0;
+  margin-bottom: -81px;
+}
+/* line 301, ../sass/_global.sass */
+.about-lep .about-lep-tabs > li {
+  font-size: 1rem;
+  height: 248px;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+}
+/* line 307, ../sass/_global.sass */
+.about-lep .about-lep-tabs > li a {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 54px;
+  text-shadow: 0 0 0.333em black;
+}
+/* line 317, ../sass/_global.sass */
+.about-lep .about-lep-tabs .l {
+  background: url("../../img/buddy-lead.png") 50% bottom no-repeat;
+}
+/* line 319, ../sass/_global.sass */
+.about-lep .about-lep-tabs .e {
+  background: url("../../img/buddy-entrepreneur.png") 50% bottom no-repeat;
+  opacity: 0.5;
+}
+/* line 322, ../sass/_global.sass */
+.about-lep .about-lep-tabs .p {
+  background: url("../../img/buddy-partner.png") 50% bottom no-repeat;
+  opacity: 0.5;
+}
+/* line 326, ../sass/_global.sass */
+.about-lep #learn,
+.about-lep #innovate,
+.about-lep #connect {
+  padding: 2.5%;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+/* line 333, ../sass/_global.sass */
+.about-lep #learn h2,
+.about-lep #innovate h2,
+.about-lep #connect h2 {
+  display: none;
+}
+/* line 335, ../sass/_global.sass */
+.about-lep #learn {
+  background: #8766ad;
+}
+/* line 337, ../sass/_global.sass */
+.about-lep #innovate {
+  background: #b4d435;
+}
+/* line 339, ../sass/_global.sass */
+.about-lep #connect {
+  background: #f58345;
+}
+
+/* line 343, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -705,15 +778,15 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 301, ../sass/_global.sass */
+/* line 352, ../sass/_global.sass */
 body > footer p {
   float: left;
 }
-/* line 303, ../sass/_global.sass */
+/* line 354, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 305, ../sass/_global.sass */
+/* line 356, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
