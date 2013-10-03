@@ -16,7 +16,7 @@ function checkScroll(event){
 }
 
 $('#navheader').removeClass('hlock');
-var $lockBar = $('#navheader'), $main = $('main'), lockPoint = $lockBar.offset().top + 60;
+var $lockBar = $('#navheader'), $main = $('main'), lockPoint = $lockBar.offset().top;
 $(window).scroll(function() {
   checkScroll();
 });
