@@ -7,6 +7,7 @@
     website for the ewb national conference 2014
 """
 
+from random import choice
 from werkzeug.routing import BuildError
 from flask import Flask, request, redirect, url_for, render_template
 from flask.ext.babel import Babel
@@ -47,6 +48,7 @@ def monkey_render(*args, **kwargs):
             if 'lang' not in kwargs:
                 kwargs.update(lang=get_locale())
             return url_for('page', page=endpoint, **kwargs)
+    print(kwargs)
     kwargs.update(lang=kwargs.get('lang', get_locale()),
                   url_for=monkey_url_for)
     return render_template(*args, **kwargs)
@@ -62,7 +64,7 @@ def home(lang):
     # all_sessions = sched.sessions_list()
     # homepage_sessions = sched.homepage_sessions(all_sessions)
     # return monkey_render('home.html', sessions=homepage_sessions)
-    return monkey_render('home.html')
+    return monkey_render('home.html', choice=choice)
 
 
 @app.route('/<lang>/<page>')

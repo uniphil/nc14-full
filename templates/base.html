@@ -76,7 +76,7 @@
             ('register', _('Register')),
           ) %}
           %% for link, name in nav_stuff
-            <a href="{{ url_for(link) }}"{% if link == page %} class="selected"{% endif %}>{{ name }}</a>
+            <a href="{{ url_for(link, lang=lang) }}"{% if link == page %} class="selected"{% endif %}>{{ name }}</a>
           %% endfor
         </nav>
       </header>

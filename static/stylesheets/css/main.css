@@ -480,10 +480,11 @@ header nav a.selected:hover {
   text-transform: lowercase;
   background-color: white;
   text-shadow: none;
+  transition: background-color 0.667s linear;
   font-family: "Open Sans", Verdana, Helvetica, sans-serif;
 }
 
-/* line 194, ../sass/_global.sass */
+/* line 195, ../sass/_global.sass */
 .leader-para, .sponsor-page {
   margin: 0 3em;
   font-size: 24px;
@@ -491,15 +492,15 @@ header nav a.selected:hover {
   color: #555555;
 }
 
-/* line 200, ../sass/_global.sass */
+/* line 201, ../sass/_global.sass */
 .sponsor-page {
   padding-bottom: 1.5em;
 }
-/* line 202, ../sass/_global.sass */
+/* line 203, ../sass/_global.sass */
 .sponsor-page p {
   margin-bottom: 1em;
 }
-/* line 204, ../sass/_global.sass */
+/* line 205, ../sass/_global.sass */
 .sponsor-page a {
   padding: 0.2em;
   font-weight: 400;
@@ -507,35 +508,35 @@ header nav a.selected:hover {
   background-color: #f58345;
   text-decoration: none;
 }
-/* line 210, ../sass/_global.sass */
+/* line 211, ../sass/_global.sass */
 .sponsor-page li {
   margin: 0 0 0.5em 2em;
   list-style: circle;
 }
 
-/* line 214, ../sass/_global.sass */
+/* line 215, ../sass/_global.sass */
 .about-ewb, .about-rethink {
   width: 50%;
   float: left;
   padding-top: 1.5em;
 }
 
-/* line 219, ../sass/_global.sass */
+/* line 220, ../sass/_global.sass */
 .conference-points {
   margin: 48px auto;
   font-size: 0;
 }
-/* line 222, ../sass/_global.sass */
+/* line 223, ../sass/_global.sass */
 .conference-points img {
   height: 36px;
   width: auto;
   margin-bottom: 9px;
 }
-/* line 226, ../sass/_global.sass */
+/* line 227, ../sass/_global.sass */
 .conference-points ul {
   text-align: center;
 }
-/* line 228, ../sass/_global.sass */
+/* line 229, ../sass/_global.sass */
 .conference-points li {
   display: inline-block;
   width: 24%;
@@ -546,14 +547,14 @@ header nav a.selected:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 234, ../sass/_global.sass */
+/* line 235, ../sass/_global.sass */
 .conference-points h3 {
   font-weight: bold;
   line-height: 41px;
   line-height: 2.25rem;
 }
 
-/* line 238, ../sass/_global.sass */
+/* line 239, ../sass/_global.sass */
 .pullquote {
   quotes: "“" "”" "‘" "’";
   position: relative;
@@ -563,7 +564,7 @@ header nav a.selected:hover {
   box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
   background-color: #f8f8f8;
 }
-/* line 246, ../sass/_global.sass */
+/* line 247, ../sass/_global.sass */
 .pullquote p {
   margin: 24px 72px 0;
   position: relative;
@@ -572,17 +573,17 @@ header nav a.selected:hover {
   line-height: 1.2em;
   color: #333333;
 }
-/* line 253, ../sass/_global.sass */
+/* line 254, ../sass/_global.sass */
 .pullquote footer {
   text-align: right;
   margin-right: 72px;
 }
-/* line 256, ../sass/_global.sass */
+/* line 257, ../sass/_global.sass */
 .pullquote footer:before {
   content: "– ";
 }
 
-/* line 258, ../sass/_global.sass */
+/* line 259, ../sass/_global.sass */
 .bigquotes {
   position: absolute;
   top: 0;
@@ -590,7 +591,7 @@ header nav a.selected:hover {
   left: 0;
   right: 0;
 }
-/* line 260, ../sass/_global.sass */
+/* line 261, ../sass/_global.sass */
 .bigquotes:before, .bigquotes:after {
   z-index: 0;
   position: absolute;
@@ -598,25 +599,25 @@ header nav a.selected:hover {
   font-size: 240px;
   color: #cccccc;
 }
-/* line 266, ../sass/_global.sass */
+/* line 267, ../sass/_global.sass */
 .bigquotes:before {
   content: open-quote;
   top: 100px;
   left: 48px;
 }
-/* line 270, ../sass/_global.sass */
+/* line 271, ../sass/_global.sass */
 .bigquotes:after {
   content: close-quote;
   bottom: 20px;
   right: 48px;
 }
 
-/* line 275, ../sass/_global.sass */
+/* line 276, ../sass/_global.sass */
 .signup {
   padding: 0 168px;
 }
 
-/* line 278, ../sass/_global.sass */
+/* line 279, ../sass/_global.sass */
 .button {
   display: inline-block;
   width: 204px;
@@ -629,15 +630,15 @@ header nav a.selected:hover {
   color: white;
   background-color: #009999;
 }
-/* line 289, ../sass/_global.sass */
+/* line 290, ../sass/_global.sass */
 .button:before {
   content: "[";
 }
-/* line 291, ../sass/_global.sass */
+/* line 292, ../sass/_global.sass */
 .button:after {
   content: "]";
 }
-/* line 293, ../sass/_global.sass */
+/* line 294, ../sass/_global.sass */
 .button:before, .button:after {
   opacity: 0;
   -webkit-transition: opacity 0.5s, padding 1s;
@@ -645,13 +646,13 @@ header nav a.selected:hover {
   -o-transition: opacity 0.5s, padding 1s;
   transition: opacity 0.5s, padding 1s;
 }
-/* line 297, ../sass/_global.sass */
+/* line 298, ../sass/_global.sass */
 .button:hover:before, .button:hover:after {
   opacity: 1;
   padding: 0.5em;
 }
 
-/* line 302, ../sass/_global.sass */
+/* line 303, ../sass/_global.sass */
 .sponsors {
   margin: 36px auto 0;
   padding: 36px 0 12px;
@@ -659,7 +660,7 @@ header nav a.selected:hover {
   background-color: #e0e0e0;
   box-shadow: 0 85px 20px -80px #aaaaaa inset;
 }
-/* line 308, ../sass/_global.sass */
+/* line 309, ../sass/_global.sass */
 .sponsors ul {
   width: 80%;
   margin: 36px auto 0;
@@ -699,42 +700,42 @@ header nav a.selected:hover {
   background-image: url('/static/img/sponsors-s3c895a3ff8.png');
   background-size: 384px 181px;
 }
-/* line 313, ../sass/_global.sass */
+/* line 314, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li {
   display: block;
   margin: 0 auto;
 }
-/* line 316, ../sass/_global.sass */
+/* line 317, ../sass/_global.sass */
 .sponsors .fulljust li {
   display: inline-block;
   margin: 0 36px;
 }
-/* line 319, ../sass/_global.sass */
+/* line 320, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
 }
-/* line 321, ../sass/_global.sass */
+/* line 322, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 325, ../sass/_global.sass */
+/* line 326, ../sass/_global.sass */
 .about-lep {
   clear: both;
   padding: 0;
   position: relative;
 }
-/* line 329, ../sass/_global.sass */
+/* line 330, ../sass/_global.sass */
 .about-lep p {
   margin: 0.61803em 0;
 }
-/* line 331, ../sass/_global.sass */
+/* line 332, ../sass/_global.sass */
 .about-lep .about-lep-tabs {
   margin-top: 2rem;
   text-align: justify;
   font-size: 0;
 }
-/* line 335, ../sass/_global.sass */
+/* line 336, ../sass/_global.sass */
 .about-lep .about-lep-tabs a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -750,27 +751,27 @@ header nav a.selected:hover {
   text-shadow: 0 0 0.333em black;
   transition: opacity 0.1s linear;
 }
-/* line 346, ../sass/_global.sass */
+/* line 347, ../sass/_global.sass */
 .about-lep .about-lep-tabs a:not(.selected):not(:hover) {
   opacity: 0.5;
 }
-/* line 348, ../sass/_global.sass */
+/* line 349, ../sass/_global.sass */
 .about-lep .about-lep-tabs a.selected, .about-lep .about-lep-tabs a:hover {
   text-shadow: none;
 }
-/* line 352, ../sass/_global.sass */
+/* line 353, ../sass/_global.sass */
 .about-lep .about-lep-tabs .l {
   background: url("../../img/buddy-lead.png") 50% top no-repeat;
 }
-/* line 354, ../sass/_global.sass */
+/* line 355, ../sass/_global.sass */
 .about-lep .about-lep-tabs .e {
   background: url("../../img/buddy-entrepreneur.png") 50% top no-repeat;
 }
-/* line 356, ../sass/_global.sass */
+/* line 357, ../sass/_global.sass */
 .about-lep .about-lep-tabs .p {
   background: url("../../img/buddy-partner.png") 50% top no-repeat;
 }
-/* line 359, ../sass/_global.sass */
+/* line 360, ../sass/_global.sass */
 .about-lep #learn-wrap,
 .about-lep #innovate-wrap,
 .about-lep #connect-wrap {
@@ -780,19 +781,19 @@ header nav a.selected:hover {
   width: 920px;
   transition: width 0.2s linear;
 }
-/* line 367, ../sass/_global.sass */
+/* line 368, ../sass/_global.sass */
 .about-lep #learn-wrap {
   z-index: 3;
 }
-/* line 369, ../sass/_global.sass */
+/* line 370, ../sass/_global.sass */
 .about-lep #innovate-wrap {
   z-index: 2;
 }
-/* line 371, ../sass/_global.sass */
+/* line 372, ../sass/_global.sass */
 .about-lep #connect-wrap {
   z-index: 1;
 }
-/* line 373, ../sass/_global.sass */
+/* line 374, ../sass/_global.sass */
 .about-lep #learn,
 .about-lep #innovate,
 .about-lep #connect {
@@ -800,13 +801,13 @@ header nav a.selected:hover {
   padding: 23px;
   color: white;
 }
-/* line 379, ../sass/_global.sass */
+/* line 380, ../sass/_global.sass */
 .about-lep #learn h2,
 .about-lep #innovate h2,
 .about-lep #connect h2 {
   display: none;
 }
-/* line 381, ../sass/_global.sass */
+/* line 382, ../sass/_global.sass */
 .about-lep #learn h3,
 .about-lep #innovate h3,
 .about-lep #connect h3 {
@@ -814,38 +815,38 @@ header nav a.selected:hover {
   margin: 0.61803em 0;
   line-height: 1em;
 }
-/* line 385, ../sass/_global.sass */
+/* line 386, ../sass/_global.sass */
 .about-lep #learn h3:nth-child(2),
 .about-lep #innovate h3:nth-child(2),
 .about-lep #connect h3:nth-child(2) {
   font-style: italic;
 }
-/* line 387, ../sass/_global.sass */
+/* line 388, ../sass/_global.sass */
 .about-lep #learn h4,
 .about-lep #innovate h4,
 .about-lep #connect h4 {
   font-weight: bold;
 }
-/* line 389, ../sass/_global.sass */
+/* line 390, ../sass/_global.sass */
 .about-lep #learn h5,
 .about-lep #innovate h5,
 .about-lep #connect h5 {
   text-transform: uppercase;
 }
-/* line 391, ../sass/_global.sass */
+/* line 392, ../sass/_global.sass */
 .about-lep #learn {
   background: #8766ad;
 }
-/* line 393, ../sass/_global.sass */
+/* line 394, ../sass/_global.sass */
 .about-lep #innovate {
   background: #b4d435;
 }
-/* line 395, ../sass/_global.sass */
+/* line 396, ../sass/_global.sass */
 .about-lep #connect {
   background: #f58345;
 }
 
-/* line 399, ../sass/_global.sass */
+/* line 400, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -856,20 +857,20 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 408, ../sass/_global.sass */
+/* line 409, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
 }
-/* line 411, ../sass/_global.sass */
+/* line 412, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 413, ../sass/_global.sass */
+/* line 414, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
-/* line 415, ../sass/_global.sass */
+/* line 416, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
 }

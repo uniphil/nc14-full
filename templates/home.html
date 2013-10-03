@@ -4,8 +4,10 @@
 
     <div class="overlay">
       <div class="maininner">
-        <p>{{ _(" a <strong>professional coach</strong>, <strong>seed funder</strong>, and <strong>coalition leader</strong><br /> walk into a rethought conference space.") }}</p>
+        %% set delegate_types = [_("Professional Coach"), _("Solar Energy Expert"), _("Managment Consultant"), _("Student"), _("Social Innovator"), _("International Development Professional"), _("Professional Facilitator"), _("Social Justice Leader"), _("Member of Parliament"), _("Social Entrepeneur"), _("Venture Capital"), _("SRI fund"), _("CEO "), _("University Dean"), _("University Professor"), _("Web Developer"), _("Venture founder"), _("NGO founder"), _("Fair Trade Advocate"), _("CEO "), _("Factory Owner"), _("Small-holder Farmer"), _("Hub founder"), _("Start-up incubator"), _("Systems hacker"), _("Poet"), _("Writer"), _("Author"), _("Fair Trade rep"), _("Chapter president"), _("Junior Fellow"), _("Unexpected Ally"), _("Social Innovator"), _("Engineer"), _("Engineering CEO "), _("Agriculture Specialist"), _("Entrepeneur"), _("Investor"), _("CIDA Staff"), _("African Program Staff"), _("Ghanaian Factory Owner"), _("Ghanaian Extension agent"), _("Kenyan small buisness owner"), _("SRI manger"), _("Social Enterprise manager"), _("Accelerator professional"), _("Project Managment Professional"), _("Artist")]
+        <p>{{ _('a <strong class="delegate-1">%(d1)s</strong>, <strong class="delegate-2">%(d2)s</strong>, and <strong class="delegate-3">%(d3)s</strong><br /> walk into a rethought conference space.', d1=choice(delegate_types), d2=choice(delegate_types), d3=choice(delegate_types)) }}</p>
         <p>{{ _('what happens next  is up to <strong>you</strong>') }}</p>
+        <script>window.delegate_types = ['{{ delegate_types|join("', '"|safe) }}'];</script>
       </div>
     </div>
 

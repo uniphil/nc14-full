@@ -36,6 +36,9 @@ var locationPath = filterPath(location.pathname);
 var scrollElem = scrollableElement('html', 'body');
 
 $('a[href*=#]').each(function() {
+  if (/#learn|#innovate|#connect/.test($(this).attr('href'))) {
+    return;
+  }
   var thisPath = filterPath(this.pathname) || locationPath;
   if (locationPath == thisPath &&
       (location.hostname == this.hostname || !this.hostname) &&
@@ -103,6 +106,7 @@ function scrollableElement(els) {
           $("#innovate-wrap").css({width: 0});
           break;
       }
+      return false;
     });
     var max_height = 0;
     boxes.each(function() {
@@ -119,5 +123,84 @@ function scrollableElement(els) {
   var switcher_el = $('.about-lep');
   if (switcher_el.length > 0) {
     new Switcher(switcher_el);
+  }
+})();
+
+
+//////////////////////
+// Delegate Rotater //
+//////////////////////
+(function() {
+  var Rotater = function(thing) {
+
+    var randinter = function(min, max) {
+      return function() {
+        return Math.floor(Math.random() * (max - min) + min);
+      };
+    };
+
+    this.word_timeout = randinter(5000, 7000);
+    this.clear_timeout = randinter(50, 70);
+    this.type_timeout = randinter(50, 120);
+    this.fade_pause = 500;
+
+    this.world = thing;
+    this.target_el = undefined;
+    this.next_word = undefined;
+
+    this.paused = true;
+
+    this.displayed = [0, 1, 2];  // fixme
+
+    this.rewrite_word = function() {
+      if (this.paused) {
+        $('.delegate-1,.delegate-2,.delegate-3', this.world).css({
+          background: 'rgba(255, 255, 255, 0.2)'});
+        this.paused = false;
+        var $this = this;
+        setTimeout(function(){$this.rewrite_word.apply($this);}, this.fade_pause);
+        return;
+      }
+      this.paused = true;
+      var next_i = (Math.ceil((Math.random() * 3)));
+      this.target_el = $('.delegate-' + next_i, this.world);
+      var next = Math.floor(Math.random() * window.delegate_types.length);
+      this.next_word = window.delegate_types[next];
+      this.erase_word();
+    };
+
+    this.erase_word = function() {
+      var word = this.target_el.text();
+      this.target_el.text(word.slice(0, word.length - 1));
+      $this = this;
+      if (word.length > 1) {
+        setTimeout(function(){$this.erase_word.apply($this);}, this.clear_timeout());
+      } else {
+        setTimeout(function(){$this.write_word.apply($this);}, this.type_timeout());
+      }
+    };
+
+    this.write_word = function() {
+
+      var so_far = this.target_el.text();
+      this.target_el.text(this.next_word.slice(0, so_far.length + 1));
+      $this = this;
+      if (so_far.length < this.next_word.length) {
+        setTimeout(function(){$this.write_word.apply($this);}, this.type_timeout());
+      } else {
+        setTimeout(function(){$this.rewrite_word.apply($this);}, this.word_timeout());
+        $('.delegate-1,.delegate-2,.delegate-3', this.world).css({
+          background: 'white'});
+      }
+    };
+
+    $this = this;
+    setTimeout(function(){$this.rewrite_word.apply($this);}, this.word_timeout());
+
+  };
+
+  var rot_box = $(".maininner");
+  if (rot_box.length > 0) {
+    new Rotater(rot_box);
   }
 })();
