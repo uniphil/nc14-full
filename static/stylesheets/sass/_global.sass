@@ -18,6 +18,7 @@ body
   padding: 0 2.5%
 
 .preheader
+  position: relative
   font-size: 0
   h2
     font-weight: bold
@@ -59,12 +60,32 @@ body
     margin: 36px 5% 18px 0
     color: #727273
 
+.blockers
+  z-index: 4
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  height: 20px
+  &:before, &:after
+    content: ''
+    position: absolute
+    bottom: 0
+    height: 20px
+    width: 40px
+    background-color: white
+  &:before
+    left: 0
+  &:after
+    right: 0
+
 header
   position: relative
   width: 1000px
   margin-left: -40px
+  padding-right: 40px
   background-color: $cpartner
-  +transition(width .5s, margin-left .5s)
+  +transition(width .3s .3s, margin-left .3s .3s, padding-right .3s)
 
   &:before, &:after
     content: ''
@@ -82,7 +103,6 @@ header
   nav
     height: 60px
     line-height: 60px
-    padding-right: 40px
     text-align: right
 
     a
@@ -97,6 +117,7 @@ header
   position: fixed
   top: 0
   margin-left: 0
+  padding-right: 0
   width: 920px
 
 .mlock
