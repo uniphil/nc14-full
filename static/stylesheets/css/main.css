@@ -204,7 +204,7 @@ html {
 
 /* line 1, ../sass/_global.sass */
 html {
-  background: #f0f0f0 url(../../img/gray-jean.png);
+  background: #181818 url(../../img/black_denim.png);
 }
 
 /* line 4, ../sass/_global.sass */
@@ -213,7 +213,7 @@ body {
   margin: 0 auto;
   color: #343433;
   background-color: white;
-  box-shadow: 0 0 60px #cccccc;
+  box-shadow: 0 0 60px black;
   font-family: "Open Sans", Verdana, Helvetica, sans-serif;
 }
 
@@ -323,7 +323,7 @@ main > div:nth-child(1), .overlay + div {
 }
 /* line 81, ../sass/_global.sass */
 .preheader .info {
-  margin: 36px 5% 18px 0;
+  margin: 36px 5% 0 0;
   color: #727273;
 }
 
@@ -361,6 +361,7 @@ header {
   margin-left: -40px;
   padding-right: 40px;
   background-color: #f58345;
+  background-color: rgba(245, 131, 69, 0.95);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: width 0.3s, margin-left 0.3s, padding-right 0.3s;
   -webkit-transition-delay: 0.3s, 0.3s, 0s;
@@ -368,7 +369,7 @@ header {
   -o-transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
   transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
 }
-/* line 113, ../sass/_global.sass */
+/* line 114, ../sass/_global.sass */
 header:before, header:after {
   content: "";
   position: absolute;
@@ -377,35 +378,35 @@ header:before, header:after {
   width: 0;
   border-bottom: 20px solid #d36123;
 }
-/* line 120, ../sass/_global.sass */
+/* line 121, ../sass/_global.sass */
 header:before {
   left: 0;
   border-left: 40px solid transparent;
 }
-/* line 123, ../sass/_global.sass */
+/* line 124, ../sass/_global.sass */
 header:after {
   right: 0;
   border-right: 40px solid transparent;
 }
-/* line 126, ../sass/_global.sass */
+/* line 127, ../sass/_global.sass */
 header nav {
   height: 60px;
   line-height: 60px;
   text-align: right;
 }
-/* line 131, ../sass/_global.sass */
+/* line 132, ../sass/_global.sass */
 header nav a {
   padding: 5px 10px;
   border-bottom: 3px solid #e47234;
   color: white;
   text-decoration: none;
 }
-/* line 136, ../sass/_global.sass */
+/* line 137, ../sass/_global.sass */
 header nav a.selected, header nav a:hover {
   border-color: white;
 }
 
-/* line 139, ../sass/_global.sass */
+/* line 140, ../sass/_global.sass */
 .hlock {
   position: fixed;
   top: 0;
@@ -414,12 +415,12 @@ header nav a.selected, header nav a:hover {
   width: 920px;
 }
 
-/* line 146, ../sass/_global.sass */
+/* line 147, ../sass/_global.sass */
 .mlock {
   margin-top: 60px;
 }
 
-/* line 149, ../sass/_global.sass */
+/* line 150, ../sass/_global.sass */
 .overlay {
   height: 360px;
   color: white;
@@ -428,36 +429,37 @@ header nav a.selected, header nav a:hover {
   background-position: bottom right;
   background-color: #8766ad;
 }
-/* line 154, ../sass/_global.sass */
+/* line 155, ../sass/_global.sass */
 .backgroundsize .overlay {
   background-size: 150% auto;
 }
-/* line 160, ../sass/_global.sass */
+/* line 161, ../sass/_global.sass */
 .backgroundsize .overlay:nth-child(1) {
   background-image: url("../../img/underlay-2a.png");
 }
-/* line 162, ../sass/_global.sass */
-.overlay p {
-  margin-bottom: 27px;
-  margin-bottom: 1.5rem;
-}
-/* line 163, ../sass/_global.sass */
+/* line 164, ../sass/_global.sass */
 .overlay p:first-child {
-  font-size: 29px;
-  font-size: 1.61803rem;
-  line-height: 54px;
-  line-height: 3rem;
-  line-height: 32px;
-  line-height: 1.8rem;
+  font-size: 30px;
+  line-height: 68px;
+  margin-bottom: 0;
 }
-/* line 167, ../sass/_global.sass */
-.overlay strong {
+/* line 168, ../sass/_global.sass */
+.overlay p:first-child strong {
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 100;
+}
+/* line 171, ../sass/_global.sass */
+.overlay strong {
+  padding: 0 0.2em;
+  font-size: 24px;
+  color: #bbbbbb;
   text-transform: lowercase;
+  background-color: white;
+  text-shadow: none;
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
 }
 
-/* line 172, ../sass/_global.sass */
+/* line 180, ../sass/_global.sass */
 .button, input[type="submit"] {
   padding: 12px 0 4px;
   border: 0;
@@ -470,34 +472,37 @@ header nav a.selected, header nav a:hover {
   color: white;
 }
 
-/* line 186, ../sass/_global.sass */
+/* line 194, ../sass/_global.sass */
 .leader-para {
   margin: 0 3em;
+  font-size: 24px;
+  font-weight: 100;
+  color: #555555;
 }
 
-/* line 189, ../sass/_global.sass */
+/* line 200, ../sass/_global.sass */
 .about-ewb, .about-rethink {
   width: 50%;
   float: left;
   padding-top: 1.5em;
 }
 
-/* line 194, ../sass/_global.sass */
+/* line 205, ../sass/_global.sass */
 .conference-points {
   margin: 48px auto;
   font-size: 0;
 }
-/* line 197, ../sass/_global.sass */
+/* line 208, ../sass/_global.sass */
 .conference-points img {
   height: 96px;
   width: auto;
   margin-bottom: 9px;
 }
-/* line 201, ../sass/_global.sass */
+/* line 212, ../sass/_global.sass */
 .conference-points ul {
   text-align: center;
 }
-/* line 203, ../sass/_global.sass */
+/* line 214, ../sass/_global.sass */
 .conference-points li {
   display: inline-block;
   width: 19%;
@@ -508,14 +513,14 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 209, ../sass/_global.sass */
+/* line 220, ../sass/_global.sass */
 .conference-points h3 {
   font-weight: bold;
   line-height: 41px;
   line-height: 2.25rem;
 }
 
-/* line 213, ../sass/_global.sass */
+/* line 224, ../sass/_global.sass */
 .pullquote {
   quotes: "“" "”" "‘" "’";
   position: relative;
@@ -525,7 +530,7 @@ header nav a.selected, header nav a:hover {
   box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
   background-color: #f8f8f8;
 }
-/* line 221, ../sass/_global.sass */
+/* line 232, ../sass/_global.sass */
 .pullquote p {
   margin: 24px 72px 0;
   position: relative;
@@ -534,17 +539,17 @@ header nav a.selected, header nav a:hover {
   line-height: 1.2em;
   color: #333333;
 }
-/* line 228, ../sass/_global.sass */
+/* line 239, ../sass/_global.sass */
 .pullquote footer {
   text-align: right;
   margin-right: 72px;
 }
-/* line 231, ../sass/_global.sass */
+/* line 242, ../sass/_global.sass */
 .pullquote footer:before {
   content: "– ";
 }
 
-/* line 233, ../sass/_global.sass */
+/* line 244, ../sass/_global.sass */
 .bigquotes {
   position: absolute;
   top: 0;
@@ -552,7 +557,7 @@ header nav a.selected, header nav a:hover {
   left: 0;
   right: 0;
 }
-/* line 235, ../sass/_global.sass */
+/* line 246, ../sass/_global.sass */
 .bigquotes:before, .bigquotes:after {
   z-index: 0;
   position: absolute;
@@ -560,20 +565,20 @@ header nav a.selected, header nav a:hover {
   font-size: 240px;
   color: #cccccc;
 }
-/* line 241, ../sass/_global.sass */
+/* line 252, ../sass/_global.sass */
 .bigquotes:before {
   content: open-quote;
   top: 100px;
   left: 48px;
 }
-/* line 245, ../sass/_global.sass */
+/* line 256, ../sass/_global.sass */
 .bigquotes:after {
   content: close-quote;
   bottom: 20px;
   right: 48px;
 }
 
-/* line 251, ../sass/_global.sass */
+/* line 262, ../sass/_global.sass */
 #signup {
   width: 100%;
   min-width: 800px;
@@ -582,7 +587,7 @@ header nav a.selected, header nav a:hover {
   color: white;
   background-color: #f58345;
 }
-/* line 258, ../sass/_global.sass */
+/* line 269, ../sass/_global.sass */
 #signup p:first-child {
   font-size: 29px;
   font-size: 1.61803rem;
@@ -592,29 +597,29 @@ header nav a.selected, header nav a:hover {
   margin-bottom: 14px;
   margin-bottom: 0.75rem;
 }
-/* line 262, ../sass/_global.sass */
+/* line 273, ../sass/_global.sass */
 #signup strong {
   font-weight: bold;
 }
-/* line 264, ../sass/_global.sass */
+/* line 275, ../sass/_global.sass */
 #signup ul {
   list-style-type: disc;
 }
-/* line 266, ../sass/_global.sass */
+/* line 277, ../sass/_global.sass */
 #signup li {
   margin-left: 1em;
 }
-/* line 269, ../sass/_global.sass */
+/* line 280, ../sass/_global.sass */
 #signup .info {
   width: 60%;
   float: left;
 }
-/* line 272, ../sass/_global.sass */
+/* line 283, ../sass/_global.sass */
 #signup form {
   width: 35%;
   float: right;
 }
-/* line 275, ../sass/_global.sass */
+/* line 286, ../sass/_global.sass */
 #signup form label {
   text-transform: uppercase;
   font-size: 14px;
@@ -622,7 +627,7 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 278, ../sass/_global.sass */
+/* line 289, ../sass/_global.sass */
 #signup form input[type="text"] {
   width: 100%;
   height: 48px;
@@ -634,24 +639,24 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 285, ../sass/_global.sass */
+/* line 296, ../sass/_global.sass */
 #signup form input[type="submit"] {
   background-color: #accc2d;
   margin-top: 14px;
   margin-top: 0.75rem;
   float: right;
 }
-/* line 287, ../sass/_global.sass */
+/* line 298, ../sass/_global.sass */
 #signup form input[type="submit"]:hover {
   background-color: #a3c324;
 }
 
-/* line 292, ../sass/_global.sass */
+/* line 303, ../sass/_global.sass */
 .sponsors {
   margin: 36px auto;
   text-align: center;
 }
-/* line 295, ../sass/_global.sass */
+/* line 306, ../sass/_global.sass */
 .sponsors ul {
   width: 80%;
   margin: 36px auto 0;
@@ -691,26 +696,26 @@ header nav a.selected, header nav a:hover {
   background-image: url('/static/img/sponsors-s3c895a3ff8.png');
   background-size: 384px 181px;
 }
-/* line 300, ../sass/_global.sass */
+/* line 311, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li {
   display: block;
   margin: 0 auto;
 }
-/* line 303, ../sass/_global.sass */
+/* line 314, ../sass/_global.sass */
 .sponsors .fulljust li {
   display: inline-block;
   margin: 0 36px;
 }
-/* line 306, ../sass/_global.sass */
+/* line 317, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
 }
-/* line 308, ../sass/_global.sass */
+/* line 319, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 311, ../sass/_global.sass */
+/* line 322, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -721,16 +726,16 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 320, ../sass/_global.sass */
+/* line 331, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
 }
-/* line 323, ../sass/_global.sass */
+/* line 334, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 325, ../sass/_global.sass */
+/* line 336, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
