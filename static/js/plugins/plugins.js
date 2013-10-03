@@ -37,9 +37,9 @@ var scrollElem = scrollableElement('html', 'body');
 
 $('a[href*=#]').each(function() {
 var thisPath = filterPath(this.pathname) || locationPath;
-if (  locationPath == thisPath
-&& (location.hostname == this.hostname || !this.hostname)
-&& this.hash.replace(/#/,'') ) {
+if (locationPath == thisPath &&
+    (location.hostname == this.hostname || !this.hostname) &&
+    this.hash.replace(/#/,'') ) {
   var $target = $(this.hash), target = this.hash;
   if (target) {
     var targetOffset = $target.offset().top;
@@ -71,3 +71,24 @@ for (var i = 0, argLength = arguments.length; i <argLength; i++) {
 }
 return [];
 }
+
+
+////////////////////
+// LEP Switcheroo //
+////////////////////
+(function() {
+  var Switcher = function(lep_box) {
+    this.width = lep_box.width();
+    this.boxes = $("#learn,#innovate,#connect", lep_box);
+    this.boxes.width(this.width);
+    this.boxes.wrap('<div>').each(function() {
+      $this = $(this);
+      $this.parent().attr("id", $this.attr("id") + "-wrap");
+    });
+  };
+
+  var switcher_el = $('.about-lep');
+  if (switcher_el.length > 0) {
+    new Switcher(switcher_el);
+  }
+})()

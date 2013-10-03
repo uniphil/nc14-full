@@ -292,6 +292,7 @@ header
 
 .about-lep
   padding: 0
+  position: relative
   p
     margin: 1em / $gr 0
   .about-lep-tabs
@@ -319,18 +320,27 @@ header
       background: url('../../img/buddy-lead.png') 50% bottom no-repeat
     .e
       background: url('../../img/buddy-entrepreneur.png') 50% bottom no-repeat
-      opacity: 0.5
     .p
       background: url('../../img/buddy-partner.png') 50% bottom no-repeat
-      opacity: 0.5
 
+  #learn-wrap,
+  #innovate-wrap,
+  #connect-wrap
+    overflow: hidden
+    position: absolute
+    top: 207px
+    transition: width 0.5s ease
+  #learn-wrap
+    z-index: 3
+  #innovate-wrap
+    z-index: 2
+  #connect-wrap
+    z-index: 1
   #learn,
   #innovate,
   #connect
     padding: $pagepadding
     color: #fff
-    position: relative
-    z-index: 1
     h2
       display: none
     h3
