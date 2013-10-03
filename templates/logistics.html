@@ -23,7 +23,7 @@
     <p>{{ _('We are proud to be serving <strong>locally-sourced</strong> and <strong>fair trade</strong> products where available throughout the event.') }}</p>
   </div>
 
-  <p>{{ _('<strong>Please see our <a href="{{ url_for(\'register\') }}">registration page</a> for pricing structure information.</strong>') }}</p>
+  <p>{{ _('<strong>Please see our <a href="%(reg_link)s">registration page</a> for pricing structure information.</strong>', reg_link=url_for('register')) }}</p>
 </div>
 
 %% endblock
