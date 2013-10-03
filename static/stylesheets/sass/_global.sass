@@ -300,36 +300,39 @@ header
     text-align: justify
     font-size: 0
     margin-bottom: -81px
-    &> li
-      font-size: 1rem
-      height: 248px
-      width: 300px
+    a
+      +box-sizing(border-box)
       display: inline-block
-      position: relative
-      a
-        text-align: center
-        font-size: 2rem
-        font-weight: bold
-        text-decoration: none
-        color: white
-        position: absolute
-        width: 100%
-        bottom: 54px
-        text-shadow: 0 0 0.333em black
+      font-size: 2rem
+      height: 198px
+      width: 305px
+      padding-top: 150px
+      text-align: center
+      text-decoration: none
+      color: white
+      text-shadow: 0 0 0.333em black
+      margin-bottom: 1000px
+      &:not(.selected):not(:hover)
+        opacity: 0.5
+      &.selected,
+      &:hover
+        text-shadow: none
+      transition: opacity 0.1s linear
     .l
-      background: url('../../img/buddy-lead.png') 50% bottom no-repeat
+      background: url('../../img/buddy-lead.png') 50% top no-repeat
     .e
-      background: url('../../img/buddy-entrepreneur.png') 50% bottom no-repeat
+      background: url('../../img/buddy-entrepreneur.png') 50% top no-repeat
     .p
-      background: url('../../img/buddy-partner.png') 50% bottom no-repeat
+      background: url('../../img/buddy-partner.png') 50% top no-repeat
 
   #learn-wrap,
   #innovate-wrap,
   #connect-wrap
     overflow: hidden
     position: absolute
-    top: 207px
-    transition: width 0.5s ease
+    top: 198px
+    width: 920px
+    transition: width 0.2s linear
   #learn-wrap
     z-index: 3
   #innovate-wrap
@@ -339,6 +342,7 @@ header
   #learn,
   #innovate,
   #connect
+    width: 920px
     padding: $pagepadding
     color: #fff
     h2
