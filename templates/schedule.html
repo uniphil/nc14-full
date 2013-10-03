@@ -2,9 +2,75 @@
 
 %% block main
 
-<p>Agenda (Shed.org API)</p>
-<p>Schedule: General overview, visually pleasing (more information and details will in handbook download and app). For each session: title + 1-liner.</p>
-<p>Keynotes / speakers and profiles (no date)</p>
-<p>Anything else?? AGM, Innovation Forum</p>
+<div class="agenda">
+
+  <div class="days">
+    <a href="#friday">{{ _('Friday') }}</a>
+    <a href="#saturday">{{ _('Saturday') }}</a>
+    <a href="#sunday">{{ _('Sunday') }}</a>
+  </div>
+
+  <h3 id="friday">{{ _('Friday') }}</h3>
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">{{ _('Opening: Framing the Challenge of Global Development as Interconnected') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Foundations') }}</td>
+      </tr>
+      <tr>
+        <td>{{ _('Rethink Leadership for Global Development') }}</td>
+        <td>{{ _('Rethink Entrepreneurship for Global Development') }}</td>
+        <td>{{ _('Rethink Partnership for Global Development') }}</td>
+      </tr>
+      <tr>
+        <td>{{ _('Changing Sectors with Leadership') }}</td>
+        <td>{{ _('Changing Sectors with Entrepreneurship') }}</td>
+        <td>{{ _('Changing Sectors with Partnership') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Dialogue') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('EWB AGM') }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="saturday">{{ _('Saturday') }}</h3>
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">{{ _('Keynote: Entrepreneurship for Global Development') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Systemic Change Case Studies') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Networking [Downtown Toronto]') }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="sunday">{{ _('Sunday') }}</h3>
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="3">{{ _('Keynote: Partnering in Global Development') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _("What's Coming?") }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Closing: The Power of People') }}</td>
+      </tr>
+      <tr>
+        <td colspan="3">{{ _('Gala Night') }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
 
 %% endblock
