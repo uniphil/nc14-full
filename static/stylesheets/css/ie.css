@@ -1,0 +1,842 @@
+@charset "UTF-8";
+/* compass & preferences */
+/* line 17, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/main.sass */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 57, ../sass/_variables.sass */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 63, ../sass/_variables.sass */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 70, ../sass/_variables.sass */
+.fulljust {
+  text-align: justify;
+}
+/* line 72, ../sass/_variables.sass */
+.fulljust:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 78, ../sass/_variables.sass */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 83, ../sass/_variables.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 96, ../sass/_variables.sass */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 105, ../sass/_variables.sass */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 109, ../sass/_variables.sass */
+.clearfix {
+  *zoom: 1;
+}
+/* line 112, ../sass/_variables.sass */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 116, ../sass/_variables.sass */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 120, ../sass/_variables.sass */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #cccccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* line 105, ../../../../../../../../../var/lib/gems/1.9.1/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 112.5%;
+  line-height: 1.5em;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-bold-webfont.eot");
+  src: url("../../font/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-bold-webfont.woff") format("woff"), url("../../font/asap-bold-webfont.ttf") format("truetype"), url("../../font/asap-bold-webfont.svg#asapbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-bolditalic-webfont.eot");
+  src: url("../../font/asap-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-bolditalic-webfont.woff") format("woff"), url("../../font/asap-bolditalic-webfont.ttf") format("truetype"), url("../../font/asap-bolditalic-webfont.svg#asapbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-italic-webfont.eot");
+  src: url("../../font/asap-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-italic-webfont.woff") format("woff"), url("../../font/asap-italic-webfont.ttf") format("truetype"), url("../../font/asap-italic-webfont.svg#asapitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "asap";
+  src: url("../../font/asap-regular-webfont.eot");
+  src: url("../../font/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/asap-regular-webfont.woff") format("woff"), url("../../font/asap-regular-webfont.ttf") format("truetype"), url("../../font/asap-regular-webfont.svg#asapregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "franchise";
+  src: url("../../font/franchise-bold-webfont.eot");
+  src: url("../../font/franchise-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../font/franchise-bold-webfont.woff") format("woff"), url("../../font/franchise-bold-webfont.ttf") format("truetype"), url("../../font/franchise-bold-webfont.svg#franchiseregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, ../sass/_global.sass */
+html {
+  background: #181818 url(../../img/black_denim.png);
+}
+
+/* line 4, ../sass/_global.sass */
+body {
+  width: 920px;
+  margin: 0 auto;
+  color: #343433;
+  font-weight: 100;
+  background-color: white;
+  box-shadow: 0 0 60px black;
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+}
+
+/* line 13, ../sass/_global.sass */
+header, .overlay, .sponsors {
+  font-weight: 400;
+}
+
+/* line 16, ../sass/_global.sass */
+p {
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 20, ../sass/_global.sass */
+h2 {
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px dotted #cccccc;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+}
+
+/* line 28, ../sass/_global.sass */
+.l {
+  color: #8766ad;
+}
+
+/* line 30, ../sass/_global.sass */
+.e {
+  color: #b4d435;
+}
+
+/* line 32, ../sass/_global.sass */
+.p {
+  color: #f58345;
+}
+
+/* line 36, ../sass/_global.sass */
+.preheader,
+main > div {
+  padding: 0 2.5%;
+}
+
+/* line 39, ../sass/_global.sass */
+main > div:nth-child(1), .overlay + div {
+  padding-top: 1.5em;
+}
+
+/* line 42, ../sass/_global.sass */
+.preheader {
+  position: relative;
+  font-size: 0;
+}
+/* line 45, ../sass/_global.sass */
+.preheader h2 {
+  line-height: 14px;
+  margin-top: 12px;
+  border-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-family: asap, "Open Sans", Verdana, Helvetica, sans-serif;
+}
+/* line 53, ../sass/_global.sass */
+.preheader p {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* line 56, ../sass/_global.sass */
+.preheader .top {
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 18px 0;
+}
+/* line 62, ../sass/_global.sass */
+.preheader .top img {
+  float: left;
+  height: 100%;
+  width: auto;
+  margin-right: 18px;
+}
+/* line 67, ../sass/_global.sass */
+.preheader .top a {
+  float: right;
+  color: #727273;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 74, ../sass/_global.sass */
+.preheader .buddies, .preheader .info {
+  display: inline-block;
+  width: 42.5%;
+  vertical-align: bottom;
+}
+/* line 78, ../sass/_global.sass */
+.preheader .buddies img, .preheader .info img {
+  width: 100%;
+  height: auto;
+}
+/* line 81, ../sass/_global.sass */
+.preheader .buddies {
+  margin: 36px 0 0 5%;
+}
+/* line 83, ../sass/_global.sass */
+.preheader .buddies img {
+  vertical-align: bottom;
+}
+/* line 85, ../sass/_global.sass */
+.preheader .info {
+  margin: 36px 5% 0 0;
+  color: #727273;
+}
+
+/* line 89, ../sass/_global.sass */
+.blockers {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+}
+/* line 96, ../sass/_global.sass */
+.blockers:before, .blockers:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 40px;
+  background-color: white;
+}
+/* line 103, ../sass/_global.sass */
+.blockers:before {
+  left: 0;
+}
+/* line 105, ../sass/_global.sass */
+.blockers:after {
+  right: 0;
+}
+
+/* line 108, ../sass/_global.sass */
+header {
+  position: relative;
+  width: 1000px;
+  margin-left: -40px;
+  padding-right: 40px;
+  background-color: #f58345;
+  background-color: rgba(245, 131, 69, 0.95);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: width 0.3s, margin-left 0.3s, padding-right 0.3s;
+  -webkit-transition-delay: 0.3s, 0.3s, 0s;
+  -moz-transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
+  -o-transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
+  transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
+}
+/* line 118, ../sass/_global.sass */
+header:before, header:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  height: 0;
+  width: 0;
+  border-bottom: 20px solid #d36123;
+}
+/* line 125, ../sass/_global.sass */
+header:before {
+  left: 0;
+  border-left: 40px solid transparent;
+}
+/* line 128, ../sass/_global.sass */
+header:after {
+  right: 0;
+  border-right: 40px solid transparent;
+}
+/* line 131, ../sass/_global.sass */
+header nav {
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+/* line 136, ../sass/_global.sass */
+header nav a {
+  padding: 5px 10px;
+  border-bottom: 3px solid #e47234;
+  color: white;
+  text-decoration: none;
+}
+/* line 141, ../sass/_global.sass */
+header nav a.selected, header nav a:hover {
+  border-color: white;
+}
+
+/* line 144, ../sass/_global.sass */
+.hlock {
+  position: fixed;
+  top: 0;
+  margin-left: 0;
+  padding-right: 0;
+  width: 920px;
+}
+
+/* line 151, ../sass/_global.sass */
+.mlock {
+  margin-top: 60px;
+}
+
+/* line 154, ../sass/_global.sass */
+.overlay {
+  height: 360px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 6px black;
+  background-position: bottom right;
+  background-color: #8766ad;
+}
+/* line 159, ../sass/_global.sass */
+.backgroundsize .overlay {
+  background-size: 150% auto;
+}
+/* line 165, ../sass/_global.sass */
+.backgroundsize .overlay:nth-child(1) {
+  background-image: url("../../img/underlay-2a.png");
+}
+/* line 168, ../sass/_global.sass */
+.overlay p:first-child {
+  font-size: 30px;
+  line-height: 68px;
+  margin-bottom: 0;
+}
+/* line 172, ../sass/_global.sass */
+.overlay p:first-child strong {
+  font-size: 48px;
+  font-weight: 100;
+}
+/* line 175, ../sass/_global.sass */
+.overlay strong {
+  padding: 0 0.2em;
+  font-size: 24px;
+  color: #bbbbbb;
+  text-transform: lowercase;
+  background-color: white;
+  text-shadow: none;
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+}
+
+/* line 184, ../sass/_global.sass */
+.button, input[type="submit"] {
+  padding: 12px 0 4px;
+  border: 0;
+  border-bottom: 1px dashed #bbbbbb;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-shadow: none;
+  text-align: center;
+  font: 36px bold "franchise", sans-serif;
+  color: white;
+}
+
+/* line 198, ../sass/_global.sass */
+.leader-para, .sponsor-page {
+  margin: 0 3em;
+  font-size: 24px;
+  font-weight: 100;
+  color: #555555;
+}
+
+/* line 204, ../sass/_global.sass */
+.sponsor-page {
+  padding-bottom: 1.5em;
+}
+/* line 206, ../sass/_global.sass */
+.sponsor-page p {
+  margin-bottom: 1em;
+}
+/* line 208, ../sass/_global.sass */
+.sponsor-page a {
+  padding: 0.2em;
+  font-weight: 400;
+  color: white;
+  background-color: #f58345;
+  text-decoration: none;
+}
+/* line 214, ../sass/_global.sass */
+.sponsor-page li {
+  margin: 0 0 0.5em 2em;
+  list-style: circle;
+}
+
+/* line 220, ../sass/_global.sass */
+.about-ewb, .about-rethink {
+  width: 50%;
+  float: left;
+  padding-top: 1.5em;
+}
+
+/* line 225, ../sass/_global.sass */
+.conference-points {
+  margin: 48px auto;
+  font-size: 0;
+}
+/* line 228, ../sass/_global.sass */
+.conference-points img {
+  height: 96px;
+  width: auto;
+  margin-bottom: 9px;
+}
+/* line 232, ../sass/_global.sass */
+.conference-points ul {
+  text-align: center;
+}
+/* line 234, ../sass/_global.sass */
+.conference-points li {
+  display: inline-block;
+  width: 19%;
+  margin: 0 3%;
+  vertical-align: top;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 27px;
+  line-height: 1.5rem;
+}
+/* line 240, ../sass/_global.sass */
+.conference-points h3 {
+  font-weight: bold;
+  line-height: 41px;
+  line-height: 2.25rem;
+}
+
+/* line 244, ../sass/_global.sass */
+.pullquote {
+  quotes: "“" "”" "‘" "’";
+  position: relative;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 14px;
+  box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
+  background-color: #f8f8f8;
+}
+/* line 252, ../sass/_global.sass */
+.pullquote p {
+  margin: 24px 72px 0;
+  position: relative;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #333333;
+}
+/* line 259, ../sass/_global.sass */
+.pullquote footer {
+  text-align: right;
+  margin-right: 72px;
+}
+/* line 262, ../sass/_global.sass */
+.pullquote footer:before {
+  content: "– ";
+}
+
+/* line 264, ../sass/_global.sass */
+.bigquotes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 266, ../sass/_global.sass */
+.bigquotes:before, .bigquotes:after {
+  z-index: 0;
+  position: absolute;
+  font-family: franchise, serif;
+  font-size: 240px;
+  color: #cccccc;
+}
+/* line 272, ../sass/_global.sass */
+.bigquotes:before {
+  content: open-quote;
+  top: 100px;
+  left: 48px;
+}
+/* line 276, ../sass/_global.sass */
+.bigquotes:after {
+  content: close-quote;
+  bottom: 20px;
+  right: 48px;
+}
+
+/* line 282, ../sass/_global.sass */
+#signup {
+  width: 100%;
+  min-width: 800px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  background-color: #f58345;
+}
+/* line 289, ../sass/_global.sass */
+#signup p:first-child {
+  font-size: 29px;
+  font-size: 1.61803rem;
+  line-height: 54px;
+  line-height: 3rem;
+  line-height: 2rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.75rem;
+}
+/* line 293, ../sass/_global.sass */
+#signup strong {
+  font-weight: bold;
+}
+/* line 295, ../sass/_global.sass */
+#signup ul {
+  list-style-type: disc;
+}
+/* line 297, ../sass/_global.sass */
+#signup li {
+  margin-left: 1em;
+}
+/* line 300, ../sass/_global.sass */
+#signup .info {
+  width: 60%;
+  float: left;
+}
+/* line 303, ../sass/_global.sass */
+#signup form {
+  width: 35%;
+  float: right;
+}
+/* line 306, ../sass/_global.sass */
+#signup form label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 0.77778rem;
+  line-height: 27px;
+  line-height: 1.5rem;
+}
+/* line 309, ../sass/_global.sass */
+#signup form input[type="text"] {
+  width: 100%;
+  height: 48px;
+  padding-left: 0.7em;
+  border: 1px solid #b8b8b8;
+  color: #333334;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 27px;
+  line-height: 1.5rem;
+}
+/* line 316, ../sass/_global.sass */
+#signup form input[type="submit"] {
+  background-color: #accc2d;
+  margin-top: 14px;
+  margin-top: 0.75rem;
+  float: right;
+}
+/* line 318, ../sass/_global.sass */
+#signup form input[type="submit"]:hover {
+  background-color: #a3c324;
+}
+
+/* line 323, ../sass/_global.sass */
+.sponsors {
+  margin: 36px auto;
+  text-align: center;
+}
+/* line 326, ../sass/_global.sass */
+.sponsors ul {
+  width: 80%;
+  margin: 36px auto 0;
+}
+/* line 28, ../sass/_variables.sass */
+.sponsors li.hatch {
+  height: 60px;
+  width: 384px;
+  background-image: url("../../img/sponsors-ie/hatch-ie.png");
+}
+/* line 32, ../sass/_variables.sass */
+.backgroundsize .sponsors li.hatch {
+  background-position:  0 0;
+}
+/* line 28, ../sass/_variables.sass */
+.sponsors li.sherritt {
+  height: 48px;
+  width: 147px;
+  background-image: url("../../img/sponsors-ie/sherritt-ie.png");
+}
+/* line 32, ../sass/_variables.sass */
+.backgroundsize .sponsors li.sherritt {
+  background-position:  0 -60.5px;
+}
+/* line 28, ../sass/_variables.sass */
+.sponsors li.transcanada {
+  height: 72px;
+  width: 325.5px;
+  background-image: url("../../img/sponsors-ie/transcanada-ie.png");
+}
+/* line 32, ../sass/_variables.sass */
+.backgroundsize .sponsors li.transcanada {
+  background-position:  0 -109px;
+}
+/* line 37, ../sass/_variables.sass */
+.backgroundsize .sponsors li {
+  background-image: url('/static/img/sponsors-s3c895a3ff8.png');
+  background-size: 384px 181px;
+}
+/* line 331, ../sass/_global.sass */
+.sponsors .lead li, .sponsors .gold li {
+  display: block;
+  margin: 0 auto;
+}
+/* line 334, ../sass/_global.sass */
+.sponsors .fulljust li {
+  display: inline-block;
+  margin: 0 36px;
+}
+/* line 337, ../sass/_global.sass */
+.sponsors p {
+  font-size: 12px;
+}
+/* line 339, ../sass/_global.sass */
+.sponsors a {
+  color: #8766ad;
+}
+
+/* line 342, ../sass/_global.sass */
+body > footer {
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+  min-width: 800px;
+  padding: 0 18px;
+  color: white;
+  background-color: #727273;
+  font-size: 12px;
+}
+/* line 351, ../sass/_global.sass */
+body > footer p {
+  float: left;
+  line-height: inherit;
+}
+/* line 354, ../sass/_global.sass */
+body > footer small {
+  float: right;
+}
+/* line 356, ../sass/_global.sass */
+body > footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 1080px) {
+  /* line 2, ../sass/_devices.sass */
+  .conference-points li {
+    width: 38%;
+    margin: 0 6% 48px;
+  }
+}
+@media print {
+  /* line 18, ../sass/_devices.sass */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 24, ../sass/_devices.sass */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 27, ../sass/_devices.sass */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 30, ../sass/_devices.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 33, ../sass/_devices.sass */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 36, ../sass/_devices.sass */
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 40, ../sass/_devices.sass */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 43, ../sass/_devices.sass */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 46, ../sass/_devices.sass */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 52, ../sass/_devices.sass */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 56, ../sass/_devices.sass */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
