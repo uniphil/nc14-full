@@ -352,6 +352,7 @@ main > div {
 /* line 91, ../sass/_global.sass */
 header {
   position: relative;
+  z-index: 3;
   width: 1000px;
   margin-left: -40px;
   padding-right: 40px;
@@ -363,7 +364,7 @@ header {
   -o-transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
   transition: width 0.3s 0.3s, margin-left 0.3s 0.3s, padding-right 0.3s;
 }
-/* line 100, ../sass/_global.sass */
+/* line 101, ../sass/_global.sass */
 header:before, header:after {
   content: "";
   position: absolute;
@@ -372,35 +373,35 @@ header:before, header:after {
   width: 0;
   border-bottom: 20px solid #d36123;
 }
-/* line 107, ../sass/_global.sass */
+/* line 108, ../sass/_global.sass */
 header:before {
   left: 0;
   border-left: 40px solid transparent;
 }
-/* line 110, ../sass/_global.sass */
+/* line 111, ../sass/_global.sass */
 header:after {
   right: 0;
   border-right: 40px solid transparent;
 }
-/* line 113, ../sass/_global.sass */
+/* line 114, ../sass/_global.sass */
 header nav {
   height: 60px;
   line-height: 60px;
   text-align: right;
 }
-/* line 118, ../sass/_global.sass */
+/* line 119, ../sass/_global.sass */
 header nav a {
   padding: 5px 10px;
   border-bottom: 3px solid #e47234;
   color: white;
   text-decoration: none;
 }
-/* line 123, ../sass/_global.sass */
+/* line 124, ../sass/_global.sass */
 header nav a.selected, header nav a:hover {
   border-color: white;
 }
 
-/* line 126, ../sass/_global.sass */
+/* line 127, ../sass/_global.sass */
 .hlock {
   position: fixed;
   top: 0;
@@ -409,12 +410,12 @@ header nav a.selected, header nav a:hover {
   width: 920px;
 }
 
-/* line 133, ../sass/_global.sass */
+/* line 134, ../sass/_global.sass */
 .mlock {
   margin-top: 60px;
 }
 
-/* line 136, ../sass/_global.sass */
+/* line 137, ../sass/_global.sass */
 .overlay {
   height: 360px;
   padding-top: 36px;
@@ -424,20 +425,20 @@ header nav a.selected, header nav a:hover {
   background-position: bottom right;
   background-color: #8766ad;
 }
-/* line 142, ../sass/_global.sass */
+/* line 143, ../sass/_global.sass */
 .backgroundsize .overlay {
   background-size: 150% auto;
 }
-/* line 148, ../sass/_global.sass */
+/* line 149, ../sass/_global.sass */
 .backgroundsize .overlay:nth-child(1) {
   background-image: url("../../img/underlay-2a.png");
 }
-/* line 150, ../sass/_global.sass */
+/* line 151, ../sass/_global.sass */
 .overlay p {
   margin-bottom: 27px;
   margin-bottom: 1.5rem;
 }
-/* line 151, ../sass/_global.sass */
+/* line 152, ../sass/_global.sass */
 .overlay p:first-child {
   font-size: 29px;
   font-size: 1.61803rem;
@@ -446,14 +447,14 @@ header nav a.selected, header nav a:hover {
   line-height: 32px;
   line-height: 1.8rem;
 }
-/* line 155, ../sass/_global.sass */
+/* line 156, ../sass/_global.sass */
 .overlay strong {
   font-size: 48px;
   font-weight: 300;
   text-transform: lowercase;
 }
 
-/* line 160, ../sass/_global.sass */
+/* line 161, ../sass/_global.sass */
 .button, input[type="submit"] {
   padding: 12px 0 4px;
   border: 0;
@@ -466,22 +467,22 @@ header nav a.selected, header nav a:hover {
   color: white;
 }
 
-/* line 174, ../sass/_global.sass */
+/* line 175, ../sass/_global.sass */
 .conference-points {
   margin: 48px auto;
   font-size: 0;
 }
-/* line 177, ../sass/_global.sass */
+/* line 178, ../sass/_global.sass */
 .conference-points img {
   height: 96px;
   width: auto;
   margin-bottom: 9px;
 }
-/* line 181, ../sass/_global.sass */
+/* line 182, ../sass/_global.sass */
 .conference-points ul {
   text-align: center;
 }
-/* line 183, ../sass/_global.sass */
+/* line 184, ../sass/_global.sass */
 .conference-points li {
   display: inline-block;
   width: 19%;
@@ -492,14 +493,14 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 189, ../sass/_global.sass */
+/* line 190, ../sass/_global.sass */
 .conference-points h3 {
   font-weight: bold;
   line-height: 41px;
   line-height: 2.25rem;
 }
 
-/* line 193, ../sass/_global.sass */
+/* line 194, ../sass/_global.sass */
 .pullquote {
   quotes: "“" "”" "‘" "’";
   position: relative;
@@ -509,7 +510,7 @@ header nav a.selected, header nav a:hover {
   box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
   background-color: #f8f8f8;
 }
-/* line 201, ../sass/_global.sass */
+/* line 202, ../sass/_global.sass */
 .pullquote p {
   margin: 24px 72px 0;
   position: relative;
@@ -518,17 +519,17 @@ header nav a.selected, header nav a:hover {
   line-height: 1.2em;
   color: #333333;
 }
-/* line 208, ../sass/_global.sass */
+/* line 209, ../sass/_global.sass */
 .pullquote footer {
   text-align: right;
   margin-right: 72px;
 }
-/* line 211, ../sass/_global.sass */
+/* line 212, ../sass/_global.sass */
 .pullquote footer:before {
   content: "– ";
 }
 
-/* line 213, ../sass/_global.sass */
+/* line 214, ../sass/_global.sass */
 .bigquotes {
   position: absolute;
   top: 0;
@@ -536,7 +537,7 @@ header nav a.selected, header nav a:hover {
   left: 0;
   right: 0;
 }
-/* line 215, ../sass/_global.sass */
+/* line 216, ../sass/_global.sass */
 .bigquotes:before, .bigquotes:after {
   z-index: 0;
   position: absolute;
@@ -544,20 +545,20 @@ header nav a.selected, header nav a:hover {
   font-size: 240px;
   color: #cccccc;
 }
-/* line 221, ../sass/_global.sass */
+/* line 222, ../sass/_global.sass */
 .bigquotes:before {
   content: open-quote;
   top: 100px;
   left: 48px;
 }
-/* line 225, ../sass/_global.sass */
+/* line 226, ../sass/_global.sass */
 .bigquotes:after {
   content: close-quote;
   bottom: 20px;
   right: 48px;
 }
 
-/* line 231, ../sass/_global.sass */
+/* line 232, ../sass/_global.sass */
 #signup {
   width: 100%;
   min-width: 800px;
@@ -566,7 +567,7 @@ header nav a.selected, header nav a:hover {
   color: white;
   background-color: #f58345;
 }
-/* line 238, ../sass/_global.sass */
+/* line 239, ../sass/_global.sass */
 #signup p:first-child {
   font-size: 29px;
   font-size: 1.61803rem;
@@ -576,29 +577,29 @@ header nav a.selected, header nav a:hover {
   margin-bottom: 14px;
   margin-bottom: 0.75rem;
 }
-/* line 242, ../sass/_global.sass */
+/* line 243, ../sass/_global.sass */
 #signup strong {
   font-weight: bold;
 }
-/* line 244, ../sass/_global.sass */
+/* line 245, ../sass/_global.sass */
 #signup ul {
   list-style-type: disc;
 }
-/* line 246, ../sass/_global.sass */
+/* line 247, ../sass/_global.sass */
 #signup li {
   margin-left: 1em;
 }
-/* line 249, ../sass/_global.sass */
+/* line 250, ../sass/_global.sass */
 #signup .info {
   width: 60%;
   float: left;
 }
-/* line 252, ../sass/_global.sass */
+/* line 253, ../sass/_global.sass */
 #signup form {
   width: 35%;
   float: right;
 }
-/* line 255, ../sass/_global.sass */
+/* line 256, ../sass/_global.sass */
 #signup form label {
   text-transform: uppercase;
   font-size: 14px;
@@ -606,7 +607,7 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 258, ../sass/_global.sass */
+/* line 259, ../sass/_global.sass */
 #signup form input[type="text"] {
   width: 100%;
   height: 48px;
@@ -618,24 +619,24 @@ header nav a.selected, header nav a:hover {
   line-height: 27px;
   line-height: 1.5rem;
 }
-/* line 265, ../sass/_global.sass */
+/* line 266, ../sass/_global.sass */
 #signup form input[type="submit"] {
   background-color: #accc2d;
   margin-top: 14px;
   margin-top: 0.75rem;
   float: right;
 }
-/* line 267, ../sass/_global.sass */
+/* line 268, ../sass/_global.sass */
 #signup form input[type="submit"]:hover {
   background-color: #a3c324;
 }
 
-/* line 272, ../sass/_global.sass */
+/* line 273, ../sass/_global.sass */
 .sponsors {
   margin: 36px auto;
   text-align: center;
 }
-/* line 275, ../sass/_global.sass */
+/* line 276, ../sass/_global.sass */
 .sponsors ul {
   width: 80%;
   margin: 36px auto 0;
@@ -675,41 +676,41 @@ header nav a.selected, header nav a:hover {
   background-image: url('/static/img/sponsors-s3c895a3ff8.png');
   background-size: 384px 181px;
 }
-/* line 280, ../sass/_global.sass */
+/* line 281, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li {
   display: block;
   margin: 0 auto;
 }
-/* line 283, ../sass/_global.sass */
+/* line 284, ../sass/_global.sass */
 .sponsors .fulljust li {
   display: inline-block;
   margin: 0 36px;
 }
-/* line 286, ../sass/_global.sass */
+/* line 287, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
 }
-/* line 288, ../sass/_global.sass */
+/* line 289, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 292, ../sass/_global.sass */
+/* line 293, ../sass/_global.sass */
 .about-lep {
   padding: 0;
 }
-/* line 294, ../sass/_global.sass */
+/* line 295, ../sass/_global.sass */
 .about-lep p {
   margin: 0.61803em 0;
 }
-/* line 296, ../sass/_global.sass */
+/* line 297, ../sass/_global.sass */
 .about-lep .about-lep-tabs {
   margin-top: 2rem;
   text-align: justify;
   font-size: 0;
   margin-bottom: -81px;
 }
-/* line 301, ../sass/_global.sass */
+/* line 302, ../sass/_global.sass */
 .about-lep .about-lep-tabs > li {
   font-size: 1rem;
   height: 248px;
@@ -717,7 +718,7 @@ header nav a.selected, header nav a:hover {
   display: inline-block;
   position: relative;
 }
-/* line 307, ../sass/_global.sass */
+/* line 308, ../sass/_global.sass */
 .about-lep .about-lep-tabs > li a {
   text-align: center;
   font-size: 2rem;
@@ -729,21 +730,21 @@ header nav a.selected, header nav a:hover {
   bottom: 54px;
   text-shadow: 0 0 0.333em black;
 }
-/* line 317, ../sass/_global.sass */
+/* line 318, ../sass/_global.sass */
 .about-lep .about-lep-tabs .l {
   background: url("../../img/buddy-lead.png") 50% bottom no-repeat;
 }
-/* line 319, ../sass/_global.sass */
+/* line 320, ../sass/_global.sass */
 .about-lep .about-lep-tabs .e {
   background: url("../../img/buddy-entrepreneur.png") 50% bottom no-repeat;
   opacity: 0.5;
 }
-/* line 322, ../sass/_global.sass */
+/* line 323, ../sass/_global.sass */
 .about-lep .about-lep-tabs .p {
   background: url("../../img/buddy-partner.png") 50% bottom no-repeat;
   opacity: 0.5;
 }
-/* line 326, ../sass/_global.sass */
+/* line 327, ../sass/_global.sass */
 .about-lep #learn,
 .about-lep #innovate,
 .about-lep #connect {
@@ -752,13 +753,13 @@ header nav a.selected, header nav a:hover {
   position: relative;
   z-index: 1;
 }
-/* line 333, ../sass/_global.sass */
+/* line 334, ../sass/_global.sass */
 .about-lep #learn h2,
 .about-lep #innovate h2,
 .about-lep #connect h2 {
   display: none;
 }
-/* line 335, ../sass/_global.sass */
+/* line 336, ../sass/_global.sass */
 .about-lep #learn h3,
 .about-lep #innovate h3,
 .about-lep #connect h3 {
@@ -766,38 +767,38 @@ header nav a.selected, header nav a:hover {
   margin: 0.61803em 0;
   line-height: 1em;
 }
-/* line 339, ../sass/_global.sass */
+/* line 340, ../sass/_global.sass */
 .about-lep #learn h3:nth-child(2),
 .about-lep #innovate h3:nth-child(2),
 .about-lep #connect h3:nth-child(2) {
   font-style: italic;
 }
-/* line 341, ../sass/_global.sass */
+/* line 342, ../sass/_global.sass */
 .about-lep #learn h4,
 .about-lep #innovate h4,
 .about-lep #connect h4 {
   font-weight: bold;
 }
-/* line 343, ../sass/_global.sass */
+/* line 344, ../sass/_global.sass */
 .about-lep #learn h5,
 .about-lep #innovate h5,
 .about-lep #connect h5 {
   text-transform: uppercase;
 }
-/* line 345, ../sass/_global.sass */
+/* line 346, ../sass/_global.sass */
 .about-lep #learn {
   background: #8766ad;
 }
-/* line 347, ../sass/_global.sass */
+/* line 348, ../sass/_global.sass */
 .about-lep #innovate {
   background: #b4d435;
 }
-/* line 349, ../sass/_global.sass */
+/* line 350, ../sass/_global.sass */
 .about-lep #connect {
   background: #f58345;
 }
 
-/* line 353, ../sass/_global.sass */
+/* line 354, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -808,15 +809,15 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 362, ../sass/_global.sass */
+/* line 363, ../sass/_global.sass */
 body > footer p {
   float: left;
 }
-/* line 364, ../sass/_global.sass */
+/* line 365, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 366, ../sass/_global.sass */
+/* line 367, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
