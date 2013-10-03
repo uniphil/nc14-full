@@ -161,7 +161,8 @@ header
   margin-top: 60px
 
 .overlay
-  height: 360px
+  position: relative
+  height: 396px
   color: white
   text-align: center
   text-shadow: 0 0 6px black
@@ -177,6 +178,7 @@ header
     &:first-child
       font-size: 30px
       line-height: 68px
+      min-height: 68px * 3.5
       margin-bottom: 0
       strong
         font-size: 48px
@@ -190,7 +192,6 @@ header
     text-shadow: none
     transition: background-color 0.667s linear
     +open-sans-stack()
-
 
 .leader-para, .sponsor-page
   margin: 0 3em
@@ -396,6 +397,31 @@ header
   #connect
     background: $cpartner
 
+.reglink
+  text-align: center
+  margin: 12px 0 60px
+  a
+    margin-top: 20px
+
+table
+  width: 70%
+  margin: 36px auto
+  font-weight: 100
+
+th, td
+  height: 36px
+  padding: 0 .5em
+  font-weight: 100
+  color: #343433
+
+tbody tr
+  border-bottom: 1px dotted #ddd
+  +transition(background-color .3s)
+  &:hover
+    background-color: #ccc
+
+thead
+  border-bottom: 1px solid #343433
 
 body > footer
   height: 36px
