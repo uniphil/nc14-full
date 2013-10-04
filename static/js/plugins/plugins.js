@@ -140,9 +140,23 @@ function scrollableElement(els) {
     var word_time = function() { return range(1800, 2400); };
     var fade_time = 500;
 
+    var test_excluded = function(exclusions, word) {
+      if (word === undefined) {
+        return false;
+      }
+      for(var i=0; i<exclusions.length; i++) {
+        if (exclusions[i] === word) {
+          return false;
+        }
+      }
+      return true;
+    };
+
     var fade_out = function(el) {
       el.css({opacity: 0});
-      setTimeout(swap, fade_time, el, choice(words));
+      var exclusions = els.map(function() { return $(this).text(); });
+      for (var next; !test_excluded(exclusions, next); next=choice(words));
+      setTimeout(swap, fade_time, el, next);
     };
 
     var swap = function(el, word) {
