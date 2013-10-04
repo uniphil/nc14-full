@@ -137,7 +137,7 @@ function scrollableElement(els) {
   };
 
   (function(els, words) {
-    var word_time = function() { return range(1800, 2400); };
+    var word_time = function() { return range(2400, 2600); };
     var fade_time = 500;
 
     var test_excluded = function(exclusions, word) {
