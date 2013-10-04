@@ -576,8 +576,13 @@ header nav a.selected:hover {
   line-height: 41px;
   line-height: 2.25rem;
 }
+/* line 253, ../sass/_global.sass */
+.conference-points h3 a {
+  color: inherit;
+  border-bottom: none;
+}
 
-/* line 254, ../sass/_global.sass */
+/* line 257, ../sass/_global.sass */
 .pullquote {
   quotes: "“" "”" "‘" "’";
   position: relative;
@@ -587,7 +592,7 @@ header nav a.selected:hover {
   box-shadow: inset 0 6px 20px -4px #cccccc, inset 0 -6px 20px -4px #cccccc;
   background-color: #f8f8f8;
 }
-/* line 262, ../sass/_global.sass */
+/* line 265, ../sass/_global.sass */
 .pullquote p {
   margin: 24px 72px 0;
   position: relative;
@@ -596,17 +601,17 @@ header nav a.selected:hover {
   line-height: 1.2em;
   color: #333333;
 }
-/* line 269, ../sass/_global.sass */
+/* line 272, ../sass/_global.sass */
 .pullquote footer {
   text-align: right;
   margin-right: 72px;
 }
-/* line 272, ../sass/_global.sass */
+/* line 275, ../sass/_global.sass */
 .pullquote footer:before {
   content: "– ";
 }
 
-/* line 274, ../sass/_global.sass */
+/* line 277, ../sass/_global.sass */
 .bigquotes {
   position: absolute;
   top: 0;
@@ -614,7 +619,7 @@ header nav a.selected:hover {
   left: 0;
   right: 0;
 }
-/* line 276, ../sass/_global.sass */
+/* line 279, ../sass/_global.sass */
 .bigquotes:before, .bigquotes:after {
   z-index: 0;
   position: absolute;
@@ -622,25 +627,25 @@ header nav a.selected:hover {
   font-size: 240px;
   color: #cccccc;
 }
-/* line 282, ../sass/_global.sass */
+/* line 285, ../sass/_global.sass */
 .bigquotes:before {
   content: open-quote;
   top: 100px;
   left: 48px;
 }
-/* line 286, ../sass/_global.sass */
+/* line 289, ../sass/_global.sass */
 .bigquotes:after {
   content: close-quote;
   bottom: 20px;
   right: 48px;
 }
 
-/* line 291, ../sass/_global.sass */
+/* line 294, ../sass/_global.sass */
 .signup {
   padding: 0 168px;
 }
 
-/* line 294, ../sass/_global.sass */
+/* line 297, ../sass/_global.sass */
 .button {
   display: inline-block;
   width: 204px;
@@ -653,15 +658,15 @@ header nav a.selected:hover {
   color: white;
   background-color: #009999;
 }
-/* line 305, ../sass/_global.sass */
+/* line 308, ../sass/_global.sass */
 .button:before {
   content: "[";
 }
-/* line 307, ../sass/_global.sass */
+/* line 310, ../sass/_global.sass */
 .button:after {
   content: "]";
 }
-/* line 309, ../sass/_global.sass */
+/* line 312, ../sass/_global.sass */
 .button:before, .button:after {
   opacity: 0;
   -webkit-transition: opacity 0.5s, padding 1s;
@@ -669,13 +674,13 @@ header nav a.selected:hover {
   -o-transition: opacity 0.5s, padding 1s;
   transition: opacity 0.5s, padding 1s;
 }
-/* line 313, ../sass/_global.sass */
+/* line 316, ../sass/_global.sass */
 .button:hover:before, .button:hover:after {
   opacity: 1;
   padding: 0.5em;
 }
 
-/* line 318, ../sass/_global.sass */
+/* line 321, ../sass/_global.sass */
 .sponsors {
   margin: 36px auto 0;
   padding: 36px 0 12px;
@@ -683,7 +688,7 @@ header nav a.selected:hover {
   background-color: #e0e0e0;
   box-shadow: 0 85px 20px -80px #aaaaaa inset;
 }
-/* line 324, ../sass/_global.sass */
+/* line 327, ../sass/_global.sass */
 .sponsors ul {
   width: 80%;
   margin: 36px auto 0;
@@ -723,43 +728,43 @@ header nav a.selected:hover {
   background-image: url('/static/img/sponsors-s3c895a3ff8.png');
   background-size: 384px 181px;
 }
-/* line 329, ../sass/_global.sass */
+/* line 332, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li, .sponsors .bronze li {
   display: block;
   margin: 0 auto;
 }
-/* line 332, ../sass/_global.sass */
+/* line 335, ../sass/_global.sass */
 .sponsors .fulljust li {
   display: inline-block;
   margin: 0 36px;
 }
-/* line 335, ../sass/_global.sass */
+/* line 338, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
   margin-top: 24px;
 }
-/* line 338, ../sass/_global.sass */
+/* line 341, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 342, ../sass/_global.sass */
+/* line 345, ../sass/_global.sass */
 .about-lep {
   clear: both;
   padding: 0;
   position: relative;
 }
-/* line 346, ../sass/_global.sass */
+/* line 349, ../sass/_global.sass */
 .about-lep p {
   margin: 0.61803em 0;
 }
-/* line 348, ../sass/_global.sass */
+/* line 351, ../sass/_global.sass */
 .about-lep .about-lep-tabs {
   margin: 2rem 0 150px;
   text-align: justify;
   font-size: 0;
 }
-/* line 352, ../sass/_global.sass */
+/* line 355, ../sass/_global.sass */
 .about-lep .about-lep-tabs a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -776,27 +781,27 @@ header nav a.selected:hover {
   border: none;
   transition: opacity 0.1s linear;
 }
-/* line 364, ../sass/_global.sass */
+/* line 367, ../sass/_global.sass */
 .about-lep .about-lep-tabs a:not(.selected):not(:hover) {
   opacity: 0.5;
 }
-/* line 366, ../sass/_global.sass */
+/* line 369, ../sass/_global.sass */
 .about-lep .about-lep-tabs a.selected, .about-lep .about-lep-tabs a:hover {
   text-shadow: none;
 }
-/* line 370, ../sass/_global.sass */
+/* line 373, ../sass/_global.sass */
 .about-lep .about-lep-tabs .l {
   background: url("../../img/buddy-lead.png") 50% top no-repeat;
 }
-/* line 372, ../sass/_global.sass */
+/* line 375, ../sass/_global.sass */
 .about-lep .about-lep-tabs .e {
   background: url("../../img/buddy-entrepreneur.png") 50% top no-repeat;
 }
-/* line 374, ../sass/_global.sass */
+/* line 377, ../sass/_global.sass */
 .about-lep .about-lep-tabs .p {
   background: url("../../img/buddy-partner.png") 50% top no-repeat;
 }
-/* line 377, ../sass/_global.sass */
+/* line 380, ../sass/_global.sass */
 .about-lep .about-lep-hint {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -811,7 +816,7 @@ header nav a.selected:hover {
   padding-top: 54px;
   margin: 0;
 }
-/* line 389, ../sass/_global.sass */
+/* line 392, ../sass/_global.sass */
 .about-lep #learn-wrap,
 .about-lep #innovate-wrap,
 .about-lep #connect-wrap {
@@ -821,19 +826,19 @@ header nav a.selected:hover {
   width: 920px;
   transition: width 0.2s linear;
 }
-/* line 397, ../sass/_global.sass */
+/* line 400, ../sass/_global.sass */
 .about-lep #learn-wrap {
   z-index: 3;
 }
-/* line 399, ../sass/_global.sass */
+/* line 402, ../sass/_global.sass */
 .about-lep #innovate-wrap {
   z-index: 2;
 }
-/* line 401, ../sass/_global.sass */
+/* line 404, ../sass/_global.sass */
 .about-lep #connect-wrap {
   z-index: 1;
 }
-/* line 403, ../sass/_global.sass */
+/* line 406, ../sass/_global.sass */
 .about-lep #learn,
 .about-lep #innovate,
 .about-lep #connect {
@@ -841,13 +846,13 @@ header nav a.selected:hover {
   padding: 23px;
   color: white;
 }
-/* line 409, ../sass/_global.sass */
+/* line 412, ../sass/_global.sass */
 .about-lep #learn h2,
 .about-lep #innovate h2,
 .about-lep #connect h2 {
   display: none;
 }
-/* line 411, ../sass/_global.sass */
+/* line 414, ../sass/_global.sass */
 .about-lep #learn h3,
 .about-lep #innovate h3,
 .about-lep #connect h3 {
@@ -855,43 +860,43 @@ header nav a.selected:hover {
   margin: 0.61803em 0;
   line-height: 1em;
 }
-/* line 415, ../sass/_global.sass */
+/* line 418, ../sass/_global.sass */
 .about-lep #learn h3:nth-child(2),
 .about-lep #innovate h3:nth-child(2),
 .about-lep #connect h3:nth-child(2) {
   font-style: italic;
 }
-/* line 417, ../sass/_global.sass */
+/* line 420, ../sass/_global.sass */
 .about-lep #learn h4,
 .about-lep #innovate h4,
 .about-lep #connect h4 {
   font-weight: bold;
 }
-/* line 419, ../sass/_global.sass */
+/* line 422, ../sass/_global.sass */
 .about-lep #learn h5,
 .about-lep #innovate h5,
 .about-lep #connect h5 {
   text-transform: uppercase;
 }
-/* line 421, ../sass/_global.sass */
+/* line 424, ../sass/_global.sass */
 .about-lep #learn {
   background: #8766ad;
 }
-/* line 423, ../sass/_global.sass */
+/* line 426, ../sass/_global.sass */
 .about-lep #innovate {
   background: #b4d435;
 }
-/* line 425, ../sass/_global.sass */
+/* line 428, ../sass/_global.sass */
 .about-lep #connect {
   background: #f58345;
 }
 
-/* line 428, ../sass/_global.sass */
+/* line 431, ../sass/_global.sass */
 .w5 strong {
   font-weight: bold;
 }
 
-/* line 431, ../sass/_global.sass */
+/* line 434, ../sass/_global.sass */
 .col2 {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -901,47 +906,47 @@ header nav a.selected:hover {
   column-gap: 24px;
 }
 
-/* line 435, ../sass/_global.sass */
+/* line 438, ../sass/_global.sass */
 .food {
   margin: 24px 0 36px;
 }
 
-/* line 438, ../sass/_global.sass */
+/* line 441, ../sass/_global.sass */
 #map-canvas {
   height: 300px;
   width: 920px;
   margin: 24px 0 36px -23px;
 }
 
-/* line 443, ../sass/_global.sass */
+/* line 446, ../sass/_global.sass */
 .gmnoprint, .gm-style-cc {
   display: none;
 }
 
-/* line 446, ../sass/_global.sass */
+/* line 449, ../sass/_global.sass */
 .address p {
   line-height: 2em;
   margin-bottom: 0;
 }
 
-/* line 450, ../sass/_global.sass */
+/* line 453, ../sass/_global.sass */
 .reglink {
   text-align: center;
   margin: 12px 0 60px;
 }
-/* line 453, ../sass/_global.sass */
+/* line 456, ../sass/_global.sass */
 .reglink a {
   margin-top: 20px;
 }
 
-/* line 456, ../sass/_global.sass */
+/* line 459, ../sass/_global.sass */
 table {
   width: 70%;
   margin: 36px auto 72px;
   font-weight: 100;
 }
 
-/* line 461, ../sass/_global.sass */
+/* line 464, ../sass/_global.sass */
 th, td {
   height: 36px;
   padding: 0 0.5em;
@@ -949,55 +954,55 @@ th, td {
   color: #343433;
 }
 
-/* line 467, ../sass/_global.sass */
+/* line 470, ../sass/_global.sass */
 thead {
   border-bottom: 1px solid #343433;
 }
 
-/* line 470, ../sass/_global.sass */
+/* line 473, ../sass/_global.sass */
 tbody tr {
   border-bottom: 1px dotted #dddddd;
 }
-/* line 473, ../sass/_global.sass */
+/* line 476, ../sass/_global.sass */
 tbody tr:hover td {
   background-color: #cccccc;
 }
 
-/* line 476, ../sass/_global.sass */
+/* line 479, ../sass/_global.sass */
 .agenda {
   width: 70%;
   margin: auto;
 }
-/* line 479, ../sass/_global.sass */
+/* line 482, ../sass/_global.sass */
 .agenda table {
   width: 100%;
   margin: 12px 0 36px;
 }
-/* line 482, ../sass/_global.sass */
+/* line 485, ../sass/_global.sass */
 .agenda td {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-/* line 483, ../sass/_global.sass */
+/* line 486, ../sass/_global.sass */
 .agenda td:first-child {
   background-color: #8766ad;
 }
-/* line 485, ../sass/_global.sass */
+/* line 488, ../sass/_global.sass */
 .agenda td:nth-child(2) {
   background-color: #b4d435;
 }
-/* line 487, ../sass/_global.sass */
+/* line 490, ../sass/_global.sass */
 .agenda td:last-child {
   background-color: #f58345;
 }
-/* line 489, ../sass/_global.sass */
+/* line 492, ../sass/_global.sass */
 .agenda td:only-child {
   background-color: #ba9361;
 }
 
-/* line 493, ../sass/_global.sass */
+/* line 496, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -1008,21 +1013,21 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 502, ../sass/_global.sass */
+/* line 505, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
   margin-bottom: 0;
 }
-/* line 506, ../sass/_global.sass */
+/* line 509, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 508, ../sass/_global.sass */
+/* line 511, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
-/* line 510, ../sass/_global.sass */
+/* line 513, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
 }

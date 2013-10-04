@@ -29,17 +29,17 @@
       <ul>
         <li>
           <img src="{{ url_for('static', filename='img/icon-gear.png') }}" alt="{{ _('Gear') }}" />
-          <h3 class="l">{{ _('Learn') }}</h3>
+          <h3 class="l"><a href="{{ url_for('about') }}#learn">{{ _('Learn') }}</a></h3>
           <p>{{ _("Dive in to emerging theories & new strategies as both a delegate and a presenter. Participate in relevant, participant-driven explorations.") }}</p>
         </li>
         <li>
           <img src="{{ url_for('static', filename='img/icon-bulb.png') }}" alt="{{ _('Lightbulb') }}" />
-          <h3 class="e">{{ _('Innovate') }}</h3>
+          <h3 class="e"><a href="{{ url_for('about') }}#innovate">{{ _('Innovate') }}</a></h3>
           <p>{{ _("Bring your ideas, or build on context and conversations to pitch a new one. Promote them, receive feedback, or find resources.") }}</p>
         </li>
         <li>
           <img src="{{ url_for('static', filename='img/icon-shake.png') }}" alt="{{ _('Handshake') }}" />
-          <h3 class="p">{{ _('Connect') }}</h3>
+          <h3 class="p"><a href="{{ url_for('about') }}#connect">{{ _('Connect') }}</a></h3>
           <p>{{ _("Meet experts and up-and-comers, find clients and investors, foster new partnerships or explore existing coalition efforts.") }}</p>
         </li>
       </ul>
