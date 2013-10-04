@@ -232,7 +232,7 @@ p {
 /* line 21, ../sass/_global.sass */
 sup {
   font-size: 0.61803em;
-  vertical-align: top;
+  vertical-align: super;
 }
 
 /* line 25, ../sass/_global.sass */
