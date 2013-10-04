@@ -326,7 +326,7 @@ header
     margin: 36px auto 0
   li
     +retina-sprites($sponsors, true, 'sponsors')
-  .lead li, .gold li
+  .lead li, .gold li, .bronze li  // remove when > 1 at the level
     display: block
     margin: 0 auto
   .fulljust li
@@ -334,6 +334,7 @@ header
     margin: 0 36px
   p
     font-size: 12px
+    margin-top: 24px  // remove when there are more bronze
   a
     color: $cleader
 
