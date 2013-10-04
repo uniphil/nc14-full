@@ -710,6 +710,16 @@ header nav a.selected:hover {
   background-position:  0 0;
 }
 /* line 35, ../sass/_variables.sass */
+.sponsors li.prattwhitney {
+  height: 40px;
+  width: 202.5px;
+  background-image: url("../../img/sponsors-ie/prattwhitney-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.prattwhitney {
+  background-position:  0 -60.5px;
+}
+/* line 35, ../sass/_variables.sass */
 .sponsors li.sherritt {
   height: 48px;
   width: 147px;
@@ -717,7 +727,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.sherritt {
-  background-position:  0 -60.5px;
+  background-position:  0 -101px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.transcanada {
@@ -727,15 +737,15 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.transcanada {
-  background-position:  0 -109px;
+  background-position:  0 -149.5px;
 }
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s3c895a3ff8.png');
-  background-size: 384px 181px;
+  background-image: url('/static/img/sponsors-s202f7752a4.png');
+  background-size: 384px 221.5px;
 }
 /* line 337, ../sass/_global.sass */
-.sponsors .lead li, .sponsors .gold li, .sponsors .bronze li {
+.sponsors .lead li, .sponsors .gold li {
   display: block;
   margin: 0 auto;
 }
@@ -747,7 +757,6 @@ header nav a.selected:hover {
 /* line 343, ../sass/_global.sass */
 .sponsors p {
   font-size: 12px;
-  margin-top: 24px;
 }
 /* line 346, ../sass/_global.sass */
 .sponsors a {
