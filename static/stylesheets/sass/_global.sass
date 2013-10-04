@@ -4,7 +4,7 @@ html
 body
   width: 920px
   margin: 0 auto
-  color: #343433
+  color: $ctypeonwhite
   font-weight: 100
   background-color: white
   box-shadow: 0 0 60px #ccc
@@ -408,7 +408,12 @@ header
   #connect
     width: 920px
     padding: $pagepadding
-    color: #fff
+    padding-top: 105px  // this corresponds to padding_cheat in the script
+    background: #fff
+    &.l,
+    &.e,
+    &.p
+      color: $ctypeonwhite
     h2
       display: none
     h3
@@ -417,15 +422,21 @@ header
       line-height: 1em
       &:nth-child(2)
         font-style: italic
+        position: absolute
+        top: -17px  // magic nummmmmmbers magic magic nummmmmmmbers
+        left: 0
+        width: 920px
+        padding: $pagepadding
+        color: #fff
     h4
       font-weight: bold
     h5
       text-transform: uppercase
-  #learn
+  #learn h3.lep-title
     background: $cleader
-  #innovate
+  #innovate h3.lep-title
     background: $centrepreneur
-  #connect
+  #connect h3.lep-title
     background: $cpartner
 
 .w5 strong

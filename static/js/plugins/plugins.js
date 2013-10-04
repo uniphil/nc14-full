@@ -83,7 +83,7 @@ function scrollableElement(els) {
   var Switcher = function(lep_box) {
     var width = lep_box.width();
     var tab_height = 198;  //$(".about-lep-tabs").height()
-    var padding_cheat = 19;
+    var padding_cheat = 19 + 82;
     var boxes = $("#learn, #innovate, #connect", lep_box);
     boxes.wrap('<div>').each(function() {
       $this = $(this);
