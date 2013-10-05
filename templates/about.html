@@ -69,7 +69,6 @@
   </div>
 
   <div id="connect" class="p">
-    <div>
     <h2>{{ _("Connect") }}</h2>
     <h3 class="lep-title">{{ _("Let’s face it: you often get the most value from conferences by skipping the powerpoint and stealing conversations in the hallways.") }}</h3>
     <p>{{ _("What if those hallways weren’t hallways, but intentionally set up collaboration spaces to foster the creation of partnerships, giving you all you need to move from interest to commitment?") }}</p>
@@ -93,5 +92,56 @@
 
 </div>
 
+%% endblock
 
+%% block tail_scripts
+<script>
+////////////////////
+// LEP Switcheroo //
+////////////////////
+(function() {
+  var Switcher = function(lep_box) {
+    var width = lep_box.width();
+    var tab_height = 198;  //$(".about-lep-tabs").height()
+    var padding_cheat = 19 + 82;
+    var boxes = $("#learn, #innovate, #connect", lep_box);
+    boxes.wrap('<div>').each(function() {
+      $this = $(this);
+      $this.parent().attr("id", $this.attr("id") + "-wrap");
+    });
+    $("a[href=#learn], a[href=#innovate], a[href=#connect]", lep_box).click(function() {
+      $(".about-lep-tabs a", lep_box).removeClass("selected");
+      $(".about-lep-tabs a[href=" + $(this).attr('href') + "]", lep_box).addClass("selected");
+      $("#connect-wrap").css({width: width});
+      switch($(this).attr("href")) {
+        case "#learn":
+          boxes.css({height: 'auto'}).height($("#learn").height());
+          $("#learn-wrap").css({width: width});
+          $("#innovate-wrap").css({width: width});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
+          break;
+        case "#innovate":
+          boxes.css({height: 'auto'}).height($("#innovate").height());
+          $("#learn-wrap").css({width: 0});
+          $("#innovate-wrap").css({width: width});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
+          break;
+        case "#connect":
+          boxes.css({height: 'auto'}).height($("#connect").height());
+          $("#learn-wrap").css({width: 0});
+          $("#innovate-wrap").css({width: 0});
+          $('.about-lep-tabs', lep_box).css({'margin-bottom': boxes.height() + padding_cheat});
+          break;
+      }
+      return false;
+    });
+    boxes.parent().css({width: 0});
+  };
+
+  var switcher_el = $('.about-lep');
+  if (switcher_el.length > 0) {
+    new Switcher(switcher_el);
+  }
+})();
+</script>
 %% endblock

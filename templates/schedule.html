@@ -3,11 +3,21 @@
 %% block main
 
 <div class="agenda">
+  <div class="boobs">
+    <div class="days">
+      <a href="#friday">{{ _('Friday') }}</a>
+      <a href="#saturday">{{ _('Saturday') }}</a>
+      <a href="#sunday">{{ _('Sunday') }}</a>
+    </div>
 
-  <div class="days">
-    <a href="#friday">{{ _('Friday') }}</a>
-    <a href="#saturday">{{ _('Saturday') }}</a>
-    <a href="#sunday">{{ _('Sunday') }}</a>
+    <form id="streams">
+      <input type="checkbox" name="leadership" id="leadership-filter" class="visuallyhidden" checked="checked">
+      <label for="leadership-filter">Leadership</label>
+      <input type="checkbox" name="entrepreneurship" id="entrepreneurship-filter" class="visuallyhidden" checked="checked">
+      <label for="entrepreneurship-filter">Entrepreneurship</label>
+      <input type="checkbox" name="partnership" id="partnership-filter" class="visuallyhidden" checked="checked">
+      <label for="partnership-filter">Partnership</label>
+    </form>
   </div>
 
   <h3 id="friday">{{ _('Friday') }}</h3>
@@ -73,4 +83,10 @@
 
 </div>
 
+%% endblock
+
+%% block tail_scripts
+<script>
+  var $rows = $('tr');
+</script>
 %% endblock

@@ -161,14 +161,15 @@ header
           border-color: $cpartner + #ffe2c4
 
 .hlock
-  position: fixed
-  top: 0
-  margin-left: 0
-  padding-right: 0
-  width: 920px
-
-.mlock
-  margin-top: 60px
+  #navheader
+    z-index: 5
+    position: fixed
+    top: 0
+    margin-left: 0
+    padding-right: 0
+    width: 920px
+  main
+    margin-top: 60px
 
 .overlay
   position: relative
@@ -317,6 +318,10 @@ header
       opacity: 1
       padding: .5em
 
+.about-action
+  display: block
+  width: 300px - 24px
+  margin: 24px auto 36px
 
 .sponsors
   margin: 36px auto 0
@@ -495,14 +500,42 @@ tbody tr
     margin: 12px 0 36px
   td
     &:first-child
-      background-color: $cleader
+      background-color: lighten(desaturate($cleader, 10%), 30%)
     &:nth-child(2)
-      background-color: $centrepreneur
+      background-color: lighten(desaturate($centrepreneur, 20%), 40%)
     &:last-child
-      background-color: $cpartner
+      background-color: lighten(desaturate($cpartner, 20%), 30%)
     &:only-child
-      background-color: $cleader / 3 + $centrepreneur / 3 + $cpartner / 3
+      background-color: white
     +transition(background-color .2s)
+  h3
+    border-bottom: 2px solid #343433
+
+.boobs
+  margin-bottom: 60px
+
+.days
+  float: left
+  display: none // no point right now
+
+#streams
+  float: right
+  label
+    display: inline
+    padding: 5px 10px
+    font-size: 16px
+    +border-radius(20px)
+    +transition(background-color .5s)
+    &:hover
+      cursor: pointer
+
+  input:checked + label
+    &:nth-child(2)
+      background-color: $cleader
+    &:nth-child(4)
+      background-color: $centrepreneur
+    &:nth-child(6)
+      background-color: $cpartner
 
 body > footer
   height: 36px

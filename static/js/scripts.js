@@ -5,18 +5,15 @@ $(function() {
 });
 
 function checkScroll(event){
-  // console.log($(window).scrollTop(), lockPoint)
+  console.log($(window).scrollTop(), lockPoint);
   if($(window).scrollTop() >= lockPoint){
-    $lockBar.addClass("hlock");
-    $main.addClass("mlock");
+    $body.addClass("hlock");
   }else{
-    $lockBar.removeClass('hlock');
-    $main.removeClass('mlock');
+    $body.removeClass('hlock');
   }
 }
 
-$('#navheader').removeClass('hlock');
-var $lockBar = $('#navheader'), $main = $('main'), lockPoint = $lockBar.offset().top;
+var $lockBar = $('#navheader'), $body = $('body'), lockPoint = $lockBar.offset().top;
 $(window).scroll(function() {
   checkScroll();
 });
