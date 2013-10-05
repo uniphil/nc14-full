@@ -17,6 +17,11 @@ p
   line-height: 1.5em
   margin-bottom: 1.5em
 
+
+sup
+  font-size: 1em / $gr
+  vertical-align: super
+
 h2
   line-height: 2em
   margin-bottom: .5em
@@ -334,7 +339,7 @@ header
     margin: 36px auto 0
   li
     +retina-sprites($sponsors, true, 'sponsors')
-  .lead li, .gold li, .bronze li  // remove when > 1 at the level
+  .lead li, .gold li,
     display: block
     margin: 0 auto
   .fulljust li
@@ -342,7 +347,7 @@ header
     margin: 0 36px
   p
     font-size: 12px
-    margin-top: 24px  // remove when there are more bronze
+    // margin-top: 24px  // remove when there are more bronze
   a
     color: $cleader
 
@@ -476,6 +481,9 @@ table
   width: 70%
   margin: 36px auto 72px
   font-weight: 100
+  small
+    font-size: 1em
+    opacity: 0.5
 
 th, td
   height: 36px

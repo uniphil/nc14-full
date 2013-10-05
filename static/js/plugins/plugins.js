@@ -73,4 +73,3 @@ function scrollableElement(els) {
     }
   }
   return [];
-}

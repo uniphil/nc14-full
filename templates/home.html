@@ -5,7 +5,7 @@
 
     <div class="overlay">
       <div class="maininner">
-        <p>{{ _('<span class="a-an">a</span> <strong class="d after-a">%(d1)s</strong>, <strong class="d">%(d2)s</strong>, and <strong class="d">%(d3)s</strong><br />walk into a rethought conference space.', d1=choice(delegate_types), d2=choice(delegate_types), d3=choice(delegate_types)) }}</p>
+        <p>{{ _('<span class="a-an">a</span> <strong class="d after-a">%(d1)s</strong>, <strong class="d">%(d2)s</strong>, and <strong class="d">%(d3)s</strong><br />walk into a room.', d1=choice(delegate_types), d2=choice(delegate_types), d3=choice(delegate_types)) }}</p>
         <p>{{ _('what happens next  is up to <strong>you</strong>') }}</p>
       </div>
     </div>
@@ -85,8 +85,8 @@
 #}
 
     <div class="signup fulljust">
-      <a href="{{ url_for('register') }}" class="button">{{ _("Join Us") }}</a>
       <a href="{{ url_for('about') }}" class="button">{{ _("Find out More") }}</a>
+      <a href="{{ url_for('register') }}" class="button">{{ _("Register") }}</a>
     </div>
 
     <div class="sponsors">
@@ -97,12 +97,11 @@
       <ul class="gold">
         <li class='transcanada ir'>{{ _('TransCanada Corporation') }}</li>
       </ul>
-      <ul class="bronze"><!-- fulljust">
+      <ul class="bronze fulljust">
         <li class="sherritt ir">{{ _('Sherritt International') }}</li>
-        <li class="sherritt ir">{{ _('Sherritt International') }}</li> -->
-        <li class="sherritt ir">{{ _('Sherritt International') }}</li>
+        <li class="prattwhitney ir">{{ _('Pratt & Whitney Canada') }}</li>
       </ul>
-      <p>{{ _('Engineers Without Borders is looking for more partners.') }} <a href="{{ url_for('sponsors') }}">{{ _('Interested?') }}</a></p>
+      <p>{{ _('Engineers Without Borders is looking for more partners.') }} <a href="{{ url_for('partner') }}">{{ _('Interested?') }}</a></p>
     </div>
 
 %% endblock
@@ -121,7 +120,7 @@
   };
 
   (function(els, words) {
-    var word_time = function() { return range(1800, 2400); };
+    var word_time = function() { return range(2400, 2600); };
     var fade_time = 500;
 
     var test_excluded = function(exclusions, word) {
