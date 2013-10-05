@@ -189,7 +189,7 @@ header
   @for $i from 1 through 1
     &:nth-child(#{$i})
       .backgroundsize &
-        background-image: url('../../img/underlay-#{$i+1}a.png')
+        background-image: url('../../img/underlay-1.png')
   p
     &:first-child
       font-size: 30px
@@ -198,16 +198,13 @@ header
       margin-bottom: 0
       strong
         font-size: 48px
-        font-weight: 100
+        font-weight: bold
   &.partner p:first-child
     min-height: 178px
   strong
     padding: 0 .2em
     font-size: 24px
-    color: #bbb
     text-transform: lowercase
-    background-color: white
-    text-shadow: none
     transition: opacity 0.5s linear
     +open-sans-stack()
   .a-an.an:after
