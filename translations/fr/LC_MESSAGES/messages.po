@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-09-27 11:44-0400\n"
+"POT-Creation-Date: 2013-10-04 14:29-0400\n"
 "PO-Revision-Date: 2013-09-27 11:55-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -18,153 +18,812 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: templates/about.html:11
-msgid "register"
+#: templates/about.html:6
+msgid "Engineers Without Borders"
+msgstr ""
+
+#: templates/about.html:7
+msgid ""
+"Poverty is the product of broken systems that prevent people from "
+"realizing their full potential. Beating poverty means making those "
+"systems work."
+msgstr ""
+
+#: templates/about.html:8
+msgid ""
+"At EWB Canada, we invest in people &mdash; smart systems changers, and we"
+" incubate the systemic innovations that they create to accelerate rural "
+"African development. It’s about people working with people to create "
+"lasting, scalable change that unlocks human potential."
+msgstr ""
+
+#: templates/about.html:9
+msgid ""
+"Since 2001, we have seen many iterations in our approach. As an adaptable"
+" organization, committed to the self-reflection and external explorations"
+" needed to continue doing our best work."
 msgstr ""
 
 #: templates/about.html:13
-msgid "logistics!"
+msgid "Rethink 2014"
 msgstr ""
 
-#: templates/base.html:42
-msgid "Home"
-msgstr ""
-
-#: templates/base.html:43
-msgid "About"
-msgstr ""
-
-#: templates/base.html:44
-msgid "Logistics"
-msgstr ""
-
-#: templates/base.html:45
-msgid "Agenda"
-msgstr ""
-
-#: templates/base.html:46
-msgid "Register"
-msgstr ""
-
-#: templates/home.html:13
-msgid "See More"
-msgstr ""
-
-#: templates/home.html:15
-msgid "button"
-msgstr ""
-
-#: templates/home.html:16
-msgid "donor link"
-msgstr ""
-
-#: templates/logistics.html:10
-msgid "buy a ticket?"
-msgstr ""
-
-#: templates/logistics.html:13
-msgid "schedule / agenda"
-msgstr ""
-
-#: templates/realhome.html:6
-msgid "Engineers Without Borders Canada"
-msgstr ""
-
-#: templates/realhome.html:7
-msgid "Hatch"
-msgstr ""
-
-#: templates/realhome.html:8
-msgid "Français"
-msgstr ""
-
-#: templates/realhome.html:12
-msgid "Rethink"
-msgstr ""
-
-#: templates/realhome.html:13
-msgid "January 9th to 12th<span class='divider'> | </span>Toronto, Ontario"
-msgstr ""
-
-#: templates/realhome.html:14
-msgid "Leadership, Entrepreneurship, and Partnership for Global Development"
-msgstr ""
-
-#: templates/realhome.html:18
-msgid "National Conference 2014 Logo"
-msgstr ""
-
-#: templates/realhome.html:28
+#: templates/about.html:15
 msgid ""
-"<strong>What's possible</strong> if we let go of traditional partnership "
-"models in global development?"
+"This is a space curated by EWB Canada, but created in real time by a "
+"diverse, cross-sector, and international delegation of over 800 "
+"individuals with great experiences and expertise. They’re some of the "
+"smartest&mdash;and newest&mdash;leaders in developing leaders, investing "
+"in entrepreneurs, and fostering partnerships for global development."
 msgstr ""
 
-#: templates/realhome.html:29
+#: templates/about.html:16
 msgid ""
-"Join attendees from across two continents and one hundred organizations "
-"at Canada's largest and most exciting development conference! Make this "
-"event the highlight of your year by joining us and 700 other passionate "
-"leaders, entrepreneurs, and partners."
+"Over three days of workshops, panels, and keynotes, we want to dive in, "
+"explore, and truly <i>rethink</i> the ways in which we work as a set of "
+"individuals and organizations with a common, ambitious goal."
 msgstr ""
 
-#: templates/realhome.html:30
-msgid "Sign up now"
+#: templates/about.html:23 templates/about.html:29 templates/about.html:33
+#: templates/home.html:32
+msgid "Learn"
 msgstr ""
 
-#: templates/realhome.html:37
-msgid "Learn and lead"
+#: templates/about.html:24 templates/about.html:29 templates/about.html:52
+#: templates/home.html:37
+msgid "Innovate"
 msgstr ""
 
-#: templates/realhome.html:38
-msgid "As both delegate and presenter, explore new theories and strategies."
-msgstr ""
-
-#: templates/realhome.html:41
+#: templates/about.html:25 templates/about.html:29 templates/about.html:73
+#: templates/home.html:42
 msgid "Connect"
 msgstr ""
 
-#: templates/realhome.html:42
-msgid "To experts, investors, and coalition efforts within and beyond your field."
+#: templates/about.html:29
+#, python-format
+msgid ""
+"Click on the <a href=\"#learn\" class=\"l\">%(l)s</a>, <a "
+"href=\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" "
+"class=\"p\">%(p)s</a> buttons above!</p>"
 msgstr ""
 
-#: templates/realhome.html:45
-msgid "Develop"
+#: templates/about.html:34
+msgid ""
+"What environments can we create to accelerate personal and organizational"
+" change?\n"
 msgstr ""
 
-#: templates/realhome.html:46
-msgid "Practical skills and innovative processes to work in global development."
+#: templates/about.html:36
+msgid ""
+"The complexities of the global challenges we face require a new brand of "
+"learning and collaboration space. We’ve challenged ourselves to rethink "
+"the traditional conference."
 msgstr ""
 
-#: templates/realhome.html:49
-msgid "Share"
+#: templates/about.html:37
+msgid "Rethink Presentations."
 msgstr ""
 
-#: templates/realhome.html:50
-msgid "Whether yourself or your organization, promote or test your current ideas."
+#: templates/about.html:38
+msgid ""
+"Information that flows in just one direction reaches only half of its "
+"potential.<br/>Welcome to the Labs."
 msgstr ""
 
-#: templates/realhome.html:83
-msgid "This conference has been made possible by:"
+#: templates/about.html:39
+msgid ""
+"We believe that in order to truly rethink our approaches to global "
+"development, we need to leverage the full knowledge of the room &mdash; "
+"not just that of the expert at the front. What’s your unique brand of "
+"leadership? How does an entrepreneurial model of development intersect or"
+" contradict the traditional charity model? What are the interactions and "
+"incentives in a development partnership? Dive into exploratory, "
+"experimental, and creative spaces with individuals and organizations who "
+"have committed to charting new territory and facing difficult tensions."
 msgstr ""
 
-#: templates/realhome.html:85
+#: templates/about.html:41 templates/about.html:84
+msgid "Example"
+msgstr ""
+
+#: templates/about.html:42
+msgid "LePlayground"
+msgstr ""
+
+#: templates/about.html:43
+msgid ""
+"Le Playground will be joining us (all the way from France!) throughout "
+"Rethink, bringing their unique approach to leadership development, and "
+"challenging participants to get comfortable in a personal and "
+"organizational space of reinvention, and in driving from what inspires "
+"them to create change."
+msgstr ""
+
+#: templates/about.html:46 templates/about.html:66 templates/about.html:89
+msgid "Looking for Partners"
+msgstr ""
+
+#: templates/about.html:47
+msgid ""
+"Create with us. We're looking for cross-sector thinkers, talkers, and "
+"teachers to share ideas and convene workshops."
+msgstr ""
+
+#: templates/about.html:53
+msgid "What’s possible if we have the spaces to really get to work?\n"
+msgstr ""
+
+#: templates/about.html:55
+msgid ""
+"Test the waters on your new project or idea. Leverage expertise and "
+"diversity to bring it to the next level. Find partners, resources, and "
+"the energy to move forward and change something."
+msgstr ""
+
+#: templates/about.html:56
+msgid "Rethink Action"
+msgstr ""
+
+#: templates/about.html:57
+msgid "Why wait?"
+msgstr ""
+
+#: templates/about.html:58
+msgid ""
+"The Innovation Forum has often been the flagship of conferences hosted by"
+" EWB. Rooted in our model of model of entrepreneurship and innovation, it"
+" is intended to identify and accelerate ideas that have the potential to "
+"disrupt systems of poverty and inequality."
+msgstr ""
+
+#: templates/about.html:59
+msgid ""
+"There is no idea too developed or too new for the Forum. It’s a space to "
+"bring your dream, project, startup, or organization and share your "
+"biggest questions with our diverse and well-connected delegation. "
+"Multiple breakout rooms host a diversity of entrepreneurs with big ideas "
+"for global development, as peers self-select into conversations to bring "
+"insight, human resources, or capital to your work. It’s messy, colorful, "
+"challenging, and real."
+msgstr ""
+
+#: templates/about.html:61
+msgid "Case Study"
+msgstr ""
+
+#: templates/about.html:62
+msgid "The Kumvana Program"
+msgstr ""
+
+#: templates/about.html:63
+msgid ""
+"The Kumvana Program is a testament to the innovation possible when we "
+"come together. The Program was born at the EWB-hosted conference of the "
+"same name in 2011, and encourages us that it really is possible to make "
+"ideas a reality when we give inspired delegates the hands-on "
+"opportunities to create something great."
+msgstr ""
+
+#: templates/about.html:67
+msgid ""
+"The Innovation Forum is the <b>Rethink</b> flagship entrepreneurial and "
+"inspirational event. Design it with us and showcase your organization’s "
+"innovative spirit."
+msgstr ""
+
+#: templates/about.html:74
+msgid ""
+"Let’s face it: you often get the most value from conferences by skipping "
+"the powerpoint and stealing conversations in the hallways."
+msgstr ""
+
+#: templates/about.html:75
+msgid ""
+"What if those hallways weren’t hallways, but intentionally set up "
+"collaboration spaces to foster the creation of partnerships, giving you "
+"all you need to move from interest to commitment?"
+msgstr ""
+
+#: templates/about.html:76
+msgid "Rethink Networking."
+msgstr ""
+
+#: templates/about.html:77
+msgid ""
+"We’ve created two intentional spaces at Rethink to help you make the "
+"connections you want."
+msgstr ""
+
+#: templates/about.html:78
+msgid "Collaboration Hub"
+msgstr ""
+
+#: templates/about.html:79
+msgid ""
+"Inspired by the rise&mdash;and success&mdash;of hub spaces across our "
+"country, we’ve decided to build a constant space of collaboration at this"
+" conference. Throughout Rethink, you will have the opportunity to opt-out"
+" of content and opt-in to meaningful connection, surrounded by a physical"
+" environment and the tools you need to make things happen."
+msgstr ""
+
+#: templates/about.html:80
+msgid "Showcase Space"
+msgstr ""
+
+#: templates/about.html:81
+msgid ""
+"Interested organizations have the opportunity to bring their brand to the"
+" 800 delegates of Rethink in our showcase space. It’s for those looking "
+"to connect with global development leaders in Canada, or to find clients "
+"and investors."
+msgstr ""
+
+#: templates/about.html:82
+msgid "Get in touch"
+msgstr ""
+
+#: templates/about.html:82
+msgid "to find out more about the space we're curating just for you."
+msgstr ""
+
+#: templates/about.html:85
+msgid "The Toronto Congress Centre"
+msgstr ""
+
+#: templates/about.html:86
+msgid ""
+"The networking opportunities at Rethink total over 30 hours of dedicated "
+"time to building connections between delegates, in a beautiful, "
+"naturally-lit and separate space provided by the Toronto Congress Centre."
+msgstr ""
+
+#: templates/about.html:90
+msgid ""
+"Design and brand our Collaboration Space with your hub, incubator, or "
+"accelerator strategy."
+msgstr ""
+
+#: templates/base.html:51
+msgid "Engineers Without Borders Canada"
+msgstr ""
+
+#: templates/base.html:52
+msgid "Hatch"
+msgstr ""
+
+#: templates/base.html:53
+msgid "Français"
+msgstr ""
+
+#: templates/base.html:56
+msgid "Rethink"
+msgstr ""
+
+#: templates/base.html:57
+msgid ""
+"January 10<sup>th</sup> to 12<sup>th</sup><span class='divider'> | "
+"</span>Toronto, Ontario"
+msgstr ""
+
+#: templates/base.html:58
+msgid "Leadership, Entrepreneurship, and Partnership for Global Development"
+msgstr ""
+
+#: templates/base.html:61
+msgid "National Conference 2014 Logo"
+msgstr ""
+
+#: templates/base.html:71
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:72
+msgid "About"
+msgstr ""
+
+#: templates/base.html:73
+msgid "Schedule"
+msgstr ""
+
+#: templates/base.html:74
+msgid "Logistics"
+msgstr ""
+
+#: templates/base.html:75
+msgid "Partner"
+msgstr ""
+
+#: templates/base.html:76 templates/home.html:89
+msgid "Register"
+msgstr ""
+
+#: templates/base.html:94
+msgid "Get in touch:"
+msgstr ""
+
+#: templates/base.html:95
+msgid "All Rights Reserved, 2013"
+msgstr ""
+
+#: templates/home.html:8
+#, python-format
+msgid ""
+"<span class=\"a-an\">a</span> <strong class=\"d "
+"after-a\">%(d1)s</strong>, <strong class=\"d\">%(d2)s</strong>, and "
+"<strong class=\"d\">%(d3)s</strong><br />walk into a room."
+msgstr ""
+
+#: templates/home.html:9
+msgid "what happens next  is up to <strong>you</strong>"
+msgstr ""
+
+#: templates/home.html:14
+msgid ""
+"Poverty and inequality are not new, but more than ever, we see the levels"
+" of complexity and interconnections of these global challenges. With new "
+"abilities to understand how problems connect, we are called to share and "
+"collaborate in our work, to create solutions larger than single "
+"organizations."
+msgstr ""
+
+#: templates/home.html:15
+msgid ""
+"Engineers Without Borders (EWB) Canada works to <b class=\"l\">develop "
+"leaders</b>, <b class=\"e\">invest in entrepreneurs</b>, and <b "
+"class=\"p\">partner with individuals and organizations</b> to tackle "
+"these global challenges. Using our work and experience in these three "
+"approaches as the foundation of this conference, <strong>we are hosting "
+"the opportunity to learn and connect <em>together</em></strong>, with the"
+" goal of improving our collective efforts for global development."
+msgstr ""
+
+#: templates/home.html:31
+msgid "Gear"
+msgstr ""
+
+#: templates/home.html:33
+msgid ""
+"Dive in to emerging theories & new strategies as both a delegate and a "
+"presenter. Participate in relevant, participant-driven explorations."
+msgstr ""
+
+#: templates/home.html:36
+msgid "Lightbulb"
+msgstr ""
+
+#: templates/home.html:38
+msgid ""
+"Bring your ideas, or build on context and conversations to pitch a new "
+"one. Promote them, receive feedback, or find resources."
+msgstr ""
+
+#: templates/home.html:41
+msgid "Handshake"
+msgstr ""
+
+#: templates/home.html:43
+msgid ""
+"Meet experts and up-and-comers, find clients and investors, foster new "
+"partnerships or explore existing coalition efforts."
+msgstr ""
+
+#: templates/home.html:88
+msgid "Find out More"
+msgstr ""
+
+#: templates/home.html:93
+msgid ""
+"<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity "
+"of:"
+msgstr ""
+
+#: templates/home.html:95
 msgid "Hatch Ltd"
 msgstr ""
 
-#: templates/realhome.html:86
+#: templates/home.html:98
 msgid "TransCanada Corporation"
 msgstr ""
 
-#: templates/realhome.html:88
+#: templates/home.html:101
+msgid "Sherritt International"
+msgstr ""
+
+#: templates/home.html:102
+msgid "Pratt & Whitney Canada"
+msgstr ""
+
+#: templates/home.html:104
 msgid "Engineers Without Borders is looking for more partners."
 msgstr ""
 
-#: templates/realhome.html:88
+#: templates/home.html:104
 msgid "Interested?"
 msgstr ""
 
-#: templates/sponsors.html:8
-msgid "back"
+#: templates/logistics.html:6
+msgid "When?"
 msgstr ""
+
+#: templates/logistics.html:7
+msgid ""
+"<strong>Friday, January 10th</strong> to <strong>Sunday, January 12th, "
+"2014</strong>."
+msgstr ""
+
+#: templates/logistics.html:8
+msgid "Where?"
+msgstr ""
+
+#: templates/logistics.html:10
+msgid "Venue"
+msgstr ""
+
+#: templates/logistics.html:11
+msgid "Toronto Congress Centre North Building"
+msgstr ""
+
+#: templates/logistics.html:12
+msgid "Accommodations"
+msgstr ""
+
+#: templates/logistics.html:13
+msgid "The Travelodge Hotel"
+msgstr ""
+
+#: templates/logistics.html:17
+msgid ""
+"A room block is reserved for conference delegates, and can be purchased "
+"at the time of registration. A <strong>free shuttle</strong> will run "
+"between this hotel and the venue through the day -- and it’s "
+"approximately a <strong>five minute</strong> ride."
+msgstr ""
+
+#: templates/logistics.html:18
+msgid ""
+"Note that there are <strong>numerous alternative accommodations</strong> "
+"available in the immediate area, but that transportation will be the "
+"delegate’s responsibility in this case. Delegates staying in downtown "
+"Toronto will have access to a shuttle each morning and evening, which can"
+" be purchased at a cost-recovery rate at the time of registration."
+msgstr ""
+
+#: templates/logistics.html:21
+msgid "Food"
+msgstr ""
+
+#: templates/logistics.html:22
+msgid ""
+"Registration includes <strong>breakfast, lunch and dinner</strong> for "
+"all three days of Rethink, with the exception of dinner on Saturday "
+"night. At this time, delegates will be provided with transportation "
+"downtown for the opportunity to participate in a variety of events, "
+"including networking dinners with some special guests."
+msgstr ""
+
+#: templates/logistics.html:23
+msgid ""
+"We are proud to be serving <strong>locally-sourced</strong> and "
+"<strong>fair trade</strong> products where available throughout the "
+"event."
+msgstr ""
+
+#: templates/logistics.html:26
+#, python-format
+msgid ""
+"<strong>Please see our <a href=\"%(reg_link)s\">registration page</a> for"
+" pricing structure information.</strong>"
+msgstr ""
+
+#: templates/partner.html:7
+msgid "<strong>Sponsor Entrepreneurs &amp; Leaders for Social Innovation</strong>"
+msgstr ""
+
+#: templates/partner.html:8
+msgid ""
+"Engineers Without Borders Canada is looking for partners to tackle "
+"extreme poverty through systemic innovation."
+msgstr ""
+
+#: templates/partner.html:9
+msgid ""
+"Is your organization interested in <strong>sponsoring 750-1,000 "
+"entrepreneurs</strong> and leaders committed to systemic innovation?"
+msgstr ""
+
+#: templates/partner.html:14
+msgid "The National Conference provides an opportunity for our partners to:"
+msgstr ""
+
+#: templates/partner.html:16
+msgid ""
+"<strong>Engage employees</strong> in an energetic and thought-provoking "
+"environment"
+msgstr ""
+
+#: templates/partner.html:17
+msgid "Contribute to <strong>content development</strong>"
+msgstr ""
+
+#: templates/partner.html:18
+msgid ""
+"<strong>Recruit top young Canadian talent</strong> in engineering and "
+"multidisciplinary fields"
+msgstr ""
+
+#: templates/partner.html:19
+msgid "Develop <strong>brand recognition</strong> among youth, and"
+msgstr ""
+
+#: templates/partner.html:20
+msgid ""
+"Achieve <strong>corporate social responsibility goals</strong> by "
+"building strong communities committed to tackling environmental and "
+"social justice challenges."
+msgstr ""
+
+#: templates/partner.html:22
+#, python-format
+msgid ""
+"You can view sponsorship opportunities by viewing <strong><a "
+"href=\"%(sponsor_package)s\">this</a></strong> document."
+msgstr ""
+
+#: templates/partner.html:24
+msgid ""
+"Please contact our sponsorship lead, <strong><a "
+"href='mailto:amirnosrat@ewb.ca?Subject=Sponsorship+Opportunities'>Amir "
+"Nosrat</a></strong>, for any questions or if your organization would like"
+" to pursue sponsorship opportunities."
+msgstr ""
+
+#: templates/register.html:6
+msgid ""
+"For pricing information, please see the table below. Otherwise, what are "
+"you waiting for?!"
+msgstr ""
+
+#: templates/register.html:7
+msgid "Register Now"
+msgstr ""
+
+#: templates/register.html:14
+msgid "Early-bird"
+msgstr ""
+
+#: templates/register.html:15
+msgid "Regular"
+msgstr ""
+
+#: templates/register.html:15
+msgid "after Nov 20<sup>th</sup>"
+msgstr ""
+
+#: templates/register.html:20
+msgid "Public"
+msgstr ""
+
+#: templates/register.html:21
+msgid "$550.00"
+msgstr ""
+
+#: templates/register.html:22
+msgid "$648.00"
+msgstr ""
+
+#: templates/register.html:25
+msgid "Partner Organization"
+msgstr ""
+
+#: templates/register.html:26
+msgid "$475.00"
+msgstr ""
+
+#: templates/register.html:27
+msgid "$559.00"
+msgstr ""
+
+#: templates/register.html:30
+msgid "Government"
+msgstr ""
+
+#: templates/register.html:31
+msgid "$450.00"
+msgstr ""
+
+#: templates/register.html:32
+msgid "$530.00"
+msgstr ""
+
+#: templates/register.html:35
+msgid "Alumni"
+msgstr ""
+
+#: templates/register.html:36
+msgid "$425.00"
+msgstr ""
+
+#: templates/register.html:37
+msgid "$500.00"
+msgstr ""
+
+#: templates/register.html:40
+msgid "Partner Organization (NGO)"
+msgstr ""
+
+#: templates/register.html:41
+msgid "$400.00"
+msgstr ""
+
+#: templates/register.html:42
+msgid "$471.00"
+msgstr ""
+
+#: templates/register.html:45
+msgid "EWB Member"
+msgstr ""
+
+#: templates/register.html:46
+msgid "Please contact your local chapter or network for pricing information"
+msgstr ""
+
+#: templates/schedule.html:8 templates/schedule.html:13
+msgid "Friday"
+msgstr ""
+
+#: templates/schedule.html:9 templates/schedule.html:41
+msgid "Saturday"
+msgstr ""
+
+#: templates/schedule.html:10 templates/schedule.html:56
+msgid "Sunday"
+msgstr ""
+
+#: templates/schedule.html:17
+msgid "Opening: Framing the Challenge of Global Development as Interconnected"
+msgstr ""
+
+#: templates/schedule.html:20
+msgid "Foundations"
+msgstr ""
+
+#: templates/schedule.html:23
+msgid "Rethink Leadership for Global Development"
+msgstr ""
+
+#: templates/schedule.html:24
+msgid "Rethink Entrepreneurship for Global Development"
+msgstr ""
+
+#: templates/schedule.html:25
+msgid "Rethink Partnership for Global Development"
+msgstr ""
+
+#: templates/schedule.html:28
+msgid "Changing Sectors with Leadership"
+msgstr ""
+
+#: templates/schedule.html:29
+msgid "Changing Sectors with Entrepreneurship"
+msgstr ""
+
+#: templates/schedule.html:30
+msgid "Changing Sectors with Partnership"
+msgstr ""
+
+#: templates/schedule.html:33
+msgid "Dialogue"
+msgstr ""
+
+#: templates/schedule.html:36
+msgid "EWB AGM"
+msgstr ""
+
+#: templates/schedule.html:45
+msgid "Keynote: Entrepreneurship for Global Development"
+msgstr ""
+
+#: templates/schedule.html:48
+msgid "Systemic Change Case Studies"
+msgstr ""
+
+#: templates/schedule.html:51
+msgid "Networking [Downtown Toronto]"
+msgstr ""
+
+#: templates/schedule.html:60
+msgid "Keynote: Partnering in Global Development"
+msgstr ""
+
+#: templates/schedule.html:63
+msgid "What's Coming?"
+msgstr ""
+
+#: templates/schedule.html:66
+msgid "Closing: The Power of People"
+msgstr ""
+
+#: templates/schedule.html:69
+msgid "Gala Night"
+msgstr ""
+
+#~ msgid "register"
+#~ msgstr ""
+
+#~ msgid "logistics!"
+#~ msgstr ""
+
+#~ msgid "Agenda"
+#~ msgstr ""
+
+#~ msgid "See More"
+#~ msgstr ""
+
+#~ msgid "button"
+#~ msgstr ""
+
+#~ msgid "donor link"
+#~ msgstr ""
+
+#~ msgid "buy a ticket?"
+#~ msgstr ""
+
+#~ msgid "schedule / agenda"
+#~ msgstr ""
+
+#~ msgid "January 9th to 12th<span class='divider'> | </span>Toronto, Ontario"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<strong>What's possible</strong> if we let "
+#~ "go of traditional partnership models in"
+#~ " global development?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Join attendees from across two "
+#~ "continents and one hundred organizations "
+#~ "at Canada's largest and most exciting"
+#~ " development conference! Make this event"
+#~ " the highlight of your year by "
+#~ "joining us and 700 other passionate "
+#~ "leaders, entrepreneurs, and partners."
+#~ msgstr ""
+
+#~ msgid "Sign up now"
+#~ msgstr ""
+
+#~ msgid "Learn and lead"
+#~ msgstr ""
+
+#~ msgid "As both delegate and presenter, explore new theories and strategies."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To experts, investors, and coalition "
+#~ "efforts within and beyond your field."
+#~ msgstr ""
+
+#~ msgid "Develop"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Practical skills and innovative processes "
+#~ "to work in global development."
+#~ msgstr ""
+
+#~ msgid "Share"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Whether yourself or your organization, "
+#~ "promote or test your current ideas."
+#~ msgstr ""
+
+#~ msgid "This conference has been made possible by:"
+#~ msgstr ""
+
+#~ msgid "back"
+#~ msgstr ""
 
