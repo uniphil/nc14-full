@@ -8,6 +8,7 @@
 """
 
 from random import choice
+from functools import partial
 from werkzeug.routing import BuildError
 from flask import Flask, request, redirect, url_for, render_template
 from flask.ext.babel import Babel
@@ -42,11 +43,11 @@ def get_locale():
 
 def monkey_render(*args, **kwargs):
     def monkey_url_for(endpoint, **kwargs):
+        if 'lang' not in kwargs:
+            kwargs.update(lang=get_locale())
         try:
             return url_for(endpoint, **kwargs)
         except BuildError:
-            if 'lang' not in kwargs:
-                kwargs.update(lang=get_locale())
             return url_for('page', page=endpoint, **kwargs)
     kwargs.update(lang=kwargs.get('lang', get_locale()),
                   url_for=monkey_url_for)
@@ -66,14 +67,33 @@ def home(lang):
     return monkey_render('home.html', choice=choice, page='home')
 
 
-@app.route('/<lang>/<page>')
+@app.route('/<lang>/<page>/')
 def page(lang, page):
     return monkey_render('{}.html'.format(page), page=page)
 
 
-for static_thing in ('favicon.ico', 'robots.txt'):
-    app.add_url_rule('/' + static_thing, static_thing, lambda: '')
+def freeze_app():
+    from flask_frozen import Freezer
+    debugged = app.debug
+    app.debug = True
+    url_rules = ('about', 'schedule', 'logistics', 'partner', 'register')
+    for rule in url_rules:
+        app.add_url_rule('/<lang>/{}/'.format(rule), rule, partial(page, page=rule))
+    freezer = Freezer(app)
+    freezer.freeze()
+    app.debug = debugged
+
+
+def run_dev():
+    for static_thing in ('favicon.ico', 'robots.txt'):
+        app.add_url_rule('/' + static_thing, static_thing, lambda: '')
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    import sys
+    if len(sys.argv) == 2 and sys.argv[1] == 'freeze':
+        freeze_app()
+        print 'frozen.'
+    else:
+        run_dev()
