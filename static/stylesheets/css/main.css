@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* compass & preferences */
-/* line 17, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,45 +22,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -156,9 +156,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0.2em 0;
 }
 
-/* line 105, ../../../../../.gem/ruby/2.0.0/gems/compass-0.13.alpha.4/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
+/* line 61, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
   font-size: 112.5%;
+}
+
+/* line 64, ../../../../../.gem/ruby/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 18px;
   line-height: 1.5em;
 }
 
@@ -313,14 +318,14 @@ main > div:nth-child(1), .overlay + div {
   padding: 18px 0;
 }
 /* line 77, ../sass/_global.sass */
-.preheader .top img {
+.preheader .top .leads img {
   float: left;
   height: 100%;
   width: auto;
   margin-right: 18px;
 }
 /* line 82, ../sass/_global.sass */
-.preheader .top a {
+.preheader .top .lang-switcher {
   float: right;
   color: #727273;
   font-size: 14px;
@@ -564,16 +569,13 @@ header nav a.selected:hover {
   width: 24%;
   margin: 0 3%;
   vertical-align: top;
-  font-size: 18px;
-  font-size: 1rem;
-  line-height: 27px;
-  line-height: 1.5rem;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 /* line 249, ../sass/_global.sass */
 .conference-points h3 {
   font-weight: bold;
-  line-height: 41px;
-  line-height: 2.25rem;
+  line-height: 2.25em;
 }
 /* line 252, ../sass/_global.sass */
 .conference-points h3 a {
@@ -707,7 +709,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.hatch {
-  background-position:  0 0;
+  background-position:  0 -74.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.prattwhitney {
@@ -717,7 +719,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.prattwhitney {
-  background-position:  0 -62.5px;
+  background-position:  0 -187.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.sherritt {
@@ -727,7 +729,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.sherritt {
-  background-position:  0 -105px;
+  background-position:  0 -137px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.transcanada {
@@ -737,11 +739,11 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.transcanada {
-  background-position:  0 -155.5px;
+  background-position:  0 0;
 }
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s5d57f58b84.png');
+  background-image: url('/static/img/sponsors-s282c071062.png');
   background-size: 384px 227.5px;
 }
 /* line 335, ../sass/_global.sass */
@@ -932,9 +934,13 @@ header nav a.selected:hover {
 .col2 {
   -webkit-column-count: 2;
   -moz-column-count: 2;
+  -ms-column-count: 2;
+  -o-column-count: 2;
   column-count: 2;
   -webkit-column-gap: 24px;
   -moz-column-gap: 24px;
+  -ms-column-gap: 24px;
+  -o-column-gap: 24px;
   column-gap: 24px;
 }
 
@@ -1065,6 +1071,8 @@ tbody tr:hover td {
   font-size: 16px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   border-radius: 20px;
   -webkit-transition: background-color 0.5s;
   -moz-transition: background-color 0.5s;
