@@ -53,7 +53,7 @@
           <a href="{{ url_for(page or 'home', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
         </div>
         <div class="info">
-          <img src="{{ url_for('static', filename='img/logo-rethink-top-' + lang + '.png') }}" alt="{{ _('Rethink') }}" />
+          <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='img/logo-rethink-top-' + lang + '.png') }}" alt="{{ _('Rethink') }}" /></a>
           <h2 class='fulljust'>{{ _("January 10<sup>th</sup> to 12<sup>th</sup><span class='divider'> | </span>Toronto, Ontario") }}</h2>
           <p>{{ _("Leadership, Entrepreneurship, and Partnership for Global Development") }}</p>
         </div>
