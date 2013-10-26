@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-10-04 14:29-0400\n"
+"POT-Creation-Date: 2013-10-26 14:14-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,12 +68,12 @@ msgstr ""
 msgid "Learn"
 msgstr ""
 
-#: templates/about.html:24 templates/about.html:29 templates/about.html:52
+#: templates/about.html:24 templates/about.html:29 templates/about.html:53
 #: templates/home.html:37
 msgid "Innovate"
 msgstr ""
 
-#: templates/about.html:25 templates/about.html:29 templates/about.html:73
+#: templates/about.html:25 templates/about.html:29 templates/about.html:74
 #: templates/home.html:42
 msgid "Connect"
 msgstr ""
@@ -121,7 +121,7 @@ msgid ""
 "have committed to charting new territory and facing difficult tensions."
 msgstr ""
 
-#: templates/about.html:41 templates/about.html:84
+#: templates/about.html:41 templates/about.html:85
 msgid "Example"
 msgstr ""
 
@@ -138,36 +138,42 @@ msgid ""
 "them to create change."
 msgstr ""
 
-#: templates/about.html:46 templates/about.html:66 templates/about.html:89
+#: templates/about.html:44
+msgid ""
+"Developing <b>leadership with intention</b> to accompany individuals and "
+"teams in the realization of their full potential to impact the world."
+msgstr ""
+
+#: templates/about.html:47 templates/about.html:68 templates/about.html:90
 msgid "Looking for Partners"
 msgstr ""
 
-#: templates/about.html:47
+#: templates/about.html:48
 msgid ""
 "Create with us. We're looking for cross-sector thinkers, talkers, and "
 "teachers to share ideas and convene workshops."
 msgstr ""
 
-#: templates/about.html:53
+#: templates/about.html:54
 msgid "What’s possible if we have the spaces to really get to work?\n"
 msgstr ""
 
-#: templates/about.html:55
+#: templates/about.html:56
 msgid ""
 "Test the waters on your new project or idea. Leverage expertise and "
 "diversity to bring it to the next level. Find partners, resources, and "
 "the energy to move forward and change something."
 msgstr ""
 
-#: templates/about.html:56
+#: templates/about.html:57
 msgid "Rethink Action"
 msgstr ""
 
-#: templates/about.html:57
+#: templates/about.html:58
 msgid "Why wait?"
 msgstr ""
 
-#: templates/about.html:58
+#: templates/about.html:59
 msgid ""
 "The Innovation Forum has often been the flagship of conferences hosted by"
 " EWB. Rooted in our model of model of entrepreneurship and innovation, it"
@@ -175,7 +181,7 @@ msgid ""
 "disrupt systems of poverty and inequality."
 msgstr ""
 
-#: templates/about.html:59
+#: templates/about.html:60
 msgid ""
 "There is no idea too developed or too new for the Forum. It’s a space to "
 "bring your dream, project, startup, or organization and share your "
@@ -186,15 +192,15 @@ msgid ""
 "challenging, and real."
 msgstr ""
 
-#: templates/about.html:61
+#: templates/about.html:62
 msgid "Case Study"
 msgstr ""
 
-#: templates/about.html:62
+#: templates/about.html:63
 msgid "The Kumvana Program"
 msgstr ""
 
-#: templates/about.html:63
+#: templates/about.html:64
 msgid ""
 "The Kumvana Program is a testament to the innovation possible when we "
 "come together. The Program was born at the EWB-hosted conference of the "
@@ -203,41 +209,49 @@ msgid ""
 "opportunities to create something great."
 msgstr ""
 
-#: templates/about.html:67
+#: templates/about.html:65
+msgid ""
+"Building the capacity of young inventors, entrepreneurs, challengers and "
+"thinkers in Africa, fostering rich collaborations between Canadians and "
+"Africans and investing in their collective ability to solve the problems "
+"facing Africa today (and tomorrow.)"
+msgstr ""
+
+#: templates/about.html:69
 msgid ""
 "The Innovation Forum is the <b>Rethink</b> flagship entrepreneurial and "
 "inspirational event. Design it with us and showcase your organization’s "
 "innovative spirit."
 msgstr ""
 
-#: templates/about.html:74
+#: templates/about.html:75
 msgid ""
 "Let’s face it: you often get the most value from conferences by skipping "
 "the powerpoint and stealing conversations in the hallways."
 msgstr ""
 
-#: templates/about.html:75
+#: templates/about.html:76
 msgid ""
 "What if those hallways weren’t hallways, but intentionally set up "
 "collaboration spaces to foster the creation of partnerships, giving you "
 "all you need to move from interest to commitment?"
 msgstr ""
 
-#: templates/about.html:76
+#: templates/about.html:77
 msgid "Rethink Networking."
 msgstr ""
 
-#: templates/about.html:77
+#: templates/about.html:78
 msgid ""
 "We’ve created two intentional spaces at Rethink to help you make the "
 "connections you want."
 msgstr ""
 
-#: templates/about.html:78
+#: templates/about.html:79
 msgid "Collaboration Hub"
 msgstr ""
 
-#: templates/about.html:79
+#: templates/about.html:80
 msgid ""
 "Inspired by the rise&mdash;and success&mdash;of hub spaces across our "
 "country, we’ve decided to build a constant space of collaboration at this"
@@ -246,11 +260,11 @@ msgid ""
 " environment and the tools you need to make things happen."
 msgstr ""
 
-#: templates/about.html:80
+#: templates/about.html:81
 msgid "Showcase Space"
 msgstr ""
 
-#: templates/about.html:81
+#: templates/about.html:82
 msgid ""
 "Interested organizations have the opportunity to bring their brand to the"
 " 800 delegates of Rethink in our showcase space. It’s for those looking "
@@ -258,26 +272,26 @@ msgid ""
 "and investors."
 msgstr ""
 
-#: templates/about.html:82
+#: templates/about.html:83
 msgid "Get in touch"
 msgstr ""
 
-#: templates/about.html:82
+#: templates/about.html:83
 msgid "to find out more about the space we're curating just for you."
 msgstr ""
 
-#: templates/about.html:85
+#: templates/about.html:86
 msgid "The Toronto Congress Centre"
 msgstr ""
 
-#: templates/about.html:86
+#: templates/about.html:87
 msgid ""
 "The networking opportunities at Rethink total over 30 hours of dedicated "
 "time to building connections between delegates, in a beautiful, "
 "naturally-lit and separate space provided by the Toronto Congress Centre."
 msgstr ""
 
-#: templates/about.html:90
+#: templates/about.html:91
 msgid ""
 "Design and brand our Collaboration Space with your hub, incubator, or "
 "accelerator strategy."
@@ -587,163 +601,83 @@ msgstr ""
 msgid "Register Now"
 msgstr ""
 
-#: templates/register.html:14
+#: templates/register.html:15
 msgid "Early-bird"
 msgstr ""
 
-#: templates/register.html:15
+#: templates/register.html:16
 msgid "Regular"
 msgstr ""
 
-#: templates/register.html:15
+#: templates/register.html:16
 msgid "after Nov 20<sup>th</sup>"
 msgstr ""
 
-#: templates/register.html:20
+#: templates/register.html:21
 msgid "Public"
 msgstr ""
 
-#: templates/register.html:21
+#: templates/register.html:22
 msgid "$550.00"
 msgstr ""
 
-#: templates/register.html:22
-msgid "$648.00"
-msgstr ""
-
-#: templates/register.html:25
-msgid "Partner Organization"
+#: templates/register.html:23
+msgid "$650.00"
 msgstr ""
 
 #: templates/register.html:26
-msgid "$475.00"
+msgid "Partner Organization"
 msgstr ""
 
 #: templates/register.html:27
-msgid "$559.00"
+msgid "$475.00"
 msgstr ""
 
-#: templates/register.html:30
-msgid "Government"
+#: templates/register.html:28
+msgid "$560.00"
 msgstr ""
 
 #: templates/register.html:31
-msgid "$450.00"
+msgid "Government"
 msgstr ""
 
 #: templates/register.html:32
+msgid "$450.00"
+msgstr ""
+
+#: templates/register.html:33
 msgid "$530.00"
 msgstr ""
 
-#: templates/register.html:35
+#: templates/register.html:36
 msgid "Alumni"
 msgstr ""
 
-#: templates/register.html:36
+#: templates/register.html:37
 msgid "$425.00"
 msgstr ""
 
-#: templates/register.html:37
+#: templates/register.html:38
 msgid "$500.00"
 msgstr ""
 
-#: templates/register.html:40
+#: templates/register.html:41
 msgid "Partner Organization (NGO)"
 msgstr ""
 
-#: templates/register.html:41
+#: templates/register.html:42
 msgid "$400.00"
 msgstr ""
 
-#: templates/register.html:42
-msgid "$471.00"
-msgstr ""
-
-#: templates/register.html:45
-msgid "EWB Member"
+#: templates/register.html:43
+msgid "$470.00"
 msgstr ""
 
 #: templates/register.html:46
+msgid "EWB Member"
+msgstr ""
+
+#: templates/register.html:47
 msgid "Please contact your local chapter or network for pricing information"
-msgstr ""
-
-#: templates/schedule.html:8 templates/schedule.html:13
-msgid "Friday"
-msgstr ""
-
-#: templates/schedule.html:9 templates/schedule.html:41
-msgid "Saturday"
-msgstr ""
-
-#: templates/schedule.html:10 templates/schedule.html:56
-msgid "Sunday"
-msgstr ""
-
-#: templates/schedule.html:17
-msgid "Opening: Framing the Challenge of Global Development as Interconnected"
-msgstr ""
-
-#: templates/schedule.html:20
-msgid "Foundations"
-msgstr ""
-
-#: templates/schedule.html:23
-msgid "Rethink Leadership for Global Development"
-msgstr ""
-
-#: templates/schedule.html:24
-msgid "Rethink Entrepreneurship for Global Development"
-msgstr ""
-
-#: templates/schedule.html:25
-msgid "Rethink Partnership for Global Development"
-msgstr ""
-
-#: templates/schedule.html:28
-msgid "Changing Sectors with Leadership"
-msgstr ""
-
-#: templates/schedule.html:29
-msgid "Changing Sectors with Entrepreneurship"
-msgstr ""
-
-#: templates/schedule.html:30
-msgid "Changing Sectors with Partnership"
-msgstr ""
-
-#: templates/schedule.html:33
-msgid "Dialogue"
-msgstr ""
-
-#: templates/schedule.html:36
-msgid "EWB AGM"
-msgstr ""
-
-#: templates/schedule.html:45
-msgid "Keynote: Entrepreneurship for Global Development"
-msgstr ""
-
-#: templates/schedule.html:48
-msgid "Systemic Change Case Studies"
-msgstr ""
-
-#: templates/schedule.html:51
-msgid "Networking [Downtown Toronto]"
-msgstr ""
-
-#: templates/schedule.html:60
-msgid "Keynote: Partnering in Global Development"
-msgstr ""
-
-#: templates/schedule.html:63
-msgid "What's Coming?"
-msgstr ""
-
-#: templates/schedule.html:66
-msgid "Closing: The Power of People"
-msgstr ""
-
-#: templates/schedule.html:69
-msgid "Gala Night"
 msgstr ""
 
