@@ -129,7 +129,7 @@ header
   background-color: $cpartner
   background-color: rgba($cpartner, .95)
   box-shadow: 0 2px 2px rgba(0,0,0,.2)
-  +transition(width .3s .3s, margin-left .3s .3s, padding-right .3s)
+  +transition(width .3s .3s, margin-left .3s .3s)
 
   &:before, &:after
     content: ''
@@ -171,7 +171,6 @@ header
     position: fixed
     top: 0
     margin-left: 0
-    padding-right: 0
     width: 920px
   main
     margin-top: 60px
@@ -306,7 +305,7 @@ header
   text-decoration: none
   text-align: center
   color: white
-  background-color: #009999
+  background-color: #666
   &:before
     content: '['
   &:after
@@ -429,6 +428,8 @@ header
       font-size: 1.4rem
       margin: 1em / $gr 0
       line-height: 1em
+      &.lep-title
+        color: #fff
       &:nth-child(2)
         font-style: italic
         position: absolute
@@ -441,12 +442,21 @@ header
       font-weight: bold
     h5
       text-transform: uppercase
-  #learn h3.lep-title
-    background: $cleader
-  #innovate h3.lep-title
-    background: $centrepreneur
-  #connect h3.lep-title
-    background: $cpartner
+  #learn
+    h3, h4
+      color: $cleader
+    .lep-title
+      background: $cleader
+  #innovate
+    h3, h4
+      color: $centrepreneur
+    .lep-title
+      background: $centrepreneur
+  #connect
+    h3, h4
+      color: $cpartner
+    .lep-title
+      background: $cpartner
 
 .w5 strong
   font-weight: bold
