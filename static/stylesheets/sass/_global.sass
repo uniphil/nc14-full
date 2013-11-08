@@ -216,15 +216,18 @@ header
   font-weight: 100
   color: #555
 
+=fancy-list
+  li
+    margin: 0 0 .5em 2em
+    list-style: circle
+
 .sponsor-page
   padding-bottom: 1.5em
   p
     margin-bottom: 1em
   a
     text-decoration: none
-  li
-    margin: 0 0 .5em 2em
-    list-style: circle
+  +fancy-list
 
 .about-ewb, .about-rethink
   width: 50%
@@ -494,6 +497,16 @@ tbody tr
   &:hover
     td
       background-color: #ccc
+
+.reg-included
+  font-size: 16px
+  width: 643px + 23px * 2 // padding
+  margin-left: auto
+  margin-right: auto
+  +fancy-list
+  li
+    width: 50%
+    float: left
 
 .agenda
   width: 70%
