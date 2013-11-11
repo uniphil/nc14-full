@@ -98,7 +98,7 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-      var jQuery = window.jQuery || document.write('<script src="static/js/plugins/jquery-1.10.2.min.js"><\/script>');
+      var jQuery = window.jQuery || document.write('<script src="{{ url_for('static', filename='js/plugins/jquery-1.10.2.min.js') }}"><\/script>');
     </script>
     <script src="{{ url_for('static', filename='js/plugins/plugins.js') }}"></script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
