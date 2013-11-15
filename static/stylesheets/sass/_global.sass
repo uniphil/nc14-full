@@ -220,6 +220,8 @@ header
   font-size: 0
   line-height: 32px
   position: relative
+  overflow: hidden
+
   &:after
     content: ""
     display: block
@@ -235,6 +237,17 @@ header
     margin-right: auto
     font-size: 32px
 
+  .bio-overlay
+    position: absolute
+    top: 81px
+    left: 93px
+    right: 93px
+    bottom: 16px
+    font-size: 16px
+    text-align: left
+    overflow: auto
+    background: rgba(255, 255, 255, 0.9)
+
 .speaker
   display: inline-block
   width: 210px
@@ -242,12 +255,19 @@ header
   margin: 0 26px
   font-size: 24px
   position: relative
+  transition: bottom 0.2s
+  &:hover
+    bottom: 56px
+
+  .speaker-details
+    border: none
+    font-size: 16px
 
   h3
     position: absolute
     bottom: 0px
     width: 100%
-    padding: 8px
+    padding: 5px
     font-size: 24px
     line-height: 1.2em
     text-align: center
@@ -255,7 +275,7 @@ header
     text-shadow: 0 0 3px black
     background: rgba(0, 0, 0, 0.4)
 
-  p
+  .bio
     display: none
 
 =fancy-list
