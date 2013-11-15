@@ -43,7 +43,7 @@ def get_locale():
 
 def monkey_render(*args, **kwargs):
     def monkey_url_for(endpoint, **kwargs):
-        if 'lang' not in kwargs:
+        if 'lang' not in kwargs and endpoint != 'static':
             kwargs.update(lang=get_locale())
         try:
             return url_for(endpoint, **kwargs)
