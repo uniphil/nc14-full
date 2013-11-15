@@ -1071,49 +1071,64 @@ tbody tr:hover td {
 }
 
 /* line 524, ../sass/_global.sass */
+.sched-options {
+  font-size: 32px;
+  margin: 3em 0;
+  text-align: center;
+}
+/* line 528, ../sass/_global.sass */
+.sched-options b {
+  font-size: 1.5em;
+}
+/* line 530, ../sass/_global.sass */
+.sched-options .button {
+  width: 360px;
+}
+
+/* line 533, ../sass/_global.sass */
 .agenda {
   width: 70%;
   margin: auto;
 }
-/* line 527, ../sass/_global.sass */
+/* line 536, ../sass/_global.sass */
 .agenda table {
   width: 100%;
   margin: 12px 0 36px;
 }
-/* line 530, ../sass/_global.sass */
+/* line 539, ../sass/_global.sass */
 .agenda td {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-/* line 531, ../sass/_global.sass */
+/* line 540, ../sass/_global.sass */
 .agenda td:first-child {
   background-color: #d5cede;
 }
-/* line 533, ../sass/_global.sass */
+/* line 542, ../sass/_global.sass */
 .agenda td:nth-child(2) {
   background-color: #f0f4e1;
 }
-/* line 535, ../sass/_global.sass */
+/* line 544, ../sass/_global.sass */
 .agenda td:last-child {
   background-color: #f9e5da;
 }
-/* line 537, ../sass/_global.sass */
+/* line 546, ../sass/_global.sass */
 .agenda td:only-child {
   background-color: white;
 }
-/* line 540, ../sass/_global.sass */
+/* line 549, ../sass/_global.sass */
 .agenda h3 {
   border-bottom: 2px solid #343433;
 }
 
-/* line 543, ../sass/_global.sass */
+/* line 552, ../sass/_global.sass */
 .boobs {
   margin-bottom: 60px;
 }
 
-/* line 546, ../sass/_global.sass */
+/* line 555, ../sass/_global.sass */
 .shameless {
   text-align: center;
   padding-top: 3em;
@@ -1121,17 +1136,17 @@ tbody tr:hover td {
   clear: both;
 }
 
-/* line 552, ../sass/_global.sass */
+/* line 561, ../sass/_global.sass */
 .days {
   float: left;
   display: none;
 }
 
-/* line 556, ../sass/_global.sass */
+/* line 565, ../sass/_global.sass */
 #streams {
   float: right;
 }
-/* line 558, ../sass/_global.sass */
+/* line 567, ../sass/_global.sass */
 #streams label {
   display: inline;
   padding: 5px 10px;
@@ -1146,24 +1161,24 @@ tbody tr:hover td {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-/* line 564, ../sass/_global.sass */
+/* line 573, ../sass/_global.sass */
 #streams label:hover {
   cursor: pointer;
 }
-/* line 568, ../sass/_global.sass */
+/* line 577, ../sass/_global.sass */
 #streams input:checked + label:nth-child(2) {
   background-color: #8766ad;
 }
-/* line 570, ../sass/_global.sass */
+/* line 579, ../sass/_global.sass */
 #streams input:checked + label:nth-child(4) {
   background-color: #b4d435;
 }
-/* line 572, ../sass/_global.sass */
+/* line 581, ../sass/_global.sass */
 #streams input:checked + label:nth-child(6) {
   background-color: #f58345;
 }
 
-/* line 575, ../sass/_global.sass */
+/* line 584, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -1174,21 +1189,21 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 584, ../sass/_global.sass */
+/* line 593, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
   margin-bottom: 0;
 }
-/* line 588, ../sass/_global.sass */
+/* line 597, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 590, ../sass/_global.sass */
+/* line 599, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
-/* line 592, ../sass/_global.sass */
+/* line 601, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
 }
