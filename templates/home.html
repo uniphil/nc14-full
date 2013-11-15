@@ -218,10 +218,9 @@ $('.speaker-details').click(function() {
   $('.speakers h2').text(name);
   $('.speakers').append($('<div class="bio-overlay">').html(content));
   $('.bio-overlay').hide().fadeIn();
-  $('.bio-overlay').click(function() {
-    $(this).fadeOut();
+  $(document).click(function() {
+    $('.bio-overlay').fadeOut(function() { $(this).remove(); });
     $('.speakers h2').text('Featured Speakers');
-    return false;
   });
   return false;
 });
