@@ -215,6 +215,49 @@ header
   font-weight: 100
   color: #555
 
+.speakers
+  text-align: center
+  font-size: 0
+  line-height: 32px
+  position: relative
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    bottom: 0
+    left: 50%
+    width: 734px
+    margin-left: (-734 / 2) + px
+    border-bottom: 1px dotted #ccc
+  h2
+    width: 734px
+    margin-left: auto
+    margin-right: auto
+    font-size: 32px
+
+.speaker
+  display: inline-block
+  width: 210px
+  height: 217px
+  margin: 0 26px
+  font-size: 24px
+  position: relative
+
+  h3
+    position: absolute
+    bottom: 0px
+    width: 100%
+    padding: 8px
+    font-size: 24px
+    line-height: 1.2em
+    text-align: center
+    color: white
+    text-shadow: 0 0 3px black
+    background: rgba(0, 0, 0, 0.4)
+
+  p
+    display: none
+
 =fancy-list
   li
     margin: 0 0 .5em 2em
