@@ -700,6 +700,16 @@ header nav a.selected:hover {
   margin: 36px auto 0;
 }
 /* line 35, ../sass/_variables.sass */
+.sponsors li.enbridge {
+  height: 41.5px;
+  width: 150px;
+  background-image: url("../../img/sponsors-ie/enbridge-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.enbridge {
+  background-position:  0 -292.5px;
+}
+/* line 35, ../sass/_variables.sass */
 .sponsors li.hatch {
   height: 60px;
   width: 384px;
@@ -708,6 +718,16 @@ header nav a.selected:hover {
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.hatch {
   background-position:  0 -74.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.northland {
+  height: 60px;
+  width: 105.5px;
+  background-image: url("../../img/sponsors-ie/northland-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.northland {
+  background-position:  0 -230px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.prattwhitney {
@@ -741,11 +761,11 @@ header nav a.selected:hover {
 }
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s282c071062.png');
-  background-size: 384px 227.5px;
+  background-image: url('/static/img/sponsors-s955680e3a9.png');
+  background-size: 384px 334px;
 }
 /* line 337, ../sass/_global.sass */
-.sponsors .lead li, .sponsors .gold li {
+.sponsors .lead li, .sponsors .gold li, .sponsors .contrib li {
   display: block;
   margin: 0 auto;
 }
