@@ -79,12 +79,29 @@ main > div:nth-child(1), .overlay + div
       height: 100%
       width: auto
       margin-right: 18px
+    .social,
     .lang-switcher
       float: right
+    .social a,
+    .lang-switcher
       color: #727273
       font-size: 14px
       text-transform: uppercase
       text-decoration: none
+    .social
+      a
+        height: 21px
+        width: 21px
+        display: inline-block
+        vertical-align: middle
+        background-size: contain
+        margin-right: 8px
+        &:hover
+          opacity: 0.6
+      .facebook
+        background-image: url('../../img/social-facebook.png')
+      .twitter
+        background-image: url('../../img/social-twitter.png')
 
   .buddies, .info
     display: inline-block
@@ -644,6 +661,15 @@ tbody tr
       background-color: $centrepreneur
     &:nth-child(6)
       background-color: $cpartner
+
+// .social-footer
+//   background: #444
+//   h2, a, li
+//     display: inline-block
+//     margin: 0
+//     color: #aaa
+//   h2
+//     border: none
 
 body > footer
   height: 36px

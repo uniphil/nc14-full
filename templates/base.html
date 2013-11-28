@@ -51,6 +51,11 @@
           <a href="http://ewb.ca" class="leads" title="Engineers Without Borders Canada"><img src="{{ url_for('static', filename='img/logo-ewb-top.png') }}" alt="{{ _('Engineers Without Borders Canada') }}" /></a>
           <a href="http://hatch{% if lang == 'en' %}.ca{% else %}ltee.com{% endif %}" class="leads"><img src="{{ url_for('static', filename='img/logo-hatch-top.png') }}" alt="{{ _('Hatch') }}" /></a>
           <a class="lang-switcher" href="{{ url_for(page or 'home', lang=('en' if lang == 'fr' else 'fr')) }}">{{ _("Français") }}</a>
+          <div class="social">
+            <a class="facebook" href="https://www.facebook.com/EWBNationalConference" title="{{ _('Facebook') }}"></a>
+            <a class="twitter" href="http://twitter.com/rethinkewb" title="{{ _('Twitter') }}"></a>
+            <a class="linkedin" href="http://www.linkedin.com/groups/EWB-National-Conference-Congr%C3%A8s-national-5102412" title="{{ _('LinkedIn') }}"></a>
+          </div>
         </div>
         <div class="info">
           <a href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='img/logo-rethink-top-' + lang + '.png') }}" alt="{{ _('Rethink') }}" /></a>
