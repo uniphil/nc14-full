@@ -4,7 +4,7 @@
 
 <div class="reglink">
   <p>{{ _("For pricing information, please see the table below. Otherwise, what are you waiting for?!") }}</p>
-  <a href="https://my.ewb.ca/conference" class="myewb-register button">{{ _("Register Now") }}</a>
+  <a href="https://my2.ewb.ca/conference" class="myewb-register button">{{ _("Register Now") }}</a>
   <p><small>Secure registration provided via myewb.ca</small></p>
 </div>
 
@@ -13,7 +13,7 @@
     <tr>
       <th></th>
       <th>{{ _("Early-bird") }}</th>
-      <th>{{ _("Regular") }} <small>({{ _("after Nov 20<sup>th</sup>") }})</small></th>
+      <th>{{ _("Regular") }} <small>({{ _("after <del>Nov 20<sup>th</sup></del> extended to Dec 18<sup>th</sup>") }})</small></th>
     </tr>
   </thead>
   <tbody>
@@ -23,7 +23,7 @@
       <td>{{ _("$650.00") }}</td>
     </tr>
     <tr>
-      <td>{{ _("Not for Profit") }}</td>
+      <td>{{ _("Student and Partner Organization") }}</td>
       <td>{{ _("$475.00") }}</td>
       <td>{{ _("$560.00") }}</td>
     </tr>
@@ -38,7 +38,7 @@
       <td>{{ _("$500.00") }}</td>
     </tr>
     <tr>
-      <td>{{ _("Partner Organization (NGO)") }}</td>
+      <td>{{ _("Non-Profit") }}</td>
       <td>{{ _("$400.00") }}</td>
       <td>{{ _("$470.00") }}</td>
     </tr>
@@ -60,7 +60,7 @@
     <li>{{ _("Ticket to Gala") }}</li>
   </ul>
   <p>{{ _("Hotels are extra, and we have an exclusive room rate of $102/night+ taxes for the confernece at the Travelodge Toronto Airport. You will be able to reserve at the hotel through our registration system.") }}</p>
-  <p class="shameless boobs">{{ _("For more logstical details, check out") }} <a href="{{ url_for('logistics') }}">{{ _("Logistics") }}</a></p>
+  <p class="shameless boobs">{{ _("For more logistical details, check out") }} <a href="{{ url_for('logistics') }}">{{ _("Logistics") }}</a></p>
 </div>
 
 %% endblock
