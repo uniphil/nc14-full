@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-10-26 14:14-0400\n"
+"POT-Creation-Date: 2013-11-28 14:04-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,17 +64,17 @@ msgid ""
 msgstr ""
 
 #: templates/about.html:23 templates/about.html:29 templates/about.html:33
-#: templates/home.html:32
+#: templates/home.html:114
 msgid "Learn"
 msgstr ""
 
 #: templates/about.html:24 templates/about.html:29 templates/about.html:53
-#: templates/home.html:37
+#: templates/home.html:119
 msgid "Innovate"
 msgstr ""
 
 #: templates/about.html:25 templates/about.html:29 templates/about.html:74
-#: templates/home.html:42
+#: templates/home.html:124
 msgid "Connect"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid ""
 "Click on the <a href=\"#learn\" class=\"l\">%(l)s</a>, <a "
 "href=\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" "
-"class=\"p\">%(p)s</a> buttons above!</p>"
+"class=\"p\">%(p)s</a> buttons above!"
 msgstr ""
 
 #: templates/about.html:34
@@ -309,53 +309,65 @@ msgstr ""
 msgid "Français"
 msgstr ""
 
+#: templates/base.html:55
+msgid "Facebook"
+msgstr ""
+
 #: templates/base.html:56
-msgid "Rethink"
+msgid "Twitter"
 msgstr ""
 
 #: templates/base.html:57
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/base.html:61
+msgid "Rethink"
+msgstr ""
+
+#: templates/base.html:62
 msgid ""
 "January 10<sup>th</sup> to 12<sup>th</sup><span class='divider'> | "
 "</span>Toronto, Ontario"
 msgstr ""
 
-#: templates/base.html:58
+#: templates/base.html:63
 msgid "Leadership, Entrepreneurship, and Partnership for Global Development"
 msgstr ""
 
-#: templates/base.html:61
+#: templates/base.html:66
 msgid "National Conference 2014 Logo"
 msgstr ""
 
-#: templates/base.html:71
+#: templates/base.html:76
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:72
+#: templates/base.html:77
 msgid "About"
 msgstr ""
 
-#: templates/base.html:73
+#: templates/base.html:78
 msgid "Schedule"
 msgstr ""
 
-#: templates/base.html:74
+#: templates/base.html:79 templates/register.html:63
 msgid "Logistics"
 msgstr ""
 
-#: templates/base.html:75
+#: templates/base.html:80
 msgid "Partner"
 msgstr ""
 
-#: templates/base.html:76 templates/home.html:89
+#: templates/base.html:81 templates/home.html:132
 msgid "Register"
 msgstr ""
 
-#: templates/base.html:94
+#: templates/base.html:99
 msgid "Get in touch:"
 msgstr ""
 
-#: templates/base.html:95
+#: templates/base.html:100
 msgid "All Rights Reserved, 2013"
 msgstr ""
 
@@ -391,67 +403,99 @@ msgid ""
 " goal of improving our collective efforts for global development."
 msgstr ""
 
-#: templates/home.html:31
+#: templates/home.html:35
+msgid "Featured Speakers"
+msgstr ""
+
+#: templates/home.html:113
 msgid "Gear"
 msgstr ""
 
-#: templates/home.html:33
+#: templates/home.html:115
 msgid ""
 "Dive in to emerging theories & new strategies as both a delegate and a "
 "presenter. Participate in relevant, participant-driven explorations."
 msgstr ""
 
-#: templates/home.html:36
+#: templates/home.html:118
 msgid "Lightbulb"
 msgstr ""
 
-#: templates/home.html:38
+#: templates/home.html:120
 msgid ""
 "Bring your ideas, or build on context and conversations to pitch a new "
 "one. Promote them, receive feedback, or find resources."
 msgstr ""
 
-#: templates/home.html:41
+#: templates/home.html:123
 msgid "Handshake"
 msgstr ""
 
-#: templates/home.html:43
+#: templates/home.html:125
 msgid ""
 "Meet experts and up-and-comers, find clients and investors, foster new "
 "partnerships or explore existing coalition efforts."
 msgstr ""
 
-#: templates/home.html:88
+#: templates/home.html:131
 msgid "Find out More"
 msgstr ""
 
-#: templates/home.html:93
+#: templates/home.html:136
 msgid ""
 "<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity "
 "of:"
 msgstr ""
 
-#: templates/home.html:95
+#: templates/home.html:137
+msgid "Lead"
+msgstr ""
+
+#: templates/home.html:139
 msgid "Hatch Ltd"
 msgstr ""
 
-#: templates/home.html:98
+#: templates/home.html:141
+msgid "Gold"
+msgstr ""
+
+#: templates/home.html:143
 msgid "TransCanada Corporation"
 msgstr ""
 
-#: templates/home.html:101
+#: templates/home.html:145
+msgid "Bronze"
+msgstr ""
+
+#: templates/home.html:147
 msgid "Sherritt International"
 msgstr ""
 
-#: templates/home.html:102
-msgid "Pratt & Whitney Canada"
+#: templates/home.html:148
+msgid "Pratt &amp; Whitney Canada"
 msgstr ""
 
-#: templates/home.html:104
+#: templates/home.html:149
+msgid "Enbridge"
+msgstr ""
+
+#: templates/home.html:151
+msgid "Contributor"
+msgstr ""
+
+#: templates/home.html:153
+msgid "Northland Power"
+msgstr ""
+
+#: templates/home.html:156
+msgid "Partner Organizations"
+msgstr ""
+
+#: templates/home.html:157
 msgid "Engineers Without Borders is looking for more partners."
 msgstr ""
 
-#: templates/home.html:104
+#: templates/home.html:157
 msgid "Interested?"
 msgstr ""
 
@@ -523,6 +567,98 @@ msgid ""
 msgstr ""
 
 #: templates/logistics.html:26
+msgid "How to Get There"
+msgstr ""
+
+#: templates/logistics.html:27
+msgid ""
+"Rethink 2014 will be held at the Toronto Congress Centre, 650 Dixon Road,"
+" Toronto, ON. Delegates will have the option to book accommodations "
+"through the registration process for the Travelodge Toronto Airport, 925 "
+"Dixon Road, Toronto, ON."
+msgstr ""
+
+#: templates/logistics.html:29
+msgid "From Toronto Pearson Airport"
+msgstr ""
+
+#: templates/logistics.html:30
+msgid ""
+"A free shuttle is available from the airport (YYZ) to Travelodge Toronto "
+"Airport. Please call the Travelodge at (416) 674-2222 to arrange your "
+"seat."
+msgstr ""
+
+#: templates/logistics.html:32
+msgid "TTC"
+msgstr ""
+
+#: templates/logistics.html:33
+msgid ""
+"Subway; streetcars; buses. $3, ~1 hour. Take the Northbound Subway from "
+"Union (towards Downsview). Exit at Lawrence West Station (after about 20 "
+"minutes.) Take bus #58 (you do not need to pay again) and exit at Dixon "
+"Road at City View Drive to travel to the Congress Centre (3 minute walk.)"
+" Exit at Dixon Road at Carlingview Drive to travel to the Travelodge (1 "
+"minute walk.)"
+msgstr ""
+
+#: templates/logistics.html:35
+msgid "GO Transit"
+msgstr ""
+
+#: templates/logistics.html:36
+msgid ""
+"$5, ~20-30 minutes. Busses and trains run from Union Station to Etobicoke"
+" North and Malton Stations - both are a 5 minute cab ride to the venue. "
+"Take route 30, 31, 39, or 33 Kitchener (formerly Georgetown.) Information"
+" is also available at the <a href=\"http://www.ttc.ca/Trip_planner/\">TTC"
+" website</a> and the <a "
+"href=\"http://www.gotransit.com/public/en/schedules/google.aspx\">GO "
+"transit website</a>"
+msgstr ""
+
+#: templates/logistics.html:37
+msgid ""
+"To ge to the Travelodge Hotel from Malton GO station, walk to Airport "
+"Road and Derry Road, take the TTC bus 58 eastbound. Get off at "
+"Carlingview Road. To go to TCC directly from Malton GO station, get off "
+"at Kelfield Street."
+msgstr ""
+
+#: templates/logistics.html:38
+msgid ""
+"To get to the Travelodge Hotel from Etobicoke North Go station, walk to "
+"Martin Grove Road, take the TTC bus 45 southbound (take a transfer ticket"
+" from the driver) and get off at Dixon Road stop. From there, walk to the"
+" north east side of the Dixon road and get on the TTC bus 58 westbound "
+"and get off at Carlingview Road. To get to TCC, get off at Kelfield "
+"Street once on the 58 bus."
+msgstr ""
+
+#: templates/logistics.html:40
+msgid "By Vehicle"
+msgstr ""
+
+#: templates/logistics.html:41
+msgid ""
+"The venue is located at 650 Dixon Road, Toronto in the North Building; "
+"the hotel is located at 925 Dixon Road. Parking is free at both locations"
+" (at the Travelodge, provided you are registered to stay there.)"
+msgstr ""
+
+#: templates/logistics.html:43
+msgid "By Taxi"
+msgstr ""
+
+#: templates/logistics.html:44
+msgid ""
+"A taxi estimated from Union Station will take about 25 minutes and will "
+"cost roughly $50. You can call Beck (416.751.5555) or Co-Op "
+"(416.504.2667)."
+msgstr ""
+
+#: templates/logistics.html:47
 #, python-format
 msgid ""
 "<strong>Please see our <a href=\"%(reg_link)s\">registration page</a> for"
@@ -601,6 +737,10 @@ msgstr ""
 msgid "Register Now"
 msgstr ""
 
+#: templates/register.html:8
+msgid "Secure registration provided via myewb.ca"
+msgstr ""
+
 #: templates/register.html:15
 msgid "Early-bird"
 msgstr ""
@@ -610,7 +750,7 @@ msgid "Regular"
 msgstr ""
 
 #: templates/register.html:16
-msgid "after Nov 20<sup>th</sup>"
+msgid "after <del>Nov 20<sup>th</sup></del> extended to Dec 18<sup>th</sup>"
 msgstr ""
 
 #: templates/register.html:21
@@ -626,7 +766,7 @@ msgid "$650.00"
 msgstr ""
 
 #: templates/register.html:26
-msgid "Partner Organization"
+msgid "Student and Partner Organization"
 msgstr ""
 
 #: templates/register.html:27
@@ -662,7 +802,7 @@ msgid "$500.00"
 msgstr ""
 
 #: templates/register.html:41
-msgid "Partner Organization (NGO)"
+msgid "Non-Profit"
 msgstr ""
 
 #: templates/register.html:42
@@ -679,5 +819,54 @@ msgstr ""
 
 #: templates/register.html:47
 msgid "Please contact your local chapter or network for pricing information"
+msgstr ""
+
+#: templates/register.html:53
+msgid "What's Included?"
+msgstr ""
+
+#: templates/register.html:55
+msgid "3 days of conference"
+msgstr ""
+
+#: templates/register.html:56
+msgid "8 meals"
+msgstr ""
+
+#: templates/register.html:57
+msgid "Transportation downtown"
+msgstr ""
+
+#: templates/register.html:58
+msgid "Transportation to and from the conference hotel"
+msgstr ""
+
+#: templates/register.html:59
+msgid "Access to networking and social events"
+msgstr ""
+
+#: templates/register.html:60
+msgid "Ticket to Gala"
+msgstr ""
+
+#: templates/register.html:62
+msgid ""
+"Hotels are extra, and we have an exclusive room rate of $102/night+ taxes"
+" for the confernece at the Travelodge Toronto Airport. You will be able "
+"to reserve at the hotel through our registration system."
+msgstr ""
+
+#: templates/register.html:63
+msgid "For more logistical details, check out"
+msgstr ""
+
+#: templates/schedule.html:6
+msgid "For the <b>big picture</b>, just scroll down."
+msgstr ""
+
+#: templates/schedule.html:7
+msgid ""
+"For details, see the new <a href=\"http://rethink2014.sched.org/\" "
+"class=\"button\">Full &nbsp;Schedule</a>"
 msgstr ""
 
