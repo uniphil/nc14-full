@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-28 14:04-0500\n"
+"POT-Creation-Date: 2013-11-28 14:23-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -371,6 +371,12 @@ msgstr ""
 msgid "All Rights Reserved, 2013"
 msgstr ""
 
+#: templates/base.html:100
+msgid ""
+"website by <a href=\"http://rileyjshaw.com/\">Riley</a> and <a "
+"href=\"https://github.com/uniphil\">Phil</a>"
+msgstr ""
+
 #: templates/home.html:8
 #, python-format
 msgid ""
@@ -401,6 +407,158 @@ msgid ""
 "approaches as the foundation of this conference, <strong>we are hosting "
 "the opportunity to learn and connect <em>together</em></strong>, with the"
 " goal of improving our collective efforts for global development."
+msgstr ""
+
+#: templates/home.html:17
+msgid "Professional Coach"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Renewable Energy Start Up"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Managment Consultant"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Student"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Social Innovator"
+msgstr ""
+
+#: templates/home.html:17
+msgid "International Development Professional"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Professional Facilitator"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Social Movement Leader"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Member of Parliament"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Social Entrepeneur"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Venture Capitalist"
+msgstr ""
+
+#: templates/home.html:17
+msgid "University Dean"
+msgstr ""
+
+#: templates/home.html:17
+msgid "NGO Founder"
+msgstr ""
+
+#: templates/home.html:17
+msgid "University Professor"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Web Developer"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Fair Trade Advocate"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Market Facilitator"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Hub Founder"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Farmer"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Teacher"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Junior Fellow"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Religious Leader"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Entrepreneur"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Environmental Engineer"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Leadership Consultant"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Agriculture Specialist"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Entrepeneur"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Investor"
+msgstr ""
+
+#: templates/home.html:17
+msgid "DFATD Director"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Project Manager"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Ghanaian Factory Owner"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Ghanaian Extension Agent"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Kenyan Small Business Owner"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Coalition Leader"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Non-Profit Fundraiser"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Student Union Leader"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Canadian Activist"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Malawian District Employee"
 msgstr ""
 
 #: templates/home.html:35

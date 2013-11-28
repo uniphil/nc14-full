@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-28 14:04-0500\n"
-"PO-Revision-Date: 2013-11-28 14:06-0500\n"
+"POT-Creation-Date: 2013-11-28 14:23-0500\n"
+"PO-Revision-Date: 2013-11-28 14:39-0500\n"
 "Last-Translator: uniphil <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -486,6 +486,12 @@ msgstr "Contactez-nous:"
 msgid "All Rights Reserved, 2013"
 msgstr ""
 
+#: templates/base.html:100
+msgid ""
+"website by <a href=\"http://rileyjshaw.com/\">Riley</a> and <a href="
+"\"https://github.com/uniphil\">Phil</a>"
+msgstr ""
+
 #: templates/home.html:8
 #, python-format
 msgid ""
@@ -532,6 +538,158 @@ msgstr ""
 "notre travail et notre expérience dans ces trois approches comme base de ce "
 "congrès, nous offrons l’opportunité d’apprendre et de connecter ensemble, "
 "avec le but d’améliorer nos efforts collectifs pour un développement mondial."
+
+#: templates/home.html:17
+msgid "Professional Coach"
+msgstr "entraîneur professionnel"
+
+#: templates/home.html:17
+msgid "Renewable Energy Start Up"
+msgstr "créateur d’énergie renouvelable"
+
+#: templates/home.html:17
+msgid "Managment Consultant"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Student"
+msgstr "étudiant"
+
+#: templates/home.html:17
+msgid "Social Innovator"
+msgstr "innovateur social"
+
+#: templates/home.html:17
+msgid "International Development Professional"
+msgstr "professionnel du développement international"
+
+#: templates/home.html:17
+msgid "Professional Facilitator"
+msgstr "animateur professionnel"
+
+#: templates/home.html:17
+msgid "Social Movement Leader"
+msgstr "leader d’un mouvement social"
+
+#: templates/home.html:17
+msgid "Member of Parliament"
+msgstr "député"
+
+#: templates/home.html:17
+msgid "Social Entrepeneur"
+msgstr "entrepreneur social"
+
+#: templates/home.html:17
+msgid "Venture Capitalist"
+msgstr "investisseur en capital-risque"
+
+#: templates/home.html:17
+msgid "University Dean"
+msgstr "doyen universitaire"
+
+#: templates/home.html:17
+msgid "NGO Founder"
+msgstr "fondateur d’une ONG"
+
+#: templates/home.html:17
+msgid "University Professor"
+msgstr "professeur universitaire"
+
+#: templates/home.html:17
+msgid "Web Developer"
+msgstr "concepteur de pages web"
+
+#: templates/home.html:17
+msgid "Fair Trade Advocate"
+msgstr "militant pour le commerce équitable"
+
+#: templates/home.html:17
+msgid "Market Facilitator"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Hub Founder"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Farmer"
+msgstr "fermier"
+
+#: templates/home.html:17
+msgid "Teacher"
+msgstr "enseignant"
+
+#: templates/home.html:17
+msgid "Junior Fellow"
+msgstr "stagiaire en développement international"
+
+#: templates/home.html:17
+msgid "Religious Leader"
+msgstr "leader religieux"
+
+#: templates/home.html:17
+msgid "Entrepreneur"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Environmental Engineer"
+msgstr "ingénieur en environnement"
+
+#: templates/home.html:17
+msgid "Leadership Consultant"
+msgstr "consultant en leadership"
+
+#: templates/home.html:17
+msgid "Agriculture Specialist"
+msgstr "spécialiste de l’agriculture"
+
+#: templates/home.html:17
+msgid "Entrepeneur"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Investor"
+msgstr "investisseur"
+
+#: templates/home.html:17
+msgid "DFATD Director"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Project Manager"
+msgstr "gestionnaire de projet"
+
+#: templates/home.html:17
+msgid "Ghanaian Factory Owner"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Ghanaian Extension Agent"
+msgstr "agent vulgarisateur ghanéen"
+
+#: templates/home.html:17
+msgid "Kenyan Small Business Owner"
+msgstr "propriétaire d’une petite entreprise du Kenya"
+
+#: templates/home.html:17
+msgid "Coalition Leader"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Non-Profit Fundraiser"
+msgstr ""
+
+#: templates/home.html:17
+msgid "Student Union Leader"
+msgstr "leader d’association étudiante"
+
+#: templates/home.html:17
+msgid "Canadian Activist"
+msgstr "militant(e) canadien(ne)"
+
+#: templates/home.html:17
+msgid "Malawian District Employee"
+msgstr "employé de district du Malawi"
 
 #: templates/home.html:35
 msgid "Featured Speakers"
