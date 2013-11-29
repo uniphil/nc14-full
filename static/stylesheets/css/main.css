@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* compass & preferences */
+<<<<<<< HEAD
 /* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 17, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,45 +26,77 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 /* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 22, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 html {
   line-height: 1;
 }
 
+<<<<<<< HEAD
 /* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 24, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 ol, ul {
   list-style: none;
 }
 
+<<<<<<< HEAD
 /* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 26, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 /* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 28, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
+<<<<<<< HEAD
 /* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
 /* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 30, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
+<<<<<<< HEAD
 /* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 32, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 a img {
   border: none;
 }
 
+<<<<<<< HEAD
 /* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+=======
+/* line 116, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -156,12 +192,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0.2em 0;
 }
 
+<<<<<<< HEAD
 /* line 61, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+=======
+/* line 61, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 * html {
   font-size: 112.5%;
 }
 
+<<<<<<< HEAD
 /* line 64, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+=======
+/* line 64, ../../../../../../.virtualenvs/nc14-full/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+>>>>>>> 63230e0c3aea71e860eb6434361998a3f08848e3
 html {
   font-size: 18px;
   line-height: 1.5em;
@@ -1325,6 +1369,18 @@ body > footer a {
 /* line 692, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
+}
+
+/* line 694, ../sass/_global.sass */
+#thanks {
+  text-align: center;
+  padding-bottom: 60px;
+}
+/* line 697, ../sass/_global.sass */
+#thanks h2 {
+  font-size: 36px;
+  font-weight: bold;
+  border-bottom: 0;
 }
 
 @media print {
