@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-28 14:23-0500\n"
-"PO-Revision-Date: 2013-11-28 14:39-0500\n"
+"POT-Creation-Date: 2013-11-28 21:39-0500\n"
+"PO-Revision-Date: 2013-11-28 21:40-0500\n"
 "Last-Translator: uniphil <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: templates/about.html:6
+#: templates/about.html:6 templates/home.html:64
 msgid "Engineers Without Borders"
 msgstr "Ingénieurs sans frontières"
 
@@ -91,17 +91,17 @@ msgstr ""
 "tant qu’organisations avec un but commun et ambitieux."
 
 #: templates/about.html:23 templates/about.html:29 templates/about.html:33
-#: templates/home.html:114
+#: templates/home.html:149
 msgid "Learn"
 msgstr "Apprenez"
 
 #: templates/about.html:24 templates/about.html:29 templates/about.html:53
-#: templates/home.html:119
+#: templates/home.html:154
 msgid "Innovate"
 msgstr "Innovez"
 
 #: templates/about.html:25 templates/about.html:29 templates/about.html:74
-#: templates/home.html:124
+#: templates/home.html:159
 msgid "Connect"
 msgstr "Entrez en contact"
 
@@ -474,7 +474,7 @@ msgstr "Logistique et coûts"
 msgid "Partner"
 msgstr "Commanditer"
 
-#: templates/base.html:81 templates/home.html:132
+#: templates/base.html:81 templates/home.html:167
 msgid "Register"
 msgstr "S’inscrire"
 
@@ -549,7 +549,7 @@ msgstr "créateur d’énergie renouvelable"
 
 #: templates/home.html:17
 msgid "Managment Consultant"
-msgstr ""
+msgstr "Consultant en gestion"
 
 #: templates/home.html:17
 msgid "Student"
@@ -605,11 +605,11 @@ msgstr "militant pour le commerce équitable"
 
 #: templates/home.html:17
 msgid "Market Facilitator"
-msgstr ""
+msgstr "Facilitateur du marché"
 
 #: templates/home.html:17
 msgid "Hub Founder"
-msgstr ""
+msgstr "Fondateur d’un \"hub\""
 
 #: templates/home.html:17
 msgid "Farmer"
@@ -629,7 +629,7 @@ msgstr "leader religieux"
 
 #: templates/home.html:17
 msgid "Entrepreneur"
-msgstr ""
+msgstr "Entrepreneur"
 
 #: templates/home.html:17
 msgid "Environmental Engineer"
@@ -645,7 +645,7 @@ msgstr "spécialiste de l’agriculture"
 
 #: templates/home.html:17
 msgid "Entrepeneur"
-msgstr ""
+msgstr "Entrepreneur"
 
 #: templates/home.html:17
 msgid "Investor"
@@ -653,7 +653,7 @@ msgstr "investisseur"
 
 #: templates/home.html:17
 msgid "DFATD Director"
-msgstr ""
+msgstr "Directeur du MAÉCD"
 
 #: templates/home.html:17
 msgid "Project Manager"
@@ -661,7 +661,7 @@ msgstr "gestionnaire de projet"
 
 #: templates/home.html:17
 msgid "Ghanaian Factory Owner"
-msgstr ""
+msgstr "Propriétaire d’usine ghanéen"
 
 #: templates/home.html:17
 msgid "Ghanaian Extension Agent"
@@ -673,11 +673,11 @@ msgstr "propriétaire d’une petite entreprise du Kenya"
 
 #: templates/home.html:17
 msgid "Coalition Leader"
-msgstr ""
+msgstr "Leader d’une coalition"
 
 #: templates/home.html:17
 msgid "Non-Profit Fundraiser"
-msgstr ""
+msgstr "Collecteur de fonds pour un OSBL"
 
 #: templates/home.html:17
 msgid "Student Union Leader"
@@ -695,11 +695,254 @@ msgstr "employé de district du Malawi"
 msgid "Featured Speakers"
 msgstr "Conférenciers invités"
 
-#: templates/home.html:113
+#: templates/home.html:40
+msgid "Business for Good"
+msgstr ""
+
+#: templates/home.html:40 templates/home.html:52 templates/home.html:64
+#: templates/home.html:77 templates/home.html:90 templates/home.html:101
+#: templates/home.html:113 templates/home.html:123 templates/home.html:135
+msgid "Read bio &raquo;"
+msgstr ""
+
+#: templates/home.html:43
+msgid ""
+"<p>Todd works with renewable energy, sustainable growth and energy "
+"efficiency companies, as well as companies using the internet and “for-"
+"benefit” models to ensure global, long-term, social, environmental and "
+"economic well-being.</p>\n"
+"          <p>For 25 years, Todd has practiced at Jones Day, a global law "
+"firm with more than 2,400 lawyers, including more than 400 in Europe and 200 "
+"in Asia, located in centers of business and finance throughout the world. "
+"Todd founded Jones Day’s Northern California presence in 2000 by opening its "
+"Silicon Valley office, and today heads the Firm’s Energy Practice where he "
+"leads its renewable energy and sustainability focus. Todd serves or has "
+"served as regular outside counsel for public companies and start-ups alike, "
+"as well as counsel for venture capital funds, private equity funds, and "
+"investment bankers, including companies such as Embrace Technologies, "
+"Network for Good, and SunPower Corporation. Todd’s social entrepreurship and "
+"impact investing leadership dates back to 2003, long before mainstream use "
+"of the terms, and over the past decade, he has counseled, advised and "
+"represented dozens of organizations seeking to alleviate some of the world’s "
+"most challenging problems, in some of the world’s hardest places.</p>\n"
+"          <p>He tweets <a href=\"https://twitter.com/rtjohnson\">@rtjohnson</"
+"a> and blogs at <a href=\"http://www.BusinessForGood.co\">BusinessForGood."
+"co</a>.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:52
+msgid "Fail Forward"
+msgstr ""
+
+#: templates/home.html:55
+msgid ""
+"<p>Before launching Fail Forward, Ashley worked in Cairo with the United "
+"Nations Environment Programme and as a management consultant in Vancouver, "
+"Canada. In both lines of work, Ashley saw a fear of failure inhibit "
+"innovation, adaptation, and general growth. In response, she launched both "
+"AdmittingFailure.com and the consulting firm, Fail Forward, to spark a shift "
+"in how civil society perceives and talks about failure, and to help "
+"organizations learn, innovate and build resilience.</p>\n"
+"          <p>Ashley has spent the past three years working with a range of "
+"organizations from donors and foundations to not-for-profits and private "
+"sector companies to use failure as a learning tool and culture driver to "
+"support and foster innovation. She is well known for building the "
+"Organizational Learning Team at Engineers Without Borders Canada, and "
+"continuing to lead the development of their annual Failure Report.</p>\n"
+"          <p>Her work on failure has received coverage in a wide range of "
+"media and news outlets, including the  Stanford Social Innovation Review, "
+"The Guardian, Harvard University’s Hauser Center for NonProfit "
+"Organizations, TED talks, BBC World, The New York Times , The Wall Street "
+"Journal, The Globe and Mail and, most recently in interview with Arlene "
+"Dickinson on CBC.  Ashley was also the 2013 recipient of the prestigious "
+"Harvard Business Review and McKinsey Innovating Innovation Award.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:67
+msgid ""
+"<p>What does it mean to be the CEO of a movement? For George Roter, it meant "
+"dropping out of his Master’s program and running up $30,000 in credit card "
+"debt to fund the launch of Engineers Without Borders Canada (EWB) – that "
+"turned out to be a good decision. As EWB’s co-founders, George and friend/"
+"colleague Parker Mitchell stewarded the organization from an idea scribbled "
+"on a napkin to global influence with 3,000 active members, 50,000 "
+"supporters, 37 chapters in Canada and change ventures in Malawi, Ghana, "
+"Uganda, Liberia, and Zambia.</p>\n"
+"          <p>George is now the sole CEO of an organization with volunteers "
+"and staff that have been embedded in more than 150 African businesses, "
+"governments and organizations. They drive EWB’s change ventures, working to "
+"help local leaders and entrepreneurs create bottom-up, disruptive "
+"innovations that address systemic causes of poverty. EWB is also a ‘torch’ "
+"for engineers and social change in Canada. George and Parker believed that "
+"the engineering profession had a greater role to play in society, and that "
+"EWB could lead a movement of socially-minded engineers. EWB’s Canadian "
+"change ventures include Canada’s largest grassroots advocacy network on "
+"international issues and partnerships to change undergraduate curriculum for "
+"20,000 students, transforming them into Global Engineers.</p>\n"
+"          <p>Through EWB, George inspires an ever-growing network of change "
+"leaders who are dedicated to making disruptive, positive change. He was "
+"awarded the Young Leaders Award by the Public Policy Forum (2007), named as "
+"one of Canada’s Top 40 Under 40 (2005) and awarded the prestigious Action "
+"Canada Fellowship (2004) on public policy. He’s was also recognized by Time "
+"magazine as one of Canada’s next generation of social leaders (2001).</p>\n"
+"          <p>George holds a Bachelor of Applied Science from the University "
+"of Waterloo (1999), a Bachelor of Applied Studies (Honorary) from Seneca "
+"College (2009) and a Doctorate of Applied Science (Honorary) from Queen’s "
+"University. When he’s not out trying to change the world, he’s relaxing at "
+"home or canoeing with his wife Sari and his golden retriever Coel. And he "
+"still doesn’t have his Master’s.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:77
+msgid "Stephen Lewis Foundation"
+msgstr ""
+
+#: templates/home.html:80
+msgid ""
+"<p>No matter what the issue or how overwhelming the odds, Ilana Landsberg-"
+"Lewis passionately believes that individuals can&mdash;and do&mdash;make a "
+"real difference.</p>\n"
+"          <p>Ilana is a labour and human rights lawyer, and a deeply "
+"committed advocate for the rights of women and children. She spent eight "
+"years at the United Nations, with the UN Development Fund for Women "
+"(UNIFEM), where she worked as the CEDAW (Convention to Eliminate All Forms "
+"of Discrimination Against Women) Advisor. Ilana was also instrumental in "
+"bringing into existence and managing UNIFEM’s Trust Fund on Violence against "
+"Women, which funds grassroots women’s groups in developing countries.</p>\n"
+"          <p>In 2003 &mdash; at her kitchen table alongside her father, "
+"Stephen Lewis &mdash; Ilana founded the Stephen Lewis Foundation to work "
+"directly with grassroots projects in sub-Saharan Africa in their struggle to "
+"turn the tide of AIDS on the continent. In just 10 years, the Foundation has "
+"disbursed over $72,000,000 in programme spending to over 700 initiatives, "
+"partnering with 300 community-based organizations in the 15 African "
+"countries hardest hit by the pandemic &mdash; including the over $17,000,000 "
+"for grandmothers in Africa and the orphaned children in their care; money "
+"raised by thousands of grandmothers across Canada who are part of the "
+"Foundation's \"Grandmothers to Grandmothers Campaign\".</p>\n"
+"          <p>In 2009, Ilana was the recipient of the YWCA Women of "
+"Distinction award for International Development, and in 2012 was named one "
+"of the Top 25 Women of Influence in Canada.Ilana has two sons, Zev and Yoav "
+"for grandmothers in Africa and the orphaned children in their care, and is "
+"married to Lorraine Segato, a musician and activist.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:90
+msgid "Mining Shared Value"
+msgstr ""
+
+#: templates/home.html:93
+msgid ""
+"<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers Without "
+"Borders Canada.</p>\n"
+"          <p>Jeff is the founder and venture leader for Mining Shared Value, "
+"a venture working to improve the development impacts of Canadian mining "
+"investment in developing countries. Before this, Jeff was the founder and "
+"first executive director of Fair Trade Vancouver. Fair Trade Vancouver led "
+"the charge in making Vancouver the first major city in Canada to achieve "
+"Fair Trade Town status, and its media-attracting work became the model for "
+"city-based fair trade activism in Canada. Jeff has been researching and "
+"working on international trade issues since his undergraduate degree in "
+"political science at Simon Fraser University. In addition to his bachelor’s "
+"degree, Jeff holds a master’s degree in international development from the "
+"London School of Economics in the United Kingdom.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:101 templates/home.html:113 templates/home.html:135
+msgid "Grameen Foundation"
+msgstr ""
+
+#: templates/home.html:104
+msgid ""
+"<p>Steve Wright has worked over 20 years at the intersection of technology "
+"and education.</p>\n"
+"          <p>At Grameen Foundation, Steve is the VP of Poverty Tools and "
+"Insights which includes two teams. The first is the Social Performance "
+"Management Center, which provides tools and resources on social performance "
+"– specifically the Progress Out of Poverty Index® (PPI®). The second is "
+"Inclusive Business Tools which develops and provides TaroWorks: a mobile-"
+"enabled, cloud-based information management system designed to improve "
+"efficacy and efficiency of those who serve the poor. Before joining Grameen "
+"Foundation in August 2010, Steve was a high school teacher and administrator "
+"for ten years, followed by ten years as the Director of Innovation and "
+"Technology at Salesforce.com Foundation. His foundation work with social "
+"investors and social enterprises established him as a thought leader in the "
+"social metrics space. Steve is a contributing author of the practical "
+"handbook “Nonprofit Management 101,” and is a frequent speaker and blogger "
+"on social enterprise, social investment, and social sector.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:116
+msgid ""
+"<p>Alan Rogers is an Associate Director at Newton North America and is based "
+"in Toronto. He has been with the company for close to a decade and is "
+"committed to transforming businesses through operational improvement and "
+"guaranteed bottom-line results. He is a strong believer in the value that an "
+"engineering skillset brings to any process; whether it’s shop-floor "
+"operations, boardroom decision making, or international development.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:123
+msgid "Tostan Canada"
+msgstr ""
+
+#: templates/home.html:126
+msgid ""
+"<p>Co-founder, President and Chair of the Board of Tostan Canada, Rebekah "
+"Steele supports social transformation for human rights in Africa. Tostan’s "
+"powerful model of development done differently brings about wide-spread, "
+"historic change. By engaging thousands of communities in a three-year non-"
+"formal education program, Tostan spurs meaningful, sustainable impact in "
+"education, health, environment, governance, economic growth and more.</p>\n"
+"          <p>As a Senior Fellow providing Diversity and Inclusion (D&amp;I) "
+"expertise for The Conference Board, Inc., Rebekah is director, faculty and "
+"coach for D&amp;I Academies in North America and Europe, writes for The "
+"Conference Board Human Capital Exchange™, and supports a broad spectrum of "
+"Conference Board D&I initiatives.</p>\n"
+"          <p>When leaders are not achieving results that matter in the "
+"things they care about most, Rebekah Steele | Diversity Breakthroughs helps "
+"them design new, inclusive ways of working with a broad mix of people to "
+"enable the results they must achieve. Working across 6 continents, Rebekah "
+"designs system-wide strategies, facilitates innovation labs, catalyzes "
+"systemic transformations, speaks, and more to advance meaningful impacts "
+"from the global practice of D&amp;I. Her work builds on 2 decades of "
+"launching and leading global and local D&amp;I strategies in numerous "
+"organizations including Amoco, AlliedSignal, Honeywell, and BlackBerry. "
+"Learn more at www.rebekahsteele.com.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:138
+msgid ""
+"<p>Sara Johnson works at the Mulago Foundation -- a small foundation based "
+"in San Francisco that supports innovations targeting the poorest populations "
+"throughout the world. The foundation's three areas of focus are livelihoods "
+"(specifically as it relates to small-holder agriculture), environmental "
+"conservation, and health, and only funds organizations in developing "
+"countries. At the foundation, Sara manages the Rainer Arnhold Fellows "
+"Program -- a two-year fellowship that cultivates early-stage social "
+"entrepreneurs focused on high-impact solutions to poverty. She also manages "
+"Big Bang Philanthropy, a donor collaborative comprised of twelve foundations "
+"who all commit at least $1 million dollars a year to fund poverty "
+"alleviation innovations. The group shares leads, due diligence, and best "
+"practices, and tries to make the process simpler for the organizations on "
+"the ground.</p>\n"
+"          <p>Prior to working at the Mulago Foundation, Sara was an "
+"Associate at Village Capital, where she helped with their Atlanta program, "
+"and supported new initiatives like the Points of Light Civic Accelerator and "
+"the Clarkston refugee accelerator. In 2013, she transitioned to a new "
+"position at Emory's Goizueta Business School, where she worked as a Database "
+"Developer and Analyst to create a database that captures information from "
+"early-stage social enterprises.</p>\n"
+"          <p>Sara graduated from the University of San Diego (USD) with a B."
+"A. in Political Science and minors in Psychology and Peace &amp; Justice "
+"Studies in 2011, and a graduate degree (M.A.) from USD in Peace &amp; "
+"Justice Studies with a focus on economic development in 2012.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:148
 msgid "Gear"
 msgstr "Équipement"
 
-#: templates/home.html:115
+#: templates/home.html:150
 msgid ""
 "Dive in to emerging theories & new strategies as both a delegate and a "
 "presenter. Participate in relevant, participant-driven explorations."
@@ -708,11 +951,11 @@ msgstr ""
 "délégué que comme présentateur. Participez à des explorations pertinentes et "
 "dirigées par les participants."
 
-#: templates/home.html:118
+#: templates/home.html:153
 msgid "Lightbulb"
 msgstr "Ampoule"
 
-#: templates/home.html:120
+#: templates/home.html:155
 msgid ""
 "Bring your ideas, or build on context and conversations to pitch a new one. "
 "Promote them, receive feedback, or find resources."
@@ -721,11 +964,11 @@ msgstr ""
 "lancer une nouvelle. Promouvez-les, recevez de la rétroaction ou trouvez des "
 "ressources."
 
-#: templates/home.html:123
+#: templates/home.html:158
 msgid "Handshake"
 msgstr "Poignée de main"
 
-#: templates/home.html:125
+#: templates/home.html:160
 msgid ""
 "Meet experts and up-and-comers, find clients and investors, foster new "
 "partnerships or explore existing coalition efforts."
@@ -734,66 +977,70 @@ msgstr ""
 "investisseurs, mettez de l’avant des partenariats ou explorez les efforts de "
 "coalition existants."
 
-#: templates/home.html:131
+#: templates/home.html:166
 msgid "Find out More"
 msgstr "En savoir plus"
 
-#: templates/home.html:136
+#: templates/home.html:171
 msgid ""
 "<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity of:"
 msgstr ""
 "<b class=\"rethink\">Pensons Autremont</b> 2014 est rendu possible grâce à "
 "la générosité de:"
 
-#: templates/home.html:137
+#: templates/home.html:172
 msgid "Lead"
 msgstr "Principal"
 
-#: templates/home.html:139
+#: templates/home.html:174
 msgid "Hatch Ltd"
 msgstr "Hatch"
 
-#: templates/home.html:141
+#: templates/home.html:176
 msgid "Gold"
 msgstr "Or"
 
-#: templates/home.html:143
+#: templates/home.html:178
 msgid "TransCanada Corporation"
 msgstr "TransCanada"
 
-#: templates/home.html:145
+#: templates/home.html:180
 msgid "Bronze"
 msgstr "Bronze"
 
-#: templates/home.html:147
+#: templates/home.html:182
 msgid "Sherritt International"
 msgstr "Sherritt"
 
-#: templates/home.html:148
+#: templates/home.html:183
 msgid "Pratt &amp; Whitney Canada"
 msgstr "Pratt &amp; Whitney Canada"
 
-#: templates/home.html:149
+#: templates/home.html:184
 msgid "Enbridge"
 msgstr "Enbridge"
 
-#: templates/home.html:151
+#: templates/home.html:186
 msgid "Contributor"
 msgstr "Contributeur"
 
-#: templates/home.html:153
+#: templates/home.html:188
 msgid "Northland Power"
 msgstr ""
 
-#: templates/home.html:156
+#: templates/home.html:189
+msgid "ICF"
+msgstr ""
+
+#: templates/home.html:192
 msgid "Partner Organizations"
 msgstr "Organisations partenaires"
 
-#: templates/home.html:157
+#: templates/home.html:193
 msgid "Engineers Without Borders is looking for more partners."
 msgstr "Ingénieurs sans frontières est à la recherche de plus de partenaires."
 
-#: templates/home.html:157
+#: templates/home.html:193
 msgid "Interested?"
 msgstr ""
 
@@ -948,7 +1195,7 @@ msgid ""
 "north east side of the Dixon road and get on the TTC bus 58 westbound and "
 "get off at Carlingview Road. To get to TCC, get off at Kelfield Street once "
 "on the 58 bus."
-msgstr ""
+msgstr "garb"
 
 #: templates/logistics.html:40
 msgid "By Vehicle"
@@ -1198,3 +1445,15 @@ msgid ""
 msgstr ""
 "Pour plus de détails, voyez le tout nouvel <a href=\"http://rethink2014."
 "sched.org/\" class=\"button\">Horaire&nbsp;complet</a>"
+
+#: templates/thanks.html:15
+msgid "Woohoo!"
+msgstr ""
+
+#: templates/thanks.html:16
+msgid "Thanks for signing up! We can't wait to see you."
+msgstr ""
+
+#: templates/thanks.html:19
+msgid "Share with your friends:"
+msgstr ""
