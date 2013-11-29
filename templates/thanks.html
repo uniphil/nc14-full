@@ -1,0 +1,21 @@
+%% extends "base.html"
+
+%% block main
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=157085064360498";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="thanks">
+  <h2>{{ _('Woohoo!') }}</h2>
+  <p>{{ _("Thanks for signing up! We can't wait to see you.") }}</p>
+
+  <p>{# _('Share with your friends on <div class="fb-share-button" data-href="http://conference2014.ewb.ca" data-type="link"></div> or <a href="http://twitter.com/home?status=I%20just%20signed%20up%20for%20the%20Engineers%20Without%20Borders%20National%20Conference%202014!%20Check%20it%20out%20at%20conference2014.ewb.ca%0A%0A@RethinkEWB">Twitter</a>.') #}</p>
+</div>
+
+%% endblock
