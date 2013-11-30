@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-28 21:39-0500\n"
-"PO-Revision-Date: 2013-11-28 21:40-0500\n"
+"POT-Creation-Date: 2013-11-29 23:59-0500\n"
+"PO-Revision-Date: 2013-11-30 00:00-0500\n"
 "Last-Translator: uniphil <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: templates/about.html:6 templates/home.html:64
+#: templates/about.html:6 templates/home.html:75
 msgid "Engineers Without Borders"
 msgstr "Ingénieurs sans frontières"
 
@@ -91,17 +91,17 @@ msgstr ""
 "tant qu’organisations avec un but commun et ambitieux."
 
 #: templates/about.html:23 templates/about.html:29 templates/about.html:33
-#: templates/home.html:149
+#: templates/home.html:171
 msgid "Learn"
 msgstr "Apprenez"
 
 #: templates/about.html:24 templates/about.html:29 templates/about.html:53
-#: templates/home.html:154
+#: templates/home.html:176
 msgid "Innovate"
 msgstr "Innovez"
 
 #: templates/about.html:25 templates/about.html:29 templates/about.html:74
-#: templates/home.html:159
+#: templates/home.html:181
 msgid "Connect"
 msgstr "Entrez en contact"
 
@@ -112,6 +112,9 @@ msgid ""
 "class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</a> buttons "
 "above!"
 msgstr ""
+"Cliquez sur les boutons <ahref=\"#learn\" class=\"l\">%(l)s</a>, <a href="
+"\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</"
+"a> ci-haut!"
 
 #: templates/about.html:34
 msgid ""
@@ -452,7 +455,7 @@ msgstr ""
 
 #: templates/base.html:66
 msgid "National Conference 2014 Logo"
-msgstr ""
+msgstr "Logo du congrès national 2014"
 
 #: templates/base.html:76
 msgid "Home"
@@ -474,7 +477,7 @@ msgstr "Logistique et coûts"
 msgid "Partner"
 msgstr "Commanditer"
 
-#: templates/base.html:81 templates/home.html:167
+#: templates/base.html:81 templates/home.html:189
 msgid "Register"
 msgstr "S’inscrire"
 
@@ -484,13 +487,15 @@ msgstr "Contactez-nous:"
 
 #: templates/base.html:100
 msgid "All Rights Reserved, 2013"
-msgstr ""
+msgstr "Tous le droits réservés, 2013"
 
 #: templates/base.html:100
 msgid ""
 "website by <a href=\"http://rileyjshaw.com/\">Riley</a> and <a href="
 "\"https://github.com/uniphil\">Phil</a>"
 msgstr ""
+"un site web par <a href=\"http://rileyjshaw.com/\">Riley</a> et <a href="
+"\"https://github.com/uniphil\">Phil</a>"
 
 #: templates/home.html:8
 #, python-format
@@ -699,9 +704,10 @@ msgstr "Conférenciers invités"
 msgid "Business for Good"
 msgstr ""
 
-#: templates/home.html:40 templates/home.html:52 templates/home.html:64
-#: templates/home.html:77 templates/home.html:90 templates/home.html:101
-#: templates/home.html:113 templates/home.html:123 templates/home.html:135
+#: templates/home.html:40 templates/home.html:52 templates/home.html:63
+#: templates/home.html:75 templates/home.html:88 templates/home.html:101
+#: templates/home.html:112 templates/home.html:124 templates/home.html:135
+#: templates/home.html:147 templates/home.html:157
 msgid "Read bio &raquo;"
 msgstr ""
 
@@ -731,10 +737,37 @@ msgid ""
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:52
-msgid "Fail Forward"
+msgid "Participatory Development Initiatives"
 msgstr ""
 
 #: templates/home.html:55
+msgid ""
+"<p>James Alexander Longwe works as an Executive Director for Participatory "
+"Development Initiatives (PDI): a local non-governmental organization working "
+"in Water and Sanitation sector in Malawi. He is the current Board of "
+"Trustees Chairman for the Water and Sanitation venture in Malawi. James "
+"qualified as a Public Health Assistant in 1989, and joined the Ministry of "
+"Health and Population where he worked for six years. In 1995, he joined "
+"Concern Universal where he worked as a Community Mobilization Officer before "
+"being promoted to work as a Project Manager after undergoing a post-graduate "
+"Diploma Course in Water Supply and Sanitation Development in Harare with The "
+"Institute of Water Supply and Sanitation Development in conjunction with the "
+"Engineering Department of the University of Zimbabwe. In 2002, James joined "
+"WaterAid in Malawi, where he worked as a Programme Officer responsible for "
+"Partner Capacity Building and Support.</p>\n"
+"          <p>As a leader, his aspiration is to facilitate the transformation "
+"of the underprivileged communities to fully realize their development "
+"potential with the minimum support from government and non-governmental "
+"organizations. This can only be realized by forming coalitions between "
+"different stakeholders: donors, local and international non-state actors, "
+"governments, and beneficiaries themselves.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:63
+msgid "Fail Forward"
+msgstr ""
+
+#: templates/home.html:66
 msgid ""
 "<p>Before launching Fail Forward, Ashley worked in Cairo with the United "
 "Nations Environment Programme and as a management consultant in Vancouver, "
@@ -758,7 +791,7 @@ msgid ""
 "Harvard Business Review and McKinsey Innovating Innovation Award.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:67
+#: templates/home.html:78
 msgid ""
 "<p>What does it mean to be the CEO of a movement? For George Roter, it meant "
 "dropping out of his Master’s program and running up $30,000 in credit card "
@@ -793,11 +826,11 @@ msgid ""
 "still doesn’t have his Master’s.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:77
+#: templates/home.html:88
 msgid "Stephen Lewis Foundation"
-msgstr ""
+msgstr "La fondation Stephen Lewis"
 
-#: templates/home.html:80
+#: templates/home.html:91
 msgid ""
 "<p>No matter what the issue or how overwhelming the odds, Ilana Landsberg-"
 "Lewis passionately believes that individuals can&mdash;and do&mdash;make a "
@@ -826,66 +859,30 @@ msgid ""
 "married to Lorraine Segato, a musician and activist.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:90
-msgid "Mining Shared Value"
-msgstr ""
-
-#: templates/home.html:93
-msgid ""
-"<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers Without "
-"Borders Canada.</p>\n"
-"          <p>Jeff is the founder and venture leader for Mining Shared Value, "
-"a venture working to improve the development impacts of Canadian mining "
-"investment in developing countries. Before this, Jeff was the founder and "
-"first executive director of Fair Trade Vancouver. Fair Trade Vancouver led "
-"the charge in making Vancouver the first major city in Canada to achieve "
-"Fair Trade Town status, and its media-attracting work became the model for "
-"city-based fair trade activism in Canada. Jeff has been researching and "
-"working on international trade issues since his undergraduate degree in "
-"political science at Simon Fraser University. In addition to his bachelor’s "
-"degree, Jeff holds a master’s degree in international development from the "
-"London School of Economics in the United Kingdom.</p>"
-msgstr "Disponible en anglais seulement. Désolé!"
-
-#: templates/home.html:101 templates/home.html:113 templates/home.html:135
-msgid "Grameen Foundation"
+#: templates/home.html:101
+msgid "AfriLEAD"
 msgstr ""
 
 #: templates/home.html:104
 msgid ""
-"<p>Steve Wright has worked over 20 years at the intersection of technology "
-"and education.</p>\n"
-"          <p>At Grameen Foundation, Steve is the VP of Poverty Tools and "
-"Insights which includes two teams. The first is the Social Performance "
-"Management Center, which provides tools and resources on social performance "
-"– specifically the Progress Out of Poverty Index® (PPI®). The second is "
-"Inclusive Business Tools which develops and provides TaroWorks: a mobile-"
-"enabled, cloud-based information management system designed to improve "
-"efficacy and efficiency of those who serve the poor. Before joining Grameen "
-"Foundation in August 2010, Steve was a high school teacher and administrator "
-"for ten years, followed by ten years as the Director of Innovation and "
-"Technology at Salesforce.com Foundation. His foundation work with social "
-"investors and social enterprises established him as a thought leader in the "
-"social metrics space. Steve is a contributing author of the practical "
-"handbook “Nonprofit Management 101,” and is a frequent speaker and blogger "
-"on social enterprise, social investment, and social sector.</p>"
+"<p>Peter was born and bred in Ghana, and is proud of it! With a background "
+"in Development Studies, he has always had a burning desire to be a "
+"successful entrepreneur. He is Co-Founder and Co-CEO of AfriLEAD Institute, "
+"the largest youth leadership and social entrepreneurship development "
+"organization in Ghana.</p>\n"
+"          <p>AfriLEAD is a non-profit that works to develop transformational "
+"young African leaders and entrepreneurs across Ghana and Burkina Faso. "
+"Peter's vision is to establish AfriLEAD as a recognized continental hub for "
+"leadership and social change entrepreneurship education, research, and "
+"practical opportunities for the next generation of African change makers to "
+"transform their communities.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:116
-msgid ""
-"<p>Alan Rogers is an Associate Director at Newton North America and is based "
-"in Toronto. He has been with the company for close to a decade and is "
-"committed to transforming businesses through operational improvement and "
-"guaranteed bottom-line results. He is a strong believer in the value that an "
-"engineering skillset brings to any process; whether it’s shop-floor "
-"operations, boardroom decision making, or international development.</p>"
-msgstr "Disponible en anglais seulement. Désolé!"
-
-#: templates/home.html:123
+#: templates/home.html:112
 msgid "Tostan Canada"
 msgstr ""
 
-#: templates/home.html:126
+#: templates/home.html:115
 msgid ""
 "<p>Co-founder, President and Chair of the Board of Tostan Canada, Rebekah "
 "Steele supports social transformation for human rights in Africa. Tostan’s "
@@ -910,7 +907,70 @@ msgid ""
 "Learn more at www.rebekahsteele.com.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
+#: templates/home.html:124
+msgid "Mining Shared Value"
+msgstr ""
+
+#: templates/home.html:127
+msgid ""
+"<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers Without "
+"Borders Canada.</p>\n"
+"          <p>Jeff is the founder and venture leader for Mining Shared Value, "
+"a venture working to improve the development impacts of Canadian mining "
+"investment in developing countries. Before this, Jeff was the founder and "
+"first executive director of Fair Trade Vancouver. Fair Trade Vancouver led "
+"the charge in making Vancouver the first major city in Canada to achieve "
+"Fair Trade Town status, and its media-attracting work became the model for "
+"city-based fair trade activism in Canada. Jeff has been researching and "
+"working on international trade issues since his undergraduate degree in "
+"political science at Simon Fraser University. In addition to his bachelor’s "
+"degree, Jeff holds a master’s degree in international development from the "
+"London School of Economics in the United Kingdom.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:135
+msgid "Grameen Foundation"
+msgstr "La fondation Grameen"
+
 #: templates/home.html:138
+msgid ""
+"<p>Steve Wright has worked over 20 years at the intersection of technology "
+"and education.</p>\n"
+"          <p>At Grameen Foundation, Steve is the VP of Poverty Tools and "
+"Insights which includes two teams. The first is the Social Performance "
+"Management Center, which provides tools and resources on social performance "
+"– specifically the Progress Out of Poverty Index® (PPI®). The second is "
+"Inclusive Business Tools which develops and provides TaroWorks: a mobile-"
+"enabled, cloud-based information management system designed to improve "
+"efficacy and efficiency of those who serve the poor. Before joining Grameen "
+"Foundation in August 2010, Steve was a high school teacher and administrator "
+"for ten years, followed by ten years as the Director of Innovation and "
+"Technology at Salesforce.com Foundation. His foundation work with social "
+"investors and social enterprises established him as a thought leader in the "
+"social metrics space. Steve is a contributing author of the practical "
+"handbook “Nonprofit Management 101,” and is a frequent speaker and blogger "
+"on social enterprise, social investment, and social sector.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:147
+msgid "Newton Consulting"
+msgstr ""
+
+#: templates/home.html:150
+msgid ""
+"<p>Alan Rogers is an Associate Director at Newton North America and is based "
+"in Toronto. He has been with the company for close to a decade and is "
+"committed to transforming businesses through operational improvement and "
+"guaranteed bottom-line results. He is a strong believer in the value that an "
+"engineering skillset brings to any process; whether it’s shop-floor "
+"operations, boardroom decision making, or international development.</p>"
+msgstr "Disponible en anglais seulement. Désolé!"
+
+#: templates/home.html:157
+msgid "Mulago Foundation"
+msgstr ""
+
+#: templates/home.html:160
 msgid ""
 "<p>Sara Johnson works at the Mulago Foundation -- a small foundation based "
 "in San Francisco that supports innovations targeting the poorest populations "
@@ -938,11 +998,11 @@ msgid ""
 "Justice Studies with a focus on economic development in 2012.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:148
+#: templates/home.html:170
 msgid "Gear"
 msgstr "Équipement"
 
-#: templates/home.html:150
+#: templates/home.html:172
 msgid ""
 "Dive in to emerging theories & new strategies as both a delegate and a "
 "presenter. Participate in relevant, participant-driven explorations."
@@ -951,11 +1011,11 @@ msgstr ""
 "délégué que comme présentateur. Participez à des explorations pertinentes et "
 "dirigées par les participants."
 
-#: templates/home.html:153
+#: templates/home.html:175
 msgid "Lightbulb"
 msgstr "Ampoule"
 
-#: templates/home.html:155
+#: templates/home.html:177
 msgid ""
 "Bring your ideas, or build on context and conversations to pitch a new one. "
 "Promote them, receive feedback, or find resources."
@@ -964,11 +1024,11 @@ msgstr ""
 "lancer une nouvelle. Promouvez-les, recevez de la rétroaction ou trouvez des "
 "ressources."
 
-#: templates/home.html:158
+#: templates/home.html:180
 msgid "Handshake"
 msgstr "Poignée de main"
 
-#: templates/home.html:160
+#: templates/home.html:182
 msgid ""
 "Meet experts and up-and-comers, find clients and investors, foster new "
 "partnerships or explore existing coalition efforts."
@@ -977,72 +1037,72 @@ msgstr ""
 "investisseurs, mettez de l’avant des partenariats ou explorez les efforts de "
 "coalition existants."
 
-#: templates/home.html:166
+#: templates/home.html:188
 msgid "Find out More"
 msgstr "En savoir plus"
 
-#: templates/home.html:171
+#: templates/home.html:193
 msgid ""
 "<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity of:"
 msgstr ""
 "<b class=\"rethink\">Pensons Autremont</b> 2014 est rendu possible grâce à "
 "la générosité de:"
 
-#: templates/home.html:172
+#: templates/home.html:194
 msgid "Lead"
 msgstr "Principal"
 
-#: templates/home.html:174
+#: templates/home.html:196
 msgid "Hatch Ltd"
 msgstr "Hatch"
 
-#: templates/home.html:176
+#: templates/home.html:198
 msgid "Gold"
 msgstr "Or"
 
-#: templates/home.html:178
+#: templates/home.html:200
 msgid "TransCanada Corporation"
 msgstr "TransCanada"
 
-#: templates/home.html:180
+#: templates/home.html:202
 msgid "Bronze"
 msgstr "Bronze"
 
-#: templates/home.html:182
+#: templates/home.html:204
 msgid "Sherritt International"
 msgstr "Sherritt"
 
-#: templates/home.html:183
+#: templates/home.html:205
 msgid "Pratt &amp; Whitney Canada"
 msgstr "Pratt &amp; Whitney Canada"
 
-#: templates/home.html:184
+#: templates/home.html:206
 msgid "Enbridge"
 msgstr "Enbridge"
 
-#: templates/home.html:186
+#: templates/home.html:208
 msgid "Contributor"
 msgstr "Contributeur"
 
-#: templates/home.html:188
+#: templates/home.html:210
 msgid "Northland Power"
 msgstr ""
 
-#: templates/home.html:189
+#: templates/home.html:211
 msgid "ICF"
 msgstr ""
 
-#: templates/home.html:192
+#: templates/home.html:214
 msgid "Partner Organizations"
 msgstr "Organisations partenaires"
 
-#: templates/home.html:193
+#: templates/home.html:215
 msgid "Engineers Without Borders is looking for more partners."
 msgstr "Ingénieurs sans frontières est à la recherche de plus de partenaires."
 
-#: templates/home.html:193
+#: templates/home.html:215
 msgid "Interested?"
-msgstr ""
+msgstr "Intéressés?"
 
 #: templates/logistics.html:6
 msgid "When?"
@@ -1133,7 +1193,7 @@ msgstr ""
 
 #: templates/logistics.html:26
 msgid "How to Get There"
-msgstr ""
+msgstr "Comment vous rendre"
 
 #: templates/logistics.html:27
 msgid ""
@@ -1145,13 +1205,16 @@ msgstr ""
 
 #: templates/logistics.html:29
 msgid "From Toronto Pearson Airport"
-msgstr ""
+msgstr "À partir de l’aéroport Toronto Pearson"
 
 #: templates/logistics.html:30
 msgid ""
 "A free shuttle is available from the airport (YYZ) to Travelodge Toronto "
 "Airport. Please call the Travelodge at (416) 674-2222 to arrange your seat."
 msgstr ""
+"Une navette gratuite est disponible pour le déplacement de l’aéroport (YYZ) "
+"au Travelodge Toronto Airport. Veuillez contacter Travelodge par téléphone "
+"au (416) 674-2222 pour arranger votre déplacement."
 
 #: templates/logistics.html:32
 msgid "TTC"
@@ -1195,11 +1258,11 @@ msgid ""
 "north east side of the Dixon road and get on the TTC bus 58 westbound and "
 "get off at Carlingview Road. To get to TCC, get off at Kelfield Street once "
 "on the 58 bus."
-msgstr "garb"
+msgstr ""
 
 #: templates/logistics.html:40
 msgid "By Vehicle"
-msgstr ""
+msgstr "En voiture"
 
 #: templates/logistics.html:41
 msgid ""
@@ -1210,13 +1273,15 @@ msgstr ""
 
 #: templates/logistics.html:43
 msgid "By Taxi"
-msgstr ""
+msgstr "En taxi"
 
 #: templates/logistics.html:44
 msgid ""
 "A taxi estimated from Union Station will take about 25 minutes and will cost "
 "roughly $50. You can call Beck (416.751.5555) or Co-Op (416.504.2667)."
 msgstr ""
+"Un taxi à partir de la station Union prendra environ 25 minutes et coutera "
+"environ 50$. Vous pouvez appelez Beck (416.751.5555) ou Co-Op (416.504.2667)."
 
 #: templates/logistics.html:47
 #, python-format
@@ -1224,6 +1289,8 @@ msgid ""
 "<strong>Please see our <a href=\"%(reg_link)s\">registration page</a> for "
 "pricing structure information.</strong>"
 msgstr ""
+"<strong>Veuillez consulter la <a href=\"%(reg_link)s\">page d’inscription</"
+"a> pour la structure des coûts.</strong>"
 
 #: templates/partner.html:7
 msgid ""
@@ -1448,12 +1515,12 @@ msgstr ""
 
 #: templates/thanks.html:15
 msgid "Woohoo!"
-msgstr ""
+msgstr "Hourra!"
 
 #: templates/thanks.html:16
 msgid "Thanks for signing up! We can't wait to see you."
-msgstr ""
+msgstr "Merci pour votre inscription et au plaisir de vous voir bienôt!"
 
 #: templates/thanks.html:19
 msgid "Share with your friends:"
-msgstr ""
+msgstr "Partagez avec vos réseaux:"
