@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-29 23:59-0500\n"
+"POT-Creation-Date: 2013-11-30 10:30-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,17 +64,17 @@ msgid ""
 msgstr ""
 
 #: templates/about.html:23 templates/about.html:29 templates/about.html:33
-#: templates/home.html:171
+#: templates/home.html:181
 msgid "Learn"
 msgstr ""
 
 #: templates/about.html:24 templates/about.html:29 templates/about.html:53
-#: templates/home.html:176
+#: templates/home.html:186
 msgid "Innovate"
 msgstr ""
 
 #: templates/about.html:25 templates/about.html:29 templates/about.html:74
-#: templates/home.html:181
+#: templates/home.html:191
 msgid "Connect"
 msgstr ""
 
@@ -359,7 +359,7 @@ msgstr ""
 msgid "Partner"
 msgstr ""
 
-#: templates/base.html:81 templates/home.html:189
+#: templates/base.html:81 templates/home.html:199
 msgid "Register"
 msgstr ""
 
@@ -571,8 +571,8 @@ msgstr ""
 
 #: templates/home.html:40 templates/home.html:52 templates/home.html:63
 #: templates/home.html:75 templates/home.html:88 templates/home.html:101
-#: templates/home.html:112 templates/home.html:124 templates/home.html:135
-#: templates/home.html:147 templates/home.html:157
+#: templates/home.html:112 templates/home.html:122 templates/home.html:134
+#: templates/home.html:145 templates/home.html:157 templates/home.html:167
 msgid "Read bio &raquo;"
 msgstr ""
 
@@ -751,10 +751,36 @@ msgid ""
 msgstr ""
 
 #: templates/home.html:112
-msgid "Tostan Canada"
+msgid "Tamaiko Enterprise"
 msgstr ""
 
 #: templates/home.html:115
+msgid ""
+"<p>Tamaiko Enterprise is a family run business with interests in "
+"agriculture and education. The business employs seven family members and "
+"some 60 local employees. The enterprise has grown from being a two-acre "
+"plant nursery to a six-acre plant nursery, 250-acre mango plantation and "
+"a processing unit for fruits and vegetables. Tamaiko Enterprise works to "
+"include the community in decision making by employing people from the "
+"communities in which they work, especially women. Faiza, the youngest "
+"family member employed by Tamaiko Enterprise, has been working in the "
+"family business since she was 12. Over the past two years, Faiza has "
+"grown the business into one of the biggest nursery plant suppliers in the"
+" region. As a result, she is now the vice-president of the Mango Growers "
+"Association and a delegate to represent a group of producers on the "
+"Technical Review Committee that was set up by the Ministry of Trade and "
+"Industry to encourage development of agricultural production. As she has "
+"demonstrated good leadership and competence in the management of business"
+" staff, Faiza has recently been nominated to join a delegation from the "
+"Ghanaian Export Development and Agricultural Investment Fund to Thailand "
+"and China.</p>"
+msgstr ""
+
+#: templates/home.html:122
+msgid "Tostan Canada"
+msgstr ""
+
+#: templates/home.html:125
 msgid ""
 "<p>Co-founder, President and Chair of the Board of Tostan Canada, Rebekah"
 " Steele supports social transformation for human rights in Africa. "
@@ -780,11 +806,11 @@ msgid ""
 "Honeywell, and BlackBerry. Learn more at www.rebekahsteele.com.</p>"
 msgstr ""
 
-#: templates/home.html:124
+#: templates/home.html:134
 msgid "Mining Shared Value"
 msgstr ""
 
-#: templates/home.html:127
+#: templates/home.html:137
 msgid ""
 "<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers "
 "Without Borders Canada.</p>\n"
@@ -802,11 +828,11 @@ msgid ""
 "United Kingdom.</p>"
 msgstr ""
 
-#: templates/home.html:135
+#: templates/home.html:145
 msgid "Grameen Foundation"
 msgstr ""
 
-#: templates/home.html:138
+#: templates/home.html:148
 msgid ""
 "<p>Steve Wright has worked over 20 years at the intersection of "
 "technology and education.</p>\n"
@@ -827,11 +853,11 @@ msgid ""
 "investment, and social sector.</p>"
 msgstr ""
 
-#: templates/home.html:147
+#: templates/home.html:157
 msgid "Newton Consulting"
 msgstr ""
 
-#: templates/home.html:150
+#: templates/home.html:160
 msgid ""
 "<p>Alan Rogers is an Associate Director at Newton North America and is "
 "based in Toronto. He has been with the company for close to a decade and "
@@ -842,11 +868,11 @@ msgid ""
 "development.</p>"
 msgstr ""
 
-#: templates/home.html:157
+#: templates/home.html:167
 msgid "Mulago Foundation"
 msgstr ""
 
-#: templates/home.html:160
+#: templates/home.html:170
 msgid ""
 "<p>Sara Johnson works at the Mulago Foundation -- a small foundation "
 "based in San Francisco that supports innovations targeting the poorest "
@@ -874,99 +900,99 @@ msgid ""
 "&amp; Justice Studies with a focus on economic development in 2012.</p>"
 msgstr ""
 
-#: templates/home.html:170
+#: templates/home.html:180
 msgid "Gear"
 msgstr ""
 
-#: templates/home.html:172
+#: templates/home.html:182
 msgid ""
 "Dive in to emerging theories & new strategies as both a delegate and a "
 "presenter. Participate in relevant, participant-driven explorations."
 msgstr ""
 
-#: templates/home.html:175
+#: templates/home.html:185
 msgid "Lightbulb"
 msgstr ""
 
-#: templates/home.html:177
+#: templates/home.html:187
 msgid ""
 "Bring your ideas, or build on context and conversations to pitch a new "
 "one. Promote them, receive feedback, or find resources."
 msgstr ""
 
-#: templates/home.html:180
+#: templates/home.html:190
 msgid "Handshake"
 msgstr ""
 
-#: templates/home.html:182
+#: templates/home.html:192
 msgid ""
 "Meet experts and up-and-comers, find clients and investors, foster new "
 "partnerships or explore existing coalition efforts."
 msgstr ""
 
-#: templates/home.html:188
+#: templates/home.html:198
 msgid "Find out More"
 msgstr ""
 
-#: templates/home.html:193
+#: templates/home.html:203
 msgid ""
 "<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity "
 "of:"
 msgstr ""
 
-#: templates/home.html:194
+#: templates/home.html:204
 msgid "Lead"
 msgstr ""
 
-#: templates/home.html:196
+#: templates/home.html:206
 msgid "Hatch Ltd"
 msgstr ""
 
-#: templates/home.html:198
+#: templates/home.html:208
 msgid "Gold"
 msgstr ""
 
-#: templates/home.html:200
+#: templates/home.html:210
 msgid "TransCanada Corporation"
 msgstr ""
 
-#: templates/home.html:202
+#: templates/home.html:212
 msgid "Bronze"
 msgstr ""
 
-#: templates/home.html:204
+#: templates/home.html:214
 msgid "Sherritt International"
 msgstr ""
 
-#: templates/home.html:205
+#: templates/home.html:215
 msgid "Pratt &amp; Whitney Canada"
 msgstr ""
 
-#: templates/home.html:206
+#: templates/home.html:216
 msgid "Enbridge"
 msgstr ""
 
-#: templates/home.html:208
+#: templates/home.html:218
 msgid "Contributor"
 msgstr ""
 
-#: templates/home.html:210
+#: templates/home.html:220
 msgid "Northland Power"
 msgstr ""
 
-#: templates/home.html:211
+#: templates/home.html:221
 msgid "ICF"
 msgstr ""
 
-#: templates/home.html:214
+#: templates/home.html:224
 msgid "Partner Organizations"
 msgstr ""
 
-#: templates/home.html:215
+#: templates/home.html:225
 msgid "Engineers Without Borders is looking for more partners."
 msgstr ""
 
-#: templates/home.html:215
+#: templates/home.html:225
 msgid "Interested?"
 msgstr ""
 
