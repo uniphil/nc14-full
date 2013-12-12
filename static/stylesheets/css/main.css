@@ -847,7 +847,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.digitalrapids {
-  background-position:  0 -322.5px;
+  background-position:  0 -465px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.enbridge {
@@ -857,7 +857,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.enbridge {
-  background-position:  0 -480px;
+  background-position:  0 -675.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.engineerscanada {
@@ -867,6 +867,26 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.engineerscanada {
+  background-position:  0 -124.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.ethicalbean {
+  height: 50.5px;
+  width: 95.5px;
+  background-image: url("../../img/sponsors-ie/ethicalbean-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.ethicalbean {
+  background-position:  0 -622.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.ge {
+  height: 47.5px;
+  width: 170.5px;
+  background-image: url("../../img/sponsors-ie/ge-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.ge {
   background-position:  0 -74.5px;
 }
 /* line 35, ../sass/_variables.sass */
@@ -877,7 +897,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.hatch {
-  background-position:  0 -157px;
+  background-position:  0 -207px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.icf {
@@ -887,7 +907,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.icf {
-  background-position:  0 -524px;
+  background-position:  0 -719.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.leplayground {
@@ -897,7 +917,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.leplayground {
-  background-position:  0 -219.5px;
+  background-position:  0 -362px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.northland {
@@ -907,7 +927,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.northland {
-  background-position:  0 -417.5px;
+  background-position:  0 -560px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.prattwhitney {
@@ -917,7 +937,17 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.prattwhitney {
-  background-position:  0 -375px;
+  background-position:  0 -517.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.ryerson {
+  height: 90px;
+  width: 174.5px;
+  background-image: url("../../img/sponsors-ie/ryerson-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.ryerson {
+  background-position:  0 -269.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.sherritt {
@@ -927,7 +957,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.sherritt {
-  background-position:  0 -272px;
+  background-position:  0 -414.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.transcanada {
@@ -941,11 +971,11 @@ header nav a.selected:hover {
 }
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-sf194c7de9b.png');
-  background-size: 392px 589px;
+  background-image: url('/static/img/sponsors-s22e874c091.png');
+  background-size: 392px 784.5px;
 }
 /* line 440, ../sass/_global.sass */
-.sponsors .lead li, .sponsors .gold li {
+.sponsors .lead li, .sponsors .gold li, .sponsors .silver li {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -956,33 +986,33 @@ header nav a.selected:hover {
   margin-left: 36px;
   margin-right: 36px;
 }
-/* line 450, ../sass/_global.sass */
+/* line 448, ../sass/_global.sass */
 .sponsors h2 {
   margin-top: 60px;
   @extends .boobs;
 }
-/* line 453, ../sass/_global.sass */
+/* line 451, ../sass/_global.sass */
 .sponsors a {
   color: #8766ad;
 }
 
-/* line 457, ../sass/_global.sass */
+/* line 454, ../sass/_global.sass */
 .about-lep {
   clear: both;
   padding: 0;
   position: relative;
 }
-/* line 461, ../sass/_global.sass */
+/* line 458, ../sass/_global.sass */
 .about-lep p {
   margin: 0.61803em 0;
 }
-/* line 463, ../sass/_global.sass */
+/* line 460, ../sass/_global.sass */
 .about-lep .about-lep-tabs {
   margin: 2rem 0 150px;
   text-align: justify;
   font-size: 0;
 }
-/* line 467, ../sass/_global.sass */
+/* line 464, ../sass/_global.sass */
 .about-lep .about-lep-tabs a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -999,27 +1029,27 @@ header nav a.selected:hover {
   border: none;
   transition: opacity 0.1s linear;
 }
-/* line 479, ../sass/_global.sass */
+/* line 476, ../sass/_global.sass */
 .about-lep .about-lep-tabs a:not(.selected):not(:hover) {
   opacity: 0.5;
 }
-/* line 481, ../sass/_global.sass */
+/* line 478, ../sass/_global.sass */
 .about-lep .about-lep-tabs a.selected, .about-lep .about-lep-tabs a:hover {
   text-shadow: none;
 }
-/* line 485, ../sass/_global.sass */
+/* line 482, ../sass/_global.sass */
 .about-lep .about-lep-tabs .l {
   background: url("../../img/buddy-lead.png") 50% top no-repeat;
 }
-/* line 487, ../sass/_global.sass */
+/* line 484, ../sass/_global.sass */
 .about-lep .about-lep-tabs .e {
   background: url("../../img/buddy-entrepreneur.png") 50% top no-repeat;
 }
-/* line 489, ../sass/_global.sass */
+/* line 486, ../sass/_global.sass */
 .about-lep .about-lep-tabs .p {
   background: url("../../img/buddy-partner.png") 50% top no-repeat;
 }
-/* line 492, ../sass/_global.sass */
+/* line 489, ../sass/_global.sass */
 .about-lep .about-lep-hint {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1034,7 +1064,7 @@ header nav a.selected:hover {
   padding-top: 54px;
   margin: 0;
 }
-/* line 504, ../sass/_global.sass */
+/* line 501, ../sass/_global.sass */
 .about-lep #learn-wrap,
 .about-lep #innovate-wrap,
 .about-lep #connect-wrap {
@@ -1044,19 +1074,19 @@ header nav a.selected:hover {
   width: 920px;
   transition: width 0.2s linear;
 }
-/* line 512, ../sass/_global.sass */
+/* line 509, ../sass/_global.sass */
 .about-lep #learn-wrap {
   z-index: 3;
 }
-/* line 514, ../sass/_global.sass */
+/* line 511, ../sass/_global.sass */
 .about-lep #innovate-wrap {
   z-index: 2;
 }
-/* line 516, ../sass/_global.sass */
+/* line 513, ../sass/_global.sass */
 .about-lep #connect-wrap {
   z-index: 1;
 }
-/* line 518, ../sass/_global.sass */
+/* line 515, ../sass/_global.sass */
 .about-lep #learn,
 .about-lep #innovate,
 .about-lep #connect {
@@ -1065,7 +1095,7 @@ header nav a.selected:hover {
   padding-top: 105px;
   background: white;
 }
-/* line 525, ../sass/_global.sass */
+/* line 522, ../sass/_global.sass */
 .about-lep #learn.l, .about-lep #learn.e, .about-lep #learn.p,
 .about-lep #innovate.l,
 .about-lep #innovate.e,
@@ -1075,13 +1105,13 @@ header nav a.selected:hover {
 .about-lep #connect.p {
   color: #343433;
 }
-/* line 529, ../sass/_global.sass */
+/* line 526, ../sass/_global.sass */
 .about-lep #learn h2,
 .about-lep #innovate h2,
 .about-lep #connect h2 {
   display: none;
 }
-/* line 531, ../sass/_global.sass */
+/* line 528, ../sass/_global.sass */
 .about-lep #learn h3,
 .about-lep #innovate h3,
 .about-lep #connect h3 {
@@ -1089,13 +1119,13 @@ header nav a.selected:hover {
   margin: 0.61803em 0;
   line-height: 1em;
 }
-/* line 535, ../sass/_global.sass */
+/* line 532, ../sass/_global.sass */
 .about-lep #learn h3.lep-title,
 .about-lep #innovate h3.lep-title,
 .about-lep #connect h3.lep-title {
   color: white;
 }
-/* line 537, ../sass/_global.sass */
+/* line 534, ../sass/_global.sass */
 .about-lep #learn h3:nth-child(2),
 .about-lep #innovate h3:nth-child(2),
 .about-lep #connect h3:nth-child(2) {
@@ -1107,49 +1137,49 @@ header nav a.selected:hover {
   padding: 23px;
   color: white;
 }
-/* line 545, ../sass/_global.sass */
+/* line 542, ../sass/_global.sass */
 .about-lep #learn h4,
 .about-lep #innovate h4,
 .about-lep #connect h4 {
   font-weight: bold;
 }
-/* line 547, ../sass/_global.sass */
+/* line 544, ../sass/_global.sass */
 .about-lep #learn h5,
 .about-lep #innovate h5,
 .about-lep #connect h5 {
   text-transform: uppercase;
 }
-/* line 550, ../sass/_global.sass */
+/* line 547, ../sass/_global.sass */
 .about-lep #learn h3, .about-lep #learn h4 {
   color: #8766ad;
 }
-/* line 552, ../sass/_global.sass */
+/* line 549, ../sass/_global.sass */
 .about-lep #learn .lep-title {
   background: #8766ad;
 }
-/* line 555, ../sass/_global.sass */
+/* line 552, ../sass/_global.sass */
 .about-lep #innovate h3, .about-lep #innovate h4 {
   color: #b4d435;
 }
-/* line 557, ../sass/_global.sass */
+/* line 554, ../sass/_global.sass */
 .about-lep #innovate .lep-title {
   background: #b4d435;
 }
-/* line 560, ../sass/_global.sass */
+/* line 557, ../sass/_global.sass */
 .about-lep #connect h3, .about-lep #connect h4 {
   color: #f58345;
 }
-/* line 562, ../sass/_global.sass */
+/* line 559, ../sass/_global.sass */
 .about-lep #connect .lep-title {
   background: #f58345;
 }
 
-/* line 565, ../sass/_global.sass */
+/* line 562, ../sass/_global.sass */
 .w5 strong {
   font-weight: bold;
 }
 
-/* line 568, ../sass/_global.sass */
+/* line 565, ../sass/_global.sass */
 .col2 {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -1163,56 +1193,56 @@ header nav a.selected:hover {
   column-gap: 24px;
 }
 
-/* line 572, ../sass/_global.sass */
+/* line 569, ../sass/_global.sass */
 .food {
   margin: 24px 0 36px;
 }
 
-/* line 575, ../sass/_global.sass */
+/* line 572, ../sass/_global.sass */
 #map-canvas {
   height: 300px;
   width: 920px;
   margin: 24px 0 36px -23px;
 }
 
-/* line 580, ../sass/_global.sass */
+/* line 577, ../sass/_global.sass */
 .gmnoprint, .gm-style-cc {
   display: none;
 }
 
-/* line 583, ../sass/_global.sass */
+/* line 580, ../sass/_global.sass */
 .address p {
   line-height: 2em;
   margin-bottom: 0;
 }
 
-/* line 587, ../sass/_global.sass */
+/* line 584, ../sass/_global.sass */
 .reglink {
   text-align: center;
   margin: 12px 0 60px;
 }
-/* line 590, ../sass/_global.sass */
+/* line 587, ../sass/_global.sass */
 .reglink a {
   margin-top: 20px;
 }
-/* line 592, ../sass/_global.sass */
+/* line 589, ../sass/_global.sass */
 .reglink small {
   font-size: 12px;
 }
 
-/* line 595, ../sass/_global.sass */
+/* line 592, ../sass/_global.sass */
 table {
   width: 70%;
   margin: 36px auto 72px;
   font-weight: 100;
 }
-/* line 599, ../sass/_global.sass */
+/* line 596, ../sass/_global.sass */
 table small {
   font-size: 1em;
   opacity: 0.5;
 }
 
-/* line 603, ../sass/_global.sass */
+/* line 600, ../sass/_global.sass */
 th, td {
   height: 36px;
   padding: 0 0.5em;
@@ -1220,21 +1250,21 @@ th, td {
   color: #343433;
 }
 
-/* line 609, ../sass/_global.sass */
+/* line 606, ../sass/_global.sass */
 thead {
   border-bottom: 1px solid #343433;
 }
 
-/* line 612, ../sass/_global.sass */
+/* line 609, ../sass/_global.sass */
 tbody tr {
   border-bottom: 1px dotted #dddddd;
 }
-/* line 615, ../sass/_global.sass */
+/* line 612, ../sass/_global.sass */
 tbody tr:hover td {
   background-color: #cccccc;
 }
 
-/* line 618, ../sass/_global.sass */
+/* line 615, ../sass/_global.sass */
 .reg-included {
   font-size: 16px;
   width: 689px;
@@ -1246,71 +1276,71 @@ tbody tr:hover td {
   margin: 0 0 0.5em 2em;
   list-style: circle;
 }
-/* line 624, ../sass/_global.sass */
+/* line 621, ../sass/_global.sass */
 .reg-included li {
   width: 50%;
   float: left;
 }
 
-/* line 628, ../sass/_global.sass */
+/* line 625, ../sass/_global.sass */
 .sched-options {
   font-size: 32px;
   margin: 3em 0;
   text-align: center;
 }
-/* line 632, ../sass/_global.sass */
+/* line 629, ../sass/_global.sass */
 .sched-options b {
   font-size: 1.5em;
 }
-/* line 634, ../sass/_global.sass */
+/* line 631, ../sass/_global.sass */
 .sched-options .button {
   width: 360px;
 }
 
-/* line 637, ../sass/_global.sass */
+/* line 634, ../sass/_global.sass */
 .agenda {
   width: 70%;
   margin: auto;
 }
-/* line 640, ../sass/_global.sass */
+/* line 637, ../sass/_global.sass */
 .agenda table {
   width: 100%;
   margin: 12px 0 36px;
 }
-/* line 643, ../sass/_global.sass */
+/* line 640, ../sass/_global.sass */
 .agenda td {
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-/* line 644, ../sass/_global.sass */
+/* line 641, ../sass/_global.sass */
 .agenda td:first-child {
   background-color: #d5cede;
 }
-/* line 646, ../sass/_global.sass */
+/* line 643, ../sass/_global.sass */
 .agenda td:nth-child(2) {
   background-color: #f0f4e1;
 }
-/* line 648, ../sass/_global.sass */
+/* line 645, ../sass/_global.sass */
 .agenda td:last-child {
   background-color: #f9e5da;
 }
-/* line 650, ../sass/_global.sass */
+/* line 647, ../sass/_global.sass */
 .agenda td:only-child {
   background-color: white;
 }
-/* line 653, ../sass/_global.sass */
+/* line 650, ../sass/_global.sass */
 .agenda h3 {
   border-bottom: 2px solid #343433;
 }
 
-/* line 656, ../sass/_global.sass */
+/* line 653, ../sass/_global.sass */
 .boobs {
   margin-bottom: 60px;
 }
 
-/* line 659, ../sass/_global.sass */
+/* line 656, ../sass/_global.sass */
 .shameless {
   text-align: center;
   padding-top: 3em;
@@ -1318,17 +1348,17 @@ tbody tr:hover td {
   clear: both;
 }
 
-/* line 665, ../sass/_global.sass */
+/* line 662, ../sass/_global.sass */
 .days {
   float: left;
   display: none;
 }
 
-/* line 669, ../sass/_global.sass */
+/* line 666, ../sass/_global.sass */
 #streams {
   float: right;
 }
-/* line 671, ../sass/_global.sass */
+/* line 668, ../sass/_global.sass */
 #streams label {
   display: inline;
   padding: 5px 10px;
@@ -1343,24 +1373,24 @@ tbody tr:hover td {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
-/* line 677, ../sass/_global.sass */
+/* line 674, ../sass/_global.sass */
 #streams label:hover {
   cursor: pointer;
 }
-/* line 681, ../sass/_global.sass */
+/* line 678, ../sass/_global.sass */
 #streams input:checked + label:nth-child(2) {
   background-color: #8766ad;
 }
-/* line 683, ../sass/_global.sass */
+/* line 680, ../sass/_global.sass */
 #streams input:checked + label:nth-child(4) {
   background-color: #b4d435;
 }
-/* line 685, ../sass/_global.sass */
+/* line 682, ../sass/_global.sass */
 #streams input:checked + label:nth-child(6) {
   background-color: #f58345;
 }
 
-/* line 697, ../sass/_global.sass */
+/* line 694, ../sass/_global.sass */
 body > footer {
   height: 36px;
   line-height: 36px;
@@ -1371,31 +1401,31 @@ body > footer {
   background-color: #727273;
   font-size: 12px;
 }
-/* line 706, ../sass/_global.sass */
+/* line 703, ../sass/_global.sass */
 body > footer p {
   float: left;
   line-height: inherit;
   margin-bottom: 0;
 }
-/* line 710, ../sass/_global.sass */
+/* line 707, ../sass/_global.sass */
 body > footer small {
   float: right;
 }
-/* line 712, ../sass/_global.sass */
+/* line 709, ../sass/_global.sass */
 body > footer a {
   color: white;
 }
-/* line 714, ../sass/_global.sass */
+/* line 711, ../sass/_global.sass */
 body > footer a:hover {
   color: #66ccff;
 }
 
-/* line 717, ../sass/_global.sass */
+/* line 714, ../sass/_global.sass */
 #thanks {
   text-align: center;
   padding-bottom: 60px;
 }
-/* line 720, ../sass/_global.sass */
+/* line 717, ../sass/_global.sass */
 #thanks h2 {
   font-size: 36px;
   font-weight: bold;
