@@ -847,7 +847,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.digitalrapids {
-  background-position:  0 -465px;
+  background-position:  0 -610.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.enbridge {
@@ -857,7 +857,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.enbridge {
-  background-position:  0 -675.5px;
+  background-position:  0 -821px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.engineerscanada {
@@ -877,7 +877,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.ethicalbean {
-  background-position:  0 -622.5px;
+  background-position:  0 -768px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.ge {
@@ -888,6 +888,16 @@ header nav a.selected:hover {
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.ge {
   background-position:  0 -74.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.golder {
+  height: 50px;
+  width: 131px;
+  background-image: url("../../img/sponsors-ie/golder-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.golder {
+  background-position:  0 -507.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.hatch {
@@ -907,7 +917,17 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.icf {
-  background-position:  0 -719.5px;
+  background-position:  0 -912.5px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.kinross {
+  height: 45px;
+  width: 148px;
+  background-image: url("../../img/sponsors-ie/kinross-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.kinross {
+  background-position:  0 -865px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.leplayground {
@@ -927,7 +947,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.northland {
-  background-position:  0 -560px;
+  background-position:  0 -705.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.prattwhitney {
@@ -937,7 +957,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.prattwhitney {
-  background-position:  0 -517.5px;
+  background-position:  0 -663px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.ryerson {
@@ -957,7 +977,17 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.sherritt {
-  background-position:  0 -414.5px;
+  background-position:  0 -560px;
+}
+/* line 35, ../sass/_variables.sass */
+.sponsors li.tised {
+  height: 50px;
+  width: 147px;
+  background-image: url("../../img/sponsors-ie/tised-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.tised {
+  background-position:  0 -455px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.transcanada {
@@ -969,10 +999,20 @@ header nav a.selected:hover {
 .backgroundsize .sponsors li.transcanada {
   background-position:  0 0;
 }
+/* line 35, ../sass/_variables.sass */
+.sponsors li.waterloo {
+  height: 38px;
+  width: 160px;
+  background-image: url("../../img/sponsors-ie/waterloo-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.waterloo {
+  background-position:  0 -414.5px;
+}
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-s22e874c091.png');
-  background-size: 392px 784.5px;
+  background-image: url('/static/img/sponsors-sedf73137ce.png');
+  background-size: 392px 977.5px;
 }
 /* line 440, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li, .sponsors .silver li {
