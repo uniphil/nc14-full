@@ -850,8 +850,18 @@ header nav a.selected:hover {
   background-position:  0 -610.5px;
 }
 /* line 35, ../sass/_variables.sass */
+.sponsors li.ecamion {
+  height: 61.5px;
+  width: 65px;
+  background-image: url("../../img/sponsors-ie/ecamion-ie.png");
+}
+/* line 39, ../sass/_variables.sass */
+.backgroundsize .sponsors li.ecamion {
+  background-position:  0 -911px;
+}
+/* line 35, ../sass/_variables.sass */
 .sponsors li.enbridge {
-  height: 41.5px;
+  height: 40px;
   width: 150px;
   background-image: url("../../img/sponsors-ie/enbridge-ie.png");
 }
@@ -917,7 +927,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.icf {
-  background-position:  0 -912.5px;
+  background-position:  0 -975px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.kinross {
@@ -927,7 +937,7 @@ header nav a.selected:hover {
 }
 /* line 39, ../sass/_variables.sass */
 .backgroundsize .sponsors li.kinross {
-  background-position:  0 -865px;
+  background-position:  0 -863.5px;
 }
 /* line 35, ../sass/_variables.sass */
 .sponsors li.leplayground {
@@ -1011,8 +1021,8 @@ header nav a.selected:hover {
 }
 /* line 44, ../sass/_variables.sass */
 .backgroundsize .sponsors li {
-  background-image: url('/static/img/sponsors-sedf73137ce.png');
-  background-size: 392px 977.5px;
+  background-image: url('/static/img/sponsors-s06802b699d.png');
+  background-size: 392px 1040px;
 }
 /* line 440, ../sass/_global.sass */
 .sponsors .lead li, .sponsors .gold li, .sponsors .silver li {
