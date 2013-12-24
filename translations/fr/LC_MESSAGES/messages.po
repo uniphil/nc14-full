@@ -7,227 +7,127 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-30 10:30-0500\n"
-"PO-Revision-Date: 2013-11-30 10:31-0500\n"
-"Last-Translator: uniphil <uniphil@gmail.com>\n"
+"POT-Creation-Date: 2013-12-24 15:06-0500\n"
+"PO-Revision-Date: 2013-12-24 15:06-0500\n"
+"Last-Translator: Phil Schleihauf <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Bookmarks: 71,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
-#: templates/about.html:6 templates/home.html:75
+#: templates/about.html:6
+#: templates/home.html:75
 msgid "Engineers Without Borders"
 msgstr "Ingénieurs sans frontières"
 
 #: templates/about.html:7
-msgid ""
-"Poverty is the product of broken systems that prevent people from realizing "
-"their full potential. Beating poverty means making those systems work."
-msgstr ""
-"La pauvreté est le résultat de systèmes qui ne fonctionnent pas et qui "
-"empêchent les gens de réaliser leur plein potentiel. Abolir la pauvreté "
-"revient à faire fonctionner ces systèmes."
+msgid "Poverty is the product of broken systems that prevent people from realizing their full potential. Beating poverty means making those systems work."
+msgstr "La pauvreté est le résultat de systèmes qui ne fonctionnent pas et qui empêchent les gens de réaliser leur plein potentiel. Abolir la pauvreté revient à faire fonctionner ces systèmes."
 
 #: templates/about.html:8
-msgid ""
-"At EWB Canada, we invest in people &mdash; smart systems changers, and we "
-"incubate the systemic innovations that they create to accelerate rural "
-"African development. It’s about people working with people to create "
-"lasting, scalable change that unlocks human potential."
-msgstr ""
-"C'est exactement ce que fait ISF. Nous investissons dans les gens, de "
-"brillants agents de changements des systèmes, et nous servons d'incubateurs "
-"aux innovations systémiques qu'ils créent pour accélérer le développement de "
-"l'Afrique rurale. Il ne s'agit pas de projets. Il ne s'agit pas de "
-"technologie. Ici, tout est à propos de gens travaillant pour des gens afin "
-"de créer un changement durable et qui évolue tout en libérant le potentiel "
-"humain."
+msgid "At EWB Canada, we invest in people &mdash; smart systems changers, and we incubate the systemic innovations that they create to accelerate rural African development. It’s about people working with people to create lasting, scalable change that unlocks human potential."
+msgstr "C'est exactement ce que fait ISF. Nous investissons dans les gens, de brillants agents de changements des systèmes, et nous servons d'incubateurs aux innovations systémiques qu'ils créent pour accélérer le développement de l'Afrique rurale. Il ne s'agit pas de projets. Il ne s'agit pas de technologie. Ici, tout est à propos de gens travaillant pour des gens afin de créer un changement durable et qui évolue tout en libérant le potentiel humain."
 
 #: templates/about.html:9
-msgid ""
-"Since 2001, we have seen many iterations in our approach. As an adaptable "
-"organization, committed to the self-reflection and external explorations "
-"needed to continue doing our best work."
-msgstr ""
-"Depuis 2001, ISF Canada a travaillé à comprendre et à s’attaquer aux "
-"systèmes de la pauvreté et de l’inégalité – et est passée par plusieurs "
-"itérations de son modèle tout au long de la route. Nous sommes une "
-"organisation avec une grande capacité d’adaptation, engagés envers la "
-"réflexion personnelle et les explorations externes nécessaires pour "
-"continuer à faire le meilleur travail possible."
+msgid "Since 2001, we have seen many iterations in our approach. As an adaptable organization, committed to the self-reflection and external explorations needed to continue doing our best work."
+msgstr "Depuis 2001, ISF Canada a travaillé à comprendre et à s’attaquer aux systèmes de la pauvreté et de l’inégalité – et est passée par plusieurs itérations de son modèle tout au long de la route. Nous sommes une organisation avec une grande capacité d’adaptation, engagés envers la réflexion personnelle et les explorations externes nécessaires pour continuer à faire le meilleur travail possible."
 
 #: templates/about.html:13
 msgid "Rethink 2014"
 msgstr "Pensons autrement 2014"
 
 #: templates/about.html:15
-msgid ""
-"This is a space curated by EWB Canada, but created in real time by a "
-"diverse, cross-sector, and international delegation of over 800 individuals "
-"with great experiences and expertise. They’re some of the smartest&mdash;and "
-"newest&mdash;leaders in developing leaders, investing in entrepreneurs, and "
-"fostering partnerships for global development."
-msgstr ""
-"Il s’agit d’un espace organisé par ISF Canada, mais créé en temps réel par "
-"une délégation internationale diversifiée, provenant de plusieurs secteurs "
-"et comptant plus de 800 individus ayant de bonnes expériences et une "
-"certaine expertise. Ils font partie des leaders les plus brillants – et les "
-"plus récents – en ce qui concerne le développement de leaders, "
-"l’investissement dans les entrepreneurs et la création de partenariats pour "
-"un développement mondial."
+msgid "This is a space curated by EWB Canada, but created in real time by a diverse, cross-sector, and international delegation of over 800 individuals with great experiences and expertise. They’re some of the smartest&mdash;and newest&mdash;leaders in developing leaders, investing in entrepreneurs, and fostering partnerships for global development."
+msgstr "Il s’agit d’un espace organisé par ISF Canada, mais créé en temps réel par une délégation internationale diversifiée, provenant de plusieurs secteurs et comptant plus de 800 individus ayant de bonnes expériences et une certaine expertise. Ils font partie des leaders les plus brillants – et les plus récents – en ce qui concerne le développement de leaders, l’investissement dans les entrepreneurs et la création de partenariats pour un développement mondial."
 
 #: templates/about.html:16
-msgid ""
-"Over three days of workshops, panels, and keynotes, we want to dive in, "
-"explore, and truly <i>rethink</i> the ways in which we work as a set of "
-"individuals and organizations with a common, ambitious goal."
-msgstr ""
-"Au cours de trois jours d’ateliers, de tables de discussion et de "
-"conférence, nous voulons plonger, explorer et réellement <i>penser "
-"autrement</i> les façons dont nous travaillons en tant qu’individus et en "
-"tant qu’organisations avec un but commun et ambitieux."
+msgid "Over three days of workshops, panels, and keynotes, we want to dive in, explore, and truly <i>rethink</i> the ways in which we work as a set of individuals and organizations with a common, ambitious goal."
+msgstr "Au cours de trois jours d’ateliers, de tables de discussion et de conférence, nous voulons plonger, explorer et réellement <i>penser autrement</i> les façons dont nous travaillons en tant qu’individus et en tant qu’organisations avec un but commun et ambitieux."
 
-#: templates/about.html:23 templates/about.html:29 templates/about.html:33
-#: templates/home.html:181
+#: templates/about.html:23
+#: templates/about.html:29
+#: templates/about.html:33
+#: templates/home.html:180
 msgid "Learn"
 msgstr "Apprenez"
 
-#: templates/about.html:24 templates/about.html:29 templates/about.html:53
-#: templates/home.html:186
+#: templates/about.html:24
+#: templates/about.html:29
+#: templates/about.html:53
+#: templates/home.html:185
 msgid "Innovate"
 msgstr "Innovez"
 
-#: templates/about.html:25 templates/about.html:29 templates/about.html:74
-#: templates/home.html:191
+#: templates/about.html:25
+#: templates/about.html:29
+#: templates/about.html:74
+#: templates/home.html:190
 msgid "Connect"
 msgstr "Entrez en contact"
 
 #: templates/about.html:29
 #, python-format
-msgid ""
-"Click on the <a href=\"#learn\" class=\"l\">%(l)s</a>, <a href=\"#innovate\" "
-"class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</a> buttons "
-"above!"
-msgstr ""
-"Cliquez sur les boutons <ahref=\"#learn\" class=\"l\">%(l)s</a>, <a href="
-"\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</"
-"a> ci-haut!"
+msgid "Click on the <a href=\"#learn\" class=\"l\">%(l)s</a>, <a href=\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</a> buttons above!"
+msgstr "Cliquez sur les boutons <ahref=\"#learn\" class=\"l\">%(l)s</a>, <a href=\"#innovate\" class=\"e\">%(e)s</a>, <a href=\"#connect\" class=\"p\">%(p)s</a> ci-haut!"
 
 #: templates/about.html:34
-msgid ""
-"What environments can we create to accelerate personal and organizational "
-"change?\n"
-msgstr ""
-"Quels environnements pouvons-nous créer pour accélérer le changement "
-"personnel et organisationnel?\n"
+msgid "What environments can we create to accelerate personal and organizational change?\n"
+msgstr "Quels environnements pouvons-nous créer pour accélérer le changement personnel et organisationnel?\n"
 
 #: templates/about.html:36
-msgid ""
-"The complexities of the global challenges we face require a new brand of "
-"learning and collaboration space. We’ve challenged ourselves to rethink the "
-"traditional conference."
-msgstr ""
-"La complexité des défis mondiaux auxquels nous faisons face demande une "
-"nouvelle façon d’apprendre et un nouvel espace de collaboration. Nous nous "
-"sommes mis au défi de penser autrement le traditionnel congrès."
+msgid "The complexities of the global challenges we face require a new brand of learning and collaboration space. We’ve challenged ourselves to rethink the traditional conference."
+msgstr "La complexité des défis mondiaux auxquels nous faisons face demande une nouvelle façon d’apprendre et un nouvel espace de collaboration. Nous nous sommes mis au défi de penser autrement le traditionnel congrès."
 
 #: templates/about.html:37
 msgid "Rethink Presentations."
 msgstr "Pensons les présentations autrement."
 
 #: templates/about.html:38
-msgid ""
-"Information that flows in just one direction reaches only half of its "
-"potential.<br/>Welcome to the Labs."
-msgstr ""
-"L’information circulant dans une seule direction n’atteint que le moitié de "
-"son potentiel.<br/>Bienvenue dans les labos."
+msgid "Information that flows in just one direction reaches only half of its potential.<br/>Welcome to the Labs."
+msgstr "L’information circulant dans une seule direction n’atteint que le moitié de son potentiel.<br/>Bienvenue dans les labos."
 
 #: templates/about.html:39
-msgid ""
-"We believe that in order to truly rethink our approaches to global "
-"development, we need to leverage the full knowledge of the room &mdash; not "
-"just that of the expert at the front. What’s your unique brand of "
-"leadership? How does an entrepreneurial model of development intersect or "
-"contradict the traditional charity model? What are the interactions and "
-"incentives in a development partnership? Dive into exploratory, "
-"experimental, and creative spaces with individuals and organizations who "
-"have committed to charting new territory and facing difficult tensions."
-msgstr ""
-"Nous croyons que pour réellement penser autrement nos approches en "
-"développement mondial, nous devons exploiter la connaissance de la salle "
-"entière, et non seulement de l’expert devant. Quelle est votre distinction "
-"en termes de leadership? Comment un modèle de dévelpopement entrepreneurial "
-"rencontre ou contredit le modèle traditionnel de charité? Quelles sont les "
-"interactions et quels sont les incitatifs dans un partenariat en "
-"développement? Plongez au cœur de l’exploratoire, l’expérientiel et des "
-"espaces créatifs avec des individus et des organisations qui se sont engagés "
-"à dessiner un territoire nouveau et à se positionner face à des tensions "
-"difficiles."
+msgid "We believe that in order to truly rethink our approaches to global development, we need to leverage the full knowledge of the room &mdash; not just that of the expert at the front. What’s your unique brand of leadership? How does an entrepreneurial model of development intersect or contradict the traditional charity model? What are the interactions and incentives in a development partnership? Dive into exploratory, experimental, and creative spaces with individuals and organizations who have committed to charting new territory and facing difficult tensions."
+msgstr "Nous croyons que pour réellement penser autrement nos approches en développement mondial, nous devons exploiter la connaissance de la salle entière, et non seulement de l’expert devant. Quelle est votre distinction en termes de leadership? Comment un modèle de dévelpopement entrepreneurial rencontre ou contredit le modèle traditionnel de charité? Quelles sont les interactions et quels sont les incitatifs dans un partenariat en développement? Plongez au cœur de l’exploratoire, l’expérientiel et des espaces créatifs avec des individus et des organisations qui se sont engagés à dessiner un territoire nouveau et à se positionner face à des tensions difficiles."
 
-#: templates/about.html:41 templates/about.html:85
+#: templates/about.html:41
+#: templates/about.html:85
 msgid "Example"
 msgstr "Exemple"
 
 #: templates/about.html:42
+#: templates/home.html:221
 msgid "LePlayground"
 msgstr "LePlayground"
 
 #: templates/about.html:43
-msgid ""
-"Le Playground will be joining us (all the way from France!) throughout "
-"Rethink, bringing their unique approach to leadership development, and "
-"challenging participants to get comfortable in a personal and organizational "
-"space of reinvention, and in driving from what inspires them to create "
-"change."
-msgstr ""
-"Le Playground se joindra à nous (directement de France!) tout au long de "
-"Pensons autrement, apportant leur approche unique au développement du "
-"leadership et mettant les participants au défi d’être confortables dans un "
-"espace personnel et organisationnel de réinvention ainsi qu’au défi de "
-"partir de ce qui les inspire pour créer du changement."
+msgid "Le Playground will be joining us (all the way from France!) throughout Rethink, bringing their unique approach to leadership development, and challenging participants to get comfortable in a personal and organizational space of reinvention, and in driving from what inspires them to create change."
+msgstr "Le Playground se joindra à nous (directement de France!) tout au long de Pensons autrement, apportant leur approche unique au développement du leadership et mettant les participants au défi d’être confortables dans un espace personnel et organisationnel de réinvention ainsi qu’au défi de partir de ce qui les inspire pour créer du changement."
 
 #: templates/about.html:44
-msgid ""
-"Developing <b>leadership with intention</b> to accompany individuals and "
-"teams in the realization of their full potential to impact the world."
-msgstr ""
-"Développer le <b>leadership avec une intention</b> pour accompagner les "
-"individus et les équipes dans la réalisation de leur plein potentiel à avoir "
-"un impact sur le monde."
+msgid "Developing <b>leadership with intention</b> to accompany individuals and teams in the realization of their full potential to impact the world."
+msgstr "Développer le <b>leadership avec une intention</b> pour accompagner les individus et les équipes dans la réalisation de leur plein potentiel à avoir un impact sur le monde."
 
-#: templates/about.html:47 templates/about.html:68 templates/about.html:90
+#: templates/about.html:47
+#: templates/about.html:68
+#: templates/about.html:90
 msgid "Looking for Partners"
 msgstr "À la recherche de partenaires"
 
 #: templates/about.html:48
-msgid ""
-"Create with us. We're looking for cross-sector thinkers, talkers, and "
-"teachers to share ideas and convene workshops."
-msgstr ""
-"Créez avec nous. Nous recherchons de penseurs, des présentateurs et des "
-"professeurs des tous les secteurs pour partager des idées et présenter des "
-"ateliers."
+msgid "Create with us. We're looking for cross-sector thinkers, talkers, and teachers to share ideas and convene workshops."
+msgstr "Créez avec nous. Nous recherchons de penseurs, des présentateurs et des professeurs des tous les secteurs pour partager des idées et présenter des ateliers."
 
 #: templates/about.html:54
 msgid "What’s possible if we have the spaces to really get to work?\n"
-msgstr ""
-"Qu’est-ce qui serait possible si nous avions les espaces nécessaires pour "
-"réellement se mettr eau travail?\n"
+msgstr "Qu’est-ce qui serait possible si nous avions les espaces nécessaires pour réellement se mettr eau travail?\n"
 
 #: templates/about.html:56
-msgid ""
-"Test the waters on your new project or idea. Leverage expertise and "
-"diversity to bring it to the next level. Find partners, resources, and the "
-"energy to move forward and change something."
-msgstr ""
-"Sondez le terrain avec votre nouveau projet ou votre nouvelle idée. Servez-"
-"vous de l’expertise et de la diversité pour les faire passer au prochain "
-"niveau. Trouvez des partenaires, des ressources et l’énergie d’aller de "
-"l’avant et de changer quelque chose."
+msgid "Test the waters on your new project or idea. Leverage expertise and diversity to bring it to the next level. Find partners, resources, and the energy to move forward and change something."
+msgstr "Sondez le terrain avec votre nouveau projet ou votre nouvelle idée. Servez-vous de l’expertise et de la diversité pour les faire passer au prochain niveau. Trouvez des partenaires, des ressources et l’énergie d’aller de l’avant et de changer quelque chose."
 
 #: templates/about.html:57
 msgid "Rethink Action"
@@ -238,37 +138,12 @@ msgid "Why wait?"
 msgstr "Pourquoi attendre?"
 
 #: templates/about.html:59
-msgid ""
-"The Innovation Forum has often been the flagship of conferences hosted by "
-"EWB. Rooted in our model of model of entrepreneurship and innovation, it is "
-"intended to identify and accelerate ideas that have the potential to disrupt "
-"systems of poverty and inequality."
-msgstr ""
-"Le forum de l’innovation a souvent été l’étendard des congrès organisés par "
-"ISF. Ancré dans notre modèle d’entrepreneuriat et d’innovation, il a pour "
-"but d’identifier et d’accélérer le développement d’idées ayant le potentiel "
-"de perturber les systèmes de pauvreté et d’inégalité."
+msgid "The Innovation Forum has often been the flagship of conferences hosted by EWB. Rooted in our model of model of entrepreneurship and innovation, it is intended to identify and accelerate ideas that have the potential to disrupt systems of poverty and inequality."
+msgstr "Le forum de l’innovation a souvent été l’étendard des congrès organisés par ISF. Ancré dans notre modèle d’entrepreneuriat et d’innovation, il a pour but d’identifier et d’accélérer le développement d’idées ayant le potentiel de perturber les systèmes de pauvreté et d’inégalité."
 
 #: templates/about.html:60
-msgid ""
-"There is no idea too developed or too new for the Forum. It’s a space to "
-"bring your dream, project, startup, or organization and share your biggest "
-"questions with our diverse and well-connected delegation. Multiple breakout "
-"rooms host a diversity of entrepreneurs with big ideas for global "
-"development, as peers self-select into conversations to bring insight, human "
-"resources, or capital to your work. It’s messy, colorful, challenging, and "
-"real."
-msgstr ""
-"Il n’y a pas d’idée qui soit trop développée ou trop nouvelle pour le forum. "
-"Il s’agit d’un espace où vous pourrez présenter votre rêve, votre projet, "
-"vos idées ou votre organisation et partager vos plus grandes questions avec "
-"notre délégation diversifiée et bien connectée au monde. Plusieurs salles "
-"seront les hôtes d’une diversité d’entrepreneurs avec de grandes idées pour "
-"un développement mondial et les participants sélectionneront eux-mêmes les "
-"conversations auxquelles ils participeront et ils emmèneront de riches "
-"réflexions, des ressources humaines ou encore financières à votre travail. "
-"C’est un forum désordonné et haut en couleurs qui vous mettra au défi, mais "
-"qui, surtout, sera vrai."
+msgid "There is no idea too developed or too new for the Forum. It’s a space to bring your dream, project, startup, or organization and share your biggest questions with our diverse and well-connected delegation. Multiple breakout rooms host a diversity of entrepreneurs with big ideas for global development, as peers self-select into conversations to bring insight, human resources, or capital to your work. It’s messy, colorful, challenging, and real."
+msgstr "Il n’y a pas d’idée qui soit trop développée ou trop nouvelle pour le forum. Il s’agit d’un espace où vous pourrez présenter votre rêve, votre projet, vos idées ou votre organisation et partager vos plus grandes questions avec notre délégation diversifiée et bien connectée au monde. Plusieurs salles seront les hôtes d’une diversité d’entrepreneurs avec de grandes idées pour un développement mondial et les participants sélectionneront eux-mêmes les conversations auxquelles ils participeront et ils emmèneront de riches réflexions, des ressources humaines ou encore financières à votre travail. C’est un forum désordonné et haut en couleurs qui vous mettra au défi, mais qui, surtout, sera vrai."
 
 #: templates/about.html:62
 msgid "Case Study"
@@ -279,109 +154,48 @@ msgid "The Kumvana Program"
 msgstr "Le programme Kumvana"
 
 #: templates/about.html:64
-msgid ""
-"The Kumvana Program is a testament to the innovation possible when we come "
-"together. The Program was born at the EWB-hosted conference of the same name "
-"in 2011, and encourages us that it really is possible to make ideas a "
-"reality when we give inspired delegates the hands-on opportunities to create "
-"something great."
-msgstr ""
-"Le programme Kumvana est un testament à l’innovation qui est possible "
-"lorsque nous nous rassemblons. Le programme est né lors du congrès d’ISF du "
-"même nom en 2011 et nous encourage à croire qu’il est réellement possible de "
-"faire des nos idées une réalité lorsque nous donnons l’opportunité de créer "
-"quelque chose de bien."
+msgid "The Kumvana Program is a testament to the innovation possible when we come together. The Program was born at the EWB-hosted conference of the same name in 2011, and encourages us that it really is possible to make ideas a reality when we give inspired delegates the hands-on opportunities to create something great."
+msgstr "Le programme Kumvana est un testament à l’innovation qui est possible lorsque nous nous rassemblons. Le programme est né lors du congrès d’ISF du même nom en 2011 et nous encourage à croire qu’il est réellement possible de faire des nos idées une réalité lorsque nous donnons l’opportunité de créer quelque chose de bien."
 
 #: templates/about.html:65
-msgid ""
-"Building the capacity of young inventors, entrepreneurs, challengers and "
-"thinkers in Africa, fostering rich collaborations between Canadians and "
-"Africans and investing in their collective ability to solve the problems "
-"facing Africa today (and tomorrow.)"
-msgstr ""
-"Développer la capacité des jeunes inventeurs, entrepreneurs, audacieux et "
-"penseurs en Afrique en favorisant de riches collaborations entre les "
-"canadiens et les africains et en investissant dans leur habileté collective "
-"à régler les problèmes auxquels l’Afrique fait et fera face aujourd’hui (et "
-"demain)."
+msgid "Building the capacity of young inventors, entrepreneurs, challengers and thinkers in Africa, fostering rich collaborations between Canadians and Africans and investing in their collective ability to solve the problems facing Africa today (and tomorrow.)"
+msgstr "Développer la capacité des jeunes inventeurs, entrepreneurs, audacieux et penseurs en Afrique en favorisant de riches collaborations entre les canadiens et les africains et en investissant dans leur habileté collective à régler les problèmes auxquels l’Afrique fait et fera face aujourd’hui (et demain)."
 
 #: templates/about.html:69
-msgid ""
-"The Innovation Forum is the <b>Rethink</b> flagship entrepreneurial and "
-"inspirational event. Design it with us and showcase your organization’s "
-"innovative spirit."
-msgstr ""
-"Le forum de l’innovation est l’évènement entrepreneurial et inspirant "
-"étendard de <b>Pensons Autrement</b>. Concevez-le avec nous et mettez en "
-"valeur l’esprit novateur de votre entreprise"
+msgid "The Innovation Forum is the <b>Rethink</b> flagship entrepreneurial and inspirational event. Design it with us and showcase your organization’s innovative spirit."
+msgstr "Le forum de l’innovation est l’évènement entrepreneurial et inspirant étendard de <b>Pensons Autrement</b>. Concevez-le avec nous et mettez en valeur l’esprit novateur de votre entreprise"
 
 #: templates/about.html:75
-msgid ""
-"Let’s face it: you often get the most value from conferences by skipping the "
-"powerpoint and stealing conversations in the hallways."
-msgstr ""
-"Avouons-le: vous retirez plus des congrès en sautant par-dessus les "
-"présentations Powerpoint et en profitant des conversations dans les "
-"corridors."
+msgid "Let’s face it: you often get the most value from conferences by skipping the powerpoint and stealing conversations in the hallways."
+msgstr "Avouons-le: vous retirez plus des congrès en sautant par-dessus les présentations Powerpoint et en profitant des conversations dans les corridors."
 
 #: templates/about.html:76
-msgid ""
-"What if those hallways weren’t hallways, but intentionally set up "
-"collaboration spaces to foster the creation of partnerships, giving you all "
-"you need to move from interest to commitment?"
-msgstr ""
-"Que se passerait-il les corridors n’étaient pas des corridors, mais des "
-"espaces de collaboration intentionnellement mises sur pied pour faciliter la "
-"création de partenariats, vous donnant tout ce qu’il vous faut pour passer "
-"de l’intérêt à l’engagement?"
+msgid "What if those hallways weren’t hallways, but intentionally set up collaboration spaces to foster the creation of partnerships, giving you all you need to move from interest to commitment?"
+msgstr "Que se passerait-il les corridors n’étaient pas des corridors, mais des espaces de collaboration intentionnellement mises sur pied pour faciliter la création de partenariats, vous donnant tout ce qu’il vous faut pour passer de l’intérêt à l’engagement?"
 
 #: templates/about.html:77
 msgid "Rethink Networking."
 msgstr "Pensons le réseautage autrement."
 
 #: templates/about.html:78
-msgid ""
-"We’ve created two intentional spaces at Rethink to help you make the "
-"connections you want."
-msgstr ""
-"Nous avons créé deux espaces intentionnels à Pensons autrement pour vous "
-"aider à faire les rencontres que vous souhaitez faire."
+msgid "We’ve created two intentional spaces at Rethink to help you make the connections you want."
+msgstr "Nous avons créé deux espaces intentionnels à Pensons autrement pour vous aider à faire les rencontres que vous souhaitez faire."
 
 #: templates/about.html:79
 msgid "Collaboration Hub"
 msgstr "Le coin de la collaboration"
 
 #: templates/about.html:80
-msgid ""
-"Inspired by the rise&mdash;and success&mdash;of hub spaces across our "
-"country, we’ve decided to build a constant space of collaboration at this "
-"conference. Throughout Rethink, you will have the opportunity to opt-out of "
-"content and opt-in to meaningful connection, surrounded by a physical "
-"environment and the tools you need to make things happen."
-msgstr ""
-"Insirés par la montée&mdash;et le succès&mdash;des espaces &laquo; hub "
-"&raquo; à travers le pays, nous avons décidé de construire un espace "
-"constant de collaboration au congrès. Au cours de Pensons autrement, vous "
-"aurez l’opportunité de vous éclipser en dehors du contenu et de sautez dans "
-"des conversations pleines de sens pour vous, entourés de l’environnement "
-"physique et des outils dont vous avez besoin pour que les choses se passent."
+msgid "Inspired by the rise&mdash;and success&mdash;of hub spaces across our country, we’ve decided to build a constant space of collaboration at this conference. Throughout Rethink, you will have the opportunity to opt-out of content and opt-in to meaningful connection, surrounded by a physical environment and the tools you need to make things happen."
+msgstr "Insirés par la montée&mdash;et le succès&mdash;des espaces &laquo; hub &raquo; à travers le pays, nous avons décidé de construire un espace constant de collaboration au congrès. Au cours de Pensons autrement, vous aurez l’opportunité de vous éclipser en dehors du contenu et de sautez dans des conversations pleines de sens pour vous, entourés de l’environnement physique et des outils dont vous avez besoin pour que les choses se passent."
 
 #: templates/about.html:81
 msgid "Showcase Space"
 msgstr "Espace d’exposition"
 
 #: templates/about.html:82
-msgid ""
-"Interested organizations have the opportunity to bring their brand to the "
-"800 delegates of Rethink in our showcase space. It’s for those looking to "
-"connect with global development leaders in Canada, or to find clients and "
-"investors."
-msgstr ""
-"Les organisations intéressées ont l’opportunité d’emmener leur nom aux 800 "
-"délégués de Pensons autrement dans notre espace d’exposition. C’est un "
-"espace pour ceux qui cherchent à entrer en contact avec des leaders en "
-"développement mondial au Canada ou à trouver des clients ou des "
-"investisseurs."
+msgid "Interested organizations have the opportunity to bring their brand to the 800 delegates of Rethink in our showcase space. It’s for those looking to connect with global development leaders in Canada, or to find clients and investors."
+msgstr "Les organisations intéressées ont l’opportunité d’emmener leur nom aux 800 délégués de Pensons autrement dans notre espace d’exposition. C’est un espace pour ceux qui cherchent à entrer en contact avec des leaders en développement mondial au Canada ou à trouver des clients ou des investisseurs."
 
 #: templates/about.html:83
 msgid "Get in touch"
@@ -389,29 +203,18 @@ msgstr "Contactez-nous"
 
 #: templates/about.html:83
 msgid "to find out more about the space we're curating just for you."
-msgstr ""
-"pour en savoir plus sur les espaces que nous préparons juste pour vous."
+msgstr "pour en savoir plus sur les espaces que nous préparons juste pour vous."
 
 #: templates/about.html:86
 msgid "The Toronto Congress Centre"
 msgstr "Le lieu: Centre des congrès de Toronto"
 
 #: templates/about.html:87
-msgid ""
-"The networking opportunities at Rethink total over 30 hours of dedicated "
-"time to building connections between delegates, in a beautiful, naturally-"
-"lit and separate space provided by the Toronto Congress Centre."
-msgstr ""
-"L’une de nos considérations majeures dans le choix de notre lieu était qu’il "
-"y ait un espace disponible pour nos délégués où ils pourraient se rencontrer "
-"et créer en même temps que des ateliers étaient en cours. Le Centre des "
-"congrès de Toronto nous offre un merveilleux espace, naturellement éclairé "
-"et divisé, parfait pour favoriser les rencontres."
+msgid "The networking opportunities at Rethink total over 30 hours of dedicated time to building connections between delegates, in a beautiful, naturally-lit and separate space provided by the Toronto Congress Centre."
+msgstr "L’une de nos considérations majeures dans le choix de notre lieu était qu’il y ait un espace disponible pour nos délégués où ils pourraient se rencontrer et créer en même temps que des ateliers étaient en cours. Le Centre des congrès de Toronto nous offre un merveilleux espace, naturellement éclairé et divisé, parfait pour favoriser les rencontres."
 
 #: templates/about.html:91
-msgid ""
-"Design and brand our Collaboration Space with your hub, incubator, or "
-"accelerator strategy."
+msgid "Design and brand our Collaboration Space with your hub, incubator, or accelerator strategy."
 msgstr ""
 
 #: templates/base.html:51
@@ -443,15 +246,12 @@ msgid "Rethink"
 msgstr "Pensons Autrement"
 
 #: templates/base.html:62
-msgid ""
-"January 10<sup>th</sup> to 12<sup>th</sup><span class='divider'> | </"
-"span>Toronto, Ontario"
+msgid "January 10<sup>th</sup> to 12<sup>th</sup><span class='divider'> | </span>Toronto, Ontario"
 msgstr "10 au 12 janvier<span class=\"divider\"> | </span>Toronto, Ontario"
 
 #: templates/base.html:63
 msgid "Leadership, Entrepreneurship, and Partnership for Global Development"
-msgstr ""
-"Leadership, entrepreneuriat et partenariats pour un développement mondial"
+msgstr "Leadership, entrepreneuriat et partenariats pour un développement mondial"
 
 #: templates/base.html:66
 msgid "National Conference 2014 Logo"
@@ -469,7 +269,8 @@ msgstr "À propos"
 msgid "Schedule"
 msgstr "Programmation"
 
-#: templates/base.html:79 templates/register.html:63
+#: templates/base.html:79
+#: templates/register.html:63
 msgid "Logistics"
 msgstr "Logistique et coûts"
 
@@ -477,7 +278,8 @@ msgstr "Logistique et coûts"
 msgid "Partner"
 msgstr "Commanditer"
 
-#: templates/base.html:81 templates/home.html:199
+#: templates/base.html:81
+#: templates/home.html:198
 msgid "Register"
 msgstr "S’inscrire"
 
@@ -490,59 +292,25 @@ msgid "All Rights Reserved, 2013"
 msgstr "Tous le droits réservés, 2013"
 
 #: templates/base.html:100
-msgid ""
-"website by <a href=\"http://rileyjshaw.com/\">Riley</a> and <a href="
-"\"https://github.com/uniphil\">Phil</a>"
-msgstr ""
-"un site web par <a href=\"http://rileyjshaw.com/\">Riley</a> et <a href="
-"\"https://github.com/uniphil\">Phil</a>"
+msgid "website by <a href=\"http://rileyjshaw.com/\">Riley</a> and <a href=\"https://github.com/uniphil\">Phil</a>"
+msgstr "un site web par <a href=\"http://rileyjshaw.com/\">Riley</a> et <a href=\"https://github.com/uniphil\">Phil</a>"
 
 #: templates/home.html:8
 #, python-format
-msgid ""
-"<span class=\"a-an\">a</span> <strong class=\"d after-a\">%(d1)s</strong>, "
-"<strong class=\"d\">%(d2)s</strong>, and <strong class=\"d\">%(d3)s</"
-"strong><br />walk into a room."
-msgstr ""
-"Un <strong class=\"d\">%(d1)s</strong>, <strong class=\"d\">%(d2)s</strong> "
-"et un <strong class=\"d\">%(d3)s</strong><br/>entrent dans un espace du "
-"congrès où l’on pense autrement."
+msgid "<span class=\"a-an\">a</span> <strong class=\"d after-a\">%(d1)s</strong>, <strong class=\"d\">%(d2)s</strong>, and <strong class=\"d\">%(d3)s</strong><br />walk into a room."
+msgstr "Un <strong class=\"d\">%(d1)s</strong>, <strong class=\"d\">%(d2)s</strong> et un <strong class=\"d\">%(d3)s</strong><br/>entrent dans un espace du congrès où l’on pense autrement."
 
 #: templates/home.html:9
 msgid "what happens next  is up to <strong>you</strong>"
 msgstr "Ce qui arrive ensuite dépend de <strong>vous</strong>."
 
 #: templates/home.html:14
-msgid ""
-"Poverty and inequality are not new, but more than ever, we see the levels of "
-"complexity and interconnections of these global challenges. With new "
-"abilities to understand how problems connect, we are called to share and "
-"collaborate in our work, to create solutions larger than single "
-"organizations."
-msgstr ""
-"La pauvreté et l’inégalité n’ont rien de nouveau, mais plus que jamais nous "
-"voyons les niveaux de complexité et d’interconnectivité de ces défis "
-"mondiaux. Avec de nouvelles habiletés servant à comprendre comment ces "
-"problèmes sont reliés, nous sommes appelés à partager et à collaborer dans "
-"notre travail et à créer des solutions plus grandes que des organisations "
-"seules."
+msgid "Poverty and inequality are not new, but more than ever, we see the levels of complexity and interconnections of these global challenges. With new abilities to understand how problems connect, we are called to share and collaborate in our work, to create solutions larger than single organizations."
+msgstr "La pauvreté et l’inégalité n’ont rien de nouveau, mais plus que jamais nous voyons les niveaux de complexité et d’interconnectivité de ces défis mondiaux. Avec de nouvelles habiletés servant à comprendre comment ces problèmes sont reliés, nous sommes appelés à partager et à collaborer dans notre travail et à créer des solutions plus grandes que des organisations seules."
 
 #: templates/home.html:15
-msgid ""
-"Engineers Without Borders (EWB) Canada works to <b class=\"l\">develop "
-"leaders</b>, <b class=\"e\">invest in entrepreneurs</b>, and <b class=\"p"
-"\">partner with individuals and organizations</b> to tackle these global "
-"challenges. Using our work and experience in these three approaches as the "
-"foundation of this conference, <strong>we are hosting the opportunity to "
-"learn and connect <em>together</em></strong>, with the goal of improving our "
-"collective efforts for global development."
-msgstr ""
-"Ingénieurs sans frontières (ISF) Canada travaille à développer des leaders, "
-"investit dans des entrepreneurs et bâtit des partenariats avec des individus "
-"et des organisations afin de s’attaquer à ces défis mondiaux. En utilisant "
-"notre travail et notre expérience dans ces trois approches comme base de ce "
-"congrès, nous offrons l’opportunité d’apprendre et de connecter ensemble, "
-"avec le but d’améliorer nos efforts collectifs pour un développement mondial."
+msgid "Engineers Without Borders (EWB) Canada works to <b class=\"l\">develop leaders</b>, <b class=\"e\">invest in entrepreneurs</b>, and <b class=\"p\">partner with individuals and organizations</b> to tackle these global challenges. Using our work and experience in these three approaches as the foundation of this conference, <strong>we are hosting the opportunity to learn and connect <em>together</em></strong>, with the goal of improving our collective efforts for global development."
+msgstr "Ingénieurs sans frontières (ISF) Canada travaille à développer des leaders, investit dans des entrepreneurs et bâtit des partenariats avec des individus et des organisations afin de s’attaquer à ces défis mondiaux. En utilisant notre travail et notre expérience dans ces trois approches comme base de ce congrès, nous offrons l’opportunité d’apprendre et de connecter ensemble, avec le but d’améliorer nos efforts collectifs pour un développement mondial."
 
 #: templates/home.html:17
 msgid "Professional Coach"
@@ -553,7 +321,7 @@ msgid "Renewable Energy Start Up"
 msgstr "créateur d’énergie renouvelable"
 
 #: templates/home.html:17
-msgid "Managment Consultant"
+msgid "Management Consultant"
 msgstr "Consultant en gestion"
 
 #: templates/home.html:17
@@ -704,36 +472,26 @@ msgstr "Conférenciers invités"
 msgid "Business for Good"
 msgstr ""
 
-#: templates/home.html:40 templates/home.html:52 templates/home.html:63
-#: templates/home.html:75 templates/home.html:88 templates/home.html:101
-#: templates/home.html:112 templates/home.html:122 templates/home.html:134
-#: templates/home.html:145 templates/home.html:157 templates/home.html:167
+#: templates/home.html:40
+#: templates/home.html:52
+#: templates/home.html:63
+#: templates/home.html:75
+#: templates/home.html:88
+#: templates/home.html:101
+#: templates/home.html:112
+#: templates/home.html:122
+#: templates/home.html:134
+#: templates/home.html:145
+#: templates/home.html:156
+#: templates/home.html:166
 msgid "Read bio &raquo;"
 msgstr ""
 
 #: templates/home.html:43
 msgid ""
-"<p>Todd works with renewable energy, sustainable growth and energy "
-"efficiency companies, as well as companies using the internet and “for-"
-"benefit” models to ensure global, long-term, social, environmental and "
-"economic well-being.</p>\n"
-"          <p>For 25 years, Todd has practiced at Jones Day, a global law "
-"firm with more than 2,400 lawyers, including more than 400 in Europe and 200 "
-"in Asia, located in centers of business and finance throughout the world. "
-"Todd founded Jones Day’s Northern California presence in 2000 by opening its "
-"Silicon Valley office, and today heads the Firm’s Energy Practice where he "
-"leads its renewable energy and sustainability focus. Todd serves or has "
-"served as regular outside counsel for public companies and start-ups alike, "
-"as well as counsel for venture capital funds, private equity funds, and "
-"investment bankers, including companies such as Embrace Technologies, "
-"Network for Good, and SunPower Corporation. Todd’s social entrepreurship and "
-"impact investing leadership dates back to 2003, long before mainstream use "
-"of the terms, and over the past decade, he has counseled, advised and "
-"represented dozens of organizations seeking to alleviate some of the world’s "
-"most challenging problems, in some of the world’s hardest places.</p>\n"
-"          <p>He tweets <a href=\"https://twitter.com/rtjohnson\">@rtjohnson</"
-"a> and blogs at <a href=\"http://www.BusinessForGood.co\">BusinessForGood."
-"co</a>.</p>"
+"<p>Todd works with renewable energy, sustainable growth and energy efficiency companies, as well as companies using the internet and “for-benefit” models to ensure global, long-term, social, environmental and economic well-being.</p>\n"
+"          <p>For 25 years, Todd has practiced at Jones Day, a global law firm with more than 2,400 lawyers, including more than 400 in Europe and 200 in Asia, located in centers of business and finance throughout the world. Todd founded Jones Day’s Northern California presence in 2000 by opening its Silicon Valley office, and today heads the Firm’s Energy Practice where he leads its renewable energy and sustainability focus. Todd serves or has served as regular outside counsel for public companies and start-ups alike, as well as counsel for venture capital funds, private equity funds, and investment bankers, including companies such as Embrace Technologies, Network for Good, and SunPower Corporation. Todd’s social entrepreurship and impact investing leadership dates back to 2003, long before mainstream use of the terms, and over the past decade, he has counseled, advised and represented dozens of organizations seeking to alleviate some of the world’s most challenging problems, in some of the world’s hardest places.</p>\n"
+"          <p>He tweets <a href=\"https://twitter.com/rtjohnson\">@rtjohnson</a> and blogs at <a href=\"http://www.BusinessForGood.co\">BusinessForGood.co</a>.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:52
@@ -742,25 +500,8 @@ msgstr ""
 
 #: templates/home.html:55
 msgid ""
-"<p>James Alexander Longwe works as an Executive Director for Participatory "
-"Development Initiatives (PDI): a local non-governmental organization working "
-"in Water and Sanitation sector in Malawi. He is the current Board of "
-"Trustees Chairman for the Water and Sanitation venture in Malawi. James "
-"qualified as a Public Health Assistant in 1989, and joined the Ministry of "
-"Health and Population where he worked for six years. In 1995, he joined "
-"Concern Universal where he worked as a Community Mobilization Officer before "
-"being promoted to work as a Project Manager after undergoing a post-graduate "
-"Diploma Course in Water Supply and Sanitation Development in Harare with The "
-"Institute of Water Supply and Sanitation Development in conjunction with the "
-"Engineering Department of the University of Zimbabwe. In 2002, James joined "
-"WaterAid in Malawi, where he worked as a Programme Officer responsible for "
-"Partner Capacity Building and Support.</p>\n"
-"          <p>As a leader, his aspiration is to facilitate the transformation "
-"of the underprivileged communities to fully realize their development "
-"potential with the minimum support from government and non-governmental "
-"organizations. This can only be realized by forming coalitions between "
-"different stakeholders: donors, local and international non-state actors, "
-"governments, and beneficiaries themselves.</p>"
+"<p>James Alexander Longwe works as an Executive Director for Participatory Development Initiatives (PDI): a local non-governmental organization working in Water and Sanitation sector in Malawi. He is the current Board of Trustees Chairman for the Water and Sanitation venture in Malawi. James qualified as a Public Health Assistant in 1989, and joined the Ministry of Health and Population where he worked for six years. In 1995, he joined Concern Universal where he worked as a Community Mobilization Officer before being promoted to work as a Project Manager after undergoing a post-graduate Diploma Course in Water Supply and Sanitation Development in Harare with The Institute of Water Supply and Sanitation Development in conjunction with the Engineering Department of the University of Zimbabwe. In 2002, James joined WaterAid in Malawi, where he worked as a Programme Officer responsible for Partner Capacity Building and Support.</p>\n"
+"          <p>As a leader, his aspiration is to facilitate the transformation of the underprivileged communities to fully realize their development potential with the minimum support from government and non-governmental organizations. This can only be realized by forming coalitions between different stakeholders: donors, local and international non-state actors, governments, and beneficiaries themselves.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:63
@@ -769,61 +510,17 @@ msgstr ""
 
 #: templates/home.html:66
 msgid ""
-"<p>Before launching Fail Forward, Ashley worked in Cairo with the United "
-"Nations Environment Programme and as a management consultant in Vancouver, "
-"Canada. In both lines of work, Ashley saw a fear of failure inhibit "
-"innovation, adaptation, and general growth. In response, she launched both "
-"AdmittingFailure.com and the consulting firm, Fail Forward, to spark a shift "
-"in how civil society perceives and talks about failure, and to help "
-"organizations learn, innovate and build resilience.</p>\n"
-"          <p>Ashley has spent the past three years working with a range of "
-"organizations from donors and foundations to not-for-profits and private "
-"sector companies to use failure as a learning tool and culture driver to "
-"support and foster innovation. She is well known for building the "
-"Organizational Learning Team at Engineers Without Borders Canada, and "
-"continuing to lead the development of their annual Failure Report.</p>\n"
-"          <p>Her work on failure has received coverage in a wide range of "
-"media and news outlets, including the  Stanford Social Innovation Review, "
-"The Guardian, Harvard University’s Hauser Center for NonProfit "
-"Organizations, TED talks, BBC World, The New York Times , The Wall Street "
-"Journal, The Globe and Mail and, most recently in interview with Arlene "
-"Dickinson on CBC.  Ashley was also the 2013 recipient of the prestigious "
-"Harvard Business Review and McKinsey Innovating Innovation Award.</p>"
+"<p>Before launching Fail Forward, Ashley worked in Cairo with the United Nations Environment Programme and as a management consultant in Vancouver, Canada. In both lines of work, Ashley saw a fear of failure inhibit innovation, adaptation, and general growth. In response, she launched both AdmittingFailure.com and the consulting firm, Fail Forward, to spark a shift in how civil society perceives and talks about failure, and to help organizations learn, innovate and build resilience.</p>\n"
+"          <p>Ashley has spent the past three years working with a range of organizations from donors and foundations to not-for-profits and private sector companies to use failure as a learning tool and culture driver to support and foster innovation. She is well known for building the Organizational Learning Team at Engineers Without Borders Canada, and continuing to lead the development of their annual Failure Report.</p>\n"
+"          <p>Her work on failure has received coverage in a wide range of media and news outlets, including the  Stanford Social Innovation Review, The Guardian, Harvard University’s Hauser Center for NonProfit Organizations, TED talks, BBC World, The New York Times , The Wall Street Journal, The Globe and Mail and, most recently in interview with Arlene Dickinson on CBC.  Ashley was also the 2013 recipient of the prestigious Harvard Business Review and McKinsey Innovating Innovation Award.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:78
 msgid ""
-"<p>What does it mean to be the CEO of a movement? For George Roter, it meant "
-"dropping out of his Master’s program and running up $30,000 in credit card "
-"debt to fund the launch of Engineers Without Borders Canada (EWB) – that "
-"turned out to be a good decision. As EWB’s co-founders, George and friend/"
-"colleague Parker Mitchell stewarded the organization from an idea scribbled "
-"on a napkin to global influence with 3,000 active members, 50,000 "
-"supporters, 37 chapters in Canada and change ventures in Malawi, Ghana, "
-"Uganda, Liberia, and Zambia.</p>\n"
-"          <p>George is now the sole CEO of an organization with volunteers "
-"and staff that have been embedded in more than 150 African businesses, "
-"governments and organizations. They drive EWB’s change ventures, working to "
-"help local leaders and entrepreneurs create bottom-up, disruptive "
-"innovations that address systemic causes of poverty. EWB is also a ‘torch’ "
-"for engineers and social change in Canada. George and Parker believed that "
-"the engineering profession had a greater role to play in society, and that "
-"EWB could lead a movement of socially-minded engineers. EWB’s Canadian "
-"change ventures include Canada’s largest grassroots advocacy network on "
-"international issues and partnerships to change undergraduate curriculum for "
-"20,000 students, transforming them into Global Engineers.</p>\n"
-"          <p>Through EWB, George inspires an ever-growing network of change "
-"leaders who are dedicated to making disruptive, positive change. He was "
-"awarded the Young Leaders Award by the Public Policy Forum (2007), named as "
-"one of Canada’s Top 40 Under 40 (2005) and awarded the prestigious Action "
-"Canada Fellowship (2004) on public policy. He’s was also recognized by Time "
-"magazine as one of Canada’s next generation of social leaders (2001).</p>\n"
-"          <p>George holds a Bachelor of Applied Science from the University "
-"of Waterloo (1999), a Bachelor of Applied Studies (Honorary) from Seneca "
-"College (2009) and a Doctorate of Applied Science (Honorary) from Queen’s "
-"University. When he’s not out trying to change the world, he’s relaxing at "
-"home or canoeing with his wife Sari and his golden retriever Coel. And he "
-"still doesn’t have his Master’s.</p>"
+"<p>What does it mean to be the CEO of a movement? For George Roter, it meant dropping out of his Master’s program and running up $30,000 in credit card debt to fund the launch of Engineers Without Borders Canada (EWB) – that turned out to be a good decision. As EWB’s co-founders, George and friend/colleague Parker Mitchell stewarded the organization from an idea scribbled on a napkin to global influence with 3,000 active members, 50,000 supporters, 37 chapters in Canada and change ventures in Malawi, Ghana, Uganda, Liberia, and Zambia.</p>\n"
+"          <p>George is now the sole CEO of an organization with volunteers and staff that have been embedded in more than 150 African businesses, governments and organizations. They drive EWB’s change ventures, working to help local leaders and entrepreneurs create bottom-up, disruptive innovations that address systemic causes of poverty. EWB is also a ‘torch’ for engineers and social change in Canada. George and Parker believed that the engineering profession had a greater role to play in society, and that EWB could lead a movement of socially-minded engineers. EWB’s Canadian change ventures include Canada’s largest grassroots advocacy network on international issues and partnerships to change undergraduate curriculum for 20,000 students, transforming them into Global Engineers.</p>\n"
+"          <p>Through EWB, George inspires an ever-growing network of change leaders who are dedicated to making disruptive, positive change. He was awarded the Young Leaders Award by the Public Policy Forum (2007), named as one of Canada’s Top 40 Under 40 (2005) and awarded the prestigious Action Canada Fellowship (2004) on public policy. He’s was also recognized by Time magazine as one of Canada’s next generation of social leaders (2001).</p>\n"
+"          <p>George holds a Bachelor of Applied Science from the University of Waterloo (1999), a Bachelor of Applied Studies (Honorary) from Seneca College (2009) and a Doctorate of Applied Science (Honorary) from Queen’s University. When he’s not out trying to change the world, he’s relaxing at home or canoeing with his wife Sari and his golden retriever Coel. And he still doesn’t have his Master’s.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:88
@@ -832,31 +529,10 @@ msgstr "La fondation Stephen Lewis"
 
 #: templates/home.html:91
 msgid ""
-"<p>No matter what the issue or how overwhelming the odds, Ilana Landsberg-"
-"Lewis passionately believes that individuals can&mdash;and do&mdash;make a "
-"real difference.</p>\n"
-"          <p>Ilana is a labour and human rights lawyer, and a deeply "
-"committed advocate for the rights of women and children. She spent eight "
-"years at the United Nations, with the UN Development Fund for Women "
-"(UNIFEM), where she worked as the CEDAW (Convention to Eliminate All Forms "
-"of Discrimination Against Women) Advisor. Ilana was also instrumental in "
-"bringing into existence and managing UNIFEM’s Trust Fund on Violence against "
-"Women, which funds grassroots women’s groups in developing countries.</p>\n"
-"          <p>In 2003 &mdash; at her kitchen table alongside her father, "
-"Stephen Lewis &mdash; Ilana founded the Stephen Lewis Foundation to work "
-"directly with grassroots projects in sub-Saharan Africa in their struggle to "
-"turn the tide of AIDS on the continent. In just 10 years, the Foundation has "
-"disbursed over $72,000,000 in programme spending to over 700 initiatives, "
-"partnering with 300 community-based organizations in the 15 African "
-"countries hardest hit by the pandemic &mdash; including the over $17,000,000 "
-"for grandmothers in Africa and the orphaned children in their care; money "
-"raised by thousands of grandmothers across Canada who are part of the "
-"Foundation's \"Grandmothers to Grandmothers Campaign\".</p>\n"
-"          <p>In 2009, Ilana was the recipient of the YWCA Women of "
-"Distinction award for International Development, and in 2012 was named one "
-"of the Top 25 Women of Influence in Canada.Ilana has two sons, Zev and Yoav "
-"for grandmothers in Africa and the orphaned children in their care, and is "
-"married to Lorraine Segato, a musician and activist.</p>"
+"<p>No matter what the issue or how overwhelming the odds, Ilana Landsberg-Lewis passionately believes that individuals can&mdash;and do&mdash;make a real difference.</p>\n"
+"          <p>Ilana is a labour and human rights lawyer, and a deeply committed advocate for the rights of women and children. She spent eight years at the United Nations, with the UN Development Fund for Women (UNIFEM), where she worked as the CEDAW (Convention to Eliminate All Forms of Discrimination Against Women) Advisor. Ilana was also instrumental in bringing into existence and managing UNIFEM’s Trust Fund on Violence against Women, which funds grassroots women’s groups in developing countries.</p>\n"
+"          <p>In 2003 &mdash; at her kitchen table alongside her father, Stephen Lewis &mdash; Ilana founded the Stephen Lewis Foundation to work directly with grassroots projects in sub-Saharan Africa in their struggle to turn the tide of AIDS on the continent. In just 10 years, the Foundation has disbursed over $72,000,000 in programme spending to over 700 initiatives, partnering with 300 community-based organizations in the 15 African countries hardest hit by the pandemic &mdash; including the over $17,000,000 for grandmothers in Africa and the orphaned children in their care; money raised by thousands of grandmothers across Canada who are part of the Foundation's \"Grandmothers to Grandmothers Campaign\".</p>\n"
+"          <p>In 2009, Ilana was the recipient of the YWCA Women of Distinction award for International Development, and in 2012 was named one of the Top 25 Women of Influence in Canada.Ilana has two sons, Zev and Yoav for grandmothers in Africa and the orphaned children in their care, and is married to Lorraine Segato, a musician and activist.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:101
@@ -865,17 +541,8 @@ msgstr ""
 
 #: templates/home.html:104
 msgid ""
-"<p>Peter was born and bred in Ghana, and is proud of it! With a background "
-"in Development Studies, he has always had a burning desire to be a "
-"successful entrepreneur. He is Co-Founder and Co-CEO of AfriLEAD Institute, "
-"the largest youth leadership and social entrepreneurship development "
-"organization in Ghana.</p>\n"
-"          <p>AfriLEAD is a non-profit that works to develop transformational "
-"young African leaders and entrepreneurs across Ghana and Burkina Faso. "
-"Peter's vision is to establish AfriLEAD as a recognized continental hub for "
-"leadership and social change entrepreneurship education, research, and "
-"practical opportunities for the next generation of African change makers to "
-"transform their communities.</p>"
+"<p>Peter was born and bred in Ghana, and is proud of it! With a background in Development Studies, he has always had a burning desire to be a successful entrepreneur. He is Co-Founder and Co-CEO of AfriLEAD Institute, the largest youth leadership and social entrepreneurship development organization in Ghana.</p>\n"
+"          <p>AfriLEAD is a non-profit that works to develop transformational young African leaders and entrepreneurs across Ghana and Burkina Faso. Peter's vision is to establish AfriLEAD as a recognized continental hub for leadership and social change entrepreneurship education, research, and practical opportunities for the next generation of African change makers to transform their communities.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:112
@@ -883,24 +550,7 @@ msgid "Tamaiko Enterprise"
 msgstr ""
 
 #: templates/home.html:115
-msgid ""
-"<p>Tamaiko Enterprise is a family run business with interests in agriculture "
-"and education. The business employs seven family members and some 60 local "
-"employees. The enterprise has grown from being a two-acre plant nursery to a "
-"six-acre plant nursery, 250-acre mango plantation and a processing unit for "
-"fruits and vegetables. Tamaiko Enterprise works to include the community in "
-"decision making by employing people from the communities in which they work, "
-"especially women. Faiza, the youngest family member employed by Tamaiko "
-"Enterprise, has been working in the family business since she was 12. Over "
-"the past two years, Faiza has grown the business into one of the biggest "
-"nursery plant suppliers in the region. As a result, she is now the vice-"
-"president of the Mango Growers Association and a delegate to represent a "
-"group of producers on the Technical Review Committee that was set up by the "
-"Ministry of Trade and Industry to encourage development of agricultural "
-"production. As she has demonstrated good leadership and competence in the "
-"management of business staff, Faiza has recently been nominated to join a "
-"delegation from the Ghanaian Export Development and Agricultural Investment "
-"Fund to Thailand and China.</p>"
+msgid "<p>Tamaiko Enterprise is a family run business with interests in agriculture and education. The business employs seven family members and some 60 local employees. The enterprise has grown from being a two-acre plant nursery to a six-acre plant nursery, 250-acre mango plantation and a processing unit for fruits and vegetables. Tamaiko Enterprise works to include the community in decision making by employing people from the communities in which they work, especially women. Faiza, the youngest family member employed by Tamaiko Enterprise, has been working in the family business since she was 12. Over the past two years, Faiza has grown the business into one of the biggest nursery plant suppliers in the region. As a result, she is now the vice-president of the Mango Growers Association and a delegate to represent a group of producers on the Technical Review Committee that was set up by the Ministry of Trade and Industry to encourage development of agricultural production. As she has demonstrated good leadership and competence in the management of business staff, Faiza has recently been nominated to join a delegation from the Ghanaian Export Development and Agricultural Investment Fund to Thailand and China.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:122
@@ -909,27 +559,9 @@ msgstr ""
 
 #: templates/home.html:125
 msgid ""
-"<p>Co-founder, President and Chair of the Board of Tostan Canada, Rebekah "
-"Steele supports social transformation for human rights in Africa. Tostan’s "
-"powerful model of development done differently brings about wide-spread, "
-"historic change. By engaging thousands of communities in a three-year non-"
-"formal education program, Tostan spurs meaningful, sustainable impact in "
-"education, health, environment, governance, economic growth and more.</p>\n"
-"          <p>As a Senior Fellow providing Diversity and Inclusion (D&amp;I) "
-"expertise for The Conference Board, Inc., Rebekah is director, faculty and "
-"coach for D&amp;I Academies in North America and Europe, writes for The "
-"Conference Board Human Capital Exchange™, and supports a broad spectrum of "
-"Conference Board D&I initiatives.</p>\n"
-"          <p>When leaders are not achieving results that matter in the "
-"things they care about most, Rebekah Steele | Diversity Breakthroughs helps "
-"them design new, inclusive ways of working with a broad mix of people to "
-"enable the results they must achieve. Working across 6 continents, Rebekah "
-"designs system-wide strategies, facilitates innovation labs, catalyzes "
-"systemic transformations, speaks, and more to advance meaningful impacts "
-"from the global practice of D&amp;I. Her work builds on 2 decades of "
-"launching and leading global and local D&amp;I strategies in numerous "
-"organizations including Amoco, AlliedSignal, Honeywell, and BlackBerry. "
-"Learn more at www.rebekahsteele.com.</p>"
+"<p>Co-founder, President and Chair of the Board of Tostan Canada, Rebekah Steele supports social transformation for human rights in Africa. Tostan’s powerful model of development done differently brings about wide-spread, historic change. By engaging thousands of communities in a three-year non-formal education program, Tostan spurs meaningful, sustainable impact in education, health, environment, governance, economic growth and more.</p>\n"
+"          <p>As a Senior Fellow providing Diversity and Inclusion (D&amp;I) expertise for The Conference Board, Inc., Rebekah is director, faculty and coach for D&amp;I Academies in North America and Europe, writes for The Conference Board Human Capital Exchange™, and supports a broad spectrum of Conference Board D&I initiatives.</p>\n"
+"          <p>When leaders are not achieving results that matter in the things they care about most, Rebekah Steele | Diversity Breakthroughs helps them design new, inclusive ways of working with a broad mix of people to enable the results they must achieve. Working across 6 continents, Rebekah designs system-wide strategies, facilitates innovation labs, catalyzes systemic transformations, speaks, and more to advance meaningful impacts from the global practice of D&amp;I. Her work builds on 2 decades of launching and leading global and local D&amp;I strategies in numerous organizations including Amoco, AlliedSignal, Honeywell, and BlackBerry. Learn more at www.rebekahsteele.com.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:134
@@ -938,19 +570,8 @@ msgstr ""
 
 #: templates/home.html:137
 msgid ""
-"<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers Without "
-"Borders Canada.</p>\n"
-"          <p>Jeff is the founder and venture leader for Mining Shared Value, "
-"a venture working to improve the development impacts of Canadian mining "
-"investment in developing countries. Before this, Jeff was the founder and "
-"first executive director of Fair Trade Vancouver. Fair Trade Vancouver led "
-"the charge in making Vancouver the first major city in Canada to achieve "
-"Fair Trade Town status, and its media-attracting work became the model for "
-"city-based fair trade activism in Canada. Jeff has been researching and "
-"working on international trade issues since his undergraduate degree in "
-"political science at Simon Fraser University. In addition to his bachelor’s "
-"degree, Jeff holds a master’s degree in international development from the "
-"London School of Economics in the United Kingdom.</p>"
+"<p>Jeff Geipel &mdash; Mining Shared Value Venture Leader, Engineers Without Borders Canada.</p>\n"
+"          <p>Jeff is the founder and venture leader for Mining Shared Value, a venture working to improve the development impacts of Canadian mining investment in developing countries. Before this, Jeff was the founder and first executive director of Fair Trade Vancouver. Fair Trade Vancouver led the charge in making Vancouver the first major city in Canada to achieve Fair Trade Town status, and its media-attracting work became the model for city-based fair trade activism in Canada. Jeff has been researching and working on international trade issues since his undergraduate degree in political science at Simon Fraser University. In addition to his bachelor’s degree, Jeff holds a master’s degree in international development from the London School of Economics in the United Kingdom.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
 #: templates/home.html:145
@@ -959,173 +580,158 @@ msgstr "La fondation Grameen"
 
 #: templates/home.html:148
 msgid ""
-"<p>Steve Wright has worked over 20 years at the intersection of technology "
-"and education.</p>\n"
-"          <p>At Grameen Foundation, Steve is the VP of Poverty Tools and "
-"Insights which includes two teams. The first is the Social Performance "
-"Management Center, which provides tools and resources on social performance "
-"– specifically the Progress Out of Poverty Index® (PPI®). The second is "
-"Inclusive Business Tools which develops and provides TaroWorks: a mobile-"
-"enabled, cloud-based information management system designed to improve "
-"efficacy and efficiency of those who serve the poor. Before joining Grameen "
-"Foundation in August 2010, Steve was a high school teacher and administrator "
-"for ten years, followed by ten years as the Director of Innovation and "
-"Technology at Salesforce.com Foundation. His foundation work with social "
-"investors and social enterprises established him as a thought leader in the "
-"social metrics space. Steve is a contributing author of the practical "
-"handbook “Nonprofit Management 101,” and is a frequent speaker and blogger "
-"on social enterprise, social investment, and social sector.</p>"
+"<p>Steve Wright has worked over 20 years at the intersection of technology and education.</p>\n"
+"          <p>At Grameen Foundation, Steve is the VP of Poverty Tools and Insights which includes two teams. The first is the Social Performance Management Center, which provides tools and resources on social performance – specifically the Progress Out of Poverty Index® (PPI®). The second is Inclusive Business Tools which develops and provides TaroWorks: a mobile-enabled, cloud-based information management system designed to improve efficacy and efficiency of those who serve the poor. Before joining Grameen Foundation in August 2010, Steve was a high school teacher and administrator for ten years, followed by ten years as the Director of Innovation and Technology at Salesforce.com Foundation. His foundation work with social investors and social enterprises established him as a thought leader in the social metrics space. Steve is a contributing author of the practical handbook “Nonprofit Management 101,” and is a frequent speaker and blogger on social enterprise, social investment, and social sector.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:157
-msgid "Newton Consulting"
+#: templates/home.html:156
+msgid "Newton North America"
 msgstr ""
 
-#: templates/home.html:160
-msgid ""
-"<p>Alan Rogers is an Associate Director at Newton North America and is based "
-"in Toronto. He has been with the company for close to a decade and is "
-"committed to transforming businesses through operational improvement and "
-"guaranteed bottom-line results. He is a strong believer in the value that an "
-"engineering skillset brings to any process; whether it’s shop-floor "
-"operations, boardroom decision making, or international development.</p>"
+#: templates/home.html:159
+msgid "<p>Alan Rogers is an Associate Director at Newton North America and is based in Toronto. He has been with the company for close to a decade and is committed to transforming businesses through operational improvement and guaranteed bottom-line results. He is a strong believer in the value that an engineering skillset brings to any process; whether it’s shop-floor operations, boardroom decision making, or international development.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:167
+#: templates/home.html:166
 msgid "Mulago Foundation"
 msgstr ""
 
-#: templates/home.html:170
+#: templates/home.html:169
 msgid ""
-"<p>Sara Johnson works at the Mulago Foundation -- a small foundation based "
-"in San Francisco that supports innovations targeting the poorest populations "
-"throughout the world. The foundation's three areas of focus are livelihoods "
-"(specifically as it relates to small-holder agriculture), environmental "
-"conservation, and health, and only funds organizations in developing "
-"countries. At the foundation, Sara manages the Rainer Arnhold Fellows "
-"Program -- a two-year fellowship that cultivates early-stage social "
-"entrepreneurs focused on high-impact solutions to poverty. She also manages "
-"Big Bang Philanthropy, a donor collaborative comprised of twelve foundations "
-"who all commit at least $1 million dollars a year to fund poverty "
-"alleviation innovations. The group shares leads, due diligence, and best "
-"practices, and tries to make the process simpler for the organizations on "
-"the ground.</p>\n"
-"          <p>Prior to working at the Mulago Foundation, Sara was an "
-"Associate at Village Capital, where she helped with their Atlanta program, "
-"and supported new initiatives like the Points of Light Civic Accelerator and "
-"the Clarkston refugee accelerator. In 2013, she transitioned to a new "
-"position at Emory's Goizueta Business School, where she worked as a Database "
-"Developer and Analyst to create a database that captures information from "
-"early-stage social enterprises.</p>\n"
-"          <p>Sara graduated from the University of San Diego (USD) with a B."
-"A. in Political Science and minors in Psychology and Peace &amp; Justice "
-"Studies in 2011, and a graduate degree (M.A.) from USD in Peace &amp; "
-"Justice Studies with a focus on economic development in 2012.</p>"
+"<p>Sara Johnson works at the Mulago Foundation -- a small foundation based in San Francisco that supports innovations targeting the poorest populations throughout the world. The foundation's three areas of focus are livelihoods (specifically as it relates to small-holder agriculture), environmental conservation, and health, and only funds organizations in developing countries. At the foundation, Sara manages the Rainer Arnhold Fellows Program -- a two-year fellowship that cultivates early-stage social entrepreneurs focused on high-impact solutions to poverty. She also manages Big Bang Philanthropy, a donor collaborative comprised of twelve foundations who all commit at least $1 million dollars a year to fund poverty alleviation innovations. The group shares leads, due diligence, and best practices, and tries to make the process simpler for the organizations on the ground.</p>\n"
+"          <p>Prior to working at the Mulago Foundation, Sara was an Associate at Village Capital, where she helped with their Atlanta program, and supported new initiatives like the Points of Light Civic Accelerator and the Clarkston refugee accelerator. In 2013, she transitioned to a new position at Emory's Goizueta Business School, where she worked as a Database Developer and Analyst to create a database that captures information from early-stage social enterprises.</p>\n"
+"          <p>Sara graduated from the University of San Diego (USD) with a B.A. in Political Science and minors in Psychology and Peace &amp; Justice Studies in 2011, and a graduate degree (M.A.) from USD in Peace &amp; Justice Studies with a focus on economic development in 2012.</p>"
 msgstr "Disponible en anglais seulement. Désolé!"
 
-#: templates/home.html:180
+#: templates/home.html:179
 msgid "Gear"
 msgstr "Équipement"
 
-#: templates/home.html:182
-msgid ""
-"Dive in to emerging theories & new strategies as both a delegate and a "
-"presenter. Participate in relevant, participant-driven explorations."
-msgstr ""
-"Plongez dans les théories émergentes et les nouvelles stratégies tant comme "
-"délégué que comme présentateur. Participez à des explorations pertinentes et "
-"dirigées par les participants."
+#: templates/home.html:181
+msgid "Dive in to emerging theories & new strategies as both a delegate and a presenter. Participate in relevant, participant-driven explorations."
+msgstr "Plongez dans les théories émergentes et les nouvelles stratégies tant comme délégué que comme présentateur. Participez à des explorations pertinentes et dirigées par les participants."
 
-#: templates/home.html:185
+#: templates/home.html:184
 msgid "Lightbulb"
 msgstr "Ampoule"
 
-#: templates/home.html:187
-msgid ""
-"Bring your ideas, or build on context and conversations to pitch a new one. "
-"Promote them, receive feedback, or find resources."
-msgstr ""
-"Apportez vos idées ou servez-vous du contexte et des conversations pour en "
-"lancer une nouvelle. Promouvez-les, recevez de la rétroaction ou trouvez des "
-"ressources."
+#: templates/home.html:186
+msgid "Bring your ideas, or build on context and conversations to pitch a new one. Promote them, receive feedback, or find resources."
+msgstr "Apportez vos idées ou servez-vous du contexte et des conversations pour en lancer une nouvelle. Promouvez-les, recevez de la rétroaction ou trouvez des ressources."
 
-#: templates/home.html:190
+#: templates/home.html:189
 msgid "Handshake"
 msgstr "Poignée de main"
 
-#: templates/home.html:192
-msgid ""
-"Meet experts and up-and-comers, find clients and investors, foster new "
-"partnerships or explore existing coalition efforts."
-msgstr ""
-"Rencontrez des experts et des gens de la relève, trouvez des clients et des "
-"investisseurs, mettez de l’avant des partenariats ou explorez les efforts de "
-"coalition existants."
+#: templates/home.html:191
+msgid "Meet experts and up-and-comers, find clients and investors, foster new partnerships or explore existing coalition efforts."
+msgstr "Rencontrez des experts et des gens de la relève, trouvez des clients et des investisseurs, mettez de l’avant des partenariats ou explorez les efforts de coalition existants."
 
-#: templates/home.html:198
+#: templates/home.html:197
 msgid "Find out More"
 msgstr "En savoir plus"
 
-#: templates/home.html:203
-msgid ""
-"<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity of:"
-msgstr ""
-"<b class=\"rethink\">Pensons Autremont</b> 2014 est rendu possible grâce à "
-"la générosité de:"
+#: templates/home.html:202
+msgid "<b class=\"rethink\">RETHINK 2014</b> is made possible by the generosity of:"
+msgstr "<b class=\"rethink\">Pensons Autremont</b> 2014 est rendu possible grâce à la générosité de:"
 
-#: templates/home.html:204
+#: templates/home.html:203
 msgid "Lead"
 msgstr "Principal"
 
-#: templates/home.html:206
+#: templates/home.html:205
 msgid "Hatch Ltd"
 msgstr "Hatch"
 
-#: templates/home.html:208
+#: templates/home.html:207
 msgid "Gold"
 msgstr "Or"
 
-#: templates/home.html:210
+#: templates/home.html:209
 msgid "TransCanada Corporation"
 msgstr "TransCanada"
 
+#: templates/home.html:210
+msgid "Engineers Canada"
+msgstr ""
+
 #: templates/home.html:212
+msgid "Silver"
+msgstr ""
+
+#: templates/home.html:214
+msgid "Ryerson University"
+msgstr ""
+
+#: templates/home.html:216
 msgid "Bronze"
 msgstr "Bronze"
 
-#: templates/home.html:214
+#: templates/home.html:218
 msgid "Sherritt International"
 msgstr "Sherritt"
 
-#: templates/home.html:215
+#: templates/home.html:219
 msgid "Pratt &amp; Whitney Canada"
 msgstr "Pratt &amp; Whitney Canada"
 
-#: templates/home.html:216
+#: templates/home.html:220
 msgid "Enbridge"
 msgstr "Enbridge"
 
-#: templates/home.html:218
+#: templates/home.html:222
+msgid "University of Waterloo"
+msgstr ""
+
+#: templates/home.html:223
+msgid "General Electric"
+msgstr ""
+
+#: templates/home.html:225
 msgid "Contributor"
 msgstr "Contributeur"
 
-#: templates/home.html:220
+#: templates/home.html:227
 msgid "Northland Power"
 msgstr ""
 
-#: templates/home.html:221
+#: templates/home.html:228
+msgid "Digital Rapids"
+msgstr ""
+
+#: templates/home.html:229
+msgid "Kinross"
+msgstr ""
+
+#: templates/home.html:230
+msgid "Ethical Bean Coffee"
+msgstr ""
+
+#: templates/home.html:231
+msgid "TISED"
+msgstr ""
+
+#: templates/home.html:232
+msgid "Golder Associates"
+msgstr ""
+
+#: templates/home.html:233
 msgid "ICF"
 msgstr ""
 
-#: templates/home.html:224
+#: templates/home.html:234
+msgid "ECAMION"
+msgstr ""
+
+#: templates/home.html:237
 msgid "Partner Organizations"
 msgstr "Organisations partenaires"
 
-#: templates/home.html:225
+#: templates/home.html:238
 msgid "Engineers Without Borders is looking for more partners."
 msgstr "Ingénieurs sans frontières est à la recherche de plus de partenaires."
 
-#: templates/home.html:225
+#: templates/home.html:238
 msgid "Interested?"
 msgstr "Intéressés?"
 
@@ -1134,12 +740,8 @@ msgid "When?"
 msgstr "Quand?"
 
 #: templates/logistics.html:7
-msgid ""
-"<strong>Friday, January 10th</strong> to <strong>Sunday, January 12th, 2014</"
-"strong>."
-msgstr ""
-"<strong>Vendredi, 10 janvier</strong> au <strong>dimanche, 12 janvier 2014</"
-"strong>."
+msgid "<strong>Friday, January 10th</strong> to <strong>Sunday, January 12th, 2014</strong>."
+msgstr "<strong>Vendredi, 10 janvier</strong> au <strong>dimanche, 12 janvier 2014</strong>."
 
 #: templates/logistics.html:8
 msgid "Where?"
@@ -1162,70 +764,31 @@ msgid "The Travelodge Hotel"
 msgstr "L’hôtel Travelodge"
 
 #: templates/logistics.html:17
-msgid ""
-"A room block is reserved for conference delegates, and can be purchased at "
-"the time of registration. A <strong>free shuttle</strong> will run between "
-"this hotel and the venue through the day -- and it’s approximately a "
-"<strong>five minute</strong> ride."
-msgstr ""
-"Un ensemble de chambres est réservé pour les délégués de Pensons autrement "
-"et celles-ci peuvent être louées au moment de l’inscription. Une "
-"<strong>navette gratuite</strong> transportera les délégués entre l’hôtel et "
-"le lieu du congrès tout au long de la journée &mdash; un déplacement "
-"d’environ <strong>cinq minutes</strong>."
+msgid "A room block is reserved for conference delegates, and can be purchased at the time of registration. A <strong>free shuttle</strong> will run between this hotel and the venue through the day -- and it’s approximately a <strong>five minute</strong> ride."
+msgstr "Un ensemble de chambres est réservé pour les délégués de Pensons autrement et celles-ci peuvent être louées au moment de l’inscription. Une <strong>navette gratuite</strong> transportera les délégués entre l’hôtel et le lieu du congrès tout au long de la journée &mdash; un déplacement d’environ <strong>cinq minutes</strong>."
 
 #: templates/logistics.html:18
-msgid ""
-"Note that there are <strong>numerous alternative accommodations</strong> "
-"available in the immediate area, but that transportation will be the "
-"delegate’s responsibility in this case. Delegates staying in downtown "
-"Toronto will have access to a shuttle each morning and evening, which can be "
-"purchased at a cost-recovery rate at the time of registration."
-msgstr ""
-"Notez qu’il y aura <strong>bon nombre d’autres hébergements</strong> "
-"disponibles dans la région immédiate, mais que le transport, dans ce cas, "
-"sera de la responsabilité du délégué. Les délégués demeurant au centre-ville "
-"de Toronto auront accès à une navette tous les matins et tous les soirs, "
-"moyennant un coût payable lors de l’inscription."
+msgid "Note that there are <strong>numerous alternative accommodations</strong> available in the immediate area, but that transportation will be the delegate’s responsibility in this case. Delegates staying in downtown Toronto will have access to a shuttle each morning and evening, which can be purchased at a cost-recovery rate at the time of registration."
+msgstr "Notez qu’il y aura <strong>bon nombre d’autres hébergements</strong> disponibles dans la région immédiate, mais que le transport, dans ce cas, sera de la responsabilité du délégué. Les délégués demeurant au centre-ville de Toronto auront accès à une navette tous les matins et tous les soirs, moyennant un coût payable lors de l’inscription."
 
 #: templates/logistics.html:21
 msgid "Food"
 msgstr "Nourriture"
 
 #: templates/logistics.html:22
-msgid ""
-"Registration includes <strong>breakfast, lunch and dinner</strong> for all "
-"three days of Rethink, with the exception of dinner on Saturday night. At "
-"this time, delegates will be provided with transportation downtown for the "
-"opportunity to participate in a variety of events, including networking "
-"dinners with some special guests."
-msgstr ""
-"L’inscription comprend <strong>le déjeuner, le dîner et le souper</strong> "
-"pour les trois journées de Pensons autrement, à l’exception du souper du "
-"samedi soir. À ce moment, les délégués auront accès à une navette qui les "
-"emmènera au centre-ville où ils auront l’opportunité de participer à une "
-"variété d’événements, incluant des soupers de réseautage avec des invités "
-"spéciaux."
+msgid "Registration includes <strong>breakfast, lunch and dinner</strong> for all three days of Rethink, with the exception of dinner on Saturday night. At this time, delegates will be provided with transportation downtown for the opportunity to participate in a variety of events, including networking dinners with some special guests."
+msgstr "L’inscription comprend <strong>le déjeuner, le dîner et le souper</strong> pour les trois journées de Pensons autrement, à l’exception du souper du samedi soir. À ce moment, les délégués auront accès à une navette qui les emmènera au centre-ville où ils auront l’opportunité de participer à une variété d’événements, incluant des soupers de réseautage avec des invités spéciaux."
 
 #: templates/logistics.html:23
-msgid ""
-"We are proud to be serving <strong>locally-sourced</strong> and <strong>fair "
-"trade</strong> products where available throughout the event."
-msgstr ""
-"Nous sommes fiers de vous servir des <strong>produits locaux</strong> et "
-"<strong>équitables</strong> lorsque cela s’appliquera tout au long de "
-"l’événement."
+msgid "We are proud to be serving <strong>locally-sourced</strong> and <strong>fair trade</strong> products where available throughout the event."
+msgstr "Nous sommes fiers de vous servir des <strong>produits locaux</strong> et <strong>équitables</strong> lorsque cela s’appliquera tout au long de l’événement."
 
 #: templates/logistics.html:26
 msgid "How to Get There"
 msgstr "Comment vous rendre"
 
 #: templates/logistics.html:27
-msgid ""
-"Rethink 2014 will be held at the Toronto Congress Centre, 650 Dixon Road, "
-"Toronto, ON. Delegates will have the option to book accommodations through "
-"the registration process for the Travelodge Toronto Airport, 925 Dixon Road, "
-"Toronto, ON."
+msgid "Rethink 2014 will be held at the Toronto Congress Centre, 650 Dixon Road, Toronto, ON. Delegates will have the option to book accommodations through the registration process for the Travelodge Toronto Airport, 925 Dixon Road, Toronto, ON."
 msgstr ""
 
 #: templates/logistics.html:29
@@ -1233,25 +796,15 @@ msgid "From Toronto Pearson Airport"
 msgstr "À partir de l’aéroport Toronto Pearson"
 
 #: templates/logistics.html:30
-msgid ""
-"A free shuttle is available from the airport (YYZ) to Travelodge Toronto "
-"Airport. Please call the Travelodge at (416) 674-2222 to arrange your seat."
-msgstr ""
-"Une navette gratuite est disponible pour le déplacement de l’aéroport (YYZ) "
-"au Travelodge Toronto Airport. Veuillez contacter Travelodge par téléphone "
-"au (416) 674-2222 pour arranger votre déplacement."
+msgid "A free shuttle is available from the airport (YYZ) to Travelodge Toronto Airport. Please call the Travelodge at (416) 674-2222 to arrange your seat."
+msgstr "Une navette gratuite est disponible pour le déplacement de l’aéroport (YYZ) au Travelodge Toronto Airport. Veuillez contacter Travelodge par téléphone au (416) 674-2222 pour arranger votre déplacement."
 
 #: templates/logistics.html:32
 msgid "TTC"
 msgstr ""
 
 #: templates/logistics.html:33
-msgid ""
-"Subway; streetcars; buses. $3, ~1 hour. Take the Northbound Subway from "
-"Union (towards Downsview). Exit at Lawrence West Station (after about 20 "
-"minutes.) Take bus #58 (you do not need to pay again) and exit at Dixon Road "
-"at City View Drive to travel to the Congress Centre (3 minute walk.) Exit at "
-"Dixon Road at Carlingview Drive to travel to the Travelodge (1 minute walk.)"
+msgid "Subway; streetcars; buses. $3, ~1 hour. Take the Northbound Subway from Union (towards Downsview). Exit at Lawrence West Station (after about 20 minutes.) Take bus #58 (you do not need to pay again) and exit at Dixon Road at City View Drive to travel to the Congress Centre (3 minute walk.) Exit at Dixon Road at Carlingview Drive to travel to the Travelodge (1 minute walk.)"
 msgstr ""
 
 #: templates/logistics.html:35
@@ -1259,30 +812,15 @@ msgid "GO Transit"
 msgstr ""
 
 #: templates/logistics.html:36
-msgid ""
-"$5, ~20-30 minutes. Busses and trains run from Union Station to Etobicoke "
-"North and Malton Stations - both are a 5 minute cab ride to the venue. Take "
-"route 30, 31, 39, or 33 Kitchener (formerly Georgetown.) Information is also "
-"available at the <a href=\"http://www.ttc.ca/Trip_planner/\">TTC website</a> "
-"and the <a href=\"http://www.gotransit.com/public/en/schedules/google.aspx"
-"\">GO transit website</a>"
+msgid "$5, ~20-30 minutes. Busses and trains run from Union Station to Etobicoke North and Malton Stations - both are a 5 minute cab ride to the venue. Take route 30, 31, 39, or 33 Kitchener (formerly Georgetown.) Information is also available at the <a href=\"http://www.ttc.ca/Trip_planner/\">TTC website</a> and the <a href=\"http://www.gotransit.com/public/en/schedules/google.aspx\">GO transit website</a>"
 msgstr ""
 
 #: templates/logistics.html:37
-msgid ""
-"To ge to the Travelodge Hotel from Malton GO station, walk to Airport Road "
-"and Derry Road, take the TTC bus 58 eastbound. Get off at Carlingview Road. "
-"To go to TCC directly from Malton GO station, get off at Kelfield Street."
+msgid "To ge to the Travelodge Hotel from Malton GO station, walk to Airport Road and Derry Road, take the TTC bus 58 eastbound. Get off at Carlingview Road. To go to TCC directly from Malton GO station, get off at Kelfield Street."
 msgstr ""
 
 #: templates/logistics.html:38
-msgid ""
-"To get to the Travelodge Hotel from Etobicoke North Go station, walk to "
-"Martin Grove Road, take the TTC bus 45 southbound (take a transfer ticket "
-"from the driver) and get off at Dixon Road stop. From there, walk to the "
-"north east side of the Dixon road and get on the TTC bus 58 westbound and "
-"get off at Carlingview Road. To get to TCC, get off at Kelfield Street once "
-"on the 58 bus."
+msgid "To get to the Travelodge Hotel from Etobicoke North Go station, walk to Martin Grove Road, take the TTC bus 45 southbound (take a transfer ticket from the driver) and get off at Dixon Road stop. From there, walk to the north east side of the Dixon road and get on the TTC bus 58 westbound and get off at Carlingview Road. To get to TCC, get off at Kelfield Street once on the 58 bus."
 msgstr ""
 
 #: templates/logistics.html:40
@@ -1290,10 +828,7 @@ msgid "By Vehicle"
 msgstr "En voiture"
 
 #: templates/logistics.html:41
-msgid ""
-"The venue is located at 650 Dixon Road, Toronto in the North Building; the "
-"hotel is located at 925 Dixon Road. Parking is free at both locations (at "
-"the Travelodge, provided you are registered to stay there.)"
+msgid "The venue is located at 650 Dixon Road, Toronto in the North Building; the hotel is located at 925 Dixon Road. Parking is free at both locations (at the Travelodge, provided you are registered to stay there.)"
 msgstr ""
 
 #: templates/logistics.html:43
@@ -1301,51 +836,32 @@ msgid "By Taxi"
 msgstr "En taxi"
 
 #: templates/logistics.html:44
-msgid ""
-"A taxi estimated from Union Station will take about 25 minutes and will cost "
-"roughly $50. You can call Beck (416.751.5555) or Co-Op (416.504.2667)."
-msgstr ""
-"Un taxi à partir de la station Union prendra environ 25 minutes et coutera "
-"environ 50$. Vous pouvez appelez Beck (416.751.5555) ou Co-Op (416.504.2667)."
+msgid "A taxi estimated from Union Station will take about 25 minutes and will cost roughly $50. You can call Beck (416.751.5555) or Co-Op (416.504.2667)."
+msgstr "Un taxi à partir de la station Union prendra environ 25 minutes et coutera environ 50$. Vous pouvez appelez Beck (416.751.5555) ou Co-Op (416.504.2667)."
 
 #: templates/logistics.html:47
 #, python-format
-msgid ""
-"<strong>Please see our <a href=\"%(reg_link)s\">registration page</a> for "
-"pricing structure information.</strong>"
-msgstr ""
-"<strong>Veuillez consulter la <a href=\"%(reg_link)s\">page d’inscription</"
-"a> pour la structure des coûts.</strong>"
+msgid "<strong>Please see our <a href=\"%(reg_link)s\">registration page</a> for pricing structure information.</strong>"
+msgstr "<strong>Veuillez consulter la <a href=\"%(reg_link)s\">page d’inscription</a> pour la structure des coûts.</strong>"
 
 #: templates/partner.html:7
-msgid ""
-"<strong>Sponsor Entrepreneurs &amp; Leaders for Social Innovation</strong>"
+msgid "<strong>Sponsor Entrepreneurs &amp; Leaders for Social Innovation</strong>"
 msgstr ""
 
 #: templates/partner.html:8
-msgid ""
-"Engineers Without Borders Canada is looking for partners to tackle extreme "
-"poverty through systemic innovation."
-msgstr ""
-"Ingénieurs sans frontières Canada est à la recherche de partenaires pour "
-"attaquer la pauvreté grâce à l’innovation systémique."
+msgid "Engineers Without Borders Canada is looking for partners to tackle extreme poverty through systemic innovation."
+msgstr "Ingénieurs sans frontières Canada est à la recherche de partenaires pour attaquer la pauvreté grâce à l’innovation systémique."
 
 #: templates/partner.html:9
-msgid ""
-"Is your organization interested in <strong>sponsoring 750-1,000 "
-"entrepreneurs</strong> and leaders committed to systemic innovation?"
-msgstr ""
-"Votre organisation est-elle intéressée à commanditer de <strong>750 à 1000 "
-"entrepreneurs</strong> et leaders dévoués à l’innovation systémique?"
+msgid "Is your organization interested in <strong>sponsoring 750-1,000 entrepreneurs</strong> and leaders committed to systemic innovation?"
+msgstr "Votre organisation est-elle intéressée à commanditer de <strong>750 à 1000 entrepreneurs</strong> et leaders dévoués à l’innovation systémique?"
 
 #: templates/partner.html:14
 msgid "The National Conference provides an opportunity for our partners to:"
 msgstr ""
 
 #: templates/partner.html:16
-msgid ""
-"<strong>Engage employees</strong> in an energetic and thought-provoking "
-"environment"
+msgid "<strong>Engage employees</strong> in an energetic and thought-provoking environment"
 msgstr ""
 
 #: templates/partner.html:17
@@ -1353,9 +869,7 @@ msgid "Contribute to <strong>content development</strong>"
 msgstr ""
 
 #: templates/partner.html:18
-msgid ""
-"<strong>Recruit top young Canadian talent</strong> in engineering and "
-"multidisciplinary fields"
+msgid "<strong>Recruit top young Canadian talent</strong> in engineering and multidisciplinary fields"
 msgstr ""
 
 #: templates/partner.html:19
@@ -1363,34 +877,21 @@ msgid "Develop <strong>brand recognition</strong> among youth, and"
 msgstr ""
 
 #: templates/partner.html:20
-msgid ""
-"Achieve <strong>corporate social responsibility goals</strong> by building "
-"strong communities committed to tackling environmental and social justice "
-"challenges."
+msgid "Achieve <strong>corporate social responsibility goals</strong> by building strong communities committed to tackling environmental and social justice challenges."
 msgstr ""
 
 #: templates/partner.html:22
 #, python-format
-msgid ""
-"You can view sponsorship opportunities by viewing <strong><a href="
-"\"%(sponsor_package)s\">this</a></strong> document."
+msgid "You can view sponsorship opportunities by viewing <strong><a href=\"%(sponsor_package)s\">this</a></strong> document."
 msgstr ""
 
 #: templates/partner.html:24
-msgid ""
-"Please contact our sponsorship lead, <strong><a href='mailto:amirnosrat@ewb."
-"ca?Subject=Sponsorship+Opportunities'>Amir Nosrat</a></strong>, for any "
-"questions or if your organization would like to pursue sponsorship "
-"opportunities."
+msgid "Please contact our sponsorship lead, <strong><a href='mailto:amirnosrat@ewb.ca?Subject=Sponsorship+Opportunities'>Amir Nosrat</a></strong>, for any questions or if your organization would like to pursue sponsorship opportunities."
 msgstr ""
 
 #: templates/register.html:6
-msgid ""
-"For pricing information, please see the table below. Otherwise, what are you "
-"waiting for?!"
-msgstr ""
-"Pour des informations relatives aux coûts d’inscription, voyez le tableau ci-"
-"dessous. Autrement, qu’attendez-vous?!"
+msgid "For pricing information, please see the table below. Otherwise, what are you waiting for?!"
+msgstr "Pour des informations relatives aux coûts d’inscription, voyez le tableau ci-dessous. Autrement, qu’attendez-vous?!"
 
 #: templates/register.html:7
 msgid "Register Now"
@@ -1478,9 +979,7 @@ msgstr "Membre d’ISF"
 
 #: templates/register.html:47
 msgid "Please contact your local chapter or network for pricing information"
-msgstr ""
-"Veuillez contacter votre section ou votre réseau pour les informations "
-"relatives aux coûts."
+msgstr "Veuillez contacter votre section ou votre réseau pour les informations relatives aux coûts."
 
 #: templates/register.html:53
 msgid "What's Included?"
@@ -1511,16 +1010,8 @@ msgid "Ticket to Gala"
 msgstr "Billet pour le gala"
 
 #: templates/register.html:62
-msgid ""
-"Hotels are extra, and we have an exclusive room rate of $102/night+ taxes "
-"for the confernece at the Travelodge Toronto Airport. You will be able to "
-"reserve at the hotel through our registration system."
-msgstr ""
-"Les hôtels sont en extra, mais nous avons des prix exclusifs pour les "
-"chambres à 102 $ + taxes par nuit pour le congrès au Travelodge Toronto "
-"Airport. Vous pourrez réserver à l’hôtel grâce à notre système "
-"d’inscription. Pour les détails logistiques, voyez la section Logistique et "
-"coûts."
+msgid "Hotels are extra, and we have an exclusive room rate of $102/night+ taxes for the confernece at the Travelodge Toronto Airport. You will be able to reserve at the hotel through our registration system."
+msgstr "Les hôtels sont en extra, mais nous avons des prix exclusifs pour les chambres à 102 $ + taxes par nuit pour le congrès au Travelodge Toronto Airport. Vous pourrez réserver à l’hôtel grâce à notre système d’inscription. Pour les détails logistiques, voyez la section Logistique et coûts."
 
 #: templates/register.html:63
 msgid "For more logistical details, check out"
@@ -1531,12 +1022,8 @@ msgid "For the <b>big picture</b>, just scroll down."
 msgstr "Pour un <b>aperçu global</b>, faire défiler la page."
 
 #: templates/schedule.html:7
-msgid ""
-"For details, see the new <a href=\"http://rethink2014.sched.org/\" class="
-"\"button\">Full &nbsp;Schedule</a>"
-msgstr ""
-"Pour plus de détails, voyez le tout nouvel <a href=\"http://rethink2014."
-"sched.org/\" class=\"button\">Horaire&nbsp;complet</a>"
+msgid "For details, see the new <a href=\"http://rethink2014.sched.org/\" class=\"button\">Full &nbsp;Schedule</a>"
+msgstr "Pour plus de détails, voyez le tout nouvel <a href=\"http://rethink2014.sched.org/\" class=\"button\">Horaire&nbsp;complet</a>"
 
 #: templates/thanks.html:15
 msgid "Woohoo!"
@@ -1549,3 +1036,6 @@ msgstr "Merci pour votre inscription et au plaisir de vous voir bienôt!"
 #: templates/thanks.html:19
 msgid "Share with your friends:"
 msgstr "Partagez avec vos réseaux:"
+
+#~ msgid "Newton Consulting"
+#~ msgstr ""
