@@ -116,15 +116,19 @@ main > div:nth-child(1), .overlay + div
   .buddies
     margin: 36px 0 0 5%
     .notification
+      display: block
       padding: 0.2rem 0
       font-size: 0.6667rem
       text-align: center
       color: white
-      background: $cleader
+      text-decoration: none
+      background: lighten($cleader, 16%)
       position: relative
-      top: -21px
-      a
-        color: white
+      top: -36px
+      &:hover
+        background: $cleader
+      span.linktext
+        text-decoration: underline
         font-size: 1.5em
     img
       vertical-align: bottom

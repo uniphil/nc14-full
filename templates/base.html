@@ -63,9 +63,9 @@
           <p>{{ _("Leadership, Entrepreneurship, and Partnership for Global Development") }}</p>
         </div>
         <div class="buddies">
-          <div class="notification">
-            <a href="{{ url_for('downloads') }}" class="">Click here</a> for downloads and app
-          </div>
+          <a href="{{ url_for('downloads') }}" class="notification">
+            <span class="linktext">Click here</span> for downloads and app
+          </a>
           <img src="{{ url_for('static', filename='img/logo-buddies-top.png') }}" alt="{{ _('National Conference 2014 Logo') }}" />
         </div>
         <div class="blockers"></div>
