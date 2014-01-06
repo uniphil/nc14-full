@@ -115,6 +115,17 @@ main > div:nth-child(1), .overlay + div
       height: auto
   .buddies
     margin: 36px 0 0 5%
+    .notification
+      padding: 0.2rem 0
+      font-size: 0.6667rem
+      text-align: center
+      color: white
+      background: $cleader
+      position: relative
+      top: -21px
+      a
+        color: white
+        font-size: 1.5em
     img
       vertical-align: bottom
   .info
@@ -229,11 +240,18 @@ header
   .a-an.an:after
     content: 'n'
 
-.leader-para, .sponsor-page
+.leader-para,
+.sponsor-page,
+.downloads-page
   margin: 0 3em
   font-size: 24px
   font-weight: 100
   color: #555
+
+.downloads-page
+  font-size: 21px
+  h2
+    margin-top: 32px
 
 .speakers
   text-align: center
@@ -322,7 +340,8 @@ header
     margin: 0 0 .5em 2em
     list-style: circle
 
-.sponsor-page
+.sponsor-page,
+.downloads-page
   padding-bottom: 1.5em
   p
     margin-bottom: 1em
@@ -581,7 +600,8 @@ header
   line-height: 2em
   margin-bottom: 0
 
-.reglink
+.reglink,
+.downlink
   text-align: center
   margin: 12px 0 60px
   a
@@ -596,6 +616,11 @@ table
   small
     font-size: 1em
     opacity: 0.5
+
+.downlink a.button
+  font-size: 0.75em
+  width: auto
+  background: $cleader
 
 th, td
   height: 36px
