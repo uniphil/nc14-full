@@ -6,10 +6,9 @@
   <h2>{{ _('Downloads') }}</h2>
   <p>{{ _('You will find on this page links to download documents that will help you prepare to for Rethink 2014. You most likely have already recieved some of the documents by e-mail, but you can use this page to access them all.') }}</p>
   <ul>
-    <li><a href="{{ url_for('static', filename='files/whatever.pdf') }}">{{ _('Prep materials #1 - An Introduction (.pdf)') }}</a></li>
-    <li><a href="{{ url_for('static', filename='files/whatever.pdf') }}">{{ _('Prep materials #2 - Social Issues (.pdf)') }}</a></li>
-    <li><a href="{{ url_for('static', filename='files/whatever.pdf') }}">{{ _('Delegate Handbook (.pdf)') }}</a></li>
-    <li><a href="{{ url_for('static', filename='files/whatever.pdf') }}">{{ _('Sponsorship information (.pdf)') }}</a></li>
+    <li><a href="{{ url_for('static', filename='resc/Rethink_Prep_Materials_{}.pdf'.format(lang)) }}">{{ _('Prep materials (.pdf)') }}</a></li>
+    <li><a href="{{ url_for('static', filename='resc/Rethink 2014 Delegate Handbook.pdf') }}">{{ _('Delegate Handbook (.pdf)') }}</a></li>
+    <li><a href="{{ url_for('static', filename='resc/NC2014-Sponsorship-Package.pdf') }}">{{ _('Sponsorship information (.pdf)') }}</a></li>
   </ul>
 
   <h2>{{ _('Schedule App') }}</h2>
