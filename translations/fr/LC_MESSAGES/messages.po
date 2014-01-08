@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-01-08 02:38-0500\n"
-"PO-Revision-Date: 2014-01-08 02:44-0500\n"
+"POT-Creation-Date: 2014-01-08 02:46-0500\n"
+"PO-Revision-Date: 2014-01-08 02:49-0500\n"
 "Last-Translator: uniphil <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -452,6 +452,14 @@ msgstr "10 au 12 janvier<span class=\"divider\"> | </span>Toronto, Ontario"
 msgid "Leadership, Entrepreneurship, and Partnership for Global Development"
 msgstr ""
 "Leadership, entrepreneuriat et partenariats pour un développement mondial"
+
+#: templates/base.html:67
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: templates/base.html:67
+msgid "for downloads and app"
+msgstr "-- téléchargements"
 
 #: templates/base.html:69
 msgid "National Conference 2014 Logo"
@@ -1163,9 +1171,8 @@ msgid "Ryerson University"
 msgstr ""
 
 #: templates/home.html:216
-#, fuzzy
 msgid "University of Toronto"
-msgstr "professeur universitaire"
+msgstr ""
 
 #: templates/home.html:218
 msgid "Bronze"
