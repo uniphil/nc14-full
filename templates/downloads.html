@@ -6,9 +6,15 @@
   <h2>{{ _('Downloads') }}</h2>
   <p>{{ _('You will find on this page links to download documents that will help you prepare to for Rethink 2014. You most likely have already recieved some of the documents by e-mail, but you can use this page to access them all.') }}</p>
   <ul>
-    <li><a href="{{ url_for('static', filename='resc/Rethink_Prep_Materials_{}.pdf'.format(lang)) }}">{{ _('Prep materials (.pdf)') }}</a></li>
-    <li><a href="{{ url_for('static', filename='resc/Rethink 2014 Delegate Handbook.pdf') }}">{{ _('Delegate Handbook (.pdf)') }}</a></li>
-    <!--<li><a href="{{ url_for('static', filename='resc/NC2014-Sponsorship-Package.pdf') }}">{{ _('Sponsorship information (.pdf)') }}</a></li>-->
+
+    <li><a href="{{ 'http://conference2014.ewb.ca/docs/Rethink_Prep_Materials_No1.pdf' if lang == 'en' else 'http://conference2014.ewb.ca/docs/Materiel_de_preparation_de_Pensons_autrement_No1.pdf' }}">{{ _('Prep materials #1 &mdash; An Introduction (.pdf)')|safe }}</a></li>
+
+    <li><a href="{{ 'http://conference2014.ewb.ca/docs/Rethink_Prep_Materials_No2.pdf' if lang == 'en' else 'http://conference2014.ewb.ca/docs/Materiel_de_preparation_de_Pensons_autrement_No2.pdf' }}">{{ _('Prep materials #2 &mdash; Social Issues (.pdf)')|safe }}</a></li>
+
+    <li><a href="{{ 'http://conference2014.ewb.ca/docs/Rethink_2014_Delegate_Handbook.pdf' if lang == 'en' else 'http://conference2014.ewb.ca/docs/Pensons_autrement_livret_des_delegues.pdf' }}">{{ _('Delegate Handbook (.pdf)') }}</a></li>
+
+    <li><a href="{{ 'http://rethink.ewb.ca/docs/NC2014_Sponsor_Briefs_EN.pdf' if lang == 'en' else 'http://rethink.ewb.ca/docs/NC2014_Sponsor_Briefs_FR.pdf' }}">{{ _('Sponsorship Briefs (.pdf)') }}</a></li>
+
   </ul>
 
   <h2>{{ _('Schedule App') }}</h2>

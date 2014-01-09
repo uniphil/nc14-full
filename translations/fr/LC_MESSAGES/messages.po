@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-01-08 02:46-0500\n"
-"PO-Revision-Date: 2014-01-08 02:49-0500\n"
+"POT-Creation-Date: 2014-01-09 12:14-0500\n"
+"PO-Revision-Date: 2014-01-09 12:15-0500\n"
 "Last-Translator: uniphil <uniphil@gmail.com>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -520,23 +520,27 @@ msgstr ""
 "Certains de ces documents on été diffisés précédemment dans notre infolettre "
 "et sont affichés ici pour en facilitez l’accès."
 
-#: templates/downloads.html:9
-msgid "Prep materials (.pdf)"
-msgstr "Bloc de préparation (.pdf)"
-
 #: templates/downloads.html:10
-msgid "Delegate Handbook (.pdf)"
-msgstr "Livret des délégués -- version en français à venir! (.pdf)"
+msgid "Prep materials #1 &mdash; An Introduction (.pdf)"
+msgstr "Bloc de préparation #1 &mdash; Une introduction (.pdf)"
 
-#: templates/downloads.html:11
-msgid "Sponsorship information (.pdf)"
-msgstr "Information sur les commandites -- en anglais seulement (.pdf)"
+#: templates/downloads.html:12
+msgid "Prep materials #2 &mdash; Social Issues (.pdf)"
+msgstr "Bloc de préparation #2 (.pdf)"
 
 #: templates/downloads.html:14
+msgid "Delegate Handbook (.pdf)"
+msgstr "Livret des délégués (.pdf)"
+
+#: templates/downloads.html:16
+msgid "Sponsorship Briefs (.pdf)"
+msgstr "Aperçu des commandites (.pdf)"
+
+#: templates/downloads.html:20
 msgid "Schedule App"
 msgstr "Application mobile"
 
-#: templates/downloads.html:15
+#: templates/downloads.html:21
 msgid ""
 "The conference schedule has been uploaded to an event app called Sched.org. "
 "Sched allows delegates to upload their own profiles - link your professional "
@@ -549,11 +553,11 @@ msgstr ""
 "invitations d’autres délégués - et de s’inscrire pour des ateliers en "
 "particulier."
 
-#: templates/downloads.html:17
+#: templates/downloads.html:23
 msgid "Click here to access the Rethink App"
 msgstr "Cliquez ici pour accéder à l’application Sched"
 
-#: templates/downloads.html:19
+#: templates/downloads.html:25
 msgid ""
 "Note that we will not be regulating session attendance by this sign up. It "
 "is, however, the best way to get to know your conference agenda, connect to "
@@ -1239,18 +1243,30 @@ msgid "Golder Associates"
 msgstr ""
 
 #: templates/home.html:238
-msgid "ECAMION"
+msgid "Voto"
+msgstr ""
+
+#: templates/home.html:239
+msgid "Lassonde School of Engineering"
+msgstr ""
+
+#: templates/home.html:240
+msgid "Prospectors & Developers Association of Canada"
 msgstr ""
 
 #: templates/home.html:241
+msgid "ECAMION"
+msgstr ""
+
+#: templates/home.html:244
 msgid "Partner Organizations"
 msgstr "Organisations partenaires"
 
-#: templates/home.html:242
+#: templates/home.html:245
 msgid "Engineers Without Borders is looking for more partners."
 msgstr "Ingénieurs sans frontières est à la recherche de plus de partenaires."
 
-#: templates/home.html:242
+#: templates/home.html:245
 msgid "Interested?"
 msgstr "Intéressés?"
 
@@ -1677,3 +1693,6 @@ msgstr "Partagez avec vos réseaux:"
 
 #~ msgid "Entrepeneur"
 #~ msgstr "Entrepreneur"
+
+#~ msgid "Prep materials (.pdf)"
+#~ msgstr "Bloc de préparation (.pdf)"
