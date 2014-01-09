@@ -76,7 +76,7 @@ def freeze_app():
     from flask_frozen import Freezer
     debugged = app.debug
     app.debug = True
-    url_rules = ('about', 'schedule', 'logistics', 'partner', 'register', 'thanks', 'downloads')
+    url_rules = ('about', 'schedule', 'logistics', 'partner', 'register', 'thanks', 'downloads', 'live')
     for rule in url_rules:
         app.add_url_rule('/<lang>/{}/'.format(rule), rule, partial(page, page=rule))
     freezer = Freezer(app)
