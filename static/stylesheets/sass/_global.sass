@@ -600,6 +600,20 @@ header
   width: 920px
   margin: 24px 0 36px -23px
 
+.routes
+  tbody
+    td:first-child
+      position: relative
+      &:after
+        display: inline-block
+        content: "→"
+        position: absolute
+        right: 0
+        z-index: 2
+        vertical-align: middle
+      &:last-child:after
+        display: none
+
 .gmnoprint, .gm-style-cc
   display: none
 
